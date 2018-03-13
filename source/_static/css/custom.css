@@ -1,0 +1,13 @@
+@import url('theme.css');
+
+div.figure {
+	text-align: center;
+}
+
+div.figure p.caption {
+	text-align: center;
+}
+
+div.code-block-caption {
+	text-align: center;
+}

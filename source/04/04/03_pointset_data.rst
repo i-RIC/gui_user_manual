@@ -1,0 +1,321 @@
+.. _sec_pointset_data:
+
+地勢データ編集機能
+===================
+
+地勢データは、点の座標と、その点での地理情報の値の集合からなるデータです。
+
+地勢データの表示例を :numref:`image_example_pointset_data` に示します。
+
+.. _image_example_pointset_data:
+
+.. figure:: images/example_pointset_data.png
+
+   地勢データ表示例
+
+メニュー構成
+--------------
+
+地勢データ編集機能に関連するメニューは、プリプロセッサーがアクティブで、
+オブジェクトブラウザーで地勢データが選択されていた時、
+以下からアクセスできます。
+
+**メニュー**: 地理情報 (E) --> DEMデータ (O)
+
+DEMデータ　(O) 以下のサブメニューの構成を
+:numref:`geo_pointset_menuitems_table` に示します。
+
+.. _geo_pointset_menuitems_table:
+
+.. list-table:: 地勢データメニューの構成
+   :header-rows: 1
+
+   * - メニュー
+     - 説明
+   * - 名前の編集 (N)
+     - オブジェクトブラウザー上に表示される名前を編集します
+   * - ポリゴン領域で点を選択 (P)
+     - ポリゴン領域を指定し、その内側にある点を選択します
+   * - 選択された点の編集 (E)
+     - 選択中の点の値を編集します
+   * - 選択された点のエクスポート (X)
+     - 選択中の点の地勢データをエクスポートします
+   * - 新しい点の追加 (A)
+     - 地勢データに新しい点を追加します
+   * - 点の補間追加 (I)
+     - 既存の点に対する補間点を追加します
+   * - 選択された点の削除 (O)
+     - 選択中の点を削除します
+   * - 選択された点のうち、指定した値以下の点を削除 (L)
+     - 選択中の点のうち、指定した値以下の点を削除します
+   * - 選択された点のうち、指定した値以上の点を削除 (G)
+     - 選択中の点のうち、指定した値以上の点を削除します
+   * - 分割線の追加 (B)
+     - 分割線を追加します
+   * - 分割線の削除 (R)
+     - 分割線を削除します
+   * - 全分割線の削除 (O)
+     - すべての分割線を削除します
+   * - TINの再生成 (T)
+     - TINを再生成します
+   * - 表示設定 (S)
+     - 地勢データの表示方法を設定します
+   * - 削除 (D)
+     - 地勢データを削除します
+
+ポリゴン領域で点を選択(P)
+-------------------------
+
+ポリゴン領域を指定し、その内側にある点を選択します。
+
+まず、描画領域で、左クリックによってポリゴンの頂点を順に指定します。
+最後にダブルクリックするか、改行キーを押すと、
+指定したポリゴンの内側にある点が選択されます。
+操作中の表示例を :numref:`image_pre_window_defining_poly_region`
+に、選択後の表示例を :numref:`image_pre_window_after_sel_poly_region`
+に示します。
+
+.. _image_pre_window_defining_poly_region:
+
+.. figure:: images/pre_window_defining_poly_region.png
+
+   ポリゴン領域で点を選択中の表示例
+
+.. _image_pre_window_after_sel_poly_region:
+
+.. figure:: images/pre_window_after_sel_poly_region.png
+
+   ポリゴン領域で点を選択後の表示例
+
+なお、通常時の点の選択は、左ドラッグで矩形領域を指定することにより行います。
+
+選択された点の編集 (E)
+--------------------------
+
+現在選択している点の値を編集します。
+
+点の編集ダイアログ (:numref:`image_pre_edit_points_dialog` 参照)
+が表示されますので、新しい値を入力して「OK」ボタンを押します。
+
+.. _image_pre_edit_points_dialog:
+
+.. figure:: images/pre_edit_points_dialog.png
+
+   選択された点の編集ダイアログ
+
+選択された点のエクスポート (X)
+------------------------------
+
+地勢データのうち、選択中の点をエクスポートします。
+
+エクスポートするファイル名を指定するダイアログ
+(:numref:`image_pointset_select_file_to_export_dialog` 参照)
+が表示されますので、エクスポートするファイルを指定して「保存」ボタンを押します。
+すると、指定したファイルに選択中の点の地勢データがエクスポートされます。
+
+.. _image_pointset_select_file_to_export_dialog:
+
+.. figure:: images/pointset_select_file_to_export_dialog.png
+
+   エクスポートするファイル名の選択ダイアログ
+
+新しい点の追加 (A)
+------------------
+
+地勢データに新しい点を追加します。
+
+まず、既に存在する点を選択します。
+この点の値が、新しく追加する点のデフォルト値になります。
+次に、新しく点を追加したい場所をクリックしていきます。
+最後にダブルクリックするか、リターンキーを押すと、
+:numref:`image_pointset_add_points_dialog`
+で示すダイアログが表示されますので、「OK」ボタンを押します。
+
+点の追加操作中の表示例を
+:numref:`image_example_adding_new_points` に示します。
+
+.. _image_pointset_add_points_dialog:
+
+.. figure:: images/pointset_add_points_dialog.png
+
+   点の追加ダイアログ
+
+.. _image_example_adding_new_points:
+
+.. figure:: images/example_adding_new_points.png
+
+   点の追加操作 表示例
+
+点の補間追加 (I)
+----------------
+
+既に存在する点を複数選択し、それらの補間点を追加します。
+
+既存の点を複数選択し、最後にダブルクリックするか、リターンキーを押すと、
+:numref:`image_pointset_interpolate_settiing_dialog`
+で示すダイアログが表示されます。条件を設定して「OK」ボタンを押すと、
+補間点が追加されます。
+
+操作例を :numref:`image_example_pointset_interpolate_points` に示します。
+
+.. _image_pointset_interpolate_settiing_dialog:
+
+.. figure:: images/pointset_interpolate_settiing_dialog.png
+
+   補間条件設定ダイアログ
+
+.. _image_example_pointset_interpolate_points:
+
+.. figure:: images/example_pointset_interpolate_points.png
+
+   点の補間追加 操作例
+
+選択された点の削除 (O)
+-----------------------
+
+選択中の点を削除します。
+
+操作例を
+:numref:`image_example_pointset_delete_points`
+に示します。
+
+.. _image_example_pointset_delete_points:
+
+.. figure:: images/example_pointset_delete_points.png
+
+   選択された点の削除 操作例
+
+選択された点のうち、指定した値以下の点を削除 (L)
+-------------------------------------------------
+
+選択中の点のうち、指定した値以下の点を削除します。
+
+:numref:`image_pointset_delete_points_dialog_less_than`
+で示すダイアログが表示されますので、値を指定して、「OK」ボタンを押します。
+操作例を :numref:`image_pointset_example_delete_points_less_than`
+に示します。
+
+.. _image_pointset_delete_points_dialog_less_than:
+
+.. figure:: images/pointset_delete_points_dialog_less_than.png
+
+   選択された点のうち、指定した値以下の点を削除ダイアログ
+
+.. _image_pointset_example_delete_points_less_than:
+
+.. figure:: images/pointset_example_delete_points_less_than.png
+
+   選択された点のうち、指定した値以下の点を削除 操作例
+
+選択された点のうち、指定した値以上の点を削除 (G)
+---------------------------------------------------
+
+現在選択している点のうち、指定した値以上の点を削除します。
+
+:numref:`image_pointset_delete_points_dialog_greater_than`
+で示すダイアログが表示されますので、値を指定して、「OK」ボタンを押します。操作例を
+:numref:`image_pointset_example_delete_points_greater_than`
+に示します。
+
+.. _image_pointset_delete_points_dialog_greater_than:
+
+.. figure:: images/pointset_delete_points_dialog_greater_than.png
+
+   選択された点のうち、指定した値以上の点を削除ダイアログ
+
+.. _image_pointset_example_delete_points_greater_than:
+
+.. figure:: images/pointset_example_delete_points_greater_than.png
+
+   選択された点のうち、指定した値以上の点を削除 操作例
+
+分割線の追加 (B)
+--------------------
+
+分割線を追加します。
+
+分割線が通る点を順にクリックし、
+最後にダブルクリックするか、リターンキーを押すと、分割線が追加されます。
+
+TINを再生成すると、分割線がTINの境界線になるように再生成されます。
+分割線の表示例を
+:numref:`image_pointset_example_tin_boundarys_after_add_breakline`
+に示します。
+
+.. _image_pointset_example_tin_boundarys_after_add_breakline:
+
+.. figure:: images/pointset_example_tin_boundarys_after_add_breakline.png
+
+   分割線 表示例
+
+分割線の削除 (R)
+------------------
+
+分割線を削除します。
+
+削除したい分割線をクリックすると、本当に削除するか確認するダイアログ
+(:numref:`image_pointset_remove_breakline_warning_dialog` 参照)
+が表示されますので、「はい(Y)」ボタンを押します。
+
+.. _image_pointset_remove_breakline_warning_dialog:
+
+.. figure:: images/pointset_remove_breakline_warning_dialog.png
+
+   分割線の削除ダイアログ
+
+全分割線の削除 (O)
+------------------
+
+全ての分割線を削除します。
+
+本当に削除するか確認するダイアログ
+(:numref:`image_pointset_remove_all_breaklines_warning_dialog` 参照)
+が表示されますので、「はい(Y)」ボタンを押します。
+
+.. _image_pointset_remove_all_breaklines_warning_dialog:
+
+.. figure:: images/pointset_remove_all_breaklines_warning_dialog.png
+
+   全分割線の削除ダイアログ
+
+TINの再生成 (T)
+-----------------
+
+分割線や点の追加・削除を反映したTINを再生成します。
+
+分割線を設定している場合、分割線がTINの境界線になるように再生成されます。
+操作例を :numref:`image_pointset_example_remesh_tin`
+に示します。
+
+.. _image_pointset_example_remesh_tin:
+
+.. figure:: images/pointset_example_remesh_tin.png
+
+   TINの再生成 操作例
+
+表示設定 (S)
+-------------
+
+地勢データの表示方法を切り替えます。
+
+表示方法には、点、ワイヤーフレーム、補間された面の3種類があります。表示例を
+:numref:`image_pointset_display_methods`
+に示します。
+
+.. _image_pointset_display_methods:
+
+.. figure:: images/pointset_display_methods.png
+
+   地勢データ 表示方法ごとの表示例
+
+表示設定ダイアログ
+(:numref:`image_pointset_display_setting_dialog` 参照)
+が表示されます。「表示方法」で選択した方法で地勢データが表示されます。
+補間された面を選択した場合、「半透明」をチェックし、数値を調整することで、
+半透明に表示することができます。
+
+.. _image_pointset_display_setting_dialog:
+
+.. figure:: images/pointset_display_setting_dialogs.png
+
+   地勢データ 表示設定ダイアログ

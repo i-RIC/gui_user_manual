@@ -1,0 +1,26 @@
+.. _sec_file_import_grid:
+
+格子(G)
+===========
+
+格子をインポートします。
+
+インポートするファイルを選択するダイアログ
+(:numref:`image_select_file_to_import_dialog_for_grid` 参照)
+が表示されますので、インポートするファイルを選択して
+「開く」ボタンを押します。
+
+インポート後の iRIC の表示例を
+:numref:`image_iric_after_importing_grid` に示します。
+
+.. _image_select_file_to_import_dialog_for_grid:
+
+.. figure:: images/select_file_to_import_dialog_for_grid.png
+
+   インポートするファイルの選択ダイアログ
+
+.. _image_iric_after_importing_grid:
+
+.. figure:: images/iric_after_importing_grid.png
+
+   格子インポート後の iRIC 表示例

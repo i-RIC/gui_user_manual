@@ -1,0 +1,37 @@
+.. _sec_pre_geodata:
+
+地理情報
+===========
+
+地理情報に関する機能について説明します。地理情報関連の機能の概要については、
+:ref:`sec_abst_edit_geo_data`
+を参照してください。
+
+地理情報の関連機能は、プリプロセッサーがアクティブな時に
+「地理情報(E)」メニューから行えます。
+
+設定できる地理情報の種類は、利用するソルバーによって異なります。
+また、地理情報の種類によって、設定できるデータ型は異なります。
+
+iRIC で扱える地理情報のデータ型には、現在以下の3種類があります。
+
+-  河川測量データ
+-  地勢データ
+-  ポリゴン
+
+上記の3種類で共通して行える操作については :ref:`sec_geo_common_functions`
+を、個別のデータ型ごとに行える操作については
+:ref:`sec_riv_data` ～ :ref:`sec_polygon_data`
+を参照してください。
+
+地理情報のインポートとエクスポートについては、
+:ref:`sec_file_import_geo_data` と :ref:`sec_file_export_geo_data`
+を参照してください。
+
+.. toctree::
+   :maxdepth: 3
+
+   04/01_common_functions
+   04/02_riv_data
+   04/03_pointset_data
+   04/04_polygon
