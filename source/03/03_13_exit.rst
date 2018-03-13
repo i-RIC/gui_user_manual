@@ -1,0 +1,7 @@
+[Exit] (X)
+============
+
+**Description**: Exits iRIC.
+
+If the current project is modified, the warning dialog will open to ask
+whether you want to save the current project.

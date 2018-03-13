@@ -1,0 +1,29 @@
+[Save] (S)
+===========
+
+**Description**: Saves a project.
+
+If the project is opened from a project file, or it was saved already,
+the project file is overwritten.
+
+If you save the project for the first time, the [Select How to save
+Project] (:numref:`image_how_to_save_dialog`)
+dialog will open. Select how to save project, and
+click on [OK]. Refer to :ref:`sec_file_save_as_ipro` and
+:ref:`sec_file_save_as_project` for the operation after
+selecting how to save.
+
+When the project is saved successfully, the message shown in
+:numref:`image_statusbar_after_saving` will appear on [Status Bar].
+
+.. _image_how_to_save_dialog:
+
+.. figure:: images/how_to_save_dialog.png
+
+   The [Select How to save Project] dialog
+
+.. _image_statusbar_after_saving:
+
+.. figure:: images/statusbar_after_saving.png
+
+   The [Status Bar] after saving a project file.

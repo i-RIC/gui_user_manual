@@ -1,0 +1,22 @@
+.. _sec_open_project:
+
+[Open] (O)
+===========
+
+**Description**: Opens a project file.
+
+When you select [Open], the [Open iRIC project file] dialog
+(:numref:`image_open_project_file_dialog`)
+will open. Select the file you want to open and click on [Open].
+
+When the current project is modified, a warning dialog will open to ask
+whether you want to save the current project.
+
+When you open a project, the subwindows will be restored to the
+configuration of when you saved the project.
+
+.. _image_open_project_file_dialog:
+
+.. figure:: images/open_project_file_dialog.png
+
+   The [Open iRIC project file] dialog
