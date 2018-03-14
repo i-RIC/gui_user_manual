@@ -1,119 +1,95 @@
 河川測量ファイル（\*.riv）
 ===========================
 
-Overview
+概要
 ---------
 
-The River Survey File (\*.riv) contains transverse data
-(x and y coordinates of left/right banks) and cross-section data
-(distance from left bank and riverbed elevation).
+河川測量ファイル（*.riv）は、横断データ（左右岸のxy座標）と、
+断面データ（左岸からの距離と河床高）からなるファイル形式です。
 
-River Survey Files should be ASCII files. :numref:`image_riv_structure`
-and Figure 6‑1 show
-the structure and concept, respectively.
+河川測量ファイルはアスキー形式です。構造と概念を
+:numref:`image_riv_structure`、 :numref:`image_riv_concept` に示します。
 
-* Break points of input data (for example, cross-section identification
-  number and x-coordinate value) are identified by "space", "tab" or
-  "enter" characters. When break points are properly identified,
-  iRIC automatically recognizes the data. Please note that
-  cross-section identification number must be a real number.
+* 断面名、x座標値などの入力値の区切り文字は、半角スペース、タブ文字、
+  改行文字となります。正しく区切られている場合、
+  iRIC で自動的に値が認識されます。
 
-* Rows after the "#survey" row are recognized as cross-section data.
+* "#survey" 行以降が横断データとして認識されます。
 
-  * Each row contains data for one cross-section.
-  * Data row: (Cross-section identification number)
-    (x-coordinate value of the left bank) (y-coordinate value of the left bank)
-    (x-coordinate value of the right bank) (y-coordinate value of the right bank)
+  * 横断データは、1行について1断面の情報からなります。
+  * データ行：（断面名）（左岸x座標値）（左岸y座標値）（右岸x座標値）（右岸y座標値）
 
-* Rows after the "#x-section" row are recognized as cross-section data
-  (consisting of the "header line" and "data lines").
+* "#x-section" 行以降が断面データ（ヘッダ行、データ行から構成）として認識されます。
 
-  * Header line: (Cross-section identification number) (No. of coordinates)
-    (Index 1) (Index 2) (Index 3) (Index 4)
+  * ヘッダ行：（断面名）（断面座標数）（指標1）（指標2）（指標3）（指標4）
 
-  Indexes 1 to 4 specify points on a cross-sectional coordinate system
-  by sequential integer numbers. (The top is 1.) Data prior to Index 1
-  and after Index 4 are discarded. The point specified by Index 1
-  is set as the left bank and the point specified by Index 4
-  is set as the right bank. The points specified by Indexes 2 and 3 are
-  to be the division points (or nodes) of the automatically created grid.
-  The Center Point of the river is set at the point midway between
-  Indexes 2 and 3.
+  指標1～4は、断面座標の何番目の点かを整数(先頭が1)で指定します。指標1より前、
+  指標4より後のデータは捨てられ、指標1で指定した点が左岸、指標4で指定した点が
+  右岸に再設定されます。
+  また、指標2, 指標3で指定された点には格子の分割点が自動的に設定されます。
+  河川中心点は指標2と指標3の中点に設定されます。
 
-  You can omit Index data. In such case, all the coordinate cross-section
-  data are read and the first point of the coordinate cross-section data
-  is set as the left bank and the last point is set as the right bank. The
-  Center Point of the river is set at the mid-point between the left and
-  right banks.
+  指標データは省略可能です。指標データを省略した場合には、断面座標データがすべて
+  読み込まれ、断面座標データの最初の点が左岸、最後の点が右岸となります。
+  河川中心点は左岸と右岸の中点に設定されます。
+  なお、指標データがすべての断面に設定されていなかった場合、
+  全断面の指標データが無視されます。
 
-  When Index data are not set for every cross-section data, the index data
-  of all cross-sections are ignored.
-
-  * Data line: (Distance from left bank) (Riverbed elevation) Continue
-    to create rows of data until there are as many rows as there
-    are cross-sections.
-
-  Each row describes up to five sets of combinations of (Distance from
-  left bank) and (Riverbed elevation) data.
+  * データ行：（左岸からの距離）（河床高）・・・以降、断面座標数分繰り返してください。
+    1行に5点まで「左岸からの距離」と「河床高」の断面座標の組が記述できます。
 
 .. _image_riv_structure:
 
 .. figure:: images/riv_structure.png
 
-   Structure of River Survey File
+   河川測量ファイルの構造
 
 .. _image_riv_concept:
 
 .. figure:: images/riv_concept.png
 
-   Concept of River Survey File data
+   河川測量ファイルデータの概念
 
-:numref:`image_riv_concept` shows the concept of
-the River Survey File data. iRIC does
-not display the four dots (data of Indexes 1 to 4).
+:numref:`image_riv_concept` は河川測量ファイルデータの概念を
+表したものであり、iRICでは指標データの４つの丸印は表示されません。
 
-The coordinates in the cross-sectional direction displayed in the
-[Cross-section] window have been converted as follows; note that they
-are different from [Distance from left bank] in the cross-section data
-of the River Survey File.
+iRIC の横断面ウィンドウで表示される横断方向の座標は
+以下のように変換されたものであり、
+河川測量ファイルの断面データにおける「左岸からの距離」とは異なります。
 
-* The coordinates of the Center Point of the river have been calculated
-  from the longitudinal data and the cross-section data.
+* 横断データと断面データから河川中心点の座標を求める。
+* 河川中心点からの横断線上の距離を求める。
 
-* The distance from the Center Point along the cross-sectional line has
-  been calculated.
 
-Scheduled driver longitudinal/cross-section data creation guideline and cross-sectional River Survey Data
-------------------------------------------------------------------------------------------------------------
+河川定期縦横断データ作成ガイドラインの横断測量成果との関係
+------------------------------------------------------------
 
-The Ministry of Land, Infrastructure, Transport and Tourism () publishes
-guidelines for creating the scheduled river longitudinal/cross-section
-data
+国土交通省では、河川定期縦横断データ作成ガイドラインを
+以下の URL で公開しています。
 
-`*http://www.mlit.go.jp/river/shishin\_guideline/kasen/gis/pdf\_docs/juoudan/guideline0805.pdf* <http://www.mlit.go.jp/river/shishin_guideline/kasen/gis/pdf_docs/juoudan/guideline0805.pdf>`__
+http://www.mlit.go.jp/river/shishin_guideline/kasen/gis/pdf_docs/juoudan/guideline0805.pdf
 
-:numref:`table_riv_survey_data_guideline` shows how to
-convert the Guideline data items to the River
-Survey Data items.
+河川測量データの項目と、このガイドラインに含まれる横断測量成果の数値データの値との
+関係について、 :numref:`table_riv_survey_data_guideline` に示します。
 
 .. _table_riv_survey_data_guideline:
 
-.. list-table:: Relationship between the River Survey Data items and the Guideline data
+.. list-table:: 河川測量データの項目と横断測量成果の数値データの関係
    :header-rows: 1
 
-   * - River Survey Data item
-     - How to convert the guideline data (surveyed cross-sectional numerical data) to River Survey Data items
+   * - 河川測量データの項目
+     - 横断測量成果の数値データとの関係
 
-   * - Coordinates of left/right banks
-     - Specify the coordinates of the left/right bank distance posts.
+   * - 左岸と右岸の座標
+     - 左岸距離杭、右岸距離杭の座標を指定します。
 
-   * - Cross-section data
-     - | Specify the distance of the cross-sectional coordinate data for the distance from the left bank.
-       | Specify the elevation of the cross-sectional coordinate data.
+   * - 断面データ
+     - | 左岸からの距離は、断面の座標データの距離を指定します。
+       | 河床高は、断面の座標データの高さを指定します。
 
-   * - Index data
-     - | Set as follows:
-       | Index 1: Number that corresponds to the left bank distance post
-       | Index 2: Number that corresponds to the left bank shoreline post
-       | Index 3: Number that corresponds to the right bank shoreline post
-       | Index 4: Number that corresponds to the right bank distance post
+   * - 指標データ
+     - | 以下のように指定します。
+       | 指標1: 左岸距離杭に対応する番号
+       | 指標2: 左岸水際杭に対応する番号
+       | 指標3: 右岸水際杭に対応する番号
+       | 指標4: 右岸距離杭に対応する番号
