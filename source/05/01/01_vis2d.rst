@@ -141,6 +141,10 @@
 コンター設定ごとの表示例を :numref:`image_post2d_contours_by_displaysetting`
 に示します。
 
+コンターは、iRIC 3.0 では複数の計算結果について同時に表示できるようになっています。
+複数のコンターを同時に表示するには、オブジェクトブラウザで、複数の項目の横の
+チェックボックスをチェックして下さい。
+
 .. _image_post2d_contour_dialog:
 
 .. figure:: images/post2d_contour_dialog.png
