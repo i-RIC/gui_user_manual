@@ -10,6 +10,12 @@
 が表示されますので、エクスポートするファイルを指定して「保存」ボタンを押します。
 すると、指定したファイルに計算条件がエクスポートされます。
 
+エクスポート先の形式としては以下が選択できます。
+
+* iRIC プロジェクトファイル (*.ipro)
+* CGNSファイル (*.cgn)
+* YAMLファイル (*.yml)
+
 .. _image_select_file_to_export_dialog_for_calccond:
 
 .. figure:: images/select_file_to_export_dialog_for_calccond.png
