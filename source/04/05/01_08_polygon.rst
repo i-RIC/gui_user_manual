@@ -91,6 +91,11 @@ will open. Set the maximum area of the cell and click on [OK].
 of the refinement region, and :numref:`image_polygon_refine_example_grid`
 shows the grid created under this setting.
 
+From iRIC 3.0, it is now possible to define refinement Regions inside a
+refinement region. There is no limit about the number of recursion.
+:numref:`image_polygon_refine_recursive_example`
+shows an example.
+
 .. _image_polygon_refinement_max_area_dialog:
 
 .. figure:: images/polygon_refinement_max_area_dialog.png
@@ -108,6 +113,12 @@ shows the grid created under this setting.
 .. figure:: images/polygon_refine_example_grid.png
 
    Example of a created grid
+
+.. _image_polygon_refine_recursive_example:
+
+.. figure:: images/polygon_refine_recursive_example.png
+
+   Example of defining refinement region inside refinement region
 
 [Add Hole Region] (H)
 ---------------------
