@@ -68,6 +68,8 @@ widths] is selected as the grid creating algorithm.
      - Edits the coordinates of the selected Polygon.
    * - [Edit Maximum Area For Cells] (M)
      - The maximum area of the cell in the selected refinement region.
+   * - [Redivide Break Line] (D)
+     - Redivide break line by specifying the division number.
    * - [Delete Region or Break Line] (D)
      - Removes the selected Region or Break line.
    * - [Reset to Default] (R)
@@ -237,7 +239,32 @@ will open. Edit the maximum area and click on [OK].
 
 .. figure:: images/polygon_ref_max_area_dialog.png
 
-   Example of the [Refinement maximum area] dialog
+   [Refinement maximum area] dialog
+
+[Redivide Break Line] (R)
+--------------------------------
+
+**Description:** Redivide break line to control the grid cell length
+on the break line.
+
+When you select [Redivide Break Line], the [Input divide number]
+dialog (:numref:`image_polygon_redivide_breakline_dialog`)
+will open. Edit the divide number and click on [OK].
+
+:numref:`image_polygon_breakline_redivide_example` shows
+an example of redividing a break line.
+
+.. _image_polygon_redivide_breakline_dialog:
+
+.. figure:: images/polygon_redivide_breakline_dialog.png
+
+   [Input divide number] dialog
+
+.. _image_polygon_breakline_redivide_example:
+
+.. figure:: images/polygon_breakline_redivide_example.png
+
+   Example of redividing break line
 
 [Delete Region or Break Line] (D)
 ---------------------------------
