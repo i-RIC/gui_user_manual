@@ -92,6 +92,11 @@
 :numref:`image_polygon_refine_example_grid`
 に示します。
 
+また、iRIC 3.0 では、再分割領域の内部に更に再分割領域を作成する機能が
+追加されました。入れ子構造の数に制限はありません。例を
+:numref:`image_polygon_refine_recursive_example`
+に示します。
+
 .. _image_polygon_refinement_max_area_dialog:
 
 .. figure:: images/polygon_refinement_max_area_dialog.png
@@ -109,6 +114,12 @@
 .. figure:: images/polygon_refine_example_grid.png
 
    格子生成例
+
+.. _image_polygon_refine_recursive_example:
+
+.. figure:: images/polygon_refine_recursive_example.png
+
+   再分割領域内に再分割領域を作成した例
 
 障害物領域の追加 (H)
 ---------------------
