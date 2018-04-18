@@ -65,6 +65,8 @@
      - 選択しているポリゴンの頂点座標を編集します
    * - セルの最大面積の編集 (M)
      - 選択している再分割領域のセルの最大面積を編集します
+   * - 分割線の再分割
+     - 分割数を指定して、分割線を再分割します
    * - ポリゴンの削除 (D)
      - 選択しているポリゴンを削除します
    * - 初期状態に戻す (R)
@@ -244,6 +246,30 @@ iRIC 3.0 以降では、分割線を格子生成領域からはみ出した形�
 .. figure:: images/polygon_ref_max_area_dialog.png
 
    セルの最大面積を編集するダイアログ
+
+分割線の再分割 (R)
+--------------------------------
+
+分割線を再分割することで、分割線に沿って生成されるセルの辺の長さを調整します。
+
+「分割数の入力」ダイアログ
+(:numref:`image_polygon_redivide_breakline_dialog` 参照) が表示されます
+ので、分割数を編集して「OK」ボタンを押します。
+
+分割線の再分割の操作の例を
+:numref:`image_polygon_breakline_redivide_example` に示します。
+
+.. _image_polygon_redivide_breakline_dialog:
+
+.. figure:: images/polygon_redivide_breakline_dialog.png
+
+   「分割数の入力」ダイアログ
+
+.. _image_polygon_breakline_redivide_example:
+
+.. figure:: images/polygon_breakline_redivide_example.png
+
+   分割線の再分割の操作例
 
 ポリゴンの削除(D)
 ---------------------------------
