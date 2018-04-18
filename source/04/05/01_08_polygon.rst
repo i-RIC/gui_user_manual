@@ -157,16 +157,29 @@
 
 追加したい分割線の頂点の位置を順にクリックしてください。
 最後にダブルクリックするか、リターンキーを押すと、追加が完了します。
-分割線は、作成する格子セルの境界となります。この設定に基づいて
-格子を生成した結果の例を
+分割線は、作成する格子セルの境界となります。
+
+分割線を定義して格子を生成した結果の例を
 :numref:`image_polygon_breakline_grid_example`
+に示します。
+
+iRIC 3.0 以降では、分割線を格子生成領域からはみ出した形で定義することが
+できるようになりました。分割線が格子生成領域からはみ出した状態で
+生成した格子の例を
+:numref:`image_polygon_breakline_outside_example`
 に示します。
 
 .. _image_polygon_breakline_grid_example:
 
 .. figure:: images/polygon_breakline_grid_example.png
 
-   格子生成例
+   分割線の定義した場合の格子生成例
+
+.. _image_polygon_breakline_outside_example:
+
+.. figure:: images/polygon_breakline_outside_example.png
+
+   格子生成領域からはみ出した分割線を定義した場合の格子生成例
 
 頂点の追加 (A)
 ----------------
