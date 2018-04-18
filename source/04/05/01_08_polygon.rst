@@ -159,11 +159,22 @@ pressing Enter key.
 :numref:`image_polygon_breakline_grid_example` shows the grid created
 with a break line.
 
+With iRIC 3.0, it is now possible to define a break line that run over
+the grid region.
+:numref:`image_polygon_breakline_outside_example` shows an example
+of such a case.
+
 .. _image_polygon_breakline_grid_example:
 
 .. figure:: images/polygon_breakline_grid_example.png
 
-   Example of a created grid
+   Example of a created grid with a break line
+
+.. _image_polygon_breakline_outside_example:
+
+.. figure:: images/polygon_breakline_outside_example.png
+
+   Example of a created grid with a break line, that run over the grid region
 
 [Add Vertex] (A)
 ----------------
