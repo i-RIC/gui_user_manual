@@ -1,104 +1,105 @@
 .. _sec_scattered_chart_window_detail:
 
-[Scattered Chart Window]
+散布図描画機能
 ==========================
 
-The functions for opening a scattered chart window are explained in this
-section.
+散布図を描画する機能について説明します。
 
-[Open new Scattered Chart Window]
+この機能を利用するには、散布図ウィンドウを用います。
+
+新しい散布図ウィンドウを開く
 -----------------------------------
 
 .. |scattered-window-icon| image:: images/scattered-window-icon.png
 
-Either of the following actions opens a new graph window.
+新しい散布図ウィンドウを開くには、以下のいずれかの操作を行います。
 
-**Menu bar:** [Calculation Results] (R) --> [Open New Scattered Chart Window]
+**メニューバー:** 計算結果 (R) --> 新しい散布図ウィンドウを開く
 
-**Operation Toolbar:** |scattered-window-icon|
+**ツールバー:** |scattered-window-icon|
 
-The [Data Source Setting] dialog (:numref:`image_scattered_data_source_dialog`)
-will open, so select the
-data to draw graph and click on [OK]. A new [Scattered Chart Window]
-window (:numref:`image_scattered_window`) will open that
-draws a scattered chart for the data you selected.
+データソース設定ダイアログ (:numref:`image_scattered_data_source_dialog`
+参照)
+が表示されますので、散布図でX軸に使用する計算結果、
+Y軸に使用する計算結果を設定して「OK」ボタンを押します。すると、設定した内容
+にしたがって散布図ウィンドウが新しく表示されます。
+表示される散布図ウィンドウの例を
+:numref:`image_scattered_window` に示します。
 
 .. _image_scattered_data_source_dialog:
 
 .. figure:: images/scattered_data_source_dialog.png
 
-   [Data Source Setting] dialog
-
+   データソース設定ダイアログ 表示例
 
 .. _image_scattered_window:
 
 .. figure:: images/scattered_window.png
 
-   [Scattered Chart Window]
+   散布図ウィンドウ 表示例
 
-Additional Menu items
+メニュー構成
 ----------------------
 
-:numref:`table_scattered_window_menu`
-shows the additional menu items for the [Scattered Chart Window].
-The additional menu items are shown between [Import] and
-[Simulation] when the [Scattered Chart Window] is active.
+散布図ウィンドウ固有のメニュー構成を、:numref:`table_scattered_window_menu`
+に示します。:numref:`table_scattered_window_menu`
+に示すメニューは、散布図ウィンドウがアクティブな時、
+「インポート」メニューと「計算」メニューの間に表示されます。
 
 .. _table_scattered_window_menu:
 
-.. list-table:: Additional menu items for [Scattered Chart Window]
+.. list-table:: 散布図ウィンドウ固有のメニュー構成
    :header-rows: 1
 
-   * - Menu
+   * - メニュー
      -
-     - Description
-   * - Draw (D)
-     - [Data Source Setting] (D)
-     - Display [Data Source Setting] dialog.
+     - 説明
+   * - 描画設定 (D)
+     - データソース設定 (C)
+     - データソース設定をします
    * -
-     - [Axis Setting] (A)
-     - Display [Axis Setting] dialog.
+     - 軸設定 (A)
+     - グラフの軸の設定をします
    * -
-     - [Draw Setting] (D)
-     - Display [Draw Setting] dialog.
+     - 描画設定 (D)
+     - 表示する項目の描画設定をします
 
-[Data Source Setting] (D)
+データソース設定 (D)
 ----------------------------
 
-**Description**: Set data source setting.
+データソース設定をします。
 
-When you select this, the [Data Source Setting] dialog
-(:numref:`image_scattered_data_source_dialog`)
-will open. Modify setting and click on [OK].
+データソース設定ダイアログ (:numref:`image_scattered_data_source_dialog` 参照)
+が表示されますので、設定を行って「OK」ボタンを押します。
+すると、新しい設定内容にしたがってグラフが再描画されます。
 
-[Axis Setting] (A)
+軸設定 (A)
 --------------------
 
-**Description**: Set axis setting.
 
-When you select this, the [Axis Setting] dialog
-(:numref:`image_scattered_axis_setting_dialog`) will open.
-Modify setting and click on [OK]. A new graph will be made according to
-the settings.
+グラフの軸に関する設定をします。
+
+軸設定ダイアログ (:numref:`image_scattered_axis_setting_dialog` 参照)
+が表示されますので、設定を行って「OK」ボタンを押します。
+すると、新しい設定内容にしたがってグラフが再描画されます。
 
 .. _image_scattered_axis_setting_dialog:
 
 .. figure:: images/scattered_axis_setting_dialog.png
 
-   [Axis Setting] dialog
+   軸設定ダイアログ 表示例
 
-[Draw Setting] (D)
+描画設定 (D)
 -------------------
 
-**Description**: Set the draw settings
+グラフに描画する項目の描画設定をします。
 
-When you select this, the [Draw Setting] dialog
-(:numref:`image_scattered_draw_setting_dialog`) will open.
-Modify setting and click on [OK]. A new graph will be made according to
-the settings.
+描画設定ダイアログ (:numref:`image_scattered_draw_setting_dialog` 参照)
+が表示されますので、設定を行って「OK」ボタンを押します。
+すると、新しい設定にしたがってグラフが再描画されます。
 
 .. _image_scattered_draw_setting_dialog:
 
 .. figure:: images/scattered_draw_setting_dialog.png
 
-   [Draw Setting] dialog
+   描画設定ダイアログ 表示例
