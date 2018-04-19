@@ -15,7 +15,8 @@ the [Select Coordinate System] dialog
 (:numref:`image_select_coordsystem_dialog`) is shown. Please select coordinate
 system and click on [OK] button.
 
-Then, [Select Region] dialog is shown.
+Then, [Select Region] dialog
+(:numref:`image_geo_web_select_region_dialog`) is shown.
 Please use the following operations to select the region, and click on [Next]:
 
 * Ctrl + Left-dragging to Pan the map.
