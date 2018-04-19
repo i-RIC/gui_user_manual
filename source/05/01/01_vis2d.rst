@@ -298,10 +298,13 @@
 セル中心で定義された計算結果に関するコンターの表示設定をします。
 
 コンターの表示設定ダイアログが表示されます (:numref:`image_post2d_contour_dialog` 参照)
-ので、設定を行って「OK」ボタンを押します。表示する領域の範囲を調整するには、
+ので、設定を行って「OK」ボタンを押します。
+
+表示する領域の範囲を調整するには、
 「領域設定 (R)｣ボタンを押して領域設定ダイアログを表示し、設定を行って
 「OK」ボタンを押します（:numref:`image_post2d_cellcenter_contour_region_structured_dialog`、
 :numref:`image_post2d_cellcenter_contour_region_unstructured_dialog` 参照）。
+
 凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
 カラーバー設定ダイアログを表示し、設定を行って「OK」ボタンを押します
 （:numref:`image_post2d_cellcenter_contour_colorbar_setting_dialog` 参照）。
