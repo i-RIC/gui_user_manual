@@ -7,7 +7,7 @@
 
 1. オブジェクトブラウザーで、境界条件を選択した状態でマウス右クリックし
    (:numref:`image_object_browser_boundary_cond_selected` 参照)、
-  「(境界条件名)の追加」を選択すると境界条件ダイアログが表示されます。
+   (境界条件名)の追加」を選択すると境界条件ダイアログが表示されます。
    (:numref:`image_boundary_condition_dialog` 参照)
    ただし、ダイアログの内容はソルバと境界条件の種類により異なります。
 

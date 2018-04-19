@@ -12,9 +12,9 @@
 
 エクスポート先の形式としては以下が選択できます。
 
-* iRIC プロジェクトファイル (*.ipro)
-* CGNSファイル (*.cgn)
-* YAMLファイル (*.yml)
+* iRIC プロジェクトファイル (\*.ipro)
+* CGNSファイル (\*.cgn)
+* YAMLファイル (\*.yml)
 
 .. _image_select_file_to_export_dialog_for_calccond:
 
