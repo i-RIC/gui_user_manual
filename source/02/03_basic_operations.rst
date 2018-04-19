@@ -122,15 +122,18 @@ See :numref:`table_view_change_ops_canvas` for details.
    * - Operation
      - Action
      - Cursor
-   * - Rotate
-     - Right drag while pressing Ctrl key.
-     - |cursor_operation_rotate|
-   * - Zoom in/out
-     - Drag the scroll wheel while pressing Ctrl key.
-     - |cursor_operation_zoom|
-   * - Drag
-     - Left drag while pressing Ctrl key.
+
+   * - Pan
+     - Ctrl + Left dragging
      - |cursor_operation_pan|
+
+   * - Zoom in / out
+     - Ctrl + Dragging the scroll wheel
+     - |cursor_operation_zoom|
+
+   * - Rotate
+     - Ctrl + Right dragging
+     - |cursor_operation_rotate|
 
 You can open a [Mouse Hint] dialog with either of the following actions:
 
