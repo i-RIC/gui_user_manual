@@ -48,8 +48,8 @@ The additional menus are shown between [Import] and
      - [Grid Shape] (G)
      - Displays the [Grid Shape] dialog.
    * -
-     - [Contour] (C)
-     - Displays the [Contour] dialog.
+     - [Contours (node)] (C)
+     - Displays the [Contour] dialog for results defined at grid nodes.
    * -
      - [Arrow] (A)
      - Displays the [Arrow] (i.e., vector) dialog.
@@ -62,6 +62,9 @@ The additional menus are shown between [Import] and
    * -
      - [Cell Attributes]
      - Displays the [Cell Attributes] dialog.
+   * -
+     - [Contours (cell center)]
+     - Displays the [Contour] dialog for results defined at cell centers.
    * -
      - [Title]
      - Displays the [Title] dialog.
@@ -121,10 +124,11 @@ respectively.
 
    Examples of graphics displayed by the [Grid Shape] setting
 
-[Contour] (C)
----------------
+[Contour (nodes)] (C)
+-------------------------
 
-**Description**: Sets the contour settings
+**Description**: Sets the contour settings for calculation results
+defined at grid nodes.
 
 When you select [Contour], the [Contour Setting] dialog
 (:numref:`image_post2d_contour_dialog`) will open.
@@ -139,7 +143,14 @@ dialog (:numref:`image_post2d_contour_colorbar_setting_dialog`) will open.
 
 Please refer to :ref:`sec_geo_common_color_setting` about the dialog
 that is shown when you select
-[Custom] as [Colormap] and click on [Setting…] button.
+[Custom] as [Colormap] and click on [Setting] button.
+
+:numref:`image_post2d_contours_by_displaysetting` shows an example of
+displayed contours for each [Display Setting] setting.
+
+With iRIC 3.0, it is now possible to visualize contours for multiple
+calculation results at the same time. To visualize multiple contours,
+please check on the check boxes for multiple items in the object browser.
 
 .. _image_post2d_contour_dialog:
 
@@ -288,6 +299,68 @@ Set it and click on [OK].
 .. figure:: images/post2d_cellattributes_dialog.png
 
    [Cell Attributes] dialog
+
+[Contour (Cell center)] (L)
+-------------------------------
+
+**Description**: Sets the contour settings for calculation Results
+defined at cell centers.
+
+When you select [Contour], the [Contour Setting] dialog
+(:numref:`image_post2d_cellcenter_contour_dialog`) will open.
+Set it and click on [OK].
+
+When you click on [Region Setting] button,
+[Region Setting] dialog
+(:numref:`image_post2d_cellcenter_contour_region_structured_dialog` or
+:numref:`image_post2d_cellcenter_contour_region_unstructured_dialog`)
+will open.
+
+When you click on [Color Bar Setting] button, [Color Legend Setting] dialog
+(:numref:`image_post2d_cellcenter_contour_colorbar_setting_dialog`)
+will open.
+
+Please refer to :ref:`sec_geo_common_color_setting`
+about the dialog that is shown when you select [Custom]
+as [Colormap] and click on [Setting] button.
+
+:numref:`image_post2d_cellcenter_contours_by_displaysetting`
+shows an example of
+displayed contours for each [Display Setting] setting.
+
+With iRIC 3.0, it is now possible to visualize contours for multiple
+calculation results at the same time. To visualize multiple contours,
+please check on the check boxes for multiple items in the object browser.
+
+.. _image_post2d_cellcenter_contour_dialog:
+
+.. figure:: images/post2d_cellcenter_contour_dialog.png
+
+   [Contour Setting] dialog
+
+.. _image_post2d_cellcenter_contour_region_structured_dialog:
+
+.. figure:: images/post2d_contour_region_structured_dialog.png
+
+   [Region Setting] dialog (Structured grid)
+
+.. _image_post2d_cellcenter_contour_region_unstructured_dialog:
+
+.. figure:: images/post2d_contour_region_unstructured_dialog.png
+
+   [Region Setting] dialog (Unstructured grid)
+
+.. _image_post2d_cellcenter_contour_colorbar_setting_dialog:
+
+.. figure:: images/post2d_contour_colorbar_setting_dialog.png
+
+   [Color Legend Setting] dialog
+
+.. _image_post2d_cellcenter_contours_by_displaysetting:
+
+.. figure:: images/post2d_cellcenter_contours_by_displaysetting.png
+
+   Examples of the contour display by the [Display Setting] setting
 
 [Title] (T)
 ------------
