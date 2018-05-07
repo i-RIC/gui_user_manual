@@ -26,9 +26,20 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 
    河川測量データインポート後の iRIC 表示例
 
+河川測量データからインポートする場合、ファイル選択後に
+:numref:`image_rivdata_import_setting_dialog`
+に示すダイアログが表示されます。
+インポートの設定を行って「OK」ボタンを押します。
+
+.. _image_rivdata_import_setting_dialog:
+
+.. figure:: images/rivdata_import_setting_dialog.png
+
+   河川測量データインポート設定ダイアログ
+
 ESRI シェープファイルからポリゴンをインポートする場合、ファイル選択後に
 :numref:`image_polygon_import_setting_dialog`
-に示すダイアログが表示されますので、
+に示すダイアログが表示されます。
 インポートの設定を行って「OK」ボタンを押します。
 
 .. _image_polygon_import_setting_dialog:
