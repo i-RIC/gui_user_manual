@@ -263,3 +263,13 @@
    * - |icon_movie_speed|
      - 再生速度を設定
      - 再生する時の速度を設定します。
+
+|icon_movie_speed| ボタンを押すと、
+アニメーション速度設定ダイアログ (:numref:`animation_speed_dialog` 参照)
+が表示されます。タイムステップ間の描画間隔を設定して「OK」ボタンを押します。
+
+.. _animation_speed_dialog:
+
+.. figure:: images/animation_speed_dialog.png
+
+   アニメーション速度ダイアログ
