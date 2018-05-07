@@ -30,15 +30,17 @@ grid.
 
 The attributes that you need to input differ by the solver you use.
 
-iRIC can import and edit three types of geographic data:
+iRIC can import and edit four types of geographic data:
 
 -  River Survey Data
--  Elevation
+-  Pointset Data
 -  Polygon
+-  Raster data
 
-:numref:`image_geodata_riversurvey`, :numref:`image_geodata_pointset` and
-:numref:`image_geodata_polygon` show example of
-[River Survey Data], [Pointset Data] and [Polygon], respectively.
+:numref:`image_geodata_riversurvey`, :numref:`image_geodata_pointset`,
+:numref:`image_geodata_polygon` and :numref:`image_geodata_raster`
+show example of
+[River Survey Data], [Pointset Data], [Polygon], [Raster Data] respectively.
 
 .. _image_geodata_riversurvey:
 
@@ -57,6 +59,12 @@ iRIC can import and edit three types of geographic data:
 .. figure:: images/geodata_polygon.png
 
    Example of [Polygon]
+
+.. _image_geodata_raster:
+
+.. figure:: images/geodata_raster.png
+
+   Example of [Raster Data]
 
 Refer to :ref:`sec_pre_geodata` for detail.
 
