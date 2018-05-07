@@ -21,6 +21,7 @@
 .. |icon_file_open| image:: images/icon_file_open.png
 .. |icon_file_save| image:: images/icon_file_save.png
 .. |icon_file_snapshot| image:: images/icon_file_snapshot.png
+.. |icon_file_snapshot_clipboard| image:: images/icon_file_snapshot_clipboard.png
 .. |icon_file_googleearth| image:: images/icon_file_googleearth.png
 .. |icon_undo| image:: images/icon_undo.png
 .. |icon_redo| image:: images/icon_redo.png
@@ -70,6 +71,9 @@
    * - |icon_file_snapshot|
      - スナップショットを保存 (N)
      - アクティブなウィンドウを画像ファイルに保存します
+   * - |icon_file_snapshot_clipboard|
+     - スナップショットをクリップボードにコピー
+     - アクティブなウィンドウの画像をクリップボードにコピーします
    * - |icon_file_googleearth|
      - 連続スナップショット / Google Earth 出力
      - 可視化ウィンドウ、グラフウィンドウを各タイムステップについて画像ファイルに保存し、Google Earth 用のKMLファイルを出力します
