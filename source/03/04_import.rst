@@ -13,6 +13,14 @@ following sections.
 The function of this item is the same to that under [Import] menu under
 [File] menu. Refer to :ref:`sec_file_import_geo_data`.
 
+[Geographic Data (from web)]
+------------------------------
+
+**Description**: Imports geographic data from web.
+
+The function of this item is the same to that under [Import] menu under
+[File] menu. Refer to :ref:`sec_file_import_geo_data_from_web`.
+
 [Hydraulic Data] (H)
 -----------------------
 
