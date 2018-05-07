@@ -109,9 +109,10 @@ iRIC では、ソルバーコンソールを除くすべてのサブウィンド
 描画領域の表示をCtrlキーとマウスとの組み合わせで操作できます。表示操作方法について、
 :numref:`table_view_change_ops_canvas` に示します。
 
-.. |cursor_operation_rotate| image:: images/cursor_operation_rotate.png
-.. |cursor_operation_zoom|   image:: images/cursor_operation_zoom.png
-.. |cursor_operation_pan|    image:: images/cursor_operation_pan.png
+.. |cursor_operation_rotate|     image:: images/cursor_operation_rotate.png
+.. |cursor_operation_zoom|       image:: images/cursor_operation_zoom.png
+.. |cursor_operation_pan|        image:: images/cursor_operation_pan.png
+.. |cursor_operation_selectzoom| image:: images/cursor_operation_selectzoom.png
 
 .. list-table:: 描画画面での表示操作
    :name: table_view_change_ops_canvas
@@ -132,6 +133,10 @@ iRIC では、ソルバーコンソールを除くすべてのサブウィンド
    * - 回転
      - Ctrl 右ドラッグ
      - |cursor_operation_rotate|
+
+   * - 囲んで拡大
+     - Ctrl + Shift + 右ドラッグ
+     - |cursor_operation_selectzoom|
 
 マウス操作のヘルプを表示するには、以下のいずれかの操作を行います。
 
