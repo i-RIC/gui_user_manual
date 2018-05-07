@@ -70,9 +70,9 @@ In [Object Browser], the following operations can be made:
 Selecting an operation target
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Left click on the item to select data to be edited. The menu enables
-operations that are possible under the configuration of items selected
-in [Object Browser].
+Left click on the item to select which item to edit. When the
+selection status changed, the menu items available to the selected
+item is shown in the menu bar.
 
 Switching between "show" and "hide"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
