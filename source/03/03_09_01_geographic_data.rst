@@ -60,3 +60,7 @@ Setup the mapping setting about the dimensions, and click on [OK].
 .. figure:: images/netcdf_import_setting_dialog.png
 
    The [Dimension Mapping Setting] dialog
+
+When you import XRAIN rainfall data as geographic data, save XRAIN rainfall 
+data files into one foler, and select one of them in the dialog.
+The, all rainfall data in that folder are loaded and imported.
