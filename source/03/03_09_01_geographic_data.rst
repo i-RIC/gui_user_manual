@@ -27,6 +27,18 @@ of the iRIC window after importing a river survey data.
 
    iRIC window after importing a river survey data
 
+
+When you import river survey data, the 
+[River Survey Data Import Setting] dialog
+(:numref:`image_rivdata_import_setting_dialog`) will open.
+Specify the import setting and click on [OK].
+
+.. _image_rivdata_import_setting_dialog:
+
+.. figure:: images/rivdata_import_setting_dialog.png
+
+   The [River Survey Data Import Setting] dialog
+
 When you import ESRI shape files, the [Polygon Import Setting] dialog
 (:numref:`image_polygon_import_setting_dialog`) will open.
 Specify the import setting and click on [OK].
