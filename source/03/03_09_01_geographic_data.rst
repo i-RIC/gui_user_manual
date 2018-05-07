@@ -47,3 +47,14 @@ ESRI シェープファイルからポリゴンをインポートする場合、
 .. figure:: images/polygon_import_setting_dialog.png
 
    ポリゴンインポート設定ダイアログ
+
+NetCDF ファイルを、時間など位置以外の次元を持つ地理情報にインポートする
+場合、ファイル選択後に
+:numref:`image_netcdf_import_setting_dialog` に示すダイアログが表示されます。
+次元のマッピングに関する設定を行い、「OK」ボタンを押します。
+
+.. _image_netcdf_import_setting_dialog:
+
+.. figure:: images/netcdf_import_setting_dialog.png
+
+   次元のマッピング設定ダイアログ
