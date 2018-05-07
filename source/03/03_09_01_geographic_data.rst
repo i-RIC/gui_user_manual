@@ -48,3 +48,15 @@ Specify the import setting and click on [OK].
 .. figure:: images/polygon_import_setting_dialog.png
 
    The [Polygon Import Setting] dialog
+
+When you import NetCDF file into geographic data that has
+dimensions other than position, the 
+[Dimension Mapping Setting] dialog
+(:numref:`image_netcdf_import_setting_dialog`) will open.
+Setup the mapping setting about the dimensions, and click on [OK].
+
+.. _image_netcdf_import_setting_dialog:
+
+.. figure:: images/netcdf_import_setting_dialog.png
+
+   The [Dimension Mapping Setting] dialog
