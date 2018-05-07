@@ -69,6 +69,14 @@ The function of this item is the same to that under [Import] menu under
 The function of this item is the same to that under [Import] menu under
 [File] menu. Refer to :ref:`sec_file_import_background_img`.
 
+[Google Map Background Image] (O)
+-----------------------------------
+
+**Description**: Imports Google Map aerial photos as background images
+
+The function of this item is the same to that under [Import] menu under
+[File] menu. Refer to :ref:`sec_file_import_background_img_googlemap`.
+
 [Visualization/Graph Settings] (V)
 --------------------------------------
 

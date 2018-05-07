@@ -1,5 +1,7 @@
-[Google Map Background Image]
-==============================
+.. _sec_file_import_background_img_googlemap:
+
+[Google Map Background Image] (O)
+=====================================
 
 **Description**: Imports Google Map aerial photos as background images
 
