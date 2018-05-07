@@ -12,7 +12,6 @@ active subwindow.
    03/03_file
    03/04_import
    03/05_simulation
-   03/06_animation
    03/07_calc_result
    03/08_view
    03/09_option

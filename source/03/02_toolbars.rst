@@ -269,3 +269,14 @@ items on the [Animation Toolbar].
    * - |icon_movie_speed|
      - [Edit Slow Motion Animation Speed]
      - Sets the speed for animation.
+
+When you click on |icon_movie_speed| button,
+the [Animation Speed Setting]
+dialog (:numref:`animation_speed_dialog`) will open.
+Input the intervals between timesteps and click on [OK].
+
+.. _animation_speed_dialog:
+
+.. figure:: images/animation_speed_dialog.png
+
+   The [Animation Speed Dialog]
