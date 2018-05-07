@@ -22,6 +22,7 @@ items on the [Main Toolbar].
 .. |icon_file_open| image:: images/icon_file_open.png
 .. |icon_file_save| image:: images/icon_file_save.png
 .. |icon_file_snapshot| image:: images/icon_file_snapshot.png
+.. |icon_file_snapshot_clipboard| image:: images/icon_file_snapshot_clipboard.png
 .. |icon_file_googleearth| image:: images/icon_file_googleearth.png
 .. |icon_undo| image:: images/icon_undo.png
 .. |icon_redo| image:: images/icon_redo.png
@@ -71,6 +72,9 @@ items on the [Main Toolbar].
    * - |icon_file_snapshot|
      - [Save Snapshot] (N)
      - Saves a snapshot of the active window.
+   * - |icon_file_snapshot_clipboard|
+     - [Copy Snapshot to Clipboard]
+     - Copy a snapshot of the active window to Clipboard.
    * - |icon_file_googleearth|
      - [Continuous Snapshots / Google Earth Export]
      - Saves images of each timestep produced by the Post-processing Window/Graph Window into image files, and outputs a KML file for Google Earth.

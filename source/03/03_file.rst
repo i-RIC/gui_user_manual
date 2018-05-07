@@ -14,6 +14,7 @@ following sections.
    03_05_save_as_project
    03_06_property
    03_07_snapshot
+   03_08_snapshot_clipboard
    03_08_continuous_snapshot
    03_09_import
    03_10_export

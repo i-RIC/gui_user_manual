@@ -33,6 +33,9 @@ Menu configuration
      - [Save Snapshot] (N)
      - Saves a snapshot of the active window.
    * -
+     - [Copy Snapshot to Clipboard]
+     - Copies a snapshot of the active window to clipboard.
+   * -
      - [Continuous Snapshots / Google Earth Export]
      - Saves images of each timestep produced by the Post-processing Window/Graph Window into image files, and outputs a KML file for Google Earth.
    * -
