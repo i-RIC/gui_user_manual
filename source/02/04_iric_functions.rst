@@ -25,15 +25,17 @@ iRIC の機能を大きく以下の8つのグループに分け、各機能の�
 
 どのような属性を入力する必要があるかは、利用するソルバーによって異なります。
 
-iRIC では、以下の3つのデータ型の地理情報を取り扱い、編集することができます。
+iRIC では、以下の4つのデータ型の地理情報を取り扱い、編集することができます。
 
 -  河川測量データ
 -  地勢データ
 -  ポリゴン
+-  ラスターデータ
 
 河川測量データの表示例を :numref:`image_geodata_riversurvey` に、
 地勢データの表示例を :numref:`image_geodata_pointset` に、
-ポリゴンの表示例を :numref:`image_geodata_polygon` にそれぞれ示します。
+ポリゴンの表示例を :numref:`image_geodata_polygon` に、
+ラスターデータの表示例を :numref:`image_geodata_raster` に、それぞれ示します。
 
 .. _image_geodata_riversurvey:
 
@@ -52,6 +54,12 @@ iRIC では、以下の3つのデータ型の地理情報を取り扱い、編�
 .. figure:: images/geodata_polygon.png
 
    ポリゴン表示例
+
+.. _image_geodata_raster:
+
+.. figure:: images/geodata_raster.png
+
+   ラスターデータ表示例
 
 詳細については、:ref:`sec_pre_geodata` を参照してください。
 
