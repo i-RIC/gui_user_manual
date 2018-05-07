@@ -1,4 +1,6 @@
-Google Map 背景画像
+.. _sec_file_import_background_img_googlemap:
+
+Google Map 背景画像 (O)
 ==============================
 
 Google Map の航空写真を、背景画像としてインポートします。
