@@ -42,6 +42,9 @@ that can be used for iRIC.
    * -
      - [Create compound channel grid]
      - Creates a grid that has lower channel, by defining grid creating region and lower channel region.
+   * -
+     - [Create grid shape solving Poisson equation]
+     - By solving Poisson equation, generate grid whose cell shape are similar to squares.
    * - Two-dimensional unstructured grid
      - [Create grid from polygon shape]
      - Creates an unstructured grid from polygon shape. Grid region, refinement regions, hole regions are defined as polygons.
@@ -69,5 +72,6 @@ of the following:
    01_04_geometric_grid
    01_05_rectangular_region
    01_06_compound_channel
+   01_07_poisson
    01_07_riv_data_1d
    01_08_polygon
