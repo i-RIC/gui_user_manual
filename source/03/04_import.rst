@@ -29,6 +29,14 @@ The function of this item is the same to that under [Import] menu under
 The function of this item is the same to that under [Import] menu under
 [File] menu. Refer to :ref:`sec_file_import_hydraulic`.
 
+[Grid Creating Condition] (I)
+--------------------------------
+
+**Description**: Imports a grid creating condition.
+
+The function of this item is the same to that under [Import] menu under
+[File] menu. Refer to :ref:`sec_file_import_gridcreatingcond`.
+
 [Grid] (G)
 -------------
 
