@@ -8,4 +8,5 @@ following sections.
    :maxdepth: 2
 
    09_01_preference
+   09_02_maintainance
    09_03_translation
