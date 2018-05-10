@@ -111,6 +111,16 @@ changing Z-direction scale is shown in
 
    Example of editing Z-direction scale in [Bird's Eye 2D Post-processing Window]
 
+Set Projection to (P)
+-----------------------
+
+Switch Projection between Parallel projection and 
+Perspective projection.
+
+This function is available only when the active subwindow is either of
+[Bird's Eye Grid Window], [Bird's eye 2D Post-processing Window], or [3D
+Post-processing Window].
+
 [Tile Windows] (T)
 -----------------------
 
