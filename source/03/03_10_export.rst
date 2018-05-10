@@ -14,5 +14,6 @@ following sections.
    03_10_03_calc_cond
    03_10_04_solver_console_log
    03_10_05_calc_result
+   03_10_06_contourshape
    03_10_06_particles
    03_10_07_vis_settings
