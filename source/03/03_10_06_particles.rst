@@ -3,9 +3,12 @@
 
 **Description**: Exports the particles.
 
+Particles can be exported to the file formats below:
+
+* VTK files (\*.vtk)
+
 This item is active only when a [2D Post-processing Window] or [3D
-Post-processing Window] is active. Particles are exported into VTK
-files.
+Post-processing Window] is active.
 
 Wyen you select [Particles], the [Export Particles] dialog
 (:numref:`image_export_particles_dialog`)

@@ -5,6 +5,13 @@
 
 **Description**: Exports geographic data.
 
+Geographic data can be exported to the file formats below:
+
+* River Survey data (\*.riv)
+* Topography File (\*.tpo, \*.anc)
+* STL file (\*.stl)
+* ESRI Shape file (\*.shp) (Polygon)
+
 When you select [Geographic Data], a list of exportable geographic data
 is shown as submenus. Select the geographic data you want to export and
 the [Select file to export] dialog

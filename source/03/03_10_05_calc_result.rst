@@ -3,8 +3,15 @@
 [Calculation Result] (R)
 ==========================
 
-**Description**: Exports the calculation result. Calculation result is
-exported to VTK files or CSV files.
+**Description**: Exports the calculation result.
+
+Calculation result can be exported to the file formats below:
+
+* VTK files (ASCII) (*.vtk)
+* VTK files (Binary) (*.vtk)
+* CSV files (*.csv)
+* Topography Files (*.tpo)
+* ESRI Shape files (*.shp)
 
 When you select [Calculation Result], the [Export Calcutation Result]
 dialog (:numref:`image_export_calc_result_dialog`) will open.

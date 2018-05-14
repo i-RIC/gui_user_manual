@@ -5,6 +5,11 @@
 
 **Description**: Exports the calculation conditions.
 
+Calculation condition can be exported to the file formats below:
+
+* CGNS file (\*.cgn)
+* YAML file (\*.yml)
+
 When you select [Calculation Conditions], the [Select file to export]
 dialog
 (:numref:`image_select_file_to_export_dialog_for_calccond`) will open.

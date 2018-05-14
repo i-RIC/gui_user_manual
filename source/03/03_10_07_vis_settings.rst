@@ -6,6 +6,10 @@
 **Description**: Exports the settings of visualization windows and graph
 windows.
 
+Visualization/Graph Settings can be exported to the file formats below:
+
+* Setting file (\*.vgsetting)
+
 When you select [Visualization/Graph Settings], the [Export
 Visualization/Graph Settings] dialog
 (:numref:`image_export_vis_setting_dialog`) will open. Input the
