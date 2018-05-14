@@ -5,6 +5,13 @@
 
 格子をインポートします。
 
+格子は、以下のファイルフォーマットからインポートできます。
+
+* iRIC プロジェクトファイル (\*.ipro)
+* iRIC 格子 CSVファイル (\*.csv)
+* RIC-Nays 格子ファイル (\*.grid)
+* CGNS ファイル (\*.cgn)
+
 インポートするファイルを選択するダイアログ
 (:numref:`image_select_file_to_import_dialog_for_grid` 参照)
 が表示されますので、インポートするファイルを選択して
