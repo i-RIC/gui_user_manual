@@ -8,9 +8,10 @@
 格子は、以下のファイルフォーマットからインポートできます。
 
 * iRIC プロジェクトファイル (\*.ipro)
-* iRIC 格子 CSVファイル (\*.csv)
-* RIC-Nays 格子ファイル (\*.grid)
 * CGNS ファイル (\*.cgn)
+* iRIC 格子 CSVファイル (\*.csv) (構造格子のみ)
+* RIC-Nays 格子ファイル (\*.grid) (構造格子のみ)
+* TRIANGLEノードファイル (\*.node) (非構造格子のみ)
 
 インポートするファイルを選択するダイアログ
 (:numref:`image_select_file_to_import_dialog_for_grid` 参照)
