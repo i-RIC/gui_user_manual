@@ -5,6 +5,10 @@
 
 **Description**: Imports the measured data.
 
+Measured data can be imported from the file formats below:
+
+* Text file (\*.csv, \*.txt)
+
 When you select [Measured Data], the [Open Measured Data File] dialog
 (:numref:`open_measured_data_dialog`) will open.
 Select the file you want to open and click on

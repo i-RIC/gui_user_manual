@@ -6,6 +6,10 @@
 **Description**: Imports the settings of visualization windows and graph
 windows.
 
+Visualization/Graph Settings can be imported from the file formats below:
+
+* Setting file (\*.vgsetting)
+
 When you select [Visualization/Graph Settings], the [Import
 Visualization/Graph Settings] dialog
 (:numref:`image_import_vis_setting_dialog`) will open. Select the

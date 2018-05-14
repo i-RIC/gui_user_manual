@@ -5,6 +5,18 @@
 
 **Description**: Imports geographic data.
 
+Geographic data can be imported from the file formats below:
+
+* River Survey data (\*.riv)
+* Topography File (\*.tpo, \*.anc)
+* RIC-Nays DEM data (\*.dat, \*.txt)
+* USGS NED (\*.adf)
+* STL file (\*.stl)
+* ESRI Shape file (\*.shp) (Polygon)
+* NetCDF file (\*.nc)
+* GeoTIFF file (\*.tif)
+* X band MP rader data (\*.\*)
+
 When you select [Geographic Data], a list of importable geographic data
 is shown as submenus. Select the geographic data you want to import and
 the [Select file to import] dialog

@@ -5,6 +5,10 @@
 
 **Description**: Imports the calculation result.
 
+Calculation result can be imported from the file formats below:
+
+* CGNS file (\*.cgn)
+
 When you select [Calculation Result], the [Open Calculation result]
 dialog
 (:numref:`image_open_calc_result_dialog`) will open. Select the file you

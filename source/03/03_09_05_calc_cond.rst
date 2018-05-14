@@ -5,6 +5,12 @@
 
 **Description**: Imports the calculation conditions.
 
+Calculation condition can be imported from the file formats below:
+
+* iRIC project file (\*.ipro)
+* CGNS file (\*.cgn)
+* YAML file (\*.yml)
+
 When you select [Calculation Conditions], the [Select file to import]
 dialog (:numref:`image_select_file_to_import_dialog_for_cc`) will open.
 Select the file you want to import and click on [Open].

@@ -5,6 +5,12 @@
 
 **Description**: Imports the background image.
 
+Background image can be imported from the file formats below:
+
+* JPEG file (\*.jpg, \*.jpeg)
+* PNG file (\*.png)
+* TIFF file (\*.tif)
+
 When you select [Background Image], the [Open Image file] dialog
 (:numref:`image_open_image_file_dialog`) will open.
 Select the file you want to open and click on [Open].
