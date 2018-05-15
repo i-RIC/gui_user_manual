@@ -45,24 +45,28 @@ show example of
 .. _image_geodata_riversurvey:
 
 .. figure:: images/geodata_riversurvey.png
+   :width: 200pt
 
    Example of [River Survey Data]
 
 .. _image_geodata_pointset:
 
 .. figure:: images/geodata_pointset.png
+   :width: 200pt
 
    Example of [Pointset Data]
 
 .. _image_geodata_polygon:
 
 .. figure:: images/geodata_polygon.png
+   :width: 120pt
 
    Example of [Polygon]
 
 .. _image_geodata_raster:
 
 .. figure:: images/geodata_raster.png
+   :width: 300pt
 
    Example of [Raster Data]
 
@@ -137,6 +141,7 @@ example of the [Solver Console] that displays solver outputs.
 .. _image_solver_console_window_func:
 
 .. figure:: images/solver_console_window.png
+   :width: 180pt
 
    [Solver Console]
 
@@ -155,18 +160,21 @@ Refer to :ref:`sec_vis_funcs` for details.
 .. _image_2d_post_window_func:
 
 .. figure:: images/2d_post_window.png
+   :width: 280pt
 
    [2D Post-processing Window]
 
 .. _image_birdseye_2d_post_window_func:
 
 .. figure:: images/birdseye_2d_post_window.png
+   :width: 280pt
 
    [Bird's-Eye 2D Post-processing Window]
 
 .. _image_3d_post_window_func:
 
 .. figure:: images/3d_post_window.png
+   :width: 280pt
 
    [3D Post-processing Window]
 
@@ -182,11 +190,13 @@ Refer to :ref:`sec_making_graph` for details.
 .. _image_graph_window_func:
 
 .. figure:: images/graph_window.png
+   :width: 280pt
 
    [Graph Window]
 
 .. _image_scattered_chart_window_func:
 
 .. figure:: images/scattered_chart_window.png
+   :width: 280pt
 
    [Scattered Chart Window]

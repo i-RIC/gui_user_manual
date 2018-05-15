@@ -6,6 +6,7 @@
 .. _image_3d_post_window:
 
 .. figure:: images/3d_post_window.png
+   :width: 420pt
 
    [3D Post-processing Window]
 

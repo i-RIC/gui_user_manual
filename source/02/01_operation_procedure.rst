@@ -8,5 +8,6 @@ and the window for each process. Details of each window are explained in
 .. _image_iric_operations:
 
 .. figure:: images/iric_operations.png
+   :width: 250pt
 
    iRIC Operations

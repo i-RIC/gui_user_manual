@@ -71,13 +71,16 @@ For the functions of each toolbar, refer to :numref:`toolbar_functions`.
 
 
 .. figure:: images/main_toolbar.png
+   :width: 400pt
 
    Main Toolbar
 
 .. figure:: images/operation_toolbar.png
+   :width: 80pt
 
    Operation Toolbar
 
 .. figure:: images/animation_toolbar.png
+   :width: 280pt
 
    Animation Toolbar

@@ -6,6 +6,7 @@
 .. _image_2d_post_window:
 
 .. figure:: images/2d_post_window.png
+   :width: 420pt
 
    [2D Post-processing Window]
 

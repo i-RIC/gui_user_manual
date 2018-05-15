@@ -38,6 +38,7 @@ To open a project, click on the name of the project.
 .. _image_start_page_ssp:
 
 .. figure:: images/start_page_ssp.png
+   :width: 300pt
 
    [iRIC Start Page] ([Start Simulation Project] tab)
 
@@ -49,6 +50,7 @@ the web pages, click on the link to open the web browser.
 .. _image_start_page_support:
 
 .. figure:: images/start_page_support.png
+   :width: 300pt
 
    [iRIC Start Page] ([Support] tab)
 
@@ -62,6 +64,7 @@ of the [Object Browser] of the [Pre-processing Window].
 .. _image_object_browser_pre_window:
 
 .. figure:: images/object_browser_pre_window.png
+   :width: 400pt
 
    [Object Browser] of the [Pre-processing Window]
 
@@ -153,6 +156,7 @@ You can open a [Mouse Hint] dialog with either of the following actions:
 .. _image_mouse_hint_dialog:
 
 .. figure:: images/mouse_hint_dialog.png
+   :width: 150pt
 
    The [Mouse Hint] dialog
 

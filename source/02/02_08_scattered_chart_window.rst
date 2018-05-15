@@ -8,6 +8,7 @@
 .. _image_scattered_chart_window:
 
 .. figure:: images/scattered_chart_window.png
+   :width: 280pt
 
    [Scattered Chart Window]
 

@@ -6,6 +6,7 @@
 .. _image_solver_console_window:
 
 .. figure:: images/solver_console_window.png
+   :width: 200pt
 
    [Solver Console]
 
@@ -30,6 +31,7 @@ of the [Solver Console] window title.
 .. _image_solver_console_window_title:
 
 .. figure:: images/solver_console_window_title.png
+   :width: 180pt
 
    [Solver Console] window title
 

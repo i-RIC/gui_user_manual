@@ -7,6 +7,7 @@ Window].
 .. _image_birdseye_2d_post_window:
 
 .. figure:: images/birdseye_2d_post_window.png
+   :width: 420pt
 
    [Bird’s-Eye 2D Post-processing Window]
 

@@ -21,6 +21,7 @@ are not opened at first. You can open them manually when you need to.
 .. _image_iric_main_window:
 
 .. figure:: images/iric_main_window.png
+   :width: 400pt
 
    iRIC main window
 
