@@ -29,12 +29,14 @@ Y軸に使用する計算結果を設定して「OK」ボタンを押します�
 .. _image_scattered_data_source_dialog:
 
 .. figure:: images/scattered_data_source_dialog.png
+   :width: 240pt
 
    データソース設定ダイアログ 表示例
 
 .. _image_scattered_window:
 
 .. figure:: images/scattered_window.png
+   :width: 300pt
 
    散布図ウィンドウ 表示例
 
@@ -76,7 +78,6 @@ Y軸に使用する計算結果を設定して「OK」ボタンを押します�
 軸設定 (A)
 --------------------
 
-
 グラフの軸に関する設定をします。
 
 軸設定ダイアログ (:numref:`image_scattered_axis_setting_dialog` 参照)
@@ -86,6 +87,7 @@ Y軸に使用する計算結果を設定して「OK」ボタンを押します�
 .. _image_scattered_axis_setting_dialog:
 
 .. figure:: images/scattered_axis_setting_dialog.png
+   :width: 280pt
 
    軸設定ダイアログ 表示例
 
@@ -101,5 +103,6 @@ Y軸に使用する計算結果を設定して「OK」ボタンを押します�
 .. _image_scattered_draw_setting_dialog:
 
 .. figure:: images/scattered_draw_setting_dialog.png
+   :width: 240pt
 
    描画設定ダイアログ 表示例

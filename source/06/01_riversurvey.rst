@@ -41,12 +41,14 @@
 .. _image_riv_structure:
 
 .. figure:: images/riv_structure.png
+   :width: 400pt
 
    河川測量ファイルの構造
 
 .. _image_riv_concept:
 
 .. figure:: images/riv_concept.png
+   :width: 420pt
 
    河川測量ファイルデータの概念
 

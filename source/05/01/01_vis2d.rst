@@ -24,6 +24,7 @@
 .. _image_post2d_window_example:
 
 .. figure:: images/post2d_window_example.png
+   :width: 380pt
 
    可視化ウィンドウ (2D) 表示例
 
@@ -91,9 +92,9 @@
 .. _image_post2d_window_objbrowser_example:
 
 .. figure:: images/post2d_window_objbrowser_example.png
+   :width: 160pt
 
    オブジェクトブラウザーの表示例
-
 
 可視化ウィンドウ(2D) のオブジェクトブラウザーに表示される項目の設定は、
 主に描画設定メニュー、実測値メニューから行います。「座標軸」、「距離計測」の
@@ -115,12 +116,14 @@
 .. _image_post2d_grid_shape_dialog:
 
 .. figure:: images/post2d_grid_shape_dialog.png
+   :width: 100pt
 
    格子表示設定ダイアログ 表示例
 
 .. _image_post2d_grid_shape_wireframe_lines:
 
 .. figure:: images/post2d_grid_shape_wireframe_lines.png
+   :width: 380pt
 
    格子形状の表示設定ごとの表示例
 
@@ -151,30 +154,35 @@
 .. _image_post2d_contour_dialog:
 
 .. figure:: images/post2d_contour_dialog.png
+   :width: 240pt
 
    コンター表示設定ダイアログ 表示例
 
 .. _image_post2d_contour_region_structured_dialog:
 
 .. figure:: images/post2d_contour_region_structured_dialog.png
+   :width: 140pt
 
    コンター表示 領域設定ダイアログ 表示例 (構造格子)
 
 .. _image_post2d_contour_region_unstructured_dialog:
 
 .. figure:: images/post2d_contour_region_unstructured_dialog.png
+   :width: 120pt
 
    コンター表示 領域設定ダイアログ 表示例 (非構造格子)
 
 .. _image_post2d_contour_colorbar_setting_dialog:
 
 .. figure:: images/post2d_contour_colorbar_setting_dialog.png
+   :width: 150pt
 
    コンター表示 カラーバー設定ダイアログ 表示例
 
 .. _image_post2d_contours_by_displaysetting:
 
 .. figure:: images/post2d_contours_by_displaysetting.png
+   :width: 420pt
 
    コンター設定の値ごとの表示例
 
@@ -192,30 +200,35 @@
 .. _image_post2d_arrow_setting_dialog_structured:
 
 .. figure:: images/post2d_arrow_setting_dialog_structured.png
+   :width: 200pt
 
    ベクトル表示設定ダイアログ 表示例 (構造格子)
 
 .. _image_post2d_arrow_setting_dialog_unstructured:
 
 .. figure:: images/post2d_arrow_setting_dialog_unstructured.png
+   :width: 200pt
 
    ベクトル表示設定ダイアログ 表示例 (非構造格子)
 
 .. _image_post2d_arrow_region_structured_dialog:
 
 .. figure:: images/post2d_arrow_region_structured_dialog.png
+   :width: 150pt
 
    ベクトル表示 領域設定ダイアログ 表示例 (構造格子)
 
 .. _image_post2d_arrow_region_unstructured_dialog:
 
 .. figure:: images/post2d_arrow_region_unstructured_dialog.png
+   :width: 140pt
 
    ベクトル表示 領域設定ダイアログ 表示例 (非構造格子)
 
 .. _image_post2d_arrow_example:
 
 .. figure:: images/post2d_arrow_example.png
+   :width: 240pt
 
    ベクトル表示例
 
@@ -233,18 +246,21 @@
 .. _image_post2d_streamline_structured_dialog:
 
 .. figure:: images/post2d_streamline_structured_dialog.png
+   :width: 260pt
 
    流線の表示設定ダイアログ (構造格子)
 
 .. _image_post2d_streamline_unstructured_dialog:
 
 .. figure:: images/post2d_streamline_unstructured_dialog.png
+   :width: 260pt
 
    流線の表示設定ダイアログ (非構造格子)
 
 .. _image_post2d_streamline_example:
 
 .. figure:: images/post2d_streamline_example.png
+   :width: 320pt
 
    流線表示例
 
@@ -262,18 +278,21 @@
 .. _image_post2d_particles_structured_dialog:
 
 .. figure:: images/post2d_particles_structured_dialog.png
+   :width: 230pt
 
    パーティクル設定ダイアログ 表示例 (構造格子)
 
 .. _image_post2d_particles_unstructured_dialog:
 
 .. figure:: images/post2d_particles_unstructured_dialog.png
+   :width: 240pt
 
    パーティクル設定ダイアログ 表示例 (非構造格子)
 
 .. _image_post2d_particles_example:
 
 .. figure:: images/post2d_particles_example.png
+   :width: 230pt
 
    パーティクル 表示例
 
@@ -289,6 +308,7 @@
 .. _image_post2d_cellattributes_dialog:
 
 .. figure:: images/post2d_cellattributes_dialog.png
+   :width: 230pt
 
    セル属性の設定ダイアログ 表示例
 
@@ -322,30 +342,35 @@
 .. _image_post2d_cellcenter_contour_dialog:
 
 .. figure:: images/post2d_cellcenter_contour_dialog.png
+   :width: 250pt
 
    コンター表示設定ダイアログ 表示例
 
 .. _image_post2d_cellcenter_contour_region_structured_dialog:
 
 .. figure:: images/post2d_contour_region_structured_dialog.png
+   :width: 150pt
 
    コンター表示 領域設定ダイアログ 表示例 (構造格子)
 
 .. _image_post2d_cellcenter_contour_region_unstructured_dialog:
 
 .. figure:: images/post2d_contour_region_unstructured_dialog.png
+   :width: 130pt
 
    コンター表示 領域設定ダイアログ 表示例 (非構造格子)
 
 .. _image_post2d_cellcenter_contour_colorbar_setting_dialog:
 
 .. figure:: images/post2d_contour_colorbar_setting_dialog.png
+   :width: 160pt
 
    コンター表示 カラーバー設定ダイアログ 表示例
 
 .. _image_post2d_cellcenter_contours_by_displaysetting:
 
 .. figure:: images/post2d_cellcenter_contours_by_displaysetting.png
+   :width: 400pt
 
    コンター設定の値ごとの表示例
 
@@ -360,6 +385,7 @@
 .. _image_post2d_title_setting_dialog:
 
 .. figure:: images/post2d_title_setting_dialog.png
+   :width: 200pt
 
    タイトルの表示設定ダイアログ 表示例
 
@@ -374,6 +400,7 @@
 .. _image_post2d_time_setting_dialog:
 
 .. figure:: images/post2d_time_setting_dialog.png
+   :width: 100pt
 
    時刻の表示設定ダイアログ 表示例
 

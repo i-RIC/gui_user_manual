@@ -26,6 +26,7 @@
 .. _image_post2dbirdeye_window_example:
 
 .. figure:: images/post2dbirdeye_window_example.png
+   :width: 380pt
 
    鳥瞰図可視化ウィンドウ (2D) 表示例
 
@@ -77,6 +78,7 @@
 .. _image_post2dbirdeye_window_objbrowser_example:
 
 .. figure:: images/post2dbirdeye_window_objbrowser_example.png
+   :width: 140pt
 
    オブジェクトブラウザーの表示例
 
@@ -100,12 +102,14 @@
 .. _image_post2dbirdeye_grid_shape_dialog:
 
 .. figure:: images/post2dbirdeye_grid_shape_dialog.png
+   :width: 100pt
 
    格子表示設定ダイアログ 表示例
 
 .. _image_post2dbirdeye_grid_shape_wireframe_lines:
 
 .. figure:: images/post2dbirdeye_grid_shape_wireframe_lines.png
+   :width: 360pt
 
    格子形状の表示設定ごとの表示例
 
@@ -137,30 +141,35 @@
 .. _image_post2dbirdeye_contour_dialog:
 
 .. figure:: images/post2dbirdeye_contour_dialog.png
+   :width: 240pt
 
    コンター表示設定ダイアログ 表示例
 
 .. _image_post2dbirdeye_contour_region_structured_dialog:
 
 .. figure:: images/post2dbirdeye_contour_region_structured_dialog.png
+   :width: 150pt
 
    コンター表示 領域設定ダイアログ 表示例 (構造格子)
 
 .. _image_post2dbirdeye_contour_region_unstructured_dialog:
 
 .. figure:: images/post2dbirdeye_contour_region_unstructured_dialog.png
+   :width: 130pt
 
    コンター表示 領域設定ダイアログ 表示例 (非構造格子)
 
 .. _image_post2dbirdeye_contour_colorbar_setting_dialog:
 
 .. figure:: images/post2dbirdeye_contour_colorbar_setting_dialog.png
+   :width: 160pt
 
    コンター表示 カラーバー設定ダイアログ 表示例
 
 .. _image_post2dbirdeye_contours_by_displaysetting:
 
 .. figure:: images/post2dbirdeye_contours_by_displaysetting.png
+   :width: 420pt
 
    コンター設定の値ごとの表示例
 
@@ -195,30 +204,35 @@
 .. _image_post2dbirdeye_cellcenter_contour_dialog:
 
 .. figure:: images/post2dbirdeye_cellcenter_contour_dialog.png
+   :width: 300pt
 
    コンター表示設定ダイアログ 表示例
 
 .. _image_post2dbirdeye_cellcenter_contour_region_structured_dialog:
 
 .. figure:: images/post2dbirdeye_contour_region_structured_dialog.png
+   :width: 150pt
 
    コンター表示 領域設定ダイアログ 表示例 (構造格子)
 
 .. _image_post2dbirdeye_cellcenter_contour_region_unstructured_dialog:
 
 .. figure:: images/post2dbirdeye_contour_region_unstructured_dialog.png
+   :width: 120pt
 
    コンター表示 領域設定ダイアログ 表示例 (非構造格子)
 
 .. _image_post2dbirdeye_cellcenter_contour_colorbar_setting_dialog:
 
 .. figure:: images/post2dbirdeye_contour_colorbar_setting_dialog.png
+   :width: 160pt
 
    コンター表示 カラーバー設定ダイアログ 表示例
 
 .. _image_post2dbirdeye_cellcenter_contours_by_displaysetting:
 
 .. figure:: images/post2dbirdeye_cellcenter_contours_by_displaysetting.png
+   :width: 380pt
 
    コンター設定の値ごとの表示例
 
@@ -234,6 +248,7 @@
 .. _image_post2dbirdeye_title_setting_dialog:
 
 .. figure:: images/post2dbirdeye_title_setting_dialog.png
+   :width: 200pt
 
    タイトルの表示設定ダイアログ 表示例
 
@@ -248,6 +263,7 @@
 .. _image_post2dbirdeye_time_setting_dialog:
 
 .. figure:: images/post2dbirdeye_time_setting_dialog.png
+   :width: 100pt
 
    時刻の表示設定ダイアログ 表示例
 
@@ -276,11 +292,13 @@ Z方向の表示の倍率を設定します。
 .. _image_post2dbirdeye_zscale_dialog:
 
 .. figure:: images/post2dbirdeye_zscale_dialog.png
+   :width: 90pt
 
    Z方向の倍率ダイアログ 表示例
 
 .. _image_post2dbirdeye_zscale_example:
 
 .. figure:: images/post2dbirdeye_zscale_example.png
+   :width: 400pt
 
    Z方向の倍率 操作例

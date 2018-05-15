@@ -19,5 +19,6 @@ iRICでは、地勢データをインポートするためのファイル形式�
 .. _image_elevation_example:
 
 .. figure:: images/elevation_example.png
+   :width: 280pt
 
    地勢データファイル例

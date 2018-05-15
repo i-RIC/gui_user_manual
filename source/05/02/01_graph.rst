@@ -32,18 +32,21 @@ X軸を位置または時間とするグラフを描画し、対話的に描画�
 .. _image_chart_data_source_dialog:
 
 .. figure:: images/chart_data_source_dialog.png
+   :width: 260pt
 
    データソース設定ダイアログ 表示例
 
 .. _image_chart_data_setting_dialog:
 
 .. figure:: images/chart_data_setting_dialog.png
+   :width: 110pt
 
    データ設定ダイアログ 表示例
 
 .. _image_chart_window:
 
 .. figure:: images/chart_window.png
+   :width: 260pt
 
    グラフウィンドウ 表示例
 
@@ -109,6 +112,7 @@ CSVファイルについては、 :ref:`sec_graph_external_data` を参照して
 .. _image_chart_axissetting_dialog:
 
 .. figure:: images/chart_axissetting_dialog.png
+   :width: 280pt
 
    軸設定ダイアログ 表示例
 
@@ -124,6 +128,7 @@ CSVファイルについては、 :ref:`sec_graph_external_data` を参照して
 .. _image_chart_display_setting_dialog:
 
 .. figure:: images/chart_display_setting_dialog.png
+   :width: 320pt
 
    描画設定ダイアログ 表示例
 
@@ -141,12 +146,14 @@ CSVファイルについては、 :ref:`sec_graph_external_data` を参照して
 .. _image_chart_marker_setting_dialog:
 
 .. figure:: images/chart_marker_setting_dialog.png
+   :width: 220pt
 
    マーカー設定ダイアログ 表示例
 
 .. _image_chart_marker_example:
 
 .. figure:: images/chart_marker_example.png
+   :width: 280pt
 
    マーカー設定後のグラフウィンドウ表示例
 
@@ -167,6 +174,7 @@ KPマーカー追加後のグラフウィンドウの表示例を
 .. _image_chart_kp_marker_example:
 
 .. figure:: images/chart_kp_marker_example.png
+   :width: 280pt
 
    KPマーカー追加後のグラフウィンドウ表示例
 
@@ -183,6 +191,7 @@ KPマーカー追加後のグラフウィンドウの表示例を
 .. _image_chart_copy_example:
 
 .. figure:: images/chart_copy_example.png
+   :width: 260pt
 
    データコピー後のグラフウィンドウ表示例
 
@@ -199,6 +208,7 @@ KPマーカー追加後のグラフウィンドウの表示例を
 .. _image_chart_snapshot_setting_dialog:
 
 .. figure:: images/chart_snapshot_setting_dialog.png
+   :width: 140pt
 
    スナップショット設定ダイアログ 表示例
 
@@ -214,6 +224,7 @@ CSVエクスポート設定ダイアログ (:numref:`image_chart_csv_export_dial
 .. _image_chart_csv_export_dialog:
 
 .. figure:: images/chart_csv_export_dialog.png
+   :width: 140pt
 
    CSVエクスポート設定ダイアログ 表示例
    

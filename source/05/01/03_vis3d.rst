@@ -24,6 +24,7 @@
 .. _image_post3d_window_example:
 
 .. figure:: images/post3d_window_example.png
+   :width: 320pt
 
    可視化ウィンドウ (3D) 表示例
 
@@ -79,6 +80,7 @@
 .. _image_post3d_window_objbrowser_example:
 
 .. figure:: images/post3d_window_objbrowser_example.png
+   :width: 240pt
 
    オブジェクトブラウザーの表示例
 
@@ -102,12 +104,14 @@
 .. _image_post3d_grid_shape_dialog:
 
 .. figure:: images/post3d_grid_shape_dialog.png
+   :width: 100pt
 
    格子表示設定ダイアログ 表示例
 
 .. _image_post3d_grid_shape_wireframe_lines:
 
 .. figure:: images/post3d_grid_shape_wireframe_lines.png
+   :width: 400pt
 
    格子の表示設定ごとの表示例
 
@@ -131,18 +135,21 @@
 .. _image_post3d_contour_dialog:
 
 .. figure:: images/post3d_contour_dialog.png
+   :width: 340pt
 
    コンター表示設定ダイアログ 表示例
 
 .. _image_post3d_contour_colorbar_setting_dialog:
 
 .. figure:: images/post3d_contour_colorbar_setting_dialog.png
+   :width: 160pt
 
    コンター表示 カラーバー設定ダイアログ 表示例
 
 .. _image_post3d_contours_by_displaysetting:
 
 .. figure:: images/post3d_contours_by_displaysetting.png
+   :width: 440pt
 
    コンター設定の値ごとの表示例
 
@@ -160,12 +167,14 @@
 .. _image_post3d_isosurface_setting_dialog:
 
 .. figure:: images/post3d_isosurface_setting_dialog.png
+   :width: 180pt
 
    等値面表示設定ダイアログ 表示例
 
 .. _image_post3d_isosurface_example:
 
 .. figure:: images/post3d_isosurface_example.png
+   :width: 300pt
 
    等値面表示 表示例
 
@@ -182,12 +191,14 @@
 .. _image_post3d_arrow_setting_dialog:
 
 .. figure:: images/post3d_arrow_setting_dialog.png
+   :width: 300pt
 
    ベクトルの表示設定ダイアログ 表示例
 
 .. _image_post3d_arrow_example:
 
 .. figure:: images/post3d_arrow_example.png
+   :width: 260pt
 
    ベクトル表示例
 
@@ -205,12 +216,14 @@
 .. _image_post3d_streamline_setting_dialog:
 
 .. figure:: images/post3d_streamline_setting_dialog.png
+   :width: 200pt
 
    流線の表示設定ダイアログ
 
 .. _image_post3d_streamline_example:
 
 .. figure:: images/post3d_streamline_example.png
+   :width: 200pt
 
    流線表示例
 
@@ -228,6 +241,7 @@
 .. _image_post3d_particle_dialog:
 
 .. figure:: images/post3d_particle_dialog.png
+   :width: 180pt
 
    パーティクル設定ダイアログ 表示例
 
@@ -248,6 +262,7 @@
 .. _image_post3d_title_setting_dialog:
 
 .. figure:: images/post3d_title_setting_dialog.png
+   :width: 200pt
 
    タイトルの表示設定ダイアログ 表示例
 
@@ -262,5 +277,6 @@
 .. _image_post3d_time_setting_dialog:
 
 .. figure:: images/post3d_time_setting_dialog.png
+   :width: 100pt
 
    時刻の表示設定ダイアログ 表示例

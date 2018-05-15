@@ -26,11 +26,13 @@
 .. _image_compare_verification_setting_dialog:
 
 .. figure:: images/compare_verification_setting_dialog.png
+   :width: 220pt
 
    比較設定ダイアログ 表示例
 
 .. _image_compare_verification_dialog:
 
 .. figure:: images/compare_verification_dialog.png
+   :width: 300pt
 
    実測値と比較ダイアログ 表示例

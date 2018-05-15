@@ -16,5 +16,6 @@ DEMデータファイルはCSV型式（カンマ（,）区切り型式）であ�
 .. _image_dem_example:
 
 .. figure:: images/dem_example.png
+   :width: 380pt
 
    DEMデータファイル 例
