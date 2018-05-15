@@ -11,5 +11,6 @@
 .. _image_recent_projects_menu:
 
 .. figure:: images/recent_projects_menu.png
+   :width: 400pt
 
    最近使ったプロジェクトの表示例

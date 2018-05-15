@@ -17,5 +17,6 @@ iRICプロジェクトファイルを開くダイアログ（:numref:`image_open
 .. _image_open_project_file_dialog:
 
 .. figure:: images/open_project_file_dialog.png
+   :width: 400pt
 
    iRICプロジェクトファイルを開くダイアログ

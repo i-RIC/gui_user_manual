@@ -18,5 +18,6 @@
 .. _image_import_vis_setting_dialog:
 
 .. figure:: images/import_vis_setting_dialog.png
+   :width: 380pt
 
    インポートするファイルの選択ダイアログ

@@ -23,5 +23,6 @@
 .. _image_export_particles_dialog:
 
 .. figure:: images/export_particles_dialog.png
+   :width: 190pt
 
    パーティクルのエクスポートダイアログ

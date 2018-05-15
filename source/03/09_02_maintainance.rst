@@ -12,12 +12,14 @@ iRIC GUI が終了して、
 .. _image_maintainance_warning:
 
 .. figure:: images/maintainance_warning.png
+   :width: 300pt
 
    メンテナンスに関する警告ダイアログ
 
 .. _image_maintainance_main:
 
 .. figure:: images/maintainance_main.png
+   :width: 300pt
 
    iRIC メンテナンスメインダイアログ
 
@@ -43,6 +45,7 @@ iRIC、iRIC から起動するソルバなどのコンポーネントを追加�
 .. _image_maintainance_add_delete_select_comps:
 
 .. figure:: images/maintainance_add_delete_select_comps.png
+   :width: 400pt
 
    コンポーネントの選択画面
 
@@ -60,6 +63,7 @@ iRIC、iRIC から起動するソルバなどのコンポーネントを更新�
 .. _image_maintainance_update_nodata:
 
 .. figure:: images/maintainance_update_nodata.png
+   :width: 300pt
 
    コンポーネントの更新がない場合の画面
 
@@ -70,6 +74,7 @@ iRIC、iRIC から起動するソルバなどのコンポーネントを更新�
 .. _image_maintainance_update_select_comps:
 
 .. figure:: images/maintainance_update_select_comps.png
+   :width: 300pt
 
    更新するコンポーネントの選択画面
 
@@ -85,6 +90,7 @@ iRIC に関連する全てのコンポーネントを削除します。
 .. _image_maintainance_uninstall:
 
 .. figure:: images/maintainance_uninstall.png
+   :width: 300pt
 
    アンインストール画面
 
@@ -99,5 +105,6 @@ iRIC メンテナンスに関する設定を行います。
 .. _image_maintainance_setting:
 
 .. figure:: images/maintainance_setting.png
+   :width: 300pt
 
    設定画面

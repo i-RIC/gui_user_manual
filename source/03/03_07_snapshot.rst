@@ -9,5 +9,6 @@
 .. _image_save_snapshot_dialog:
 
 .. figure:: images/save_snapshot_dialog.png
+   :width: 400pt
 
    スナップショットを保存ダイアログ

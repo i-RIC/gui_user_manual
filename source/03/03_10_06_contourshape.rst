@@ -19,6 +19,7 @@ ESRIシェープファイルにエクスポートします。
 .. _image_export_contourshape_selectvalue:
 
 .. figure:: images/export_contourshape_selectvalue.png
+   :width: 160pt
 
    物理量の選択ダイアログ
 
@@ -29,6 +30,7 @@ ESRIシェープファイルにエクスポートします。
 .. _image_export_contourshape_setting:
 
 .. figure:: images/export_contourshape_setting.png
+   :width: 200pt
 
 面塗りコンターのESRIシェープファイルへのエクスポートダイアログ
 

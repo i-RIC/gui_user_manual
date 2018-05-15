@@ -30,11 +30,13 @@
 .. _image_export_calc_result_dialog:
 
 .. figure:: images/export_calc_result_dialog.png
+   :width: 200pt
 
    計算結果のエクスポートダイアログ
 
 .. _image_export_calc_result_dialog_detail:
 
 .. figure:: images/export_calc_result_dialog_detail.png
+   :width: 200pt
 
    計算結果のエクスポートダイアログ 詳細表示

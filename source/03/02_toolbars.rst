@@ -13,6 +13,7 @@
 .. _image_main_toolbar:
 
 .. figure:: images/main_toolbar.png
+   :width: 450pt
 
    メインツールバー
 
@@ -180,6 +181,7 @@
 .. _image_operation_toolbar:
 
 .. figure:: images/operation_toolbar.png
+   :width: 50pt
 
    操作ツールバー
 
@@ -220,6 +222,7 @@
 .. _image_animation_toolbar:
 
 .. figure:: images/animation_toolbar.png
+   :width: 180pt
 
    アニメーションツールバー
 
@@ -271,5 +274,6 @@
 .. _animation_speed_dialog:
 
 .. figure:: images/animation_speed_dialog.png
+   :width: 160pt
 
    アニメーション速度ダイアログ

@@ -18,5 +18,6 @@
 .. _image_export_vis_setting_dialog:
 
 .. figure:: images/export_vis_setting_dialog.png
+   :width: 380pt
 
    エクスポートするファイル名の選択ダイアログ

@@ -17,5 +17,6 @@
 .. _image_select_file_to_export_dialog_for_gridcreatingcond:
 
 .. figure:: images/select_file_to_export_dialog_for_gridcreatingcond.png
+   :width: 400pt
 
    エクスポートするファイル名の選択ダイアログ

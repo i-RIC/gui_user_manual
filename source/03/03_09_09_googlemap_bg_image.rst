@@ -14,5 +14,6 @@ Google Map の航空写真を、背景画像としてインポートします。
 .. _image_googlemap_img_import_setting_dialog:
 
 .. figure:: images/googlemap_img_import_setting_dialog.png
+   :width: 150pt
 
    Google Map 背景画像インポート設定ダイアログ

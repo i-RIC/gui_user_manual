@@ -47,23 +47,27 @@ Web サービスからデータをダウンロードして、地理情報をイ�
 .. _image_geo_web_select_region_dialog:
 
 .. figure:: images/geo_web_select_region_dialog.png
+   :width: 340pt
 
    「領域の選択」ダイアログ
 
 .. _image_geo_web_select_zoomlevel_dialog:
 
 .. figure:: images/geo_web_select_zoomlevel_dialog.png
+   :width: 260pt
 
    「ズームレベル設定」ダイアログ
 
 .. _image_geo_web_pleasewait_dialog:
 
 .. figure:: images/geo_web_pleasewait_dialog.png
+   :width: 160pt
 
    「お待ちください」ダイアログ
 
 .. _image_geo_web_example:
 
 .. figure:: images/geo_web_example.png
+   :width: 360pt
 
    インポートされた地理情報の例

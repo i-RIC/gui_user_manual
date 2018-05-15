@@ -23,5 +23,6 @@
 .. _image_select_file_to_export_dialog_for_geo_data:
 
 .. figure:: images/select_file_to_export_dialog_for_geo_data.png
+   :width: 380pt
 
    エクスポートするファイル名の選択ダイアログ

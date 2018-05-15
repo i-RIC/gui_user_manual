@@ -18,11 +18,13 @@
 .. _image_how_to_save_dialog:
 
 .. figure:: images/how_to_save_dialog.png
+   :width: 200pt
 
    保存方法の選択ダイアログ
 
 .. _image_statusbar_after_saving:
 
 .. figure:: images/statusbar_after_saving.png
+   :width: 400pt
 
    プロジェクト保存時のステータスバー 表示例

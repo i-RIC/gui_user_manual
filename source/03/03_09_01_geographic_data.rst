@@ -29,12 +29,14 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 .. _image_select_file_to_import_dialog:
 
 .. figure:: images/select_file_to_import_dialog.png
+   :width: 400pt
 
    インポートするファイルの選択ダイアログ
 
 .. _image_iric_after_importing_riv_data:
 
 .. figure:: images/iric_after_importing_riv_data.png
+   :width: 360pt
 
    河川測量データインポート後の iRIC 表示例
 
@@ -46,6 +48,7 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 .. _image_rivdata_import_setting_dialog:
 
 .. figure:: images/rivdata_import_setting_dialog.png
+   :width: 180pt
 
    河川測量データインポート設定ダイアログ
 
@@ -57,6 +60,7 @@ ESRI シェープファイルからポリゴンをインポートする場合、
 .. _image_polygon_import_setting_dialog:
 
 .. figure:: images/polygon_import_setting_dialog.png
+   :width: 320pt
 
    ポリゴンインポート設定ダイアログ
 
@@ -68,6 +72,7 @@ NetCDF ファイルを、時間など位置以外の次元を持つ地理情報�
 .. _image_netcdf_import_setting_dialog:
 
 .. figure:: images/netcdf_import_setting_dialog.png
+   :width: 160pt
 
    次元のマッピング設定ダイアログ
 

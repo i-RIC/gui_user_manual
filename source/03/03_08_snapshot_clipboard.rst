@@ -9,5 +9,6 @@
 .. _image_snapshot_clipboard_message:
 
 .. figure:: images/snapshot_clipboard_message.png
+   :width: 200pt
 
    スナップショットのコピー完了メッセージ

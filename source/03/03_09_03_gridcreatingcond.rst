@@ -20,11 +20,13 @@
 .. _image_select_file_to_import_dialog_for_gridcreatingcond:
 
 .. figure:: images/select_file_to_import_dialog_for_gridcreatingcond.png
+   :width: 380pt
 
    インポートするファイルの選択ダイアログ
 
 .. _image_iric_after_importing_gridcreatingcond:
 
 .. figure:: images/iric_after_importing_gridcreatingcond.png
+   :width: 350pt
 
    格子生成条件インポート後の iRIC 表示例

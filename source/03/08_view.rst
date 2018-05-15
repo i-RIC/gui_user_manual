@@ -24,6 +24,7 @@
 .. _image_object_browser_of_pre_window:
 
 .. figure:: images/object_browser_of_pre_window.png
+   :width: 240pt
 
    プリプロセッサーでのオブジェクトブラウザー表示例
 
@@ -41,6 +42,7 @@
 .. _image_att_browser_of_pre_window:
 
 .. figure:: images/att_browser_of_pre_window.png
+   :width: 380pt
 
    プリプロセッサーでの属性ブラウザー表示例
 
@@ -57,6 +59,7 @@
 .. _image_iric_without_status_bar:
 
 .. figure:: images/iric_without_status_bar.png
+   :width: 380pt
 
    iRIC 表示例
 
@@ -73,6 +76,7 @@
 .. _image_background_color_dialog:
 
 .. figure:: images/background_color_dialog.png
+   :width: 300pt
 
    背景色設定ダイアログ
 
@@ -95,12 +99,14 @@ Z方向の表示の倍率を変更します。
 .. _image_z-dir_scale_dialog:
 
 .. figure:: images/z-dir_scale_dialog.png
+   :width: 140pt
 
    Z方向の倍率ダイアログ
 
 .. _image_example_zdir_scale_birdseye:
 
 .. figure:: images/example_zdir_scale_birdseye.png
+   :width: 400pt
 
    Z方向の倍率 操作例
 
@@ -129,6 +135,7 @@ Z方向の表示の倍率を変更します。
 .. _image_tiled_windows:
 
 .. figure:: images/tiled_windows.png
+   :width: 380pt
 
    ウィンドウを並べて表示した後の iRIC 表示例
 
@@ -145,5 +152,6 @@ Z方向の表示の倍率を変更します。
 .. _image_cascaded_windows:
 
 .. figure:: images/cascaded_windows.png
+   :width: 380pt
 
    ウィンドウを重ねて表示した後の iRIC 表示例

@@ -15,5 +15,6 @@ iRICプロジェクトファイルを保存するダイアログ
 .. _image_save_iric_pro_file_dialog:
 
 .. figure:: images/save_iric_pro_file_dialog.png
+   :width: 400pt
 
    iRIC プロジェクトファイルを保存ダイアログ 表示例

@@ -17,5 +17,6 @@
 .. _image_select_file_to_export_dialog_for_console_log:
 
 .. figure:: images/select_file_to_export_dialog_for_console_log.png
+   :width: 380pt
 
    エクスポートするファイル名の選択ダイアログ

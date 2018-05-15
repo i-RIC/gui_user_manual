@@ -19,11 +19,13 @@
 .. _image_select_solver_dialog:
 
 .. figure:: images/select_solver_dialog.png
+   :width: 300pt
 
    ソルバーの選択ダイアログ
 
 .. _image_new_iric_window:
 
 .. figure:: images/new_iric_window.png
+   :width: 350pt
 
    プロジェクト開始後の iRIC 表示例

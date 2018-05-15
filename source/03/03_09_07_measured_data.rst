@@ -21,5 +21,6 @@
 .. _open_measured_data_dialog:
 
 .. figure:: images/open_measured_data_dialog.png
+   :width: 380pt
 
    インポートするファイルの選択ダイアログ

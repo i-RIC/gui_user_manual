@@ -16,6 +16,7 @@ iRIC GUI に関する一般的な設定を行います。
 .. _image_pref_dialog_general:
 
 .. figure:: images/pref_dialog_general.png
+   :width: 320pt
 
    設定ダイアログ（一般）
 
@@ -29,6 +30,7 @@ iRIC GUI に関する一般的な設定を行います。
 .. _image_pref_dialog_graphics_default:
 
 .. figure:: images/pref_dialog_graphics_default.png
+   :width: 320pt
 
    設定ダイアログ（描画デフォルト）
 
@@ -42,6 +44,7 @@ iRIC GUI に関する一般的な設定を行います。
 .. _image_pref_dialog_grid_checking:
 
 .. figure:: images/pref_dialog_grid_checking.png
+   :width: 320pt
 
    設定ダイアログ（格子チェック）
 
@@ -63,6 +66,7 @@ iRIC GUI に関する一般的な設定を行います。
 .. _image_pref_dialog_proxy:
 
 .. figure:: images/pref_dialog_proxy.png
+   :width: 320pt
 
    設定ダイアログ（ネットワークプロキシ）
 
@@ -77,6 +81,7 @@ iRIC GUI に関する一般的な設定を行います。
 .. _image_pref_dialog_bg_image:
 
 .. figure:: images/pref_dialog_bg_image.png
+   :width: 320pt
 
    設定ダイアログ（背景画像（インターネット））
 
@@ -93,6 +98,7 @@ Web 標高データ タブ
 .. _pref_dialog_web_elevation:
 
 .. figure:: images/pref_dialog_web_elevation.png
+   :width: 320pt
 
    設定ダイアログ（Web 標高データ）
 
@@ -108,5 +114,6 @@ Web 標高データ タブ
 .. _image_pref_dialog_bg_grid:
 
 .. figure:: images/pref_dialog_bg_grid.png
+   :width: 320pt
 
    設定ダイアログ（背景格子）

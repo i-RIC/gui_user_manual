@@ -21,5 +21,6 @@
 .. _image_select_file_to_import_dialog_for_cc:
 
 .. figure:: images/select_file_to_import_dialog_for_cc.png
+   :width: 380pt
 
    インポートするファイルの選択ダイアログ

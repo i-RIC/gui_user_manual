@@ -22,6 +22,7 @@
 .. _image_solver_console_window_sim:
 
 .. figure:: images/solver_console_window_sim.png
+   :width: 380pt
 
    ソルバーコンソール
 
@@ -40,12 +41,14 @@
 .. _image_confirm_solver_term_dialog:
 
 .. figure:: images/confirm_solver_term_dialog.png
+   :width: 180pt
 
    ソルバーの中止の確認ダイアログ
 
 .. _image_solver_console_title:
 
 .. figure:: images/solver_console_title.png
+   :width: 320pt
 
    ソルバーコンソールのタイトル
 
@@ -60,6 +63,7 @@
 .. _image_solver_info_dialog:
 
 .. figure:: images/solver_info_dialog.png
+   :width: 300pt
 
    ソルバー情報ダイアログ
 

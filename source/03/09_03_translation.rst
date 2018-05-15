@@ -12,18 +12,21 @@
 .. _image_translation_wizard_intro:
 
 .. figure:: images/translation_wizard_intro.png
+   :width: 300pt
 
    イントロダクション　ページ
 
 .. _image_translation_wizard_select:
 
 .. figure:: images/translation_wizard_select.png
+   :width: 300pt
 
    プログラムと言語の選択 ページ
 
 .. _image_translation_wizard_confirm:
 
 .. figure:: images/translation_wizard_confirm.png
+   :width: 300pt
 
    結果の確認 ページ
 

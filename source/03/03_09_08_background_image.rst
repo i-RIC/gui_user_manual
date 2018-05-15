@@ -21,5 +21,6 @@
 .. _image_open_image_file_dialog:
 
 .. figure:: images/open_image_file_dialog.png
+   :width: 380pt
 
    インポートするファイルの選択ダイアログ

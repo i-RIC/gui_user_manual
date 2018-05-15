@@ -24,12 +24,14 @@ iRIC に同梱されているソルバーの一覧を表示します。
 .. _image_solver_list_dialog:
 
 .. figure:: images/solver_list_dialog.png
+   :width: 220pt
 
    ソルバー一覧ダイアログ
 
 .. _image_help_solver_info_dialog:
 
 .. figure:: images/solver_info_dialog.png
+   :width: 280pt
 
    ソルバー情報ダイアログ
 
@@ -43,6 +45,7 @@ iRIC に同梱されているソルバーの一覧を表示します。
 .. _image_help_mouse_hint_dialog:
 
 .. figure:: images/mouse_hint_dialog.png
+   :width: 140pt
 
    マウスヒントダイアログ
 
@@ -55,5 +58,6 @@ iRIC についての情報を表示するダイアログ (:numref:`about_iric_di
 .. _about_iric_dialog:
 
 .. figure:: images/about_iric_dialog.png
+   :width: 260pt
 
    iRIC についてダイアログ

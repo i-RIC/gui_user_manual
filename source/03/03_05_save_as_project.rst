@@ -18,5 +18,6 @@ iRICプロジェクトを保存するフォルダを選択するダイアログ
 .. _image_browse_for_folder_dialog:
 
 .. figure:: images/browse_for_folder_dialog.png
+   :width: 250pt
 
    iRIC プロジェクトを保存するフォルダの選択ダイアログ

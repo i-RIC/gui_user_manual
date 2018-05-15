@@ -16,6 +16,7 @@
 .. _image_open_calc_result_dialog:
 
 .. figure:: images/open_calc_result_dialog.png
+   :width: 380pt
 
    インポートするファイルの選択ダイアログ
 

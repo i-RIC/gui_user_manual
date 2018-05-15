@@ -25,17 +25,20 @@
 .. _image_project_property_dialog:
 
 .. figure:: images/project_property_dialog.png
+   :width: 280pt
 
    プロジェクトプロパティダイアログ
 
 .. _image_select_coordsystem_dialog:
 
 .. figure:: images/select_coordsystem_dialog.png
+   :width: 320pt
 
    座標系の選択ダイアログ
 
 .. _image_offset_setting_dialog:
 
 .. figure:: images/offset_setting_dialog.png
+   :width: 220pt
 
    オフセット設定ダイアログ

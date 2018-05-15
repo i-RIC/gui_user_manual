@@ -20,5 +20,6 @@
 .. _image_select_file_to_export_dialog_for_calccond:
 
 .. figure:: images/select_file_to_export_dialog_for_calccond.png
+   :width: 380pt
 
    エクスポートするファイル名の選択ダイアログ
