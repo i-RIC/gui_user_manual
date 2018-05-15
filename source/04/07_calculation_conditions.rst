@@ -26,6 +26,7 @@ user uses.
 .. _image_calc_cond_dialog:
 
 .. figure:: images/calc_cond_dialog.png
+   :width: 360pt
 
    The [Calculation Conditions] dialog
 

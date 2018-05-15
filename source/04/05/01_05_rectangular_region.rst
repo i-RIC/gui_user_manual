@@ -9,6 +9,7 @@ an example of a grid created by this algorithm.
 .. _image_example_rect_region_grid:
 
 .. figure:: images/example_rect_region_grid.png
+   :width: 320pt
 
    Example of a grid created by dividing the rectangular region
 
@@ -26,11 +27,13 @@ Click on [OK] to create the grid.
 .. _rect_example_after_region_specified:
 
 .. figure:: images/rect_example_after_region_specified.png
+   :width: 300pt
 
    Example of the display immediately after a region is specified
 
 .. _rect_example_grid_creation_dialog:
 
 .. figure:: images/rect_example_grid_creation_dialog.png
+   :width: 220pt
 
    Example of the [Grid Creation] dialog

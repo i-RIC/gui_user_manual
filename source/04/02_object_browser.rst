@@ -8,6 +8,7 @@ of [Pre-processing Window].
 .. _image_ob_of_pre_window:
 
 .. figure:: images/ob_of_pre_window.png
+   :width: 300pt
 
    The [Object Browser] of the [Pre-processing Window]
 
@@ -61,6 +62,7 @@ region.
 .. _image_example_of_axes:
 
 .. figure:: images/example_of_axes.png
+   :width: 60pt
 
    Example of axes
 
@@ -84,6 +86,7 @@ measure line.
 .. _example_of_distance_measure:
 
 .. figure:: images/example_of_distance_measure.png
+   :width: 160pt
 
    Example of the distance measure line
 
@@ -95,5 +98,6 @@ the example of [Distance Measure] property dialog.
 .. _distance_measure_prop_dialog:
 
 .. figure:: images/distance_measure_prop_dialog.png
+   :width: 220pt
 
    [Distance Measure] property dialog

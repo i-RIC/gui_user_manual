@@ -25,6 +25,7 @@ For importing [Measured Data], refer to :ref:`sec_file_import_measured_data`.
 .. _image_example_measured_values_ob:
 
 .. figure:: images/example_measured_values_ob.png
+   :width: 160pt
 
    Example of imported Measured Values on [Object Browser]
 
@@ -42,6 +43,7 @@ open. Set the display setting of scalar values and click on [OK].
 .. _image_example_scalar_setting_dialog:
 
 .. figure:: images/example_scalar_setting_dialog.png
+   :width: 260pt
 
    Example of [Scalar Setting] dialog
 
@@ -59,6 +61,7 @@ open. Set the arrow display setting and click on [OK].
 .. _image_example_arrow_setting_dialog:
 
 .. figure:: images/example_arrow_setting_dialog.png
+   :width: 260pt
 
    Example of [Arrow Setting] dialog
 

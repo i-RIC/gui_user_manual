@@ -10,6 +10,7 @@ the [Polygon].
 .. _image_example_polygon_data:
 
 .. figure:: images/example_polygon_data.png
+   :width: 140pt
 
    Example of the [Polygon]
 
@@ -80,18 +81,21 @@ The procedure to add a new Polygon is as follows:
 .. _image_polygon_object_browser_disp:
 
 .. figure:: images/polygon_object_browser_disp.png
+   :width: 150pt
 
    Example of the [Object Browser] display
 
 .. _image_prewindow_polygon_being_defined:
 
 .. figure:: images/prewindow_polygon_being_defined.png
+   :width: 350pt
 
    [Pre-processing Window] when the [Polygon] is being defined
 
 .. _image_edit_elevation_value_dialog:
 
 .. figure:: images/edit_elevation_value_dialog.png
+   :width: 130pt
 
    [Edit Elevation Value] dialog
 
@@ -107,6 +111,7 @@ Set a new value and click on [OK].
 .. _image_edit_elevation_value_dialog2:
 
 .. figure:: images/edit_elevation_value_dialog.png
+   :width: 130pt
 
    The [Edit Elevation value] dialog
 
@@ -124,6 +129,7 @@ you release the left button.
 .. _image_polylgon_cursor_add_vertex:
 
 .. figure:: images/polylgon_cursor_add_vertex.png
+   :width: 20pt
 
    Mouse cursor when possible to add a vertex
 
@@ -140,6 +146,7 @@ Left clicking will remove the vertex.
 .. _image_polylgon_cursor_remove_vertex:
 
 .. figure:: images/polylgon_cursor_remove_vertex.png
+   :width: 20pt
 
    Mouse cursor when possible to removing the vertex
 
@@ -155,6 +162,7 @@ Edit the coordinates and click on [OK].
 .. _image_polygon_coordinates_dialog:
 
 .. figure:: images/polygon_coordinates_dialog.png
+   :width: 160pt
 
    The [Polygon Coordinates] dialog
 
@@ -175,12 +183,14 @@ Edit the coordinates and click on [OK].
 .. _image_add_hole_region_info_dialog:
 
 .. figure:: images/add_hole_region_info_dialog.png
+   :width: 220pt
 
    The [Add Hole Region] Information dialog
 
 .. _image_polygon_example_add_hole_region:
 
 .. figure:: images/polygon_example_add_hole_region.png
+   :width: 340pt
 
    Example of the [Add Hole Region] Result
 
@@ -199,12 +209,14 @@ Edit the coordinates and click on [OK].
 .. _image_polygon_delete_hole_warning_dialog:
 
 .. figure:: images/polygon_delete_hole_warning_dialog.png
+   :width: 160pt
 
    The [Warning] dialog
 
 .. _image_polygon_example_delete_hole:
 
 .. figure:: images/polygon_example_delete_hole.png
+   :width: 340pt
 
    Example of the [Delete Hole Region] Result
 
@@ -220,5 +232,6 @@ Set it and click on [OK].
 .. _image_polygon_color_dialog:
 
 .. figure:: images/polygon_color_dialog.png
+   :width: 160pt
 
    The [Polygon color] dialog

@@ -17,6 +17,7 @@ Cell attributes are edited in the following procedure:
 .. _image_object_browser_cell_att_selected:
 
 .. figure:: images/object_browser_cell_att_selected.png
+   :width: 160pt
 
    Example of the [Object Browser] display when [Cell Attributes] is selected
 
@@ -32,5 +33,6 @@ depending on the attribute you want to edit.
 .. _image_topo_aspect_edit_dialog2:
 
 .. figure:: images/topo_aspect_edit_dialog.png
+   :width: 240pt
 
    [Topographic Aspect edit dialog]

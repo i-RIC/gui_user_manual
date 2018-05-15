@@ -8,6 +8,7 @@ example of a grid created by this algorithm.
 .. _image_example_geometric_shape_grid:
 
 .. figure:: images/example_geometric_shape_grid.png
+   :width: 360pt
 
    Example of a grid in a geometric shape
 
@@ -20,5 +21,6 @@ open. Set the conditions and click on [OK]. A grid will be created.
 .. _image_geometric_example_grid_creation_dialog:
 
 .. figure:: images/geometric_example_grid_creation_dialog.png
+   :width: 350pt
 
    Example of the [Grid Creation] dialog

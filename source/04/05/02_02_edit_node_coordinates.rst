@@ -19,6 +19,7 @@ Grid coordinates are edited as follows:
 .. _image_object_browser_with_gridshape_selected:
 
 .. figure:: images/object_browser_with_gridshape_selected.png
+   :width: 150pt
 
    Example of the [Object Browser] window when [Grid shape] is selected
 
@@ -44,14 +45,16 @@ selected node. (Index numbers start from 1.)
 .. _image_edit_grid_coords_dialog_for_multi:
 
 .. figure:: images/edit_grid_coords_dialog_for_multi.png
+   :width: 200pt
 
    The [Edit grid coordinates] dialog (shown when editing two or more nodes)
 
-   .. _image_edit_grid_coords_dialog_for_single:
+.. _image_edit_grid_coords_dialog_for_single:
 
-   .. figure:: images/edit_grid_coords_dialog_for_single.png
+.. figure:: images/edit_grid_coords_dialog_for_single.png
+   :width: 210pt
 
-      The [Grid coordinates edit dialog]
+   The [Grid coordinates edit dialog]
 
 The node coordinates can be edited by mouse. When the mouse cursor is on
 a node, the cursor shape changes to an "open hand". Left drag the node

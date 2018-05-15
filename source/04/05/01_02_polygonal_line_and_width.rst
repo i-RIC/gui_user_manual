@@ -10,6 +10,7 @@ a grid created by this algorithm.
 .. _image_example_grid_polyline_and_width:
 
 .. figure:: images/example_grid_polyline_and_width.png
+   :width: 340pt
 
    Example of grid created from Polygonal lines and widths
 
@@ -28,12 +29,14 @@ input data and click on [OK].
 .. _image_polyline_display_after_centerline_set:
 
 .. figure:: images/polyline_display_after_centerline_set.png
+   :width: 380pt
 
    Example of display after the grid centerline has been set
 
 .. _image_example_grid_creation_dialog:
 
 .. figure:: images/example_grid_creation_dialog.png
+   :width: 240pt
 
    Example of the [Grid Creation] dialog
 
@@ -78,6 +81,7 @@ Left clicking adds a new vertex.
 .. _image_poly_cursor_add_vertex:
 
 .. figure:: images/poly_cursor_add_vertex.png
+   :width: 20pt
 
    Mouse cursor display when adding a vertex is possible
 
@@ -93,6 +97,7 @@ Left clicking removes the selected vertex.
 .. _image_poly_cursor_remove_vertex:
 
 .. figure:: images/poly_cursor_remove_vertex.png
+   :width: 20pt
 
    Mouse cursor shape when removing the vertex is possible
 
@@ -108,6 +113,7 @@ will open. Edit the coordinates and click on [OK].
 .. _image_poly_centerline_coordinates_dialog:
 
 .. figure:: images/poly_centerline_coordinates_dialog.png
+   :width: 180pt
 
    [Centerline Coordinates] dialog
 
@@ -121,6 +127,7 @@ example. Note that the "Upstream" and "Downstream" are reversed.
 .. _image_poly_example_reversing:
 
 .. figure:: images/poly_example_reversing.png
+   :width: 420pt
 
    Example of Center line before and after reversing
 

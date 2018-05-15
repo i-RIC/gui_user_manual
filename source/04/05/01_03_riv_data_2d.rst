@@ -13,6 +13,7 @@ Before using this algorithm, you need to import River Survey Data.
 .. _image_riv_data_2d_grid_example:
 
 .. figure:: images/riv_data_2d_grid_example.png
+   :width: 300pt
 
    Example of a grid created from River Survey Data
 
@@ -30,6 +31,7 @@ points and the grid made from these division points.
 .. _image_riv_data_2d_example_grid_div_points:
 
 .. figure:: images/riv_data_2d_example_grid_div_points.png
+   :width: 400pt
 
    Example of grid division points and the grid made from these division points
 
@@ -43,6 +45,7 @@ in :ref:`riv_data_2d_menuitems`.
 .. _image_riv_data_2d_grid_creating_dialog:
 
 .. figure:: images/riv_data_2d_grid_creating_dialog.png
+   :width: 160pt
 
    [Grid Creating] dialog
 
@@ -92,18 +95,21 @@ Division points are added to the line
 .. _image_riv_data_2d_example_selected_line:
 
 .. figure:: images/riv_data_2d_example_selected_line.png
+   :width: 380pt
 
    Example of a selected line
 
 .. _image_riv_data_2d_add_div_points_dialog:
 
 .. figure:: images/riv_data_2d_add_div_points_dialog.png
+   :width: 210pt
 
    [Add Division Points] dialog
 
 .. _image_riv_data_2d_example_after_add_div_points:
 
 .. figure:: images/riv_data_2d_example_after_add_div_points.png
+   :width: 380pt
 
    Example of a display after division points have been added
 
@@ -121,6 +127,7 @@ divisions, and click on [OK].
 .. _image_riv_data_2d_add_div_points_regionally_dialog:
 
 .. figure:: images/riv_data_2d_add_div_points_regionally_dialog.png
+   :width: 260pt
 
    [Add Division Points Regionally] dialog
 
@@ -134,6 +141,7 @@ divisions, and click on [OK].
 .. _image_riv_data_2d_example_delete_div_points:
 
 .. figure:: images/riv_data_2d_example_delete_div_points.png
+   :width: 420pt
 
    Example of deleting a division point
 
@@ -150,6 +158,7 @@ will open. Set [Transfer Quantity] and click on [OK].
 .. _image_riv_data_2d_move_div_points:
 
 .. figure:: images/riv_data_2d_move_div_points.png
+   :width: 150pt
 
    [Move Division Points] dialog
 
@@ -166,6 +175,7 @@ will open. Edit the coordinates and click on [OK].
 .. _image_riv_data_2d_reposition_div_points_dialog:
 
 .. figure:: images/riv_data_2d_reposition_div_points_dialog.png
+   :width: 180pt
 
    [Reposition Division Points] dialog
 

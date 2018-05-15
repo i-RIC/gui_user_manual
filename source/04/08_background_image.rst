@@ -50,12 +50,14 @@ the iRIC display after a background image has been imported.
 .. _bg_open_image_file_dialog:
 
 .. figure:: images/bg_open_image_file_dialog.png
+   :width: 380pt
 
    [Open Image File] dialog
 
 .. _image_iric_after_bg_import:
 
 .. figure:: images/iric_after_bg_import.png
+   :width: 390pt
 
    Example of the iRIC display after a background image has been imported
 
@@ -108,5 +110,6 @@ position by editing values.
 .. _image_bg_image_position_dialog:
 
 .. figure:: images/bg_image_position_dialog.png
+   :width: 220pt
 
    The [Background Image Position] dialog

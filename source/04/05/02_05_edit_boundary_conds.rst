@@ -21,18 +21,21 @@ Boundary conditions are edited in the following procedure:
 .. _image_object_browser_boundary_cond_selected:
 
 .. figure:: images/object_browser_boundary_cond_selected.png
+   :width: 380pt
 
    [Object Browser] when selecting Boundary Condition
 
 .. _image_boundary_condition_dialog:
 
 .. figure:: images/boundary_condition_dialog.png
+   :width: 140pt
 
    Example of the [Boundary Condition] dialog
 
 .. _image_object_browser_boundary_cond_item_selected:
 
 .. figure:: images/object_browser_boundary_cond_item_selected.png
+   :width: 160pt
 
    [Object Browser] when selecting a boundary condition item
 

@@ -37,12 +37,14 @@ only when [All] is selected in [Grid lines] group box.
 .. _image_grid_shape_display_dialog:
 
 .. figure:: images/grid_shape_display_dialog.png
+   :width: 100pt
 
    The [Grid Shape Display] dialog
 
 .. _image_example_grid_shape:
 
 .. figure:: images/example_grid_shape.png
+   :width: 420pt
 
    Example of grid shapes
 
@@ -68,12 +70,14 @@ for [Contour setting] with [Color Fringe],
 .. _image_grid_node_attr_display_setting_dialog:
 
 .. figure:: images/grid_node_attr_display_setting_dialog.png
+   :width: 160pt
 
    The [Grid Node Attribute Display Setting] dialog
 
 .. _image_example_grid_node_attr_display:
 
 .. figure:: images/example_grid_node_attr_display.png
+   :width: 440pt
 
    Examples of grid node attribute displays
 
@@ -92,6 +96,7 @@ will open. Modify the setting and click on [OK].
 .. _image_grid_cell_attr_display_setting_dialog:
 
 .. figure:: images/grid_cell_attr_display_setting_dialog.png
+   :width: 180pt
 
    The [Grid Cell Attribute Display Setting] dialog
 
@@ -104,6 +109,7 @@ shows an example of color bar.
 .. _image_example_scalar_bar:
 
 .. figure:: images/example_scalar_bar.png
+   :width: 300pt
 
    Example of scalar bar
 
@@ -119,11 +125,13 @@ will open.
 .. _image_scalar_bar_setting_dialog:
 
 .. figure:: images/scalar_bar_setting_dialog.png
+   :width: 160pt
 
    The [Scalarbar Setting] dialog
 
 .. _image_color_legend_setting_dialog:
 
 .. figure:: images/color_legend_setting_dialog.png
+   :width: 180pt
 
    The [Color Legend Setting] dialog

@@ -12,6 +12,7 @@ a grid created by this algorithm.
 .. _image_polygon_example_grid:
 
 .. figure:: images/polygon_example_grid.png
+   :width: 300pt
 
    Example of a grid created based on the shape of the Polygon
 
@@ -31,12 +32,14 @@ according to the division points.
 .. _image_polygon_after_grid_create_area:
 
 .. figure:: images/polygon_after_grid_create_area.png
+   :width: 320pt
 
    Example of the display when an area for grid creation has been specified
 
 .. _image_polygon_grid_creation_dialog:
 
 .. figure:: images/polygon_grid_creation_dialog.png
+   :width: 280pt
 
    [Grid Creation] dialog
 
@@ -101,24 +104,28 @@ shows an example.
 .. _image_polygon_refinement_max_area_dialog:
 
 .. figure:: images/polygon_refinement_max_area_dialog.png
+   :width: 160pt
 
    [Refinement maximum area] dialog
 
 .. _image_polygon_after_def_refinement_region:
 
 .. figure:: images/polygon_after_def_refinement_region.png
+   :width: 380pt
 
    iRIC window after defining refinement region
 
 .. _image_polygon_refine_example_grid:
 
 .. figure:: images/polygon_refine_example_grid.png
+   :width: 160pt
 
    Example of a created grid
 
 .. _image_polygon_refine_recursive_example:
 
 .. figure:: images/polygon_refine_recursive_example.png
+   :width: 320pt
 
    Example of defining refinement region inside refinement region
 
@@ -139,12 +146,14 @@ shows the grid created under this setting.
 .. _image_polygon_iric_after_def_hole:
 
 .. figure:: images/polygon_iric_after_def_hole.png
+   :width: 320pt
 
    iRIC window after defining hole region
 
 .. _image_polygon_hole_grid_example:
 
 .. figure:: images/polygon_hole_grid_example.png
+   :width: 160pt
 
    Example of a created grid
 
@@ -169,12 +178,14 @@ of such a case.
 .. _image_polygon_breakline_grid_example:
 
 .. figure:: images/polygon_breakline_grid_example.png
+   :width: 180pt
 
    Example of a created grid with a break line
 
 .. _image_polygon_breakline_outside_example:
 
 .. figure:: images/polygon_breakline_outside_example.png
+   :width: 120pt
 
    Example of a created grid with a break line, that run over the grid region
 
@@ -191,6 +202,7 @@ The vertex is placed wherever you release the left click button.
 .. _image_polygon_add_vertex_cursor:
 
 .. figure:: images/polygon_add_vertex_cursor.png
+   :width: 20pt
 
    The mouse cursor display when adding a vertex is possible
 
@@ -207,6 +219,7 @@ Left clicking will remove the vertex.
 .. _image_polygon_remove_vertex_cursor:
 
 .. figure:: images/polygon_remove_vertex_cursor.png
+   :width: 20pt
 
    The mouse cursor when removing the vertex is possible
 
@@ -222,6 +235,7 @@ Edit the coordinates and click on [OK].
 .. _image_gridgen_polygon_coordinates_dialog:
 
 .. figure:: images/polygon_coordinates_dialog.png
+   :width: 180pt
 
    [Polygon Coordinates] dialog
 
@@ -238,6 +252,7 @@ will open. Edit the maximum area and click on [OK].
 .. _image_polygon_ref_max_area_dialog:
 
 .. figure:: images/polygon_ref_max_area_dialog.png
+   :width: 180pt
 
    [Refinement maximum area] dialog
 
@@ -257,12 +272,14 @@ an example of redividing a break line.
 .. _image_polygon_redivide_breakline_dialog:
 
 .. figure:: images/polygon_redivide_breakline_dialog.png
+   :width: 130pt
 
    [Input divide number] dialog
 
 .. _image_polygon_breakline_redivide_example:
 
 .. figure:: images/polygon_breakline_redivide_example.png
+   :width: 240pt
 
    Example of redividing break line
 

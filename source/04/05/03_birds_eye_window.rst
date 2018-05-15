@@ -12,6 +12,7 @@ The additional menu items are shown between [Import] and
 .. _image_grid_birds_eye_window:
 
 .. figure:: images/grid_birds_eye_window.png
+   :width: 360pt
 
    The [Grid Bird’s-Eye View Window]
 
@@ -45,6 +46,7 @@ Edit settings and click on [OK].
 .. _image_birds_eye_display_setting_dialog:
 
 .. figure:: images/birds_eye_display_setting_dialog.png
+   :width: 120pt
 
    The [Display Setting] dialog
 
@@ -74,11 +76,13 @@ before and after changing Z-direction scale.
 .. _image_birds_eye_zdir_scale_dialog:
 
 .. figure:: images/birds_eye_zdir_scale_dialog.png
+   :width: 120pt
 
    The [Z-direction Scale] dialog
 
 .. _image_example_change_z_scale:
 
 .. figure:: images/example_change_z_scale.png
+   :width: 420pt
 
    Example of changing Z-direction scale

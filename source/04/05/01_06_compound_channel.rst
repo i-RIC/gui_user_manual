@@ -10,6 +10,7 @@ of created grig.
 .. _image_compound_example_grid:
 
 .. figure:: images/compound_example_grid.png
+   :width: 200pt
 
    Example of grid created by [Create compound channel grid]
 
@@ -34,24 +35,28 @@ modify conditions before creating a grid.
 .. _image_compound_pre_after_grid_region:
 
 .. figure:: images/compound_pre_after_grid_region.png
+   :width: 360pt
 
    [Pre-processing Window] after defining grid creating region
 
 .. _image_compound_pre_after_lower_region:
 
 .. figure:: images/compound_pre_after_lower_region.png
+   :width: 360pt
 
    [Pre-processing Window] after defining lower channel region
 
 .. _image_compound_pre_after_centerline:
 
 .. figure:: images/compound_pre_after_centerline.png
+   :width: 360pt
 
    [Pre-processing Window] after defining grid center line
 
 .. _image_compound_grid_creation_dialog:
 
 .. figure:: images/compound_grid_creation_dialog.png
+   :width: 240pt
 
    [Grid Creation] dialog
 
@@ -100,6 +105,7 @@ where you release the left button.
 .. _image_compound_cursor_add_vertex:
 
 .. figure:: images/compound_cursor_add_vertex.png
+   :width: 20pt
 
    Mouse cursor when possible to add a vertex
 
@@ -117,6 +123,7 @@ clicking will remove the vertex.
 .. _image_compound_cursor_remove_vertex:
 
 .. figure:: images/compound_cursor_remove_vertex.png
+   :width: 20pt
 
    Mouse cursor when possible to remove a vertex
 
@@ -133,6 +140,7 @@ Edit the coordinates and click on [OK].
 .. _image_comp_channel_polygon_coords_dialog:
 
 .. figure:: images/comp_channel_polygon_coords_dialog.png
+   :width: 170pt
 
    [Polygon Coordinates] dialog
 
@@ -146,6 +154,7 @@ shows an example. Note that the "Upstream" and "Downstream" are reversed.
 .. _image_comp_channel_example_center_line_reversing:
 
 .. figure:: images/comp_channel_example_center_line_reversing.png
+   :width: 440pt
 
    Example of center line before and after reversing
 

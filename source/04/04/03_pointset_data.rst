@@ -9,6 +9,7 @@ Editing the [Pointset Data]
 .. _image_example_pointset_data:
 
 .. figure:: images/example_pointset_data.png
+   :width: 250pt
 
    The [Pointset Data]
 
@@ -79,12 +80,14 @@ an example of the [Pre-processing Window] after selecting.
 .. _image_pre_window_defining_poly_region:
 
 .. figure:: images/pre_window_defining_poly_region.png
+   :width: 300pt
 
    The [Pre-processing Window] while defining a polygon region
 
 .. _image_pre_window_after_sel_poly_region:
 
 .. figure:: images/pre_window_after_sel_poly_region.png
+   :width: 300pt
 
    The [Pre-processing Window] after selecting points within the polygon region
 
@@ -102,6 +105,7 @@ Input new Value at the selected points, and click on [OK].
 .. _image_pre_edit_points_dialog:
 
 .. figure:: images/pre_edit_points_dialog.png
+   :width: 160pt
 
    The [Edit Points] dialog
 
@@ -117,6 +121,7 @@ Input the file name to export and click on [Save].
 .. _image_pointset_select_file_to_export_dialog:
 
 .. figure:: images/pointset_select_file_to_export_dialog.png
+   :width: 380pt
 
    The [Select file to export] dialog
 
@@ -139,14 +144,14 @@ so input the Value at new points and click on [OK].
 .. _image_pointset_add_points_dialog:
 
 .. figure:: images/pointset_add_points_dialog.png
+   :width: 160pt
 
    The [Add Points] dialog
-
-.. @todo not yet
 
 .. _image_example_adding_new_points:
 
 .. figure:: images/example_adding_new_points.png
+   :width: 320pt
 
    Example of adding new points
 
@@ -167,14 +172,14 @@ of interpolating points.
 .. _image_pointset_interpolate_settiing_dialog:
 
 .. figure:: images/pointset_interpolate_settiing_dialog.png
+   :width: 200pt
 
    The [Dialog]
-
-.. @todo not yet
 
 .. _image_example_pointset_interpolate_points:
 
 .. figure:: images/example_pointset_interpolate_points.png
+   :width: 360pt
 
    Example of interpolating points
 
@@ -187,6 +192,7 @@ of interpolating points.
 .. _image_example_pointset_delete_points:
 
 .. figure:: images/example_pointset_delete_points.png
+   :width: 200pt
 
    Example of deleting selected points.
 
@@ -204,12 +210,14 @@ will open. Input the value and click on [OK].
 .. _image_pointset_delete_points_dialog_less_than:
 
 .. figure:: images/pointset_delete_points_dialog_less_than.png
+   :width: 200pt
 
    The [Delete Points] dialog
 
 .. _image_pointset_example_delete_points_less_than:
 
 .. figure:: images/pointset_example_delete_points_less_than.png
+   :width: 380pt
 
    Example of deleting selected points less than the specified value.
 
@@ -228,12 +236,14 @@ will open. Input the value and click on [OK].
 .. _image_pointset_delete_points_dialog_greater_than:
 
 .. figure:: images/pointset_delete_points_dialog_greater_than.png
+   :width: 200pt
 
    The [Delete points] dialog
 
 .. _image_pointset_example_delete_points_greater_than:
 
 .. figure:: images/pointset_example_delete_points_greater_than.png
+   :width: 380pt
 
    Example of deleting selected points greater than the specified value.
 
@@ -253,6 +263,7 @@ shows an example.
 .. _image_pointset_example_tin_boundarys_after_add_breakline:
 
 .. figure:: images/pointset_example_tin_boundarys_after_add_breakline.png
+   :width: 300pt
 
    Example of TIN boundarys after adding break line
 
@@ -268,6 +279,7 @@ will open, so click on [Yes] to remove the break line.
 .. _image_pointset_remove_breakline_warning_dialog:
 
 .. figure:: images/pointset_remove_breakline_warning_dialog.png
+   :width: 170pt
 
    The [Warning] dialog
 
@@ -283,6 +295,7 @@ Click on [Yes].
 .. _image_pointset_remove_all_breaklines_warning_dialog:
 
 .. figure:: images/pointset_remove_all_breaklines_warning_dialog.png
+   :width: 170pt
 
    The [Warning] dialog
 
@@ -299,6 +312,7 @@ remeshing TINs.
 .. _image_pointset_example_remesh_tin:
 
 .. figure:: images/pointset_example_remesh_tin.png
+   :width: 380pt
 
    Example of remeshing TINs
 
@@ -314,6 +328,7 @@ remeshing TINs.
 .. _image_pointset_display_methods:
 
 .. figure:: images/pointset_display_methods.png
+   :width: 420pt
 
    [Pointset Data] display methods
 
@@ -325,5 +340,6 @@ active only when you select [Surface] for [Display Method].
 .. _image_pointset_display_setting_dialog:
 
 .. figure:: images/pointset_display_setting_dialogs.png
+   :width: 140pt
 
    The [Display Setting] dialog

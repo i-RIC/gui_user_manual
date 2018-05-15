@@ -12,6 +12,7 @@ Data] is used as the elevation information for a river and its environs.
 .. _image_riv_data:
 
 .. figure:: images/riv_data.png
+   :width: 220pt
 
    [River Survey Data]
 
@@ -88,12 +89,14 @@ transverse lines are drawn with thicker line.
 .. _image_pre_window_left_dragging:
 
 .. figure:: images/pre_window_left_dragging.png
+   :width: 400pt
 
    The [Pre-processing Window] when a user is left dragging
 
 .. _image_pre_window_select_river_lines:
 
 .. figure:: images/pre_window_select_river_lines.png
+   :width: 400pt
 
    The [Pre-processing Window] after selecting river transverse lines
 
@@ -109,6 +112,7 @@ for which you want to open cross-section window.
 .. _image_xsec_window:
 
 .. figure:: images/xsec_window.png
+   :width: 320pt
 
    The river cross-section window
 
@@ -155,6 +159,7 @@ Set [River Center Point Coordinates] and
 .. _image_riv_insert_line_dialog:
 
 .. figure:: images/riv_insert_line_dialog.png
+   :width: 300pt
 
    The [Insert Transverse Line] dialog
 
@@ -169,6 +174,7 @@ You can do this operation against multiple transverse lines at a time.
 .. _image_exampleriv_move_line:
 
 .. figure:: images/exampleriv_move_line.png
+   :width: 420pt
 
    Example of moving a river transverse line
 
@@ -180,6 +186,7 @@ and click on [OK].
 .. _image_riv_move_line_dialog:
 
 .. figure:: images/riv_move_line_dialog.png
+   :width: 240pt
 
    The [Move Transverse Line] dialog
 
@@ -192,6 +199,7 @@ move the selected river transverse lines by left dragging.
 .. _image_cursor_move_riv_line:
 
 .. figure:: images/cursor_move_riv_line.png
+   :width: 20pt
 
    Mouse cursor you can move river transverse lines
 
@@ -206,6 +214,7 @@ You can do this operation against only one transverse line at a time.
 .. _image_example_riv_rotate_line:
 
 .. figure:: images/example_riv_rotate_line.png
+   :width: 420pt
 
    Example of rotating a river transverse line
 
@@ -223,12 +232,14 @@ Now you can rotate the selected river transverse lines by left dragging.
 .. _image_riv_rotate_line_dialog:
 
 .. figure:: images/riv_rotate_line_dialog.png
+   :width: 220pt
 
    The [Rotate Transverse Line] dialog
 
 .. _image_cursor_rotate_riv_line:
 
 .. figure:: images/cursor_rotate_riv_line.png
+   :width: 20pt
 
    Mouse cursor shape when you can rotate a river transverse line
 
@@ -245,6 +256,7 @@ You can do this operation against multiple transverse lines at a time.
 .. _image_example_riv_shift_center:
 
 .. figure:: images/example_riv_shift_center.png
+   :width: 420pt
 
    Example of operation to shift the center point
 
@@ -262,12 +274,14 @@ selected center point of the river transverse line with left dragging.
 .. _image_shift_river_center_dialog:
 
 .. figure:: images/shift_river_center_dialog.png
+   :width: 220pt
 
    The [Shift River Center] dialog
 
 .. _image_cursor_shift_riv_center:
 
 .. figure:: images/cursor_shift_riv_center.png
+   :width: 20pt
 
    Mouse cursor shape when you can shift the center point of the river transverse line
 
@@ -282,6 +296,7 @@ You can do this operation against multiple transverse lines at a time.
 .. _image_example_extend_riv_line:
 
 .. figure:: images/example_extend_riv_line.png
+   :width: 420pt
 
    Example of extending the river transverse lines
 
@@ -293,6 +308,7 @@ Select from among [Set Distance between River Center and Left Bank],
 .. _image_extend_riv_line_dialog:
 
 .. figure:: images/extend_riv_line_dialog.png
+   :width: 220pt
 
    The [Extend Transverse Line] dialog
 
@@ -307,6 +323,7 @@ You can do this operation against multiple transverse lines at a time.
 .. _image_example_del_riv_line:
 
 .. figure:: images/example_del_riv_line.png
+   :width: 420pt
 
    Example of deleting a river transverse line
 
@@ -324,6 +341,7 @@ Set a new name and click on [OK].
 .. _image_rename_riv_line_dialog:
 
 .. figure:: images/rename_riv_line_dialog.png
+   :width: 130pt
 
    Example of [Rename Transverse Line] dialog
 
@@ -339,6 +357,7 @@ You can do this operation against only one transverse line at a time.
 .. _image_example_adding_riv_extension_line:
 
 .. figure:: images/example_adding_riv_extension_line.png
+   :width: 420pt
 
    Example of adding a Extension Line to the selected river transverse line
 
@@ -352,6 +371,7 @@ you want to extend the river transverse line. Then click on [OK].
 .. _image_riv_add_extension_line_dialog:
 
 .. figure:: images/riv_add_extension_line_dialog.png
+   :width: 180pt
 
    The [Add Extension Line] dialog
 
@@ -369,6 +389,7 @@ been added the Left Bank Extension Line or Right Bank Extension Line.
 .. _image_example_del_extension_line:
 
 .. figure:: images/example_del_extension_line.png
+   :width: 420pt
 
    Example of the operation for deleting a Extension Line
 
@@ -381,6 +402,7 @@ been added the Left Bank Extension Line or Right Bank Extension Line.
 .. _image_example_riv_disp_setting:
 
 .. figure:: images/example_riv_disp_setting.png
+   :width: 400pt
 
    Example of changing [River Survey Data] display setting
 
@@ -395,6 +417,7 @@ line, with the Z-scale and color in that group box.
 .. _image_riv_display_setting_dialog:
 
 .. figure:: images/riv_display_setting_dialog.png
+   :width: 150pt
 
    The [Display Setting] dialog
 
@@ -412,12 +435,14 @@ an example of Linear Curve Interpolation Mode.
 .. _image_example_riv_interpolation_mode_spline:
 
 .. figure:: images/example_riv_interpolation_mode_spline.png
+   :width: 320pt
 
    Example of the [Interpolation Mode (Spline)]
 
 .. _image_example_riv_interpolation_mode_linear:
 
 .. figure:: images/example_riv_interpolation_mode_linear.png
+   :width: 320pt
 
    Example of the [Interpolation Mode (Linear Curve)]
 
@@ -433,6 +458,7 @@ shows an example of the River Cross-section Window.
 .. _image_example_riv_xsec_window:
 
 .. figure:: images/example_riv_xsec_window.png
+   :width: 420pt
 
    Example of the River Cross-section Window display
 
@@ -472,11 +498,10 @@ Window. The additional menu items are shown between [Import] and
 :numref:`image_example_activating_xsec_point` shows
 an example.
 
-.. @todo not yet
-
 .. _image_example_activating_xsec_point:
 
 .. figure:: images/example_activating_xsec_point.png
+   :width: 420pt
 
    Example of activating elevation point
 
@@ -487,11 +512,10 @@ an example.
 :numref:`image_example_inactivating_xsec_point` shows
 an example.
 
-.. @todo not yet
-
 .. _image_example_inactivating_xsec_point:
 
 .. figure:: images/example_inactivating_xsec_point.png
+   :width: 420pt
 
    Example of the inactivating an elevation point
 
@@ -501,11 +525,10 @@ an example.
 **Description**: Inactivate points that are outside of the positions where
 the elevation exceed water elevation for the first time.
 
-.. @todo not yet
-
 .. _image_example_inactivating_xsec_point_with_wse:
 
 .. figure:: images/example_inactivating_xsec_point_with_wse.png
+   :width: 420pt
 
    Example of the operation for inactivate using water elevation
 
@@ -520,17 +543,17 @@ When you select [Move], the [Move Elevation Point] dialog
 (:numref:`image_move_elevation_point_dialog`)
 will open. Set horizontal/vertical offset and click on [OK].
 
-.. @todo not yet
-
 .. _image_example_moving_xsec_point:
 
 .. figure:: images/example_moving_xsec_point.png
+   :width: 420pt
 
    Example of the operation for moving an elevation point
 
 .. _image_move_elevation_point_dialog:
 
 .. figure:: images/move_elevation_point_dialog.png
+   :width: 180pt
 
    The [Move Elevation Point] dialog
 
@@ -550,5 +573,6 @@ selected elevation point by left dragging.
 .. _image_example_deleting_xsec_point:
 
 .. figure:: images/example_deleting_xsec_point.png
+   :width: 420pt
 
    Example of deleting an elevation point

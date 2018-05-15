@@ -18,6 +18,7 @@ Select the Algorithm to use from the list and click on [OK].
 .. _select_algorithm_dialog:
 
 .. figure:: images/select_algorithm_dialog.png
+   :width: 340pt
 
    [Selecting Grid Creating Algorithm] dialog
 

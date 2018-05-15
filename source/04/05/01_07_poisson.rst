@@ -15,6 +15,7 @@ of a grid created by this algorithm.
 .. _image_poisson_example_grid:
 
 .. figure:: images/poisson_example_grid.png
+   :width: 300pt
 
    Example of a grid created by solving Poisson equation
 
@@ -29,12 +30,14 @@ of river survey data, as shown in
 .. _image_poisson_select_control_xsec_dialog:
 
 .. figure:: images/poisson_select_control_xsec_dialog.png
+   :width: 220pt
 
    [Specify the Number of Control Cross Sections] dialog
 
 .. _image_poisson_centerline_example:
 
 .. figure:: images/poisson_centerline_example.png
+   :width: 360pt
 
    Example of center line
 
@@ -48,12 +51,14 @@ like in :numref:`image_poisson_banks_example`.
 .. _image_poisson_banks_dialog:
 
 .. figure:: images/poisson_banks_dialog.png
+   :width: 180pt
 
    [Build Bank Lines] dialog
 
 .. _image_poisson_banks_example:
 
 .. figure:: images/poisson_banks_example.png
+   :width: 340pt
 
    Example of generated Left bank line and Right bank line
 
@@ -76,12 +81,14 @@ Poisson equation will not converge enough.
 .. _image_poisson_gridgeneration_dialog:
 
 .. figure:: images/poisson_gridgeneration_dialog.png
+   :width: 240pt
 
    [Grid Creation] dialog
 
 .. _image_poisson_grid_example:
 
 .. figure:: images/poisson_grid_example.png
+   :width: 360pt
 
    Example of generated grid
 
@@ -157,6 +164,7 @@ The vertex is placed wherever you release the left click button.
 .. _image_poisson_add_vertex_cursor:
 
 .. figure:: images/poisson_add_vertex_cursor.png
+   :width: 20pt
 
    The mouse cursor display when adding a vertex is possible
 
@@ -173,6 +181,7 @@ Left clicking will remove the vertex.
 .. _image_poisson_remove_vertex_cursor:
 
 .. figure:: images/poisson_remove_vertex_cursor.png
+   :width: 20pt
 
    The mouse cursor when removing the vertex is possible
 
@@ -190,6 +199,7 @@ Edit the coordinates and click on [OK].
 .. _image_poisson_coordinates_dialog:
 
 .. figure:: images/poisson_coordinates_dialog.png
+   :width: 160pt
 
    [Center Line Coordinates] dialog
 
@@ -226,6 +236,7 @@ so please select the file you want to import, and click on [Open] button.
 .. _image_poisson_center_import_dialog:
 
 .. figure:: images/poisson_center_import_dialog.png
+   :width: 380pt
 
    [Select file to import] dialog
 
@@ -256,6 +267,7 @@ so please specify the name of file you want to export, and click on [Save] butto
 .. _image_poisson_center_export_dialog:
 
 .. figure:: images/poisson_center_export_dialog.png
+   :width: 380pt
 
    [Select file to export] dialog
 

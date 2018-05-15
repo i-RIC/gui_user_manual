@@ -20,11 +20,13 @@ selected and they become large black squares.
 .. _image_node_select_pre:
 
 .. figure:: images/node_select_pre.png
+   :width: 300pt
 
    Example of iRIC display while dragging on the canvas is being done
 
 .. _image_pre_after_node_select:
 
 .. figure:: images/pre_after_node_select.png
+   :width: 300pt
 
    Example of iRIC display when nodes are selected

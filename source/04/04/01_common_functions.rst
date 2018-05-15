@@ -21,12 +21,14 @@ Change the setting and click on [OK].
 .. _image_color_setting_dialog1:
 
 .. figure:: images/color_setting_dialog1.png
+   :width: 140pt
 
    The [Color Setting] dialog
 
 .. _image_color_setting_dialog2:
 
 .. figure:: images/color_setting_dialog2.png
+   :width: 160pt
 
    The [Color Setting] dialog
 
@@ -43,6 +45,7 @@ You can specify color maps of the three types below:
 .. _image_custom_color_map_dialog:
 
 .. figure:: images/custom_color_map_dialog.png
+   :width: 180pt
 
    The [Custom Color Map] dialog
 
@@ -64,6 +67,7 @@ Input the new name and press Enter key.
 .. _image_object_browser_name_edit:
 
 .. figure:: images/object_browser_name_edit.png
+   :width: 150pt
 
    The [Object Browser] while the name of [Geographic Data] is being edited
 
@@ -83,6 +87,7 @@ Select [Yes].
 .. _image_delete_item_dialog_for_pre:
 
 .. figure:: images/delete_item_dialog_for_pre.png
+   :width: 180pt
 
    The [Delete item] dialog
 
@@ -118,6 +123,7 @@ will open. Select [Yes].
 .. _image_delete_all_item_dialog:
 
 .. figure:: images/delete_all_item_dialog.png
+   :width: 240pt
 
    The [Delete All item] dialog
 
@@ -137,5 +143,6 @@ Input file name and click on [Save].
 .. _image_export_polygons_dialog:
 
 .. figure:: images/export_polygons_dialog.png
+   :width: 380pt
 
    The [Export Polygons] dialog

@@ -16,6 +16,7 @@ the [Raster Data].
 .. _image_example_raster_data:
 
 .. figure:: images/example_raster_data.png
+   :width: 340pt
 
    Example of the [Raster Data]
 

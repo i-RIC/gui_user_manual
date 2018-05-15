@@ -17,6 +17,7 @@ Node attributes are edited as follows:
 .. _image_object_browser_node_att_selected:
 
 .. figure:: images/object_browser_node_att_selected.png
+   :width: 160pt
 
    Example of the [Object Browser] display when [Node Attributes] is selected
 
@@ -32,5 +33,6 @@ depending on the attribute you want to edit.
 .. _image_topo_aspect_edit_dialog:
 
 .. figure:: images/topo_aspect_edit_dialog.png
+   :width: 240pt
 
    [Topographic Aspect edit dialog]
