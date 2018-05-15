@@ -24,6 +24,7 @@ The new [3D Post-processing Window] (:numref:`image_post3d_window_example`) will
 .. _image_post3d_window_example:
 
 .. figure:: images/post3d_window_example.png
+   :width: 320pt
 
    [3D Post-processing Window]
 
@@ -77,6 +78,7 @@ of the [Object Browser] of [3D Post-processing Window].
 .. _image_post3d_window_objbrowser_example:
 
 .. figure:: images/post3d_window_objbrowser_example.png
+   :width: 280pt
 
    The [Object Browser] of the [3D Post-processing Window]
 
@@ -99,12 +101,14 @@ respectively.
 .. _image_post3d_grid_shape_dialog:
 
 .. figure:: images/post3d_grid_shape_dialog.png
+   :width: 100pt
 
    [Grid Shape] dialog
 
 .. _image_post3d_grid_shape_wireframe_lines:
 
 .. figure:: images/post3d_grid_shape_wireframe_lines.png
+   :width: 400pt
 
    Examples of graphics displayed by the [Grid Shape] setting
 
@@ -127,18 +131,21 @@ about the dialog that is shown when you select
 .. _image_post3d_contour_dialog:
 
 .. figure:: images/post3d_contour_dialog.png
+   :width: 340pt
 
    [Contour Group Setting] dialog
 
 .. _image_post3d_contour_colorbar_setting_dialog:
 
 .. figure:: images/post3d_contour_colorbar_setting_dialog.png
+   :width: 160pt
 
    [Color Legend Setting] dialog
 
 .. _image_post3d_contours_by_displaysetting:
 
 .. figure:: images/post3d_contours_by_displaysetting.png
+   :width: 440pt
 
    Examples of the contour display by the [Display Setting] setting
 
@@ -156,12 +163,14 @@ the iso surface display.
 .. _image_post3d_isosurface_setting_dialog:
 
 .. figure:: images/post3d_isosurface_setting_dialog.png
+   :width: 180pt
 
    [Iso Surface Setting] dialog
 
 .. _image_post3d_isosurface_example:
 
 .. figure:: images/post3d_isosurface_example.png
+   :width: 300pt
 
    The Isosurface example
 
@@ -179,12 +188,14 @@ of the [Arrow] display.
 .. _image_post3d_arrow_setting_dialog:
 
 .. figure:: images/post3d_arrow_setting_dialog.png
+   :width: 300pt
 
    [Arrow Group Setting] dialog
 
 .. _image_post3d_arrow_example:
 
 .. figure:: images/post3d_arrow_example.png
+   :width: 260pt
 
    Example of the [Arrow] display
 
@@ -202,12 +213,14 @@ of the streamline display.
 .. _image_post3d_streamline_setting_dialog:
 
 .. figure:: images/post3d_streamline_setting_dialog.png
+   :width: 200pt
 
    [Streamline Setting] dialog
 
 .. _image_post3d_streamline_example:
 
 .. figure:: images/post3d_streamline_example.png
+   :width: 200pt
 
    Example of the [Streamline] display
 
@@ -225,12 +238,14 @@ of the [Particles] display.
 .. _image_post3d_particle_dialog:
 
 .. figure:: images/post3d_particle_dialog.png
+   :width: 180pt
 
    [Particle Setting] dialog
 
 .. _image_post3d_particles_example:
 
 .. figure:: images/post3d_particles_example.png
+   :width: 180pt
 
    Example of the [Particles] display
 
@@ -246,6 +261,7 @@ Set it and click on [OK].
 .. _image_post3d_title_setting_dialog:
 
 .. figure:: images/post3d_title_setting_dialog.png
+   :width: 200pt
 
    [Title Setting] dialog
 
@@ -261,5 +277,6 @@ will open. Set it and click on [OK].
 .. _image_post3d_time_setting_dialog:
 
 .. figure:: images/post3d_time_setting_dialog.png
+   :width: 100pt
 
    [Time Setting] dialog

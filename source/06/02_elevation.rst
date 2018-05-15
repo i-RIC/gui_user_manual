@@ -20,5 +20,6 @@ Each column has the following meaning:
 .. _image_elevation_example:
 
 .. figure:: images/elevation_example.png
+   :width: 280pt
 
    Example of an elevation data file

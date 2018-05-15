@@ -26,13 +26,14 @@ draws a scattered chart for the data you selected.
 .. _image_scattered_data_source_dialog:
 
 .. figure:: images/scattered_data_source_dialog.png
+   :width: 240pt
 
    [Data Source Setting] dialog
-
 
 .. _image_scattered_window:
 
 .. figure:: images/scattered_window.png
+   :width: 300pt
 
    [Scattered Chart Window]
 
@@ -84,6 +85,7 @@ the settings.
 .. _image_scattered_axis_setting_dialog:
 
 .. figure:: images/scattered_axis_setting_dialog.png
+   :width: 280pt
 
    [Axis Setting] dialog
 
@@ -100,5 +102,6 @@ the settings.
 .. _image_scattered_draw_setting_dialog:
 
 .. figure:: images/scattered_draw_setting_dialog.png
+   :width: 240pt
 
    [Draw Setting] dialog

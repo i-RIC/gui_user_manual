@@ -25,6 +25,7 @@ will open.
 .. _image_post2d_window_example:
 
 .. figure:: images/post2d_window_example.png
+   :width: 380pt
 
    [2D Post-processing Window]
 
@@ -91,6 +92,7 @@ Post-processing Window].
 .. _image_post2d_window_objbrowser_example:
 
 .. figure:: images/post2d_window_objbrowser_example.png
+   :width: 160pt
 
    The [Object Browser] of the [2D Post-processing Window]
 
@@ -115,12 +117,14 @@ respectively.
 .. _image_post2d_grid_shape_dialog:
 
 .. figure:: images/post2d_grid_shape_dialog.png
+   :width: 100pt
 
    [Grid Shape] dialog
 
 .. _image_post2d_grid_shape_wireframe_lines:
 
 .. figure:: images/post2d_grid_shape_wireframe_lines.png
+   :width: 380pt
 
    Examples of graphics displayed by the [Grid Shape] setting
 
@@ -155,30 +159,35 @@ please check on the check boxes for multiple items in the object browser.
 .. _image_post2d_contour_dialog:
 
 .. figure:: images/post2d_contour_dialog.png
+   :width: 240pt
 
    [Contour Setting] dialog
 
 .. _image_post2d_contour_region_structured_dialog:
 
 .. figure:: images/post2d_contour_region_structured_dialog.png
+   :width: 140pt
 
    [Region Setting] dialog (Structured grid)
 
 .. _image_post2d_contour_region_unstructured_dialog:
 
 .. figure:: images/post2d_contour_region_unstructured_dialog.png
+   :width: 120pt
 
    [Region Setting] dialog (Unstructured grid)
 
 .. _image_post2d_contour_colorbar_setting_dialog:
 
 .. figure:: images/post2d_contour_colorbar_setting_dialog.png
+   :width: 150pt
 
    [Color Legend Setting] dialog
 
 .. _image_post2d_contours_by_displaysetting:
 
 .. figure:: images/post2d_contours_by_displaysetting.png
+   :width: 420pt
 
    Examples of the contour display by the [Display Setting] setting
 
@@ -196,31 +205,35 @@ shows an example of the [Arrow] display.
 .. _image_post2d_arrow_setting_dialog_structured:
 
 .. figure:: images/post2d_arrow_setting_dialog_structured.png
+   :width: 200pt
 
    [Arrow Setting] dialog (structured)
 
 .. _image_post2d_arrow_setting_dialog_unstructured:
 
 .. figure:: images/post2d_arrow_setting_dialog_unstructured.png
+   :width: 200pt
 
    [Arrow Setting] dialog (unstructured)
-
 
 .. _image_post2d_arrow_region_structured_dialog:
 
 .. figure:: images/post2d_arrow_region_structured_dialog.png
+   :width: 150pt
 
    [Region Setting] dialog (Structured grid)
 
 .. _image_post2d_arrow_region_unstructured_dialog:
 
 .. figure:: images/post2d_arrow_region_unstructured_dialog.png
+   :width: 130pt
 
    [Region Setting] dialog (Unstructured grid)
 
 .. _image_post2d_arrow_example:
 
 .. figure:: images/post2d_arrow_example.png
+   :width: 240pt
 
    Example of the [Arrow] display
 
@@ -239,18 +252,21 @@ of the streamline display.
 .. _image_post2d_streamline_structured_dialog:
 
 .. figure:: images/post2d_streamline_structured_dialog.png
+   :width: 260pt
 
    [Streamline Setting] dialog (Structured)
 
 .. _image_post2d_streamline_unstructured_dialog:
 
 .. figure:: images/post2d_streamline_unstructured_dialog.png
+   :width: 260pt
 
    [Streamline Setting] dialog (Unstructured)
 
 .. _image_post2d_streamline_example:
 
 .. figure:: images/post2d_streamline_example.png
+   :width: 320pt
 
    Example of the [Streamline] display
 
@@ -269,18 +285,21 @@ shows an example of the [Particles] display.
 .. _image_post2d_particles_structured_dialog:
 
 .. figure:: images/post2d_particles_structured_dialog.png
+   :width: 230pt
 
    [Particle Setting] dialog (Structured)
 
 .. _image_post2d_particles_unstructured_dialog:
 
 .. figure:: images/post2d_particles_unstructured_dialog.png
+   :width: 240pt
 
    [Particle Setting] dialog (Unstructured)
 
 .. _image_post2d_particles_example:
 
 .. figure:: images/post2d_particles_example.png
+   :width: 230pt
 
    Example of the [Particles] display
 
@@ -297,6 +316,7 @@ Set it and click on [OK].
 .. _image_post2d_cellattributes_dialog:
 
 .. figure:: images/post2d_cellattributes_dialog.png
+   :width: 230pt
 
    [Cell Attributes] dialog
 
@@ -335,30 +355,35 @@ please check on the check boxes for multiple items in the object browser.
 .. _image_post2d_cellcenter_contour_dialog:
 
 .. figure:: images/post2d_cellcenter_contour_dialog.png
+   :width: 250pt
 
    [Contour Setting] dialog
 
 .. _image_post2d_cellcenter_contour_region_structured_dialog:
 
 .. figure:: images/post2d_contour_region_structured_dialog.png
+   :width: 150pt
 
    [Region Setting] dialog (Structured grid)
 
 .. _image_post2d_cellcenter_contour_region_unstructured_dialog:
 
 .. figure:: images/post2d_contour_region_unstructured_dialog.png
+   :width: 130pt
 
    [Region Setting] dialog (Unstructured grid)
 
 .. _image_post2d_cellcenter_contour_colorbar_setting_dialog:
 
 .. figure:: images/post2d_contour_colorbar_setting_dialog.png
+   :width: 160pt
 
    [Color Legend Setting] dialog
 
 .. _image_post2d_cellcenter_contours_by_displaysetting:
 
 .. figure:: images/post2d_cellcenter_contours_by_displaysetting.png
+   :width: 400pt
 
    Examples of the contour display by the [Display Setting] setting
 
@@ -374,6 +399,7 @@ Set it and click on [OK].
 .. _image_post2d_title_setting_dialog:
 
 .. figure:: images/post2d_title_setting_dialog.png
+   :width: 200pt
 
    [Title Setting] dialog
 
@@ -389,6 +415,7 @@ will open. Set it and click on [OK].
 .. _image_post2d_time_setting_dialog:
 
 .. figure:: images/post2d_time_setting_dialog.png
+   :width: 100pt
 
    [Time Setting] dialog
 

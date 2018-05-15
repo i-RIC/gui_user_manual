@@ -17,5 +17,6 @@ to one plane coordinates (x, y). Each column has the following meaning:
 .. _image_dem_example:
 
 .. figure:: images/dem_example.png
+   :width: 380pt
 
    Example of an DEM data file

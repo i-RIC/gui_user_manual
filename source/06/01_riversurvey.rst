@@ -59,12 +59,14 @@ the structure and concept, respectively.
 .. _image_riv_structure:
 
 .. figure:: images/riv_structure.png
+   :width: 400pt
 
    Structure of River Survey File
 
 .. _image_riv_concept:
 
 .. figure:: images/riv_concept.png
+   :width: 420pt
 
    Concept of River Survey File data
 

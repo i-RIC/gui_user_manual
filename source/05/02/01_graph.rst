@@ -32,18 +32,21 @@ so modify the setting and click on [OK].
 .. _image_chart_data_source_dialog:
 
 .. figure:: images/chart_data_source_dialog.png
+   :width: 260pt
 
    [Data Source Setting] dialog
 
 .. _image_chart_data_setting_dialog:
 
 .. figure:: images/chart_data_setting_dialog.png
+   :width: 110pt
 
    [Data Setting] dialog
 
 .. _image_chart_window:
 
 .. figure:: images/chart_window.png
+   :width: 260pt
 
    [Graph Window]
 
@@ -108,6 +111,7 @@ the settings.
 .. _image_chart_axissetting_dialog:
 
 .. figure:: images/chart_axissetting_dialog.png
+   :width: 280pt
 
    [Axis Setting] dialog
 
@@ -124,6 +128,7 @@ the settings.
 .. _image_chart_display_setting_dialog:
 
 .. figure:: images/chart_display_setting_dialog.png
+   :width: 320pt
 
    [Display Setting] dialog
 
@@ -142,12 +147,14 @@ after setting up a marker.
 .. _image_chart_marker_setting_dialog:
 
 .. figure:: images/chart_marker_setting_dialog.png
+   :width: 220pt
 
    [Marker Setting] dialog
 
 .. _image_chart_marker_example:
 
 .. figure:: images/chart_marker_example.png
+   :width: 280pt
 
    Example of the [Graph Window] after setting up a marker.
 
@@ -172,6 +179,7 @@ shows an example of a [Graph Window] after setting up a marker.
 .. _image_chart_kp_marker_example:
 
 .. figure:: images/chart_kp_marker_example.png
+   :width: 280pt
 
    Example of the [Graph Window] after adding KP markers
 
@@ -187,6 +195,7 @@ after copying data.
 .. _image_chart_copy_example:
 
 .. figure:: images/chart_copy_example.png
+   :width: 260pt
 
    Example of the [Graph Window] after copying data
 
@@ -203,6 +212,7 @@ started.
 .. _image_chart_snapshot_setting_dialog:
 
 .. figure:: images/chart_snapshot_setting_dialog.png
+   :width: 140pt
 
    [Snapshot Setting] dialog
 
@@ -219,5 +229,6 @@ started.
 .. _image_chart_csv_export_dialog:
 
 .. figure:: images/chart_csv_export_dialog.png
+   :width: 140pt
 
    [CSV Export Setting] dialog

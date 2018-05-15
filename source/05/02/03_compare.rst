@@ -27,11 +27,13 @@ will be shown.
 .. _image_compare_verification_setting_dialog:
 
 .. figure:: images/compare_verification_setting_dialog.png
+   :width: 220pt
 
    [Verification Setting] dialog
 
 .. _image_compare_verification_dialog:
 
 .. figure:: images/compare_verification_dialog.png
+   :width: 300pt
 
    [Verification] dialog

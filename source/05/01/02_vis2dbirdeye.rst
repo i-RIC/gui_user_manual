@@ -27,6 +27,7 @@ When you select [Open new 2D Bird's Eye Post-processing Window], the new
 .. _image_post2dbirdeye_window_example:
 
 .. figure:: images/post2dbirdeye_window_example.png
+   :width: 380pt
 
    [Bird's Eye 2D Post-processing Window]
 
@@ -78,6 +79,7 @@ is shown in :numref:`image_post2dbirdeye_window_objbrowser_example`.
 .. _image_post2dbirdeye_window_objbrowser_example:
 
 .. figure:: images/post2dbirdeye_window_objbrowser_example.png
+   :width: 280pt
 
    [Object Browser] of the [Bird's-Eye 2D Post-processing Window]
 
@@ -100,12 +102,14 @@ for [Outline] and [All] respectively.
 .. _image_post2dbirdeye_grid_shape_dialog:
 
 .. figure:: images/post2dbirdeye_grid_shape_dialog.png
+   :width: 100pt
 
    [Grid Shape] dialog
 
 .. _image_post2dbirdeye_grid_shape_wireframe_lines:
 
 .. figure:: images/post2dbirdeye_grid_shape_wireframe_lines.png
+   :width: 360pt
 
    Examples of graphics displayed by the [Grid Shape] setting
 
@@ -140,30 +144,35 @@ please check on the check boxes for multiple items in the object browser.
 .. _image_post2dbirdeye_contour_dialog:
 
 .. figure:: images/post2dbirdeye_contour_dialog.png
+   :width: 220pt
 
    [Contour Setting] dialog
 
 .. _image_post2dbirdeye_contour_region_structured_dialog:
 
 .. figure:: images/post2dbirdeye_contour_region_structured_dialog.png
+   :width: 150pt
 
    [Region Setting] dialog (Structured grid)
 
 .. _image_post2dbirdeye_contour_region_unstructured_dialog:
 
 .. figure:: images/post2dbirdeye_contour_region_unstructured_dialog.png
+   :width: 130pt
 
    [Region Setting] dialog (Unstructured grid)
 
 .. _image_post2dbirdeye_contour_colorbar_setting_dialog:
 
 .. figure:: images/post2dbirdeye_contour_colorbar_setting_dialog.png
+   :width: 160pt
 
    [Color Legend Setting] dialog
 
 .. _image_post2dbirdeye_contours_by_displaysetting:
 
 .. figure:: images/post2dbirdeye_contours_by_displaysetting.png
+   :width: 420pt
 
    Examples of the contour display by the [Display Setting] setting
 
@@ -202,30 +211,35 @@ please check on the check boxes for multiple items in the object browser.
 .. _image_post2dbirdeye_cellcenter_contour_dialog:
 
 .. figure:: images/post2dbirdeye_cellcenter_contour_dialog.png
+   :width: 300pt
 
    [Contour Setting] dialog
 
 .. _image_post2dbirdeye_cellcenter_contour_region_structured_dialog:
 
 .. figure:: images/post2dbirdeye_contour_region_structured_dialog.png
+   :width: 150pt
 
    [Region Setting] dialog (Structured grid)
 
 .. _image_post2dbirdeye_cellcenter_contour_region_unstructured_dialog:
 
 .. figure:: images/post2dbirdeye_contour_region_unstructured_dialog.png
+   :width: 120pt
 
    [Region Setting] dialog (Unstructured grid)
 
 .. _image_post2dbirdeye_cellcenter_contour_colorbar_setting_dialog:
 
 .. figure:: images/post2dbirdeye_contour_colorbar_setting_dialog.png
+   :width: 160pt
 
    [Color Legend Setting] dialog
 
 .. _image_post2dbirdeye_cellcenter_contours_by_displaysetting:
 
 .. figure:: images/post2dbirdeye_cellcenter_contours_by_displaysetting.png
+   :width: 380pt
 
    Examples of the contour display by the [Display Setting] setting
 
@@ -241,6 +255,7 @@ will open. Set it and click on [OK].
 .. _image_post2dbirdeye_title_setting_dialog:
 
 .. figure:: images/post2dbirdeye_title_setting_dialog.png
+   :width: 200pt
 
    [Title Setting] dialog
 
@@ -256,6 +271,7 @@ will open. Set it and click on [OK].
 .. _image_post2dbirdeye_time_setting_dialog:
 
 .. figure:: images/post2dbirdeye_time_setting_dialog.png
+   :width: 100pt
 
    [Time Setting] dialog
 
@@ -282,11 +298,13 @@ before and after changing Z-direction scale.
 .. _image_post2dbirdeye_zscale_dialog:
 
 .. figure:: images/post2dbirdeye_zscale_dialog.png
+   :width: 90pt
 
    [Z-direction Scale] dialog
 
 .. _image_post2dbirdeye_zscale_example:
 
 .. figure:: images/post2dbirdeye_zscale_example.png
+   :width: 400pt
 
    Example of changing Z-direction scalr
