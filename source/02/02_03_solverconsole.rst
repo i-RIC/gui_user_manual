@@ -6,6 +6,7 @@
 .. _image_solver_console_window:
 
 .. figure:: images/solver_console_window.png
+   :width: 200pt
 
    ソルバーコンソール
 
@@ -28,6 +29,7 @@
 .. _image_solver_console_window_title:
 
 .. figure:: images/solver_console_window_title.png
+   :width: 180pt
 
    ソルバーコンソール タイトル表示例
 

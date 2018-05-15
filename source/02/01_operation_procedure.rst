@@ -9,5 +9,6 @@ iRIC を用いてシミュレーションを行う場合の一般的な操作の
 .. _image_iric_operations:
 
 .. figure:: images/iric_operations.png
+   :width: 250pt
 
    iRIC を用いた処理の流れ

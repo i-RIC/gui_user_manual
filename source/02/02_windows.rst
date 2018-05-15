@@ -21,6 +21,7 @@ iRIC では、利用したい機能によって、メインウィンドウに様
 .. _image_iric_main_window:
 
 .. figure:: images/iric_main_window.png
+   :width: 400pt
 
    iRIC 画面構成
 

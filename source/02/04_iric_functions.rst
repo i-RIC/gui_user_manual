@@ -40,24 +40,28 @@ iRIC では、以下の4つのデータ型の地理情報を取り扱い、編�
 .. _image_geodata_riversurvey:
 
 .. figure:: images/geodata_riversurvey.png
+   :width: 200pt
 
    河川測量データ表示例
 
 .. _image_geodata_pointset:
 
 .. figure:: images/geodata_pointset.png
+   :width: 200pt
 
    地勢データ表示例
 
 .. _image_geodata_polygon:
 
 .. figure:: images/geodata_polygon.png
+   :width: 120pt
 
    ポリゴン表示例
 
 .. _image_geodata_raster:
 
 .. figure:: images/geodata_raster.png
+   :width: 300pt
 
    ラスターデータ表示例
 
@@ -129,6 +133,7 @@ iRIC では以下の種類の格子を生成することができます。
 .. _image_solver_console_window_func:
 
 .. figure:: images/solver_console_window.png
+   :width: 180pt
 
    ソルバーコンソール
 
@@ -149,18 +154,21 @@ iRIC では以下の種類の格子を生成することができます。
 .. _image_2d_post_window_func:
 
 .. figure:: images/2d_post_window.png
+   :width: 280pt
 
    可視化ウィンドウ (2D)
 
 .. _image_birdseye_2d_post_window_func:
 
 .. figure:: images/birdseye_2d_post_window.png
+   :width: 280pt
 
    鳥瞰図可視化ウィンドウ (2D)
 
 .. _image_3d_post_window_func:
 
 .. figure:: images/3d_post_window.png
+   :width: 280pt
 
    可視化ウィンドウ (3D)
 
@@ -177,11 +185,13 @@ iRIC では以下の種類の格子を生成することができます。
 .. _image_graph_window_func:
 
 .. figure:: images/graph_window.png
+   :width: 280pt
 
    グラフウィンドウ
 
 .. _image_scattered_chart_window_func:
 
 .. figure:: images/scattered_chart_window.png
+   :width: 280pt
 
    散布図ウィンドウ

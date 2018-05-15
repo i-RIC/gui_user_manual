@@ -6,6 +6,7 @@
 .. _image_graph_window:
 
 .. figure:: images/graph_window.png
+   :width: 280pt
 
    グラフウィンドウ
 

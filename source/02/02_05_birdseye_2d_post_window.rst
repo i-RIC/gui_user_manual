@@ -6,6 +6,7 @@
 .. _image_birdseye_2d_post_window:
 
 .. figure:: images/birdseye_2d_post_window.png
+   :width: 420pt
 
    鳥瞰図可視化ウィンドウ (2D)
 

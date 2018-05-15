@@ -8,6 +8,7 @@
 .. _image_pre_window:
 
 .. figure:: images/pre_window.png
+   :width: 450pt
 
    プリプロセッサー
 

@@ -38,6 +38,7 @@ iRIC 起動直後には、iRIC スタートページが表示されます。iRIC
 .. _image_start_page_ssp:
 
 .. figure:: images/start_page_ssp.png
+   :width: 300pt
 
    iRIC スタートページ 表示例 (計算プロジェクトを始める)
 
@@ -49,6 +50,7 @@ iRIC 起動直後には、iRIC スタートページが表示されます。iRIC
 .. _image_start_page_support:
 
 .. figure:: images/start_page_support.png
+   :width: 300pt
 
    iRIC スタートページ 表示例 (サポート)
 
@@ -62,6 +64,7 @@ iRIC では、ソルバーコンソールを除くすべてのサブウィンド
 .. _image_object_browser_pre_window:
 
 .. figure:: images/object_browser_pre_window.png
+   :width: 400pt
 
    プリプロセッサーでのオブジェクトブラウザー表示例
 
@@ -151,6 +154,7 @@ iRIC では、ソルバーコンソールを除くすべてのサブウィンド
 .. _image_mouse_hint_dialog:
 
 .. figure:: images/mouse_hint_dialog.png
+   :width: 150pt
 
    マウスヒントダイアログ
 

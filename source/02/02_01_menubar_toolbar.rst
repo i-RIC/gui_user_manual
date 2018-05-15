@@ -70,13 +70,16 @@
      - 可視化ウィンドウ、グラフウィンドウがアクティブ
 
 .. figure:: images/main_toolbar.png
+   :width: 400pt
 
    メインツールバー
 
 .. figure:: images/operation_toolbar.png
+   :width: 80pt
 
    操作ツールバー
 
 .. figure:: images/animation_toolbar.png
+   :width: 200pt
 
    アニメーションツールバー
