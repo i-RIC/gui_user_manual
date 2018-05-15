@@ -19,5 +19,6 @@ imported, visualization windows and graph windows will open.
 .. _image_import_vis_setting_dialog:
 
 .. figure:: images/import_vis_setting_dialog.png
+   :width: 380pt
 
    The [Import Visualization/Graph Settings] dialog

@@ -10,5 +10,6 @@ Input the file name and click on [Save].
 .. _image_save_snapshot_dialog:
 
 .. figure:: images/save_snapshot_dialog.png
+   :width: 400pt
 
    The [Save Snapshot] dialog

@@ -25,6 +25,7 @@ output" or to the "Standard error".
 .. _image_solver_console_window_sim:
 
 .. figure:: images/solver_console_window_sim.png
+   :width: 380pt
 
    The [Solver Console]
 
@@ -43,12 +44,14 @@ solver has stopped, the [Solver Console] title changes.
 .. _image_confirm_solver_term_dialog:
 
 .. figure:: images/confirm_solver_term_dialog.png
+   :width: 180pt
 
    The [Confirm Solver Termination] dialog
 
 .. _image_solver_console_title:
 
 .. figure:: images/solver_console_title.png
+   :width: 320pt
 
    The [Solver Console] window title
 
@@ -63,6 +66,7 @@ current project. An example of the dialog is shown in
 .. _image_solver_info_dialog:
 
 .. figure:: images/solver_info_dialog.png
+   :width: 300pt
 
    The [Solver information] dialog
 

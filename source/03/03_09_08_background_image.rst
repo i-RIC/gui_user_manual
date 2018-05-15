@@ -20,5 +20,6 @@ Browser].
 .. _image_open_image_file_dialog:
 
 .. figure:: images/open_image_file_dialog.png
+   :width: 380pt
 
    The [Open Image file] dialog

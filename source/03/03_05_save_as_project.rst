@@ -18,5 +18,6 @@ When you want to open the folder, select project.xml inside that folder.
 .. _image_browse_for_folder_dialog:
 
 .. figure:: images/browse_for_folder_dialog.png
+   :width: 250pt
 
    The [Browse For Folder] dialog

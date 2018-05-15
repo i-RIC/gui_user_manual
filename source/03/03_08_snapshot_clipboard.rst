@@ -10,5 +10,6 @@ is shown in the status bar.
 .. _image_snapshot_clipboard_message:
 
 .. figure:: images/snapshot_clipboard_message.png
+   :width: 200pt
 
    Message for copying snapshot to clipboard

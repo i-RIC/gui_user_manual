@@ -18,11 +18,13 @@ after importing a grid creating condition.
 .. _image_select_file_to_import_dialog_for_gridcreatingcond:
 
 .. figure:: images/select_file_to_import_dialog_for_gridcreatingcond.png
+   :width: 380pt
 
    The [Select file to import] dialog
 
 .. _image_iric_after_importing_gridcreatingcond:
 
 .. figure:: images/iric_after_importing_gridcreatingcond.png
+   :width: 350pt
 
    The iRIC window after importing a grid creating condition

@@ -13,6 +13,7 @@ shows the [Main Toolbar].
 .. _image_main_toolbar:
 
 .. figure:: images/main_toolbar.png
+   :width: 450pt
 
    The [Main Toolbar]
 
@@ -183,6 +184,7 @@ available for the currently selected item in [Object Browser].
 .. _image_operation_toolbar:
 
 .. figure:: images/operation_toolbar.png
+   :width: 50pt
 
    The [Operation Toolbar]
 
@@ -225,6 +227,7 @@ movements between timesteps of calculation results.
 .. _image_animation_toolbar:
 
 .. figure:: images/animation_toolbar.png
+   :width: 180pt
 
    The [Animation Toolbar]
 
@@ -278,5 +281,6 @@ Input the intervals between timesteps and click on [OK].
 .. _animation_speed_dialog:
 
 .. figure:: images/animation_speed_dialog.png
+   :width: 160pt
 
    The [Animation Speed Dialog]

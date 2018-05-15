@@ -22,6 +22,7 @@ will be shown.
 .. _image_export_contourshape_selectvalue:
 
 .. figure:: images/export_contourshape_selectvalue.png
+   :width: 160pt
 
    [Select Result] dialog
 
@@ -33,8 +34,9 @@ is shown.
 .. _image_export_contourshape_setting:
 
 .. figure:: images/export_contourshape_setting.png
+   :width: 200pt
 
-[Export contour figure to ESRI Shape files] dialog
+   [Export contour figure to ESRI Shape files] dialog
 
 When you click on [OK], Contour Figure polygons are saved
 into ESRI shape files based on the setting.

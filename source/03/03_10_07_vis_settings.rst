@@ -18,5 +18,6 @@ file name you want to export and click on [Save].
 .. _image_export_vis_setting_dialog:
 
 .. figure:: images/export_vis_setting_dialog.png
+   :width: 380pt
 
    The [Export Visualization/Graph Settings] dialog

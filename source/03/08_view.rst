@@ -24,6 +24,7 @@ of [Object Browser] (:numref:`image_object_browser_of_pre_window`).
 .. _image_object_browser_of_pre_window:
 
 .. figure:: images/object_browser_of_pre_window.png
+   :width: 240pt
 
    The [Object Browser] window of the [Pre-processing Window]
 
@@ -40,6 +41,7 @@ label of [Attribute Browser] (:numref:`image_att_browser_of_pre_window`).
 .. _image_att_browser_of_pre_window:
 
 .. figure:: images/att_browser_of_pre_window.png
+   :width: 380pt
 
    The [Attribute Browser] window of the [Pre-processing Window]
 
@@ -57,6 +59,7 @@ after hiding [Status Bar].
 .. _image_iric_without_status_bar:
 
 .. figure:: images/iric_without_status_bar.png
+   :width: 380pt
 
    iRIC window after hiding [Status Bar]
 
@@ -75,6 +78,7 @@ Select the color you want to use for background and click on [OK].
 .. _image_background_color_dialog:
 
 .. figure:: images/background_color_dialog.png
+   :width: 300pt
 
    The [Background Color] dialog
 
@@ -100,14 +104,14 @@ changing Z-direction scale is shown in
 .. _image_z-dir_scale_dialog:
 
 .. figure:: images/z-dir_scale_dialog.png
+   :width: 140pt
 
    The [Z-direction Scale] Dialog
-
-.. @TODO not yet
 
 .. _image_example_zdir_scale_birdseye:
 
 .. figure:: images/example_zdir_scale_birdseye.png
+   :width: 400pt
 
    Example of editing Z-direction scale in [Bird's Eye 2D Post-processing Window]
 
@@ -134,6 +138,7 @@ after the subwindows are tiled.
 .. _image_tiled_windows:
 
 .. figure:: images/tiled_windows.png
+   :width: 380pt
 
    iRIC window after the subwindows are tiled
 
@@ -150,5 +155,6 @@ after the windows are cascaded.
 .. _image_cascaded_windows:
 
 .. figure:: images/cascaded_windows.png
+   :width: 380pt
 
    iRIC window after the subwindows are cascaded

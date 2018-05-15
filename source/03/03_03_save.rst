@@ -19,11 +19,13 @@ When the project is saved successfully, the message shown in
 .. _image_how_to_save_dialog:
 
 .. figure:: images/how_to_save_dialog.png
+   :width: 200pt
 
    The [Select How to save Project] dialog
 
 .. _image_statusbar_after_saving:
 
 .. figure:: images/statusbar_after_saving.png
+   :width: 400pt
 
    The [Status Bar] after saving a project file.

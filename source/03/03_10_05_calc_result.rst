@@ -30,11 +30,13 @@ remove the check on [Full region], and specify the range to export
 .. _image_export_calc_result_dialog:
 
 .. figure:: images/export_calc_result_dialog.png
+   :width: 200pt
 
    The [Export Calculation Result] dialog
 
 .. _image_export_calc_result_dialog_detail:
 
 .. figure:: images/export_calc_result_dialog_detail.png
+   :width: 200pt
 
    The [Export Calculation Result] dialog after clicking [Show Detail]

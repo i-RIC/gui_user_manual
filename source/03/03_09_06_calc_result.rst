@@ -17,6 +17,7 @@ want to import and click on [Open].
 .. _image_open_calc_result_dialog:
 
 .. figure:: images/open_calc_result_dialog.png
+   :width: 380pt
 
    The [Open Calculation result] dialog
 

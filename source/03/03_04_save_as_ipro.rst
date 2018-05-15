@@ -15,5 +15,6 @@ When the project is successfully saved, the message in
 .. _image_save_iric_pro_file_dialog:
 
 .. figure:: images/save_iric_pro_file_dialog.png
+   :width: 400pt
 
    The [Save iRIC project file] dialog

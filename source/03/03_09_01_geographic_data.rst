@@ -30,12 +30,14 @@ of the iRIC window after importing a river survey data.
 .. _image_select_file_to_import_dialog:
 
 .. figure:: images/select_file_to_import_dialog.png
+   :width: 400pt
 
    The [Select file to import] dialog
 
 .. _image_iric_after_importing_riv_data:
 
 .. figure:: images/iric_after_importing_riv_data.png
+   :width: 360pt
 
    iRIC window after importing a river survey data
 
@@ -48,6 +50,7 @@ Specify the import setting and click on [OK].
 .. _image_rivdata_import_setting_dialog:
 
 .. figure:: images/rivdata_import_setting_dialog.png
+   :width: 180pt
 
    The [River Survey Data Import Setting] dialog
 
@@ -58,6 +61,7 @@ Specify the import setting and click on [OK].
 .. _image_polygon_import_setting_dialog:
 
 .. figure:: images/polygon_import_setting_dialog.png
+   :width: 320pt
 
    The [Polygon Import Setting] dialog
 
@@ -70,6 +74,7 @@ Setup the mapping setting about the dimensions, and click on [OK].
 .. _image_netcdf_import_setting_dialog:
 
 .. figure:: images/netcdf_import_setting_dialog.png
+   :width: 160pt
 
    The [Dimension Mapping Setting] dialog
 

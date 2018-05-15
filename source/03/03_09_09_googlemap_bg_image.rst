@@ -16,5 +16,6 @@ in [Object Browser].
 .. _image_googlemap_img_import_setting_dialog:
 
 .. figure:: images/googlemap_img_import_setting_dialog.png
+   :width: 150pt
 
    The [Google Map Image Import Setting] dialog

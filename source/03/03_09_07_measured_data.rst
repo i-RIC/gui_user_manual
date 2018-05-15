@@ -20,5 +20,6 @@ measured data text file.
 .. _open_measured_data_dialog:
 
 .. figure:: images/open_measured_data_dialog.png
+   :width: 380pt
 
    The [Open Measured Data File] dialog

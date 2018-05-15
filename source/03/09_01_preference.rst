@@ -16,6 +16,7 @@ General settings about iRIC GUI is specified in this tab.
 .. _image_pref_dialog_general:
 
 .. figure:: images/pref_dialog_general.png
+   :width: 320pt
 
    The [Preferences] dialog [General] tab
 
@@ -29,6 +30,7 @@ windows.
 .. _image_pref_dialog_graphics_default:
 
 .. figure:: images/pref_dialog_graphics_default.png
+   :width: 320pt
 
    The [Preferences] dialog [Graphics Default] tab
 
@@ -42,6 +44,7 @@ As shown on the dialog, grid checking is applied only to structured grids.
 .. _image_pref_dialog_graphics_grid_checking:
 
 .. figure:: images/pref_dialog_grid_checking.png
+   :width: 320pt
 
    The [Preferences] dialog [Grid Checking] tab
 
@@ -62,6 +65,7 @@ Internet Explorer is used.
 .. _image_pref_dialog_proxy:
 
 .. figure:: images/pref_dialog_proxy.png
+   :width: 320pt
 
    The [Preferences] dialog [Network Proxy] tab
 
@@ -76,6 +80,7 @@ Window and 2D Post-processing Windows.
 .. _image_pref_dialog_bg_image:
 
 .. figure:: images/pref_dialog_bg_image.png
+   :width: 320pt
 
    The [Preferences] dialog [Background Images (Internet)] tab
 
@@ -93,6 +98,7 @@ Please refer to :ref:`sec_file_import_geo_data_from_web` for detail.
 .. _pref_dialog_web_elevation:
 
 .. figure:: images/pref_dialog_web_elevation.png
+   :width: 320pt
 
    The [Preferences] dialog [Web Elevation Data] tab
 
@@ -108,5 +114,6 @@ with grid creating algorithm other than [Create grid from river survey data].
 .. _image_pref_dialog_bg_grid:
 
 .. figure:: images/pref_dialog_bg_grid.png
+   :width: 320pt
 
    The [Preferences] dialog [Background Grid] tab

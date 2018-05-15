@@ -22,5 +22,6 @@ file" will appear.
 .. _image_select_file_to_import_dialog_for_cc:
 
 .. figure:: images/select_file_to_import_dialog_for_cc.png
+   :width: 380pt
 
    The [Select file to import] dialog

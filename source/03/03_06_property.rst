@@ -25,17 +25,20 @@ for some point near to your geographic data (or grid).
 .. _image_project_property_dialog:
 
 .. figure:: images/project_property_dialog.png
+   :width: 280pt
 
    The [Project Property] dialog
 
 .. _image_select_coordsystem_dialog:
 
 .. figure:: images/select_coordsystem_dialog.png
+   :width: 320pt
 
    The [Select Coordinate System] dialog
 
 .. _image_offset_setting_dialog:
 
 .. figure:: images/offset_setting_dialog.png
+   :width: 220pt
 
    The [Offset Setting] dialog

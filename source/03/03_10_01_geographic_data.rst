@@ -21,5 +21,6 @@ Input the file name to export and click on [Save].
 .. _image_select_file_to_export_dialog_for_geo_data:
 
 .. figure:: images/select_file_to_export_dialog_for_geo_data.png
+   :width: 380pt
 
    The [Select file to export] dialog

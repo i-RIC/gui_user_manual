@@ -22,5 +22,6 @@ timesteps] and specify the range of timesteps by editing [Start] and
 .. _image_export_particles_dialog:
 
 .. figure:: images/export_particles_dialog.png
+   :width: 190pt
 
    The [Export Particles] dialog

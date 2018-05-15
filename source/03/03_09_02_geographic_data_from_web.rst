@@ -46,23 +46,27 @@ geographic data is shown like :numref:`image_geo_web_example`.
 .. _image_geo_web_select_region_dialog:
 
 .. figure:: images/geo_web_select_region_dialog.png
+   :width: 340pt
 
    The [Select Region] dialog
 
 .. _image_geo_web_select_zoomlevel_dialog:
 
 .. figure:: images/geo_web_select_zoomlevel_dialog.png
+   :width: 260pt
 
    The [Zoom Level Setting] dialog
 
 .. _image_geo_web_pleasewait_dialog:
 
 .. figure:: images/geo_web_pleasewait_dialog.png
+   :width: 160pt
 
    The [Please wait] dialog
 
 .. _image_geo_web_example:
 
 .. figure:: images/geo_web_example.png
+   :width: 360pt
 
    Example of imported geographic data

@@ -12,18 +12,21 @@ dictionary files that can be used for solver internationalization.
 .. _image_translation_wizard_intro:
 
 .. figure:: images/translation_wizard_intro.png
+   :width: 300pt
 
    [Introduction] page
 
 .. _image_translation_wizard_select:
 
 .. figure:: images/translation_wizard_select.png
+   :width: 300pt
 
    [Select Program and Languages] page
 
 .. _image_translation_wizard_confirm:
 
 .. figure:: images/translation_wizard_confirm.png
+   :width: 300pt
 
    [Confirm the result] page
 

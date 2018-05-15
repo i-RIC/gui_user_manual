@@ -12,12 +12,14 @@ iRIC GUI が終了して、
 .. _image_maintainance_warning:
 
 .. figure:: images/maintainance_warning.png
+   :width: 300pt
 
    [Warning] dialog about launching [iRIC Maintainance]
 
 .. _image_maintainance_main:
 
 .. figure:: images/maintainance_main.png
+   :width: 300pt
 
    iRIC Maintainance main dialog
 
@@ -41,6 +43,7 @@ to add or remove components.
 .. _image_maintainance_add_delete_select_comps:
 
 .. figure:: images/maintainance_add_delete_select_comps.png
+   :width: 400pt
 
    Page to select components to add or remove
 
@@ -59,6 +62,7 @@ If there is not update, message is shown like in
 .. _image_maintainance_update_nodata:
 
 .. figure:: images/maintainance_update_nodata.png
+   :width: 300pt
 
    Page with message when there is no component update
 
@@ -70,6 +74,7 @@ click on [Next], then [Update] button, to update components.
 .. _image_maintainance_update_select_comps:
 
 .. figure:: images/maintainance_update_select_comps.png
+   :width: 300pt
 
    Page to select components to update
 
@@ -84,6 +89,7 @@ When you click on [Uninstall] button, all components are removed.
 .. _image_maintainance_uninstall:
 
 .. figure:: images/maintainance_uninstall.png
+   :width: 300pt
 
    Page to uninstall
 
@@ -98,5 +104,6 @@ Edit the setting to match your environment, and click on [OK].
 .. _image_maintainance_setting:
 
 .. figure:: images/maintainance_setting.png
+   :width: 300pt
 
    [Setting] dialog

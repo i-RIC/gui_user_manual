@@ -25,12 +25,14 @@ will open.
 .. _image_solver_list_dialog:
 
 .. figure:: images/solver_list_dialog.png
+   :width: 220pt
 
    The [Solver List] dialog
 
 .. _image_help_solver_info_dialog:
 
 .. figure:: images/solver_info_dialog.png
+   :width: 280pt
 
    The [Solver Information] dialog
 
@@ -44,6 +46,7 @@ the mouse can be used to change view setting in the canvas area.
 .. _image_help_mouse_hint_dialog:
 
 .. figure:: images/mouse_hint_dialog.png
+   :width: 140pt
 
    The [Mouse Hint] dialog
 
@@ -55,5 +58,6 @@ the mouse can be used to change view setting in the canvas area.
 .. _about_iric_dialog:
 
 .. figure:: images/about_iric_dialog.png
+   :width: 260pt
 
    The [About iRIC] dialog

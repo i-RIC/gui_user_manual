@@ -15,47 +15,55 @@ saving snapshots starts.
 .. _continuous_snapshot_wizard1:
 
 .. figure:: images/continuous_snapshot_wizard1.png
+   :width: 340pt
 
    The first screen of the [Continuous Snapshot Wizard]
 
 .. _continuous_snapshot_wizard2:
 
 .. figure:: images/continuous_snapshot_wizard2.png
+   :width: 380pt
 
    The second screen of the [Continuous Snapshot Wizard]
 
 .. _continuous_snapshot_wizard3:
 
 .. figure:: images/continuous_snapshot_wizard3.png
+   :width: 340pt
 
    The third screen of the [Continuous Snapshot Wizard]
 
 .. _continuous_snapshot_wizard4:
 
 .. figure:: images/continuous_snapshot_wizard4.png
+   :width: 350pt
 
    The forth screen of the [Continuous Snapshot Wizard]
 
 .. _continuous_snapshot_wizard5:
 
 .. figure:: images/continuous_snapshot_wizard5.png
+   :width: 340pt
 
    The fifth screen of the [Continuous Snapshot Wizard]
 
 .. _continuous_snapshot_wizard6:
 
 .. figure:: images/continuous_snapshot_wizard6.png
+   :width: 340pt
 
    The sixth screen of the [Continuous Snapshot Wizard]
 
 .. _continuous_snapshot_wizard7:
 
 .. figure:: images/continuous_snapshot_wizard7.png
+   :width: 340pt
 
    The seventh screen of the [Continuous Snapshot Wizard]
 
 .. _continuous_snapshot_dialog:
 
 .. figure:: images/continuous_snapshot_dialog.png
+   :width: 200pt
 
    The [Continuous Snapshot] dialog
