@@ -24,18 +24,21 @@
 .. _image_object_browser_boundary_cond_selected:
 
 .. figure:: images/object_browser_boundary_cond_selected.png
+   :width: 380pt
 
    境界条件の選択
 
 .. _image_boundary_condition_dialog:
 
 .. figure:: images/boundary_condition_dialog.png
+   :width: 130pt
 
    境界条件ダイアログ
 
 .. _image_object_browser_boundary_cond_item_selected:
 
 .. figure:: images/object_browser_boundary_cond_item_selected.png
+   :width: 150pt
 
    境界条件を選択した時のオブジェクトブラウザー 表示例
 

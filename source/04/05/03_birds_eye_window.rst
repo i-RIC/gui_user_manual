@@ -13,6 +13,7 @@
 .. _image_grid_birds_eye_window:
 
 .. figure:: images/grid_birds_eye_window.png
+   :width: 360pt
 
    鳥瞰図ウィンドウ　表示例
 
@@ -46,6 +47,7 @@
 .. _image_birds_eye_display_setting_dialog:
 
 .. figure:: images/birds_eye_display_setting_dialog.png
+   :width: 120pt
 
    表示設定ダイアログ
 
@@ -77,11 +79,13 @@ Z方向の表示の倍率を設定します。
 .. _image_birds_eye_zdir_scale_dialog:
 
 .. figure:: images/birds_eye_zdir_scale_dialog.png
+   :width: 120pt
 
    Z方向の倍率ダイアログ
 
 .. _image_example_change_z_scale:
 
 .. figure:: images/example_change_z_scale.png
+   :width: 420pt
 
    Z方向の倍率　操作例

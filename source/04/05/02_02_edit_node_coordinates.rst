@@ -18,6 +18,7 @@
 .. _image_object_browser_with_gridshape_selected:
 
 .. figure:: images/object_browser_with_gridshape_selected.png
+   :width: 150pt
 
    格子形状を選択した時のオブジェクトブラウザー 表示例
 
@@ -42,12 +43,14 @@
 .. _image_edit_grid_coords_dialog_for_multi:
 
 .. figure:: images/edit_grid_coords_dialog_for_multi.png
+   :width: 200pt
 
    格子点座標編集ダイアログ (複数の格子点を編集する場合)
 
 .. _image_edit_grid_coords_dialog_for_single:
 
 .. figure:: images/edit_grid_coords_dialog_for_single.png
+   :width: 210pt
 
    格子点座標編集ダイアログ (単一の格子点を編集する場合)
 

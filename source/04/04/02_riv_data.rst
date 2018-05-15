@@ -11,6 +11,7 @@
 .. _image_riv_data:
 
 .. figure:: images/riv_data.png
+   :width: 220pt
 
    河川測量データ
 
@@ -87,12 +88,14 @@
 .. _image_pre_window_left_dragging:
 
 .. figure:: images/pre_window_left_dragging.png
+   :width: 400pt
 
    ドラッグ中のプリプロセッサーの表示例
 
 .. _image_pre_window_select_river_lines:
 
 .. figure:: images/pre_window_select_river_lines.png
+   :width: 400pt
 
    ドラッグ完了時のプリプロセッサーの表示例
 
@@ -109,6 +112,7 @@
 .. _image_xsec_window:
 
 .. figure:: images/xsec_window.png
+   :width: 420pt
 
    河川横断面ウィンドウ
 
@@ -146,6 +150,7 @@
 .. _image_riv_insert_line_dialog:
 
 .. figure:: images/riv_insert_line_dialog.png
+   :width: 360pt
 
    横断線の挿入ダイアログ
 
@@ -160,6 +165,7 @@
 .. _image_exampleriv_move_line:
 
 .. figure:: images/exampleriv_move_line.png
+   :width: 420pt
 
    河川横断線の移動操作例
 
@@ -169,6 +175,7 @@
 .. _image_riv_move_line_dialog:
 
 .. figure:: images/riv_move_line_dialog.png
+   :width: 240pt
 
    横断線の移動ダイアログ
 
@@ -181,6 +188,7 @@
 .. _image_cursor_move_riv_line:
 
 .. figure:: images/cursor_move_riv_line.png
+   :width: 20pt
 
    横断線の移動時のマウスカーソル
 
@@ -195,6 +203,7 @@
 .. _image_example_riv_rotate_line:
 
 .. figure:: images/example_riv_rotate_line.png
+   :width: 420pt
 
    河川横断線の回転操作例
 
@@ -211,12 +220,14 @@
 .. _image_riv_rotate_line_dialog:
 
 .. figure:: images/riv_rotate_line_dialog.png
+   :width: 220pt
 
    横断線の回転ダイアログ
 
 .. _image_cursor_rotate_riv_line:
 
 .. figure:: images/cursor_rotate_riv_line.png
+   :width: 20pt
 
    横断線の回転時のマウスカーソル
 
@@ -233,6 +244,7 @@
 .. _image_example_riv_shift_center:
 
 .. figure:: images/example_riv_shift_center.png
+   :width: 420pt
 
    中心点のシフト操作例
 
@@ -252,12 +264,14 @@
 .. _image_shift_river_center_dialog:
 
 .. figure:: images/shift_river_center_dialog.png
+   :width: 220pt
 
    河川中心点のシフトダイアログ
 
 .. _image_cursor_shift_riv_center:
 
 .. figure:: images/cursor_shift_riv_center.png
+   :width: 20pt
 
    河川中心点のシフト時のマウスカーソル
 
@@ -272,6 +286,7 @@
 .. _image_example_extend_riv_line:
 
 .. figure:: images/example_extend_riv_line.png
+   :width: 420pt
 
    河川横断線の左右への伸縮操作例
 
@@ -282,6 +297,7 @@
 .. _image_extend_riv_line_dialog:
 
 .. figure:: images/extend_riv_line_dialog.png
+   :width: 220pt
 
    河川横断線の伸縮ダイアログ
 
@@ -296,6 +312,7 @@
 .. _image_example_del_riv_line:
 
 .. figure:: images/example_del_riv_line.png
+   :width: 420pt
 
    河川横断線の削除操作例
 
@@ -312,6 +329,7 @@
 .. _image_rename_riv_line_dialog:
 
 .. figure:: images/rename_riv_line_dialog.png
+   :width: 140pt
 
    横断線の名前変更ダイアログ
 
@@ -327,6 +345,7 @@
 .. _image_example_adding_riv_extension_line:
 
 .. figure:: images/example_adding_riv_extension_line.png
+   :width: 420pt
 
    左岸延長線追加 操作例
 
@@ -338,6 +357,7 @@
 .. _image_riv_add_extension_line_dialog:
 
 .. figure:: images/riv_add_extension_line_dialog.png
+   :width: 200pt
 
    左岸延長線 (もしくは右岸延長線) 追加ダイアログ
 
@@ -353,6 +373,7 @@
 .. _image_example_del_extension_line:
 
 .. figure:: images/example_del_extension_line.png
+   :width: 420pt
 
    左岸延長線削除 操作例
 
@@ -365,6 +386,7 @@
 .. _image_example_riv_disp_setting:
 
 .. figure:: images/example_riv_disp_setting.png
+   :width: 400pt
 
    背景色、断面形状の表示 操作例
 
@@ -377,6 +399,7 @@
 .. _image_riv_display_setting_dialog:
 
 .. figure:: images/riv_display_setting_dialog.png
+   :width: 150pt
 
    表示設定ダイアログ
 
@@ -394,12 +417,14 @@
 .. _image_example_riv_interpolation_mode_spline:
 
 .. figure:: images/example_riv_interpolation_mode_spline.png
+   :width: 320pt
 
    補間モード (スプライン補間)
 
 .. _image_example_riv_interpolation_mode_linear:
 
 .. figure:: images/example_riv_interpolation_mode_linear.png
+   :width: 320pt
 
    補間モード (線形補間)
 
@@ -417,6 +442,7 @@
 .. _image_example_riv_xsec_window:
 
 .. figure:: images/example_riv_xsec_window.png
+   :width: 320pt
 
    河川横断面ウィンドウ
 
@@ -461,6 +487,7 @@
 .. _image_example_activating_xsec_point:
 
 .. figure:: images/example_activating_xsec_point.png
+   :width: 420pt
 
    標高点の有効化 操作例
 
@@ -474,6 +501,7 @@
 .. _image_example_inactivating_xsec_point:
 
 .. figure:: images/example_inactivating_xsec_point.png
+   :width: 420pt
 
    標高点の無効化 操作例
 
@@ -488,6 +516,7 @@
 .. _image_example_inactivating_xsec_point_with_wse:
 
 .. figure:: images/example_inactivating_xsec_point_with_wse.png
+   :width: 420pt
 
    水位に基づいて無効化 操作例
 
@@ -505,12 +534,14 @@
 .. _image_example_moving_xsec_point:
 
 .. figure:: images/example_moving_xsec_point.png
+   :width: 420pt
 
    標高点の移動 操作例
 
 .. _image_move_elevation_point_dialog:
 
 .. figure:: images/move_elevation_point_dialog.png
+   :width: 180pt
 
    標高点の移動ダイアログ
 
@@ -527,5 +558,6 @@
 .. _image_example_deleting_xsec_point:
 
 .. figure:: images/example_deleting_xsec_point.png
+   :width: 420pt
 
    標高点の削除 操作例

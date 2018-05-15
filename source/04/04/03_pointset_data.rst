@@ -10,6 +10,7 @@
 .. _image_example_pointset_data:
 
 .. figure:: images/example_pointset_data.png
+   :width: 250pt
 
    地勢データ表示例
 
@@ -78,12 +79,14 @@ DEMデータ　(O) 以下のサブメニューの構成を
 .. _image_pre_window_defining_poly_region:
 
 .. figure:: images/pre_window_defining_poly_region.png
+   :width: 300pt
 
    ポリゴン領域で点を選択中の表示例
 
 .. _image_pre_window_after_sel_poly_region:
 
 .. figure:: images/pre_window_after_sel_poly_region.png
+   :width: 300pt
 
    ポリゴン領域で点を選択後の表示例
 
@@ -100,6 +103,7 @@ DEMデータ　(O) 以下のサブメニューの構成を
 .. _image_pre_edit_points_dialog:
 
 .. figure:: images/pre_edit_points_dialog.png
+   :width: 160pt
 
    選択された点の編集ダイアログ
 
@@ -116,6 +120,7 @@ DEMデータ　(O) 以下のサブメニューの構成を
 .. _image_pointset_select_file_to_export_dialog:
 
 .. figure:: images/pointset_select_file_to_export_dialog.png
+   :width: 380pt
 
    エクスポートするファイル名の選択ダイアログ
 
@@ -137,12 +142,14 @@ DEMデータ　(O) 以下のサブメニューの構成を
 .. _image_pointset_add_points_dialog:
 
 .. figure:: images/pointset_add_points_dialog.png
+   :width: 160pt
 
    点の追加ダイアログ
 
 .. _image_example_adding_new_points:
 
 .. figure:: images/example_adding_new_points.png
+   :width: 320pt
 
    点の追加操作 表示例
 
@@ -161,12 +168,14 @@ DEMデータ　(O) 以下のサブメニューの構成を
 .. _image_pointset_interpolate_settiing_dialog:
 
 .. figure:: images/pointset_interpolate_settiing_dialog.png
+   :width: 200pt
 
    補間条件設定ダイアログ
 
 .. _image_example_pointset_interpolate_points:
 
 .. figure:: images/example_pointset_interpolate_points.png
+   :width: 360pt
 
    点の補間追加 操作例
 
@@ -182,6 +191,7 @@ DEMデータ　(O) 以下のサブメニューの構成を
 .. _image_example_pointset_delete_points:
 
 .. figure:: images/example_pointset_delete_points.png
+   :width: 220pt
 
    選択された点の削除 操作例
 
@@ -198,12 +208,14 @@ DEMデータ　(O) 以下のサブメニューの構成を
 .. _image_pointset_delete_points_dialog_less_than:
 
 .. figure:: images/pointset_delete_points_dialog_less_than.png
+   :width: 200pt
 
    選択された点のうち、指定した値以下の点を削除ダイアログ
 
 .. _image_pointset_example_delete_points_less_than:
 
 .. figure:: images/pointset_example_delete_points_less_than.png
+   :width: 380pt
 
    選択された点のうち、指定した値以下の点を削除 操作例
 
@@ -220,12 +232,14 @@ DEMデータ　(O) 以下のサブメニューの構成を
 .. _image_pointset_delete_points_dialog_greater_than:
 
 .. figure:: images/pointset_delete_points_dialog_greater_than.png
+   :width: 200pt
 
    選択された点のうち、指定した値以上の点を削除ダイアログ
 
 .. _image_pointset_example_delete_points_greater_than:
 
 .. figure:: images/pointset_example_delete_points_greater_than.png
+   :width: 380pt
 
    選択された点のうち、指定した値以上の点を削除 操作例
 
@@ -245,6 +259,7 @@ TINを再生成すると、分割線がTINの境界線になるように再生�
 .. _image_pointset_example_tin_boundarys_after_add_breakline:
 
 .. figure:: images/pointset_example_tin_boundarys_after_add_breakline.png
+   :width: 300pt
 
    分割線 表示例
 
@@ -260,6 +275,7 @@ TINを再生成すると、分割線がTINの境界線になるように再生�
 .. _image_pointset_remove_breakline_warning_dialog:
 
 .. figure:: images/pointset_remove_breakline_warning_dialog.png
+   :width: 170pt
 
    分割線の削除ダイアログ
 
@@ -275,6 +291,7 @@ TINを再生成すると、分割線がTINの境界線になるように再生�
 .. _image_pointset_remove_all_breaklines_warning_dialog:
 
 .. figure:: images/pointset_remove_all_breaklines_warning_dialog.png
+   :width: 170pt
 
    全分割線の削除ダイアログ
 
@@ -290,6 +307,7 @@ TINの再生成 (T)
 .. _image_pointset_example_remesh_tin:
 
 .. figure:: images/pointset_example_remesh_tin.png
+   :width: 380pt
 
    TINの再生成 操作例
 
@@ -305,6 +323,7 @@ TINの再生成 (T)
 .. _image_pointset_display_methods:
 
 .. figure:: images/pointset_display_methods.png
+   :width: 420pt
 
    地勢データ 表示方法ごとの表示例
 
@@ -317,5 +336,6 @@ TINの再生成 (T)
 .. _image_pointset_display_setting_dialog:
 
 .. figure:: images/pointset_display_setting_dialogs.png
+   :width: 140pt
 
    地勢データ 表示設定ダイアログ

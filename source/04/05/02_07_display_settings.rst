@@ -36,12 +36,14 @@
 .. _image_grid_shape_display_dialog:
 
 .. figure:: images/grid_shape_display_dialog.png
+   :width: 100pt
 
    格子形状の表示設定ダイアログ
 
 .. _image_example_grid_shape:
 
 .. figure:: images/example_grid_shape.png
+   :width: 420pt
 
    格子の形状の表示設定ごとの表示例
 
@@ -68,12 +70,14 @@
 .. _image_grid_node_attr_display_setting_dialog:
 
 .. figure:: images/grid_node_attr_display_setting_dialog.png
+   :width: 160pt
 
    格子点属性の表示設定ダイアログ
 
 .. _image_example_grid_node_attr_display:
 
 .. figure:: images/example_grid_node_attr_display.png
+   :width: 440pt
 
    コンター設定の値ごとの表示例
 
@@ -92,6 +96,7 @@
 .. _image_grid_cell_attr_display_setting_dialog:
 
 .. figure:: images/grid_cell_attr_display_setting_dialog.png
+   :width: 180pt
 
    セル属性の表示設定ダイアログ
 
@@ -104,6 +109,7 @@
 .. _image_example_scalar_bar:
 
 .. figure:: images/example_scalar_bar.png
+   :width: 300pt
 
    凡例 表示例
 
@@ -120,11 +126,13 @@
 .. _image_scalar_bar_setting_dialog:
 
 .. figure:: images/scalar_bar_setting_dialog.png
+   :width: 160pt
 
    凡例設定ダイアログ
 
 .. _image_color_legend_setting_dialog:
 
 .. figure:: images/color_legend_setting_dialog.png
+   :width: 180pt
 
    凡例の詳細設定ダイアログ

@@ -9,6 +9,7 @@
 .. _image_example_rect_region_grid:
 
 .. figure:: images/example_rect_region_grid.png
+   :width: 320pt
 
    矩形領域の格子の形状例
 
@@ -26,11 +27,13 @@
 .. _rect_example_after_region_specified:
 
 .. figure:: images/rect_example_after_region_specified.png
+   :width: 300pt
 
    格子生成領域指定後の画面表示例
 
 .. _rect_example_grid_creation_dialog:
 
 .. figure:: images/rect_example_grid_creation_dialog.png
+   :width: 220pt
 
    格子生成条件ダイアログ 表示例

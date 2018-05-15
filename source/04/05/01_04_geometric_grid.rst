@@ -8,6 +8,7 @@
 .. _image_example_geometric_shape_grid:
 
 .. figure:: images/example_geometric_shape_grid.png
+   :width: 360pt
 
    幾何学的な形状の格子の形状例
 
@@ -20,5 +21,6 @@
 .. _image_geometric_example_grid_creation_dialog:
 
 .. figure:: images/geometric_example_grid_creation_dialog.png
+   :width: 350pt
 
    格子生成条件設定ダイアログ 表示例

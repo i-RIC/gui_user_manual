@@ -10,5 +10,6 @@
 .. _image_delete_grid_warning_dialog:
 
 .. figure:: images/delete_grid_warning_dialog.png
+   :width: 130pt
 
    格子の削除確認ダイアログ

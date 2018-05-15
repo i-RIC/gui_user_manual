@@ -17,6 +17,7 @@
 .. _image_object_browser_cell_att_selected:
 
 .. figure:: images/object_browser_cell_att_selected.png
+   :width: 160pt
 
    セル属性を選択した時のオブジェクトブラウザー 表示例
 
@@ -32,5 +33,6 @@
 .. _image_topo_aspect_edit_dialog2:
 
 .. figure:: images/topo_aspect_edit_dialog.png
+   :width: 240pt
 
    格子点属性の編集ダイアログ 表示例

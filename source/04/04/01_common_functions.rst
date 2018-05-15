@@ -21,12 +21,14 @@
 .. _image_color_setting_dialog1:
 
 .. figure:: images/color_setting_dialog1.png
+   :width: 140pt
 
    表示色設定ダイアログ
 
 .. _image_color_setting_dialog2:
 
 .. figure:: images/color_setting_dialog2.png
+   :width: 160pt
 
    表示色設定ダイアログ
 
@@ -43,6 +45,7 @@
 .. _image_custom_color_map_dialog:
 
 .. figure:: images/custom_color_map_dialog.png
+   :width: 180pt
 
    表示色設定 カスタムカラーマップダイアログ
 
@@ -63,6 +66,7 @@
 .. _image_object_browser_name_edit:
 
 .. figure:: images/object_browser_name_edit.png
+   :width: 150pt
 
    名前編集中のオブジェクトブラウザー
 
@@ -80,6 +84,7 @@
 .. _image_delete_item_dialog_for_pre:
 
 .. figure:: images/delete_item_dialog_for_pre.png
+   :width: 180pt
 
    項目の削除 確認ダイアログ
 
@@ -115,6 +120,7 @@
 .. _image_delete_all_item_dialog:
 
 .. figure:: images/delete_all_item_dialog.png
+   :width: 240pt
 
    項目の全削除 確認ダイアログ
 
@@ -135,5 +141,6 @@
 .. _image_export_polygons_dialog:
 
 .. figure:: images/export_polygons_dialog.png
+   :width: 380pt
 
    ポリゴンのエクスポートダイアログ

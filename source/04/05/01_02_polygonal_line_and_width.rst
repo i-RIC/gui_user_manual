@@ -10,6 +10,7 @@
 .. _image_example_grid_polyline_and_width:
 
 .. figure:: images/example_grid_polyline_and_width.png
+   :width: 340pt
 
    折れ線と格子幅から生成する格子の形状例
 
@@ -27,12 +28,14 @@
 .. _image_polyline_display_after_centerline_set:
 
 .. figure:: images/polyline_display_after_centerline_set.png
+   :width: 380pt
 
    格子中心線の定義完了時の表示例
 
 .. _image_example_grid_creation_dialog:
 
 .. figure:: images/example_grid_creation_dialog.png
+   :width: 240pt
 
    格子生成条件ダイアログ
 
@@ -76,6 +79,7 @@
 .. _image_poly_cursor_add_vertex:
 
 .. figure:: images/poly_cursor_add_vertex.png
+   :width: 20pt
 
    中心線の頂点の追加が可能な時のマウスカーソル
 
@@ -91,6 +95,7 @@
 .. _image_poly_cursor_remove_vertex:
 
 .. figure:: images/poly_cursor_remove_vertex.png
+   :width: 20pt
 
    中心線の頂点の削除が可能な時のマウスカーソル
 
@@ -105,6 +110,7 @@
 .. _image_poly_centerline_coordinates_dialog:
 
 .. figure:: images/poly_centerline_coordinates_dialog.png
+   :width: 180pt
 
    頂点座標の編集ダイアログ
 
@@ -117,6 +123,7 @@
 .. _image_poly_example_reversing:
 
 .. figure:: images/poly_example_reversing.png
+   :width: 420pt
 
    中心線の向きの反転 表示例
 

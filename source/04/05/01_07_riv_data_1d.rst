@@ -15,6 +15,7 @@
 .. _image_riv_data_1d_example_grid:
 
 .. figure:: images/riv_data_1d_example_grid.png
+   :width: 280pt
 
    河川測量データから生成する格子の形状例
 
@@ -31,6 +32,7 @@
 .. _image_riv_data_1d_grid_creation_dialog:
 
 .. figure:: images/riv_data_1d_grid_creation_dialog.png
+   :width: 180pt
 
    格子生成ダイアログ 表示例
 
@@ -77,18 +79,21 @@
 .. _image_riv_data_1d_example_selected_line:
 
 .. figure:: images/riv_data_1d_example_selected_line.png
+   :width: 280pt
 
    線の選択時の画面例
 
 .. _image_riv_data_1d_add_div_points_dialog:
 
 .. figure:: images/riv_data_1d_add_div_points_dialog.png
+   :width: 160pt
 
    分割点の追加ダイアログ
 
 .. _image_riv_data_1d_example_add_div_points:
 
 .. figure:: images/riv_data_1d_example_add_div_points.png
+   :width: 280pt
 
    分割点の追加後の表示例
 
@@ -104,6 +109,7 @@
 .. _image_riv_data_1d_add_div_points_regionally_dialog:
 
 .. figure:: images/riv_data_1d_add_div_points_regionally_dialog.png
+   :width: 140pt
 
    分割点の一括追加ダイアログ
 
@@ -116,6 +122,7 @@
 .. _image_riv_data_1d_example_delete_div_points:
 
 .. figure:: images/riv_data_1d_example_delete_div_points.png
+   :width: 420pt
 
    分割点の削除 操作例
 
@@ -131,6 +138,7 @@
 .. _image_riv_data_1d_move_div_points_dialog:
 
 .. figure:: images/riv_data_1d_move_div_points_dialog.png
+   :width: 160pt
 
    分割点の移動ダイアログ
 
@@ -147,5 +155,6 @@
 .. _image_riv_data_1d_reposition_div_point_dialog:
 
 .. figure:: images/riv_data_1d_reposition_div_point_dialog.png
+   :width: 160pt
 
    分割点の再配置ダイアログ

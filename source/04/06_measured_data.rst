@@ -25,6 +25,7 @@
 .. _image_example_measured_values_ob:
 
 .. figure:: images/example_measured_values_ob.png
+   :width: 160pt
 
    実測値の読み込み後の表示例
 
@@ -46,6 +47,7 @@
 .. _image_example_scalar_setting_dialog:
 
 .. figure:: images/example_scalar_setting_dialog.png
+   :width: 260pt
 
    スカラー量の実測値の表示設定ダイアログ
 
@@ -63,6 +65,7 @@
 .. _image_example_arrow_setting_dialog:
 
 .. figure:: images/example_arrow_setting_dialog.png
+   :width: 260pt
 
    ベクトル量の実測値の表示設定ダイアログ
 

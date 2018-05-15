@@ -16,6 +16,7 @@
 .. _select_algorithm_dialog:
 
 .. figure:: images/select_algorithm_dialog.png
+   :width: 340pt
 
    格子生成アルゴリズムの選択ダイアログ
 

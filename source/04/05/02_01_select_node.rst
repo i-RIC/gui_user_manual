@@ -22,11 +22,13 @@
 .. _image_node_select_pre:
 
 .. figure:: images/node_select_pre.png
+   :width: 300pt
 
    描画領域でドラッグ中のiRIC 表示例
 
 .. _image_pre_after_node_select:
 
 .. figure:: images/pre_after_node_select.png
+   :width: 300pt
 
    格子点選択後の iRIC 表示例

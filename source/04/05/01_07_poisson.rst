@@ -15,6 +15,7 @@
 .. _image_poisson_example_grid:
 
 .. figure:: images/poisson_example_grid.png
+   :width: 300pt
 
    ポアソン方程式を解いて生成する格子の形状例
 
@@ -28,12 +29,14 @@
 .. _image_poisson_select_control_xsec_dialog:
 
 .. figure:: images/poisson_select_control_xsec_dialog.png
+   :width: 220pt
 
    コントロール断面数の指定ダイアログ
 
 .. _image_poisson_centerline_example:
 
 .. figure:: images/poisson_centerline_example.png
+   :width: 360pt
 
    中心線の定義例
 
@@ -46,12 +49,14 @@
 .. _image_poisson_banks_dialog:
 
 .. figure:: images/poisson_banks_dialog.png
+   :width: 200pt
 
    岸線の生成ダイアログ
 
 .. _image_poisson_banks_example:
 
 .. figure:: images/poisson_banks_example.png
+   :width: 340pt
 
    左岸線・右岸線の生成例
 
@@ -70,12 +75,14 @@
 .. _image_poisson_gridgeneration_dialog:
 
 .. figure:: images/poisson_gridgeneration_dialog.png
+   :width: 240pt
 
    格子生成ダイアログ
 
 .. _image_poisson_grid_example:
 
 .. figure:: images/poisson_grid_example.png
+   :width: 360pt
 
    生成される格子の例
 
@@ -146,6 +153,7 @@
 .. _image_poisson_add_vertex_cursor:
 
 .. figure:: images/poisson_add_vertex_cursor.png
+   :width: 20pt
 
    頂点の追加が可能な時のマウスカーソル
 
@@ -163,6 +171,7 @@
 .. _image_poisson_remove_vertex_cursor:
 
 .. figure:: images/poisson_remove_vertex_cursor.png
+   :width: 20pt
 
    頂点の削除が可能な時のマウスカーソル
 
@@ -180,6 +189,7 @@
 .. _image_poisson_coordinates_dialog:
 
 .. figure:: images/poisson_coordinates_dialog.png
+   :width: 160pt
 
    中心線の頂点座標編集ダイアログ
 
@@ -215,6 +225,7 @@
 .. _image_poisson_center_import_dialog:
 
 .. figure:: images/poisson_center_import_dialog.png
+   :width: 380pt
 
    中心線のインポートダイアログ
 
@@ -245,6 +256,7 @@
 .. _image_poisson_center_export_dialog:
 
 .. figure:: images/poisson_center_export_dialog.png
+   :width: 380pt
 
    中心線のエクスポートダイアログ
 

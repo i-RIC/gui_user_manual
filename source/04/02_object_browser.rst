@@ -8,6 +8,7 @@
 .. _image_ob_of_pre_window:
 
 .. figure:: images/ob_of_pre_window.png
+   :width: 300pt
 
    プリプロセッサーのオブジェクトブラウザー
 
@@ -62,6 +63,7 @@
 .. _image_example_of_axes:
 
 .. figure:: images/example_of_axes.png
+   :width: 60pt
 
    座標軸
 
@@ -84,6 +86,7 @@
 .. _example_of_distance_measure:
 
 .. figure:: images/example_of_distance_measure.png
+   :width: 160pt
 
    距離計測線
 
@@ -94,5 +97,6 @@
 .. _distance_measure_prop_dialog:
 
 .. figure:: images/distance_measure_prop_dialog.png
+   :width: 220pt
 
    距離計測 プロパティダイアログ

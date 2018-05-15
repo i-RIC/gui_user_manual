@@ -47,12 +47,14 @@ iRIC では、以下の種類の画像を背景画像として取り込むこと
 .. _bg_open_image_file_dialog:
 
 .. figure:: images/bg_open_image_file_dialog.png
+   :width: 380pt
 
    背景画像選択ダイアログ
 
 .. _image_iric_after_bg_import:
 
 .. figure:: images/iric_after_bg_import.png
+   :width: 390pt
 
    背景画像読み込み後のiRIC 表示例
 
@@ -102,5 +104,6 @@ iRIC では、以下の種類の画像を背景画像として取り込むこと
 .. _image_bg_image_position_dialog:
 
 .. figure:: images/bg_image_position_dialog.png
+   :width: 220pt
 
    背景画像の位置合わせダイアログ

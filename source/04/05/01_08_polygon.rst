@@ -11,6 +11,7 @@
 .. _image_polygon_example_grid:
 
 .. figure:: images/polygon_example_grid.png
+   :width: 300pt
 
    ポリゴン形状から生成する格子の形状例
 
@@ -28,12 +29,14 @@
 .. _image_polygon_after_grid_create_area:
 
 .. figure:: images/polygon_after_grid_create_area.png
+   :width: 320pt
 
    格子生成領域の定義完了時の表示例
 
 .. _image_polygon_grid_creation_dialog:
 
 .. figure:: images/polygon_grid_creation_dialog.png
+   :width: 280pt
 
    格子生成条件ダイアログ
 
@@ -102,24 +105,28 @@
 .. _image_polygon_refinement_max_area_dialog:
 
 .. figure:: images/polygon_refinement_max_area_dialog.png
+   :width: 160pt
 
    再分割領域 セル最大面積の指定ダイアログ
 
 .. _image_polygon_after_def_refinement_region:
 
 .. figure:: images/polygon_after_def_refinement_region.png
+   :width: 380pt
 
    再分割領域の指定直後の画面例
 
 .. _image_polygon_refine_example_grid:
 
 .. figure:: images/polygon_refine_example_grid.png
+   :width: 160pt
 
    格子生成例
 
 .. _image_polygon_refine_recursive_example:
 
 .. figure:: images/polygon_refine_recursive_example.png
+   :width: 320pt
 
    再分割領域内に再分割領域を作成した例
 
@@ -143,12 +150,14 @@
 .. _image_polygon_iric_after_def_hole:
 
 .. figure:: images/polygon_iric_after_def_hole.png
+   :width: 320pt
 
    障害物領域の指定直後の画面例
 
 .. _image_polygon_hole_grid_example:
 
 .. figure:: images/polygon_hole_grid_example.png
+   :width: 160pt
 
    格子生成例
 
@@ -174,12 +183,14 @@ iRIC 3.0 以降では、分割線を格子生成領域からはみ出した形�
 .. _image_polygon_breakline_grid_example:
 
 .. figure:: images/polygon_breakline_grid_example.png
+   :width: 180pt
 
    分割線の定義した場合の格子生成例
 
 .. _image_polygon_breakline_outside_example:
 
 .. figure:: images/polygon_breakline_outside_example.png
+   :width: 120pt
 
    格子生成領域からはみ出した分割線を定義した場合の格子生成例
 
@@ -197,6 +208,7 @@ iRIC 3.0 以降では、分割線を格子生成領域からはみ出した形�
 .. _image_polygon_add_vertex_cursor:
 
 .. figure:: images/polygon_add_vertex_cursor.png
+   :width: 20pt
 
    頂点の追加が可能な時のマウスカーソル
 
@@ -214,6 +226,7 @@ iRIC 3.0 以降では、分割線を格子生成領域からはみ出した形�
 .. _image_polygon_remove_vertex_cursor:
 
 .. figure:: images/polygon_remove_vertex_cursor.png
+   :width: 20pt
 
    頂点の削除が可能な時のマウスカーソル
 
@@ -229,6 +242,7 @@ iRIC 3.0 以降では、分割線を格子生成領域からはみ出した形�
 .. _image_gridgen_polygon_coordinates_dialog:
 
 .. figure:: images/polygon_coordinates_dialog.png
+   :width: 180pt
 
    ポリゴンの頂点座標編集ダイアログ
 
@@ -244,6 +258,7 @@ iRIC 3.0 以降では、分割線を格子生成領域からはみ出した形�
 .. _image_polygon_ref_max_area_dialog:
 
 .. figure:: images/polygon_ref_max_area_dialog.png
+   :width: 180pt
 
    セルの最大面積を編集するダイアログ
 
@@ -262,12 +277,14 @@ iRIC 3.0 以降では、分割線を格子生成領域からはみ出した形�
 .. _image_polygon_redivide_breakline_dialog:
 
 .. figure:: images/polygon_redivide_breakline_dialog.png
+   :width: 130pt
 
    「分割数の入力」ダイアログ
 
 .. _image_polygon_breakline_redivide_example:
 
 .. figure:: images/polygon_breakline_redivide_example.png
+   :width: 240pt
 
    分割線の再分割の操作例
 

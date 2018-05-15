@@ -22,6 +22,7 @@
 .. _image_calc_cond_dialog:
 
 .. figure:: images/calc_cond_dialog.png
+   :width: 360pt
 
    計算条件ダイアログ
 

@@ -9,6 +9,7 @@
 .. _image_compound_example_grid:
 
 .. figure:: images/compound_example_grid.png
+   :width: 200pt
 
    生成される複断面格子の形状例
 
@@ -38,24 +39,28 @@
 .. _image_compound_pre_after_grid_region:
 
 .. figure:: images/compound_pre_after_grid_region.png
+   :width: 360pt
 
    格子生成領域の定義完了時の表示例
 
 .. _image_compound_pre_after_lower_region:
 
 .. figure:: images/compound_pre_after_lower_region.png
+   :width: 360pt
 
    低水域領域の定義完了時の表示例
 
 .. _image_compound_pre_after_centerline:
 
 .. figure:: images/compound_pre_after_centerline.png
+   :width: 360pt
 
    格子中心線の定義完了時の表示例
 
 .. _image_compound_grid_creation_dialog:
 
 .. figure:: images/compound_grid_creation_dialog.png
+   :width: 240pt
 
    格子生成条件ダイアログ
 
@@ -103,6 +108,7 @@
 .. _image_compound_cursor_add_vertex:
 
 .. figure:: images/compound_cursor_add_vertex.png
+   :width: 20pt
 
    ポリゴンまたは中心線の頂点の追加が可能な時のマウスカーソル表示例
 
@@ -120,6 +126,7 @@
 .. _image_compound_cursor_remove_vertex:
 
 .. figure:: images/compound_cursor_remove_vertex.png
+   :width: 20pt
 
    ポリゴンまたは中心線の頂点の削除が可能な時のマウスカーソル表示例
 
@@ -136,6 +143,7 @@
 .. _image_comp_channel_polygon_coords_dialog:
 
 .. figure:: images/comp_channel_polygon_coords_dialog.png
+   :width: 180pt
 
    座標の編集ダイアログ 表示例
 
@@ -148,6 +156,7 @@
 .. _image_comp_channel_example_center_line_reversing:
 
 .. figure:: images/comp_channel_example_center_line_reversing.png
+   :width: 440pt
 
    中心線の向きの反転 表示例
 

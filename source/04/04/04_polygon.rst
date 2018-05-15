@@ -11,6 +11,7 @@
 .. _image_example_polygon_data:
 
 .. figure:: images/example_polygon_data.png
+   :width: 140pt
 
    ポリゴン 表示例
 
@@ -81,18 +82,21 @@
 .. _image_polygon_object_browser_disp:
 
 .. figure:: images/polygon_object_browser_disp.png
+   :width: 150pt
 
    オブジェクトブラウザー 表示例
 
 .. _image_prewindow_polygon_being_defined:
 
 .. figure:: images/prewindow_polygon_being_defined.png
+   :width: 350pt
 
    ポリゴン定義中のプリプロセッサー
 
 .. _image_edit_elevation_value_dialog:
 
 .. figure:: images/edit_elevation_value_dialog.png
+   :width: 130pt
 
    ポリゴン内での地理情報値 編集ダイアログ
 
@@ -108,6 +112,7 @@
 .. _image_edit_elevation_value_dialog2:
 
 .. figure:: images/edit_elevation_value_dialog.png
+   :width: 130pt
 
    ポリゴン内での地理情報値 編集ダイアログ
 
@@ -124,6 +129,7 @@
 .. _image_polylgon_cursor_add_vertex:
 
 .. figure:: images/polylgon_cursor_add_vertex.png
+   :width: 20pt
 
    頂点の追加が可能な時のマウスカーソル
 
@@ -140,6 +146,7 @@
 .. _image_polylgon_cursor_remove_vertex:
 
 .. figure:: images/polylgon_cursor_remove_vertex.png
+   :width: 20pt
 
    頂点の削除が可能な時のマウスカーソル
 
@@ -155,6 +162,7 @@
 .. _image_polygon_coordinates_dialog:
 
 .. figure:: images/polygon_coordinates_dialog.png
+   :width: 160pt
 
    ポリゴンの頂点座標編集ダイアログ
 
@@ -175,12 +183,14 @@
 .. _image_add_hole_region_info_dialog:
 
 .. figure:: images/add_hole_region_info_dialog.png
+   :width: 220pt
 
    ポリゴンの穴領域の追加 情報ダイアログ
 
 .. _image_polygon_example_add_hole_region:
 
 .. figure:: images/polygon_example_add_hole_region.png
+   :width: 340pt
 
    ポリゴンの穴領域の追加 表示例
 
@@ -199,12 +209,14 @@
 .. _image_polygon_delete_hole_warning_dialog:
 
 .. figure:: images/polygon_delete_hole_warning_dialog.png
+   :width: 160pt
 
    ポリゴンの穴領域の削除ダイアログ
 
 .. _image_polygon_example_delete_hole:
 
 .. figure:: images/polygon_example_delete_hole.png
+   :width: 340pt
 
    ポリゴンの穴領域の削除後 表示例
 
@@ -222,5 +234,6 @@
 .. _image_polygon_color_dialog:
 
 .. figure:: images/polygon_color_dialog.png
+   :width: 220pt
 
    ポリゴンの表示色設定ダイアログ
