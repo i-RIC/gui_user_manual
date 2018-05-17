@@ -75,8 +75,6 @@ on the dialog, and click on [OK], the grid is generated.
 An example of generated grid is shown in
 :numref:`image_poisson_grid_example`.
 
-Please not that when you specify a small [Max number of iteration] value, 
-Poisson equation will not converge enough.
 
 .. _image_poisson_gridgeneration_dialog:
 
@@ -91,6 +89,29 @@ Poisson equation will not converge enough.
    :width: 360pt
 
    Example of generated grid
+
+
+.. attention::
+
+   When you specify a small [Max number of iteration] value, Poisson equation
+   will not converge enough.
+
+.. attention::
+
+   When you create grids using this algorithm for strongly curved rivers,
+   it sometimes occurs that grid cells get inverted, like shown in 
+   :numref:`image_poisson_bad_example`. When you get grids like this, please
+   try again with different values of nI and nJ, to change rate between them.
+
+   Generally speaking, this kind of problem seldom happens when you input nI and
+   nJ value to make dI and dJ values almost the same.
+
+   .. _image_poisson_bad_example:
+
+   .. figure:: images/poisson_bad_example.png
+      :width: 200pt
+
+      Example of grids with inverted cells
 
 Menu items
 -------------
