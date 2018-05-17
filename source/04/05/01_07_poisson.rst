@@ -69,9 +69,6 @@
 分割数と反復計算の最大数を指定して「OK」ボタンを押すと、格子が生成されます。
 生成される格子の例を :numref:`image_poisson_grid_example` に示します。
 
-なお、反復計算の最大数を小さく指定すると、ポアソン方程式の収束が十分に行われませんので
-ご注意下さい。
-
 .. _image_poisson_gridgeneration_dialog:
 
 .. figure:: images/poisson_gridgeneration_dialog.png
@@ -85,6 +82,28 @@
    :width: 360pt
 
    生成される格子の例
+
+.. attention::
+
+   反復計算の最大数を小さく指定すると、ポアソン方程式の収束が十分に行われませんので
+   ご注意下さい。
+
+.. attention::
+
+   曲率の大きい河川の格子をこのアルゴリズムで生成した場合、
+   :numref:`image_poisson_bad_example` に示すように、内側でセルが
+   裏返ったような形状になることがあります。このような場合、 nI と nJ の比率を変更して
+   再度格子を生成してみてください。
+
+   一般的に、 dI と dJ が同じくらいの長さになるよう nI と nJ を指定すると、このような問題は
+   起きにくくなります。
+
+   .. _image_poisson_bad_example:
+
+   .. figure:: images/poisson_bad_example.png
+      :width: 200pt
+
+      セルが裏返った形状の格子の例
 
 メニュー構成
 -------------
