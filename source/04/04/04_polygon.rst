@@ -38,6 +38,8 @@ When the [Pre-processing Window] is active and [Polygon] is selected in
      - Edits the name shown in [Object Browser].
    * - [Edit Value] (V)
      - Edits geographic data within the Polygon.
+   * - [Copy]
+     - Copy the Polygon to another group.
    * - [Add Vertex] (A)
      - Adds a vertex.
    * - [Remove Vertex] (R)
@@ -104,7 +106,7 @@ The procedure to add a new Polygon is as follows:
 
 **Description**: Edits data value within the Polygon.
 
-When you select [Edit Value],, the [Edit Elevation value] dialog
+When you select [Edit Value], the [Edit Elevation value] dialog
 (:numref:`image_edit_elevation_value_dialog2`) will open.
 Set a new value and click on [OK].
 
@@ -114,6 +116,33 @@ Set a new value and click on [OK].
    :width: 130pt
 
    The [Edit Elevation value] dialog
+
+[Copy]
+--------
+
+**Description**: Copy the Polygon to another [Geographic Data] group.
+
+When you select [Copy], the [Select Geographic Data] dialog
+(:numref:`image_polygon_copy_selectgroup_dialog`) will open.
+Select the [Geographic Data] group to copy this polygon, and click on [OK].
+
+Then, the dialog to specify the value for the polygon is shown, like
+in :numref:`image_polygon_copy_editvalue_dialog`. Specify the value and
+click on [OK], to finish copying the polygon.
+
+.. _image_polygon_copy_selectgroup_dialog:
+
+.. figure:: images/polygon_copy_selectgroup_dialog.png
+   :width: 160pt
+
+   The [Select Geographic Data] dialog
+
+.. _image_polygon_copy_editvalue_dialog:
+
+.. figure:: images/polygon_copy_editvalue_dialog.png
+   :width: 160pt
+
+   The Edit value dialog
 
 [Add Vertex] (A)
 ----------------
