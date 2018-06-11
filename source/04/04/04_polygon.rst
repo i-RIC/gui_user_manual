@@ -40,6 +40,8 @@
      - オブジェクトブラウザー上に表示される名前を編集します
    * - 値の編集 (V)
      - ポリゴン内での地理情報の値を編集します
+   * - コピー
+     - ポリゴンを他の地理情報にコピーします
    * - 頂点の追加 (A)
      - 頂点を追加します
    * - 頂点の削除 (R)
@@ -115,6 +117,34 @@
    :width: 130pt
 
    ポリゴン内での地理情報値 編集ダイアログ
+
+コピー
+----------
+
+ポリゴンを、他の地理情報にコピーします。
+
+地理情報の選択ダイアログ 
+(:numref:`image_polygon_copy_selectgroup_dialog` 参照)
+が表示されますので、コピー先の地理情報を選択して「OK」ボタンを押します。
+
+すると、ポリゴンの値を指定するダイアログ
+(:numref:`image_polygon_copy_editvalue_dialog` 参照)
+が表示されますので、値を指定し「OK」ボタンを押します。すると、ポリゴンの
+コピーが完了します。
+
+.. _image_polygon_copy_selectgroup_dialog:
+
+.. figure:: images/polygon_copy_selectgroup_dialog.png
+   :width: 140pt
+
+   地理情報の選択ダイアログ
+
+.. _image_polygon_copy_editvalue_dialog:
+
+.. figure:: images/polygon_copy_editvalue_dialog.png
+   :width: 160pt
+
+   値の編集ダイアログ
 
 頂点の追加 (A)
 ---------------
