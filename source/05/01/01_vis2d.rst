@@ -102,6 +102,45 @@ Post-processing Window] can be edited mainly from [Draw] menu and
 refer to :ref:`sec_pre_axes` and :ref:`sec_pre_distance_measures`
 respectively.
 
+[Attribute Browser]
+-----------------------------
+
+You can use [Attribute Browser] to see the values of attributes
+defined at grid nodes.
+
+:numref:`image_post2d_attribute_browser` shows an example of
+[Attribute Browser].
+
+You can open [Attribute Browser] with the following operations:
+
+* **Menu bar**: [View] (V) -> [Attribute Browser] (A)
+* **Right-clicking menu**: Select [Scalar (node)] etc. in [Object Browser],
+  and select [Show Attribute Browser] from right-clicking menu.
+
+While [Attribute Browser] is shown, you can do the following operations
+using mouse:
+
+* When no point is selected, you can see the values of attributes 
+  defined at the grid node, by moving the mouse cursor. The attribute values
+  defined at the point nearest to the mouse cursor is shown continuously.
+  The grid node which is selected to show attributes is highlighted
+  with a big black square.
+
+* If you left-click on grid node when values are shown in [Attribute Browser],
+  the grid node is selected, and values at that point is shown, until you select
+  another point or clear selection. When you left-click on another grid node,
+  the new node is selected.
+
+* If you left-click on point which is outside or the region where calculation
+  result is defined, selection is cleared.
+
+.. _image_post2d_attribute_browser:
+
+.. figure:: images/post2d_attribute_browser.png
+   :width: 200pt
+
+   Example of [Attribute Browser]
+
 [Grid Shape] (G)
 ------------------
 
