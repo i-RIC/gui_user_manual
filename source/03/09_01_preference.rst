@@ -84,6 +84,14 @@ Window and 2D Post-processing Windows.
 
    The [Preferences] dialog [Background Images (Internet)] tab
 
+In 2018, Google migrated Google Maps into Google Maps Platform, and now we need to input 
+API key to use Google Maps images as Backgound Images on iRIC. Input API key
+from "Input Google Maps API key" button.
+
+Please refer the following URL to know how to get a API key:
+
+https://cloud.google.com/maps-platform/?hl=en
+
 [Web Elevation Data] tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
