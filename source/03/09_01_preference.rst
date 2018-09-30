@@ -85,6 +85,15 @@ iRIC GUI に関する一般的な設定を行います。
 
    設定ダイアログ（背景画像（インターネット））
 
+2018年、 Google は Google Maps サービスを Google Maps Platform に移行し、 iRIC上で背景画像として Google Maps
+の画像を利用するためには、APIキーを入力することが必要になりました。APIキーを、 "Google Maps APIキーの入力" ボタンから
+入力してください。
+
+APIキーを取得する方法については、以下の URL を参照してください。
+
+https://cloud.google.com/maps-platform/?hl=jp
+
+
 Web 標高データ タブ
 ~~~~~~~~~~~~~~~~~~~~~~
 
