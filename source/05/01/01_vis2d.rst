@@ -52,6 +52,9 @@
      - コンター (C)
      - コンターの設定をします
    * -
+     - コンター (セル中心) (L)
+     - セル中心で出力された計算結果についてのコンターの設定をします
+   * -
      - ベクトル (A)
      - ベクトルの設定をします
    * -
@@ -63,9 +66,6 @@
    * -
      - セル属性 (C)
      - セル属性の設定をします
-   * -
-     - コンター (セル中心) (L)
-     - セル中心で出力された計算結果についてのコンターの設定をします
    * -
      - タイトル (T)
      - タイトルの設定をします
@@ -221,6 +221,68 @@
 
    コンター設定の値ごとの表示例
 
+コンター (セル中心) (L)
+-----------------------
+
+セル中心で定義された計算結果に関するコンターの表示設定をします。
+
+コンターの表示設定ダイアログが表示されます (:numref:`image_post2d_contour_dialog` 参照)
+ので、設定を行って「OK」ボタンを押します。
+
+表示する領域の範囲を調整するには、
+「領域設定 (R)｣ボタンを押して領域設定ダイアログを表示し、設定を行って
+「OK」ボタンを押します（:numref:`image_post2d_cellcenter_contour_region_structured_dialog`、
+:numref:`image_post2d_cellcenter_contour_region_unstructured_dialog` 参照）。
+
+凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
+カラーバー設定ダイアログを表示し、設定を行って「OK」ボタンを押します
+（:numref:`image_post2d_cellcenter_contour_colorbar_setting_dialog` 参照）。
+
+カラーマップで「手動」を選択し、「設定」ボタンを押した場合に表示されるダイアログに
+ついては、:ref:`sec_geo_common_color_setting` を参照して下さい。
+
+コンター設定ごとの表示例を :numref:`image_post2d_cellcenter_contours_by_displaysetting`
+に示します。
+
+コンターは、複数の計算結果について同時に表示できます。
+複数のコンターを同時に表示するには、オブジェクトブラウザで、複数の項目の横の
+チェックボックスをチェックして下さい。
+
+.. _image_post2d_cellcenter_contour_dialog:
+
+.. figure:: images/post2d_cellcenter_contour_dialog.png
+   :width: 250pt
+
+   コンター表示設定ダイアログ 表示例
+
+.. _image_post2d_cellcenter_contour_region_structured_dialog:
+
+.. figure:: images/post2d_contour_region_structured_dialog.png
+   :width: 150pt
+
+   コンター表示 領域設定ダイアログ 表示例 (構造格子)
+
+.. _image_post2d_cellcenter_contour_region_unstructured_dialog:
+
+.. figure:: images/post2d_contour_region_unstructured_dialog.png
+   :width: 130pt
+
+   コンター表示 領域設定ダイアログ 表示例 (非構造格子)
+
+.. _image_post2d_cellcenter_contour_colorbar_setting_dialog:
+
+.. figure:: images/post2d_contour_colorbar_setting_dialog.png
+   :width: 160pt
+
+   コンター表示 カラーバー設定ダイアログ 表示例
+
+.. _image_post2d_cellcenter_contours_by_displaysetting:
+
+.. figure:: images/post2d_cellcenter_contours_by_displaysetting.png
+   :width: 400pt
+
+   コンター設定の値ごとの表示例
+
 ベクトル (A)
 -------------
 
@@ -346,68 +408,6 @@
    :width: 230pt
 
    セル属性の設定ダイアログ 表示例
-
-コンター (セル中心) (L)
------------------------
-
-セル中心で定義された計算結果に関するコンターの表示設定をします。
-
-コンターの表示設定ダイアログが表示されます (:numref:`image_post2d_contour_dialog` 参照)
-ので、設定を行って「OK」ボタンを押します。
-
-表示する領域の範囲を調整するには、
-「領域設定 (R)｣ボタンを押して領域設定ダイアログを表示し、設定を行って
-「OK」ボタンを押します（:numref:`image_post2d_cellcenter_contour_region_structured_dialog`、
-:numref:`image_post2d_cellcenter_contour_region_unstructured_dialog` 参照）。
-
-凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
-カラーバー設定ダイアログを表示し、設定を行って「OK」ボタンを押します
-（:numref:`image_post2d_cellcenter_contour_colorbar_setting_dialog` 参照）。
-
-カラーマップで「手動」を選択し、「設定」ボタンを押した場合に表示されるダイアログに
-ついては、:ref:`sec_geo_common_color_setting` を参照して下さい。
-
-コンター設定ごとの表示例を :numref:`image_post2d_cellcenter_contours_by_displaysetting`
-に示します。
-
-コンターは、複数の計算結果について同時に表示できます。
-複数のコンターを同時に表示するには、オブジェクトブラウザで、複数の項目の横の
-チェックボックスをチェックして下さい。
-
-.. _image_post2d_cellcenter_contour_dialog:
-
-.. figure:: images/post2d_cellcenter_contour_dialog.png
-   :width: 250pt
-
-   コンター表示設定ダイアログ 表示例
-
-.. _image_post2d_cellcenter_contour_region_structured_dialog:
-
-.. figure:: images/post2d_contour_region_structured_dialog.png
-   :width: 150pt
-
-   コンター表示 領域設定ダイアログ 表示例 (構造格子)
-
-.. _image_post2d_cellcenter_contour_region_unstructured_dialog:
-
-.. figure:: images/post2d_contour_region_unstructured_dialog.png
-   :width: 130pt
-
-   コンター表示 領域設定ダイアログ 表示例 (非構造格子)
-
-.. _image_post2d_cellcenter_contour_colorbar_setting_dialog:
-
-.. figure:: images/post2d_contour_colorbar_setting_dialog.png
-   :width: 160pt
-
-   コンター表示 カラーバー設定ダイアログ 表示例
-
-.. _image_post2d_cellcenter_contours_by_displaysetting:
-
-.. figure:: images/post2d_cellcenter_contours_by_displaysetting.png
-   :width: 400pt
-
-   コンター設定の値ごとの表示例
 
 タイトル (T)
 --------------
