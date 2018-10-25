@@ -52,6 +52,9 @@ The additional menus are shown between [Import] and
      - [Contours (node)] (C)
      - Displays the [Contour] dialog for results defined at grid nodes.
    * -
+     - [Contours (cell center)]
+     - Displays the [Contour] dialog for results defined at cell centers.
+   * -
      - [Arrow] (A)
      - Displays the [Arrow] (i.e., vector) dialog.
    * -
@@ -63,9 +66,6 @@ The additional menus are shown between [Import] and
    * -
      - [Cell Attributes]
      - Displays the [Cell Attributes] dialog.
-   * -
-     - [Contours (cell center)]
-     - Displays the [Contour] dialog for results defined at cell centers.
    * -
      - [Title]
      - Displays the [Title] dialog.
@@ -230,6 +230,74 @@ please check on the check boxes for multiple items in the object browser.
 
    Examples of the contour display by the [Display Setting] setting
 
+
+[Contour (Cell center)] (L)
+-------------------------------
+
+**Description**: Sets the contour settings for calculation Results
+defined at cell centers.
+
+When you select [Contour], the [Contour Setting] dialog
+(:numref:`image_post2d_cellcenter_contour_dialog`) will open.
+Set it and click on [OK].
+
+When you click on [Region Setting] button,
+[Region Setting] dialog
+(:numref:`image_post2d_cellcenter_contour_region_structured_dialog` or
+:numref:`image_post2d_cellcenter_contour_region_unstructured_dialog`)
+will open.
+
+When you click on [Color Bar Setting] button, [Color Legend Setting] dialog
+(:numref:`image_post2d_cellcenter_contour_colorbar_setting_dialog`)
+will open.
+
+Please refer to :ref:`sec_geo_common_color_setting`
+about the dialog that is shown when you select [Custom]
+as [Colormap] and click on [Setting] button.
+
+:numref:`image_post2d_cellcenter_contours_by_displaysetting`
+shows an example of
+displayed contours for each [Display Setting] setting.
+
+With iRIC 3.0, it is now possible to visualize contours for multiple
+calculation results at the same time. To visualize multiple contours,
+please check on the check boxes for multiple items in the object browser.
+
+.. _image_post2d_cellcenter_contour_dialog:
+
+.. figure:: images/post2d_cellcenter_contour_dialog.png
+   :width: 250pt
+
+   [Contour Setting] dialog
+
+.. _image_post2d_cellcenter_contour_region_structured_dialog:
+
+.. figure:: images/post2d_contour_region_structured_dialog.png
+   :width: 150pt
+
+   [Region Setting] dialog (Structured grid)
+
+.. _image_post2d_cellcenter_contour_region_unstructured_dialog:
+
+.. figure:: images/post2d_contour_region_unstructured_dialog.png
+   :width: 130pt
+
+   [Region Setting] dialog (Unstructured grid)
+
+.. _image_post2d_cellcenter_contour_colorbar_setting_dialog:
+
+.. figure:: images/post2d_contour_colorbar_setting_dialog.png
+   :width: 160pt
+
+   [Color Legend Setting] dialog
+
+.. _image_post2d_cellcenter_contours_by_displaysetting:
+
+.. figure:: images/post2d_cellcenter_contours_by_displaysetting.png
+   :width: 400pt
+
+   Examples of the contour display by the [Display Setting] setting
+
 [Arrow] (A)
 -------------
 
@@ -358,73 +426,6 @@ Set it and click on [OK].
    :width: 230pt
 
    [Cell Attributes] dialog
-
-[Contour (Cell center)] (L)
--------------------------------
-
-**Description**: Sets the contour settings for calculation Results
-defined at cell centers.
-
-When you select [Contour], the [Contour Setting] dialog
-(:numref:`image_post2d_cellcenter_contour_dialog`) will open.
-Set it and click on [OK].
-
-When you click on [Region Setting] button,
-[Region Setting] dialog
-(:numref:`image_post2d_cellcenter_contour_region_structured_dialog` or
-:numref:`image_post2d_cellcenter_contour_region_unstructured_dialog`)
-will open.
-
-When you click on [Color Bar Setting] button, [Color Legend Setting] dialog
-(:numref:`image_post2d_cellcenter_contour_colorbar_setting_dialog`)
-will open.
-
-Please refer to :ref:`sec_geo_common_color_setting`
-about the dialog that is shown when you select [Custom]
-as [Colormap] and click on [Setting] button.
-
-:numref:`image_post2d_cellcenter_contours_by_displaysetting`
-shows an example of
-displayed contours for each [Display Setting] setting.
-
-With iRIC 3.0, it is now possible to visualize contours for multiple
-calculation results at the same time. To visualize multiple contours,
-please check on the check boxes for multiple items in the object browser.
-
-.. _image_post2d_cellcenter_contour_dialog:
-
-.. figure:: images/post2d_cellcenter_contour_dialog.png
-   :width: 250pt
-
-   [Contour Setting] dialog
-
-.. _image_post2d_cellcenter_contour_region_structured_dialog:
-
-.. figure:: images/post2d_contour_region_structured_dialog.png
-   :width: 150pt
-
-   [Region Setting] dialog (Structured grid)
-
-.. _image_post2d_cellcenter_contour_region_unstructured_dialog:
-
-.. figure:: images/post2d_contour_region_unstructured_dialog.png
-   :width: 130pt
-
-   [Region Setting] dialog (Unstructured grid)
-
-.. _image_post2d_cellcenter_contour_colorbar_setting_dialog:
-
-.. figure:: images/post2d_contour_colorbar_setting_dialog.png
-   :width: 160pt
-
-   [Color Legend Setting] dialog
-
-.. _image_post2d_cellcenter_contours_by_displaysetting:
-
-.. figure:: images/post2d_cellcenter_contours_by_displaysetting.png
-   :width: 400pt
-
-   Examples of the contour display by the [Display Setting] setting
 
 [Title] (T)
 ------------
