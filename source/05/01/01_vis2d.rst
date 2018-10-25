@@ -427,6 +427,15 @@ Set it and click on [OK].
 
    [Cell Attributes] dialog
 
+
+Background Image
+------------------
+
+**Description**: Shows background images.
+
+This function is same to the function implemented on Pre-processor Window.
+Please refer to :ref:`sec_pre_bg_image_data` for detail.
+
 [Title] (T)
 ------------
 
