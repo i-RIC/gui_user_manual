@@ -16,5 +16,4 @@
    03_09_06_calc_result
    03_09_07_measured_data
    03_09_08_background_image
-   03_09_09_googlemap_bg_image
    03_09_10_vis_settings
