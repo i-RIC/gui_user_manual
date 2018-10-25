@@ -428,13 +428,21 @@ Set it and click on [OK].
    [Cell Attributes] dialog
 
 
-Background Image
-------------------
+[Background Image]
+--------------------
 
 **Description**: Shows background images.
 
 This function is same to the function implemented on Pre-processor Window.
 Please refer to :ref:`sec_pre_bg_image_data` for detail.
+
+[Background Image (Internet)]
+---------------------------------------
+
+**Description**: Shows background images got from Internet.
+
+This function is same to the function implemented on Pre-processor Window.
+Please refer to :ref:`sec_pre_ob_bg_internet` for detail.
 
 [Title] (T)
 ------------

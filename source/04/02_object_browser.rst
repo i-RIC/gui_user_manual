@@ -47,6 +47,8 @@ for operations on [Grid].
 [Background Images] is used when importing background images. Refer to
 :ref:`sec_pre_bg_image_data` for operations on [Background Images].
 
+.. _sec_pre_ob_bg_internet:
+
 [Background Images (Internet)]
 ---------------------------------
 
