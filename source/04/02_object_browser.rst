@@ -44,8 +44,26 @@ for operations on [Grid].
 [Background Images]
 -------------------
 
-[Background Images] is used whe importing background images. Refer to
+[Background Images] is used when importing background images. Refer to
 :ref:`sec_pre_bg_image_data` for operations on [Background Images].
+
+[Background Images (Internet)]
+---------------------------------
+
+[Background Images (Internet)] is used to show images got from
+internet and shows as background images.
+
+When you check on the child item, like [Google Maps (Road)], the
+map is shown as background images.
+
+When you want to use this function, you have to specify the coordinate system
+used in the project. Please refer to :ref:`sec_file_property` about the way
+to specify the coordinate system.
+
+You can add or remove the maps to show. When you want to use Google Maps
+images as background images, you need to create an account on Google, and
+input the API Key you've created. Please refer to 
+:ref:`pref_bgimg_internet_tab` about the detail.
 
 .. _sec_pre_axes:
 

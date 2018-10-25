@@ -69,6 +69,8 @@ Internet Explorer is used.
 
    The [Preferences] dialog [Network Proxy] tab
 
+.. _pref_bgimg_internet_tab:
+
 [Background Images (Internet)] tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
