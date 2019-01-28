@@ -152,13 +152,13 @@
 ポリゴンに頂点を追加します。
 
 このメニューを選択した後、ポリゴンの線の上にカーソルを移動すると、
-:numref:`image_polylgon_cursor_add_vertex`.
+:numref:`image_polygon_cursor_add_vertex`.
 で示すカーソルに変化します。この状態でマウスの左ボタンを押してドラッグすると、
 新しい頂点が追加できます。マウスの左ボタンを離すと、頂点の位置が確定します。
 
-.. _image_polylgon_cursor_add_vertex:
+.. _image_polygon_cursor_add_vertex:
 
-.. figure:: images/polylgon_cursor_add_vertex.png
+.. figure:: images/polygon_cursor_add_vertex.png
    :width: 20pt
 
    頂点の追加が可能な時のマウスカーソル
@@ -169,13 +169,13 @@
 ポリゴンの頂点を削除します。
 
 このメニューを選択した後、ポリゴンの頂点の上にカーソルを移動すると、
-:numref:`image_polylgon_cursor_remove_vertex`
+:numref:`image_polygon_cursor_remove_vertex`
 で示すカーソルに変化します。この状態でマウスの左ボタンを押すと、
 頂点が削除されます。
 
-.. _image_polylgon_cursor_remove_vertex:
+.. _image_polygon_cursor_remove_vertex:
 
-.. figure:: images/polylgon_cursor_remove_vertex.png
+.. figure:: images/polygon_cursor_remove_vertex.png
    :width: 20pt
 
    頂点の削除が可能な時のマウスカーソル
