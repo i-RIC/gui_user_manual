@@ -528,6 +528,9 @@ an example.
 **Description**: Inactivate points that are outside of the positions where
 the elevation exceed water elevation for the first time.
 
+When multiple water elevation data is loaded, a dialog to select the
+water elevation is shown.
+
 .. _image_example_inactivating_xsec_point_with_wse:
 
 .. figure:: images/example_inactivating_xsec_point_with_wse.png
