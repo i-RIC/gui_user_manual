@@ -26,11 +26,12 @@ Curently, iRIC supports the following three types of [Geographic Data].
 -  River Survey Data
 -  Pointset Data
 -  Polygon
+-  Polyline
 -  Raster Data
 
 The common operations available for all of these types are explained in
 :ref:`sec_geo_common_functions`. Operations specific to the data types
-are explained in :ref:`sec_riv_data` to :ref:`sec_polygon_data`.
+are explained in :ref:`sec_riv_data` to :ref:`sec_raster_data`.
 
 For importing and exporting [Geographic Data], refer to
 :ref:`sec_file_import_geo_data` and :ref:`sec_file_export_geo_data`.
@@ -42,4 +43,5 @@ For importing and exporting [Geographic Data], refer to
    04/02_riv_data
    04/03_pointset_data
    04/04_polygon
-   04/05_raster
+   04/05_polyline
+   04/06_raster
