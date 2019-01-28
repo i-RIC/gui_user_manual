@@ -488,6 +488,9 @@ Window. The additional menu items are shown between [Import] and
      - [Inactivate using water elevation]
      - Inactivate points that are outside of the positions where the elevation exceed water elevation for the first time.
    * -
+     - [Edit cross section from the selected point]
+     - Edit cross section shape from the selected point.
+   * -
      - [Move] (M)
      - Moves the selected elevation point.
    * -
@@ -537,6 +540,68 @@ water elevation is shown.
    :width: 420pt
 
    Example of the operation for inactivate using water elevation
+
+[Edit cross section from the selected point]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Edit the cross section shape from the selected point.
+
+When you want to use this function, please select only one point
+on the cross section first.
+
+After activating this function, when you move the mouse cursor,
+The line to preview the geometry shape after editing will be shown
+like in :numref:`image_example_xsec_edit_with_mouse`.
+While editing, the horizontal and vertical length of the line, and
+the gradient will be shown for the line that is going to be created.
+
+You can define the end point of the line by moving the mouse cursor,
+and execute the editing operation by left clicking.
+
+You can finish editing operation by double clicking, or pressing Enter key.
+
+The gradient values used in this function is selected from the values
+defined on :ref:`sec_option_pref_riversurvey`.
+
+.. _image_example_xsec_edit_with_mouse:
+
+.. figure:: images/example_xsec_edit_with_mouse.png
+   :width: 200pt
+
+   Example of cross section editing operation by mouse
+
+When you right click on the canvas while activating this function,
+[Edit from Dialog] menu will be shown. When you select this menu,
+the dialog in :numref:`image_example_xsec_edit_with_dialog`
+will be shown.
+
+On this dialog, you can edit the cross section shape by inputting the
+distance and gradient etc.
+
+By pressing [Apply] button, you can preview the cross section shape
+after editing.
+
+By pressing [Edit Next] button, you can execute the editing operation,
+select the new point added by the operation, and continue editing.
+This function is useful when you want to edit the cross section shape
+continuously.
+
+.. _image_example_xsec_edit_with_dialog:
+
+.. figure:: images/example_xsec_edit_with_dialog.png
+   :width: 240pt
+
+   Example of [Edit Cross Section From Selected Point] dialog
+
+Using this function, you can easily create cross section shapes that is
+composed of line. :numref:`image_example_xsec_edit_multi` shows an example.
+
+.. _image_example_xsec_edit_multi:
+
+.. figure:: images/example_xsec_edit_multi.png
+   :width: 350pt
+
+   Example of editing operation of cross section
 
 [Move] (M)
 ~~~~~~~~~~~
