@@ -48,6 +48,26 @@ As shown on the dialog, grid checking is applied only to structured grids.
 
    The [Preferences] dialog [Grid Checking] tab
 
+.. _sec_option_pref_riversurvey:
+
+[River Survey Data] tab
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Setting about editing [River Survey Data] is specified in this tab.
+
+You can edit the list of gradient fractions used while editing cross section of
+river survey data.
+
+Please refer to :ref:`sec_geodata_rivdata_edit_from_point` for the detail of
+cross section edit function of river survey data.
+
+.. _image_pref_dialog_riversurvey:
+
+.. figure:: images/pref_dialog_riversurvey.png
+   :width: 320pt
+
+   Then [Preferences] dialog [River Survey Data] tab
+
 [Network Proxy] tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

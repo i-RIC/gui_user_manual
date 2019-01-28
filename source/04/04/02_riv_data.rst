@@ -541,6 +541,8 @@ water elevation is shown.
 
    Example of the operation for inactivate using water elevation
 
+.. _sec_geodata_rivdata_edit_from_point:
+
 [Edit cross section from the selected point]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
