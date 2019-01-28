@@ -48,6 +48,25 @@ iRIC GUI に関する一般的な設定を行います。
 
    設定ダイアログ（格子チェック）
 
+.. _sec_option_pref_riversurvey:
+
+河川測量データ タブ
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+河川測量データの編集に関する設定を行います。
+
+河川測量データの横断線を編集する際に選択される法勾配のリストを編集します。
+
+河川測量データの横断線の編集機能に関する詳細は、
+:ref:`sec_geodata_rivdata_edit_from_point` を参照してください。
+
+.. _image_pref_dialog_riversurvey:
+
+.. figure:: images/pref_dialog_riversurvey.png
+   :width: 320pt
+
+   設定ダイアログ（河川測量データ）
+
 ネットワークプロキシ タブ
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
