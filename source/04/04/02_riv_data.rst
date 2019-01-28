@@ -485,6 +485,9 @@ Window. The additional menu items are shown between [Import] and
      - [Inactivate] (I)
      - Inactivates the selected elevation point.
    * -
+     - [Inactivate using water elevation]
+     - Inactivate points that are outside of the positions where the elevation exceed water elevation for the first time.
+   * -
      - [Move] (M)
      - Moves the selected elevation point.
    * -
