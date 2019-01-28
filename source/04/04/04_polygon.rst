@@ -151,13 +151,13 @@ click on [OK], to finish copying the polygon.
 
 When you select [Add Vertex] and move the cursor to the edge of
 [Polygon], the cursor changes to that shown in
-:numref:`image_polylgon_cursor_add_vertex`. Left click
+:numref:`image_polygon_cursor_add_vertex`. Left click
 on the line and drag it to add a new vertex. The vertex is placed where
 you release the left button.
 
-.. _image_polylgon_cursor_add_vertex:
+.. _image_polygon_cursor_add_vertex:
 
-.. figure:: images/polylgon_cursor_add_vertex.png
+.. figure:: images/polygon_cursor_add_vertex.png
    :width: 20pt
 
    Mouse cursor when possible to add a vertex
@@ -169,12 +169,12 @@ you release the left button.
 
 When you select [Remove Vertex] and move the cursor onto the vertex you
 want to remove, the cursor changes to that shown in
-:numref:`image_polylgon_cursor_remove_vertex`.
+:numref:`image_polygon_cursor_remove_vertex`.
 Left clicking will remove the vertex.
 
-.. _image_polylgon_cursor_remove_vertex:
+.. _image_polygon_cursor_remove_vertex:
 
-.. figure:: images/polylgon_cursor_remove_vertex.png
+.. figure:: images/polygon_cursor_remove_vertex.png
    :width: 20pt
 
    Mouse cursor when possible to removing the vertex
