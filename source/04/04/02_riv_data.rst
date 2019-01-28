@@ -518,6 +518,9 @@
 :numref:`image_example_inactivating_xsec_point_with_wse`
 に示します。
 
+水位データが複数読み込まれている時は、使用する水位データを選択する
+ダイアログが表示されます。
+
 .. _image_example_inactivating_xsec_point_with_wse:
 
 .. figure:: images/example_inactivating_xsec_point_with_wse.png
