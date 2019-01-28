@@ -13,6 +13,14 @@ Data] menu when the [Pre-processing Window] is active.
 [Geographic Data] types that users can import and edit depend depends
 on the solver.
 
+There is an exception: the [Reference Information] group.
+For projects for every solver, this group is shown. This is a special
+group that is not for mapping attributes to grid, but just for showing
+data as reference information.
+
+For example, add poly lines for road center lines, area border lines
+as [Reference Information].
+
 Curently, iRIC supports the following three types of [Geographic Data].
 
 -  River Survey Data
