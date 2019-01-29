@@ -107,3 +107,51 @@ iRIC では、以下の種類の画像を背景画像として取り込むこと
    :width: 220pt
 
    背景画像の位置合わせダイアログ
+
+ジオレファレンス
+-------------------
+
+対応する点（GCP）を選択することにより、背景画像を位置あわせします。
+
+まず、オブジェクトブラウザーで、位置合わせを行いたい背景画像を選択した状態で、右クリックメニューから「ジオレファレンス」を選択することで、
+:numref:`image_bg_image_georeference_dialog`
+に示すジオレファレンスダイアログを表示します。
+
+.. _image_bg_image_georeference_dialog:
+
+.. figure:: images/bg_image_georeference_dialog.png
+   :width: 220pt
+
+   ジオレファレンスダイアログ
+
+ジオレファレンスダイアログの描画領域上でマウスクリックを行うと点が追加され、メインウィンドウ上で対応する点を指定するようメッセージが表示されます。
+メッセージに従い、メインウィンドウ上でマウスクリックを行うと、再びジオレファレンスダイアログ上で点を指定するようメッセージが表示されます。
+これを繰り返すことで、対応点の組を順次追加します。追加された点の座標は、ジオレファレンスダイアログ上の表に表示されます。
+複数の点の組を指定した際の表示例を
+:numref:`image_bg_image_georeference_dialog_example`
+に示します。
+
+.. _image_bg_image_georeference_dialog_example:
+
+.. figure:: images/bg_image_georeference_dialog_example.png
+   :width: 220pt
+
+   ジオレファレンスにおける点の選択例
+
+点の指定後、適用ボタンを押下すると、ジオレファレンスダイアログを開いたまま位置合わせが実行されます。
+OKボタンを押下すると、位置合わせが確定し、ダイアログが閉じます。
+キャンセルボタンを押下すると、位置を元の状態に戻した上でダイアログが閉じます。
+適用ボタン押下後の表示例を
+:numref:`image_bg_image_georeference_dialog_apply`
+に示します。
+
+.. _image_bg_image_georeference_dialog_apply:
+
+.. figure:: images/bg_image_georeference_dialog_apply.png
+   :width: 220pt
+
+   ジオレファレンス実行後の表示例
+
+なお、一度指定した点は、マウス操作や表上での数値入力により編集することが可能です。
+マウス操作により編集を行う場合は、点を直接ドラッグするか、範囲を矩形選択した後にドラッグを行います。
+また、点を選択した状態で右クリックメニューの「削除」を実行すると、点を削除することができます。
