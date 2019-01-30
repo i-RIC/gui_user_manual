@@ -132,7 +132,9 @@ to adjust. Select [Georeference] from right-clicking menu to open
    [Georeference] dialog
 
 Click on the image in the [Georeference] dialog to add a point. 
-Then, click on the [Pre-processor Window]/[Post-processor Window] to add a corresponding point.
+
+Then, click on the [Pre-processor Window] to add a corresponding point.
+
 Repeat clicking to add as many points as you want.
 :numref:`image_bg_image_georeference_dialog_example` shows an example of
 the iRIC display after five pairs of points have been selected.
@@ -145,7 +147,9 @@ the iRIC display after five pairs of points have been selected.
    Example of the iRIC display after specifying points for georeference
 
 By clicking on [Apply], you can see a preview of georeference.
+
 When you click on [OK], the image position will be modified and dialog will be closed.
+
 You can revert the image position by clicking on [Cancel].
 
 :numref:`image_bg_image_georeference_dialog_apply` shows an example of 
@@ -158,5 +162,6 @@ the iRIC display after [Apply] is clicked.
 
    Example of the iRIC display after applying georeference
 
-You can modify the position of points by mouse operation or by editing cell contents in the table.
-You can also delete selected points from right-clicking menu.
+You can modify the position of points by mouse operation, or by editing coordinate values in the table.
+
+You can delete selected points from right-clicking menu.
