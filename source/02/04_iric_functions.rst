@@ -30,11 +30,13 @@ iRIC では、以下の4つのデータ型の地理情報を取り扱い、編�
 -  河川測量データ
 -  地勢データ
 -  ポリゴン
+-  折れ線
 -  ラスターデータ
 
 河川測量データの表示例を :numref:`image_geodata_riversurvey` に、
 地勢データの表示例を :numref:`image_geodata_pointset` に、
 ポリゴンの表示例を :numref:`image_geodata_polygon` に、
+折れ線の表示例を :numref:`image_geodata_polyline` に、
 ラスターデータの表示例を :numref:`image_geodata_raster` に、それぞれ示します。
 
 .. _image_geodata_riversurvey:
@@ -57,6 +59,13 @@ iRIC では、以下の4つのデータ型の地理情報を取り扱い、編�
    :width: 120pt
 
    ポリゴン表示例
+
+.. _image_geodata_polyline:
+
+.. figure:: images/geodata_polyline.png
+   :width: 100pt
+
+   折れ線表示例
 
 .. _image_geodata_raster:
 
