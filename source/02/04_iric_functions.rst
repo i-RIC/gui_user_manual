@@ -35,10 +35,12 @@ iRIC can import and edit four types of geographic data:
 -  River Survey Data
 -  Pointset Data
 -  Polygon
+-  Polyline
 -  Raster data
 
 :numref:`image_geodata_riversurvey`, :numref:`image_geodata_pointset`,
-:numref:`image_geodata_polygon` and :numref:`image_geodata_raster`
+:numref:`image_geodata_polygon`, :numref:`image_geodata_polyline`
+and :numref:`image_geodata_raster`
 show example of
 [River Survey Data], [Pointset Data], [Polygon], [Raster Data] respectively.
 
@@ -62,6 +64,13 @@ show example of
    :width: 120pt
 
    Example of [Polygon]
+
+.. _image_geodata_polyline:
+
+.. figure:: images/geodata_polyline.png
+   :width: 100pt
+
+   Example of [Polyline]
 
 .. _image_geodata_raster:
 
