@@ -58,6 +58,8 @@ under [Pointset Data] (O).
      - Remove all break lines.
    * - [Remesh TINs] (T)
      - Remesh TINs.
+   * - [Remove triangles with long edge] (W)
+     - Remove triangles with long edge.
    * - [Display Setting] (S)
      - Edit display setting.
    * - [Delete] (D)
@@ -315,6 +317,59 @@ remeshing TINs.
    :width: 380pt
 
    Example of remeshing TINs
+
+[Remove triangles with long edge] (W)
+--------------------------------------
+
+**Description**: Remove triangles with long edge from TIN.
+
+When TIN is generated generated, triangles with long edge are 
+sometimes generated in area in which there is not points.
+Using this function, you can remove such needless triangles.
+
+When you select [Remove triangles with long edge], dialog
+(:numref:`image_pointset_removetri_dialog`) will open.
+Specify the Limit edge length, and click on [Apply].
+
+You'll see that the triangles with edges longer than limit edge length
+are shown as gray area. If you need to, you can change limit edge
+length, and click on [Apply] again. If it seems OK, click on
+[OK] button to finish the operation.
+
+:numref:`image_pointset_removetri_before` shows an example of
+[Pointset Data] before removing triangles, 
+:numref:`image_pointset_removetri_apply` shows an example of
+[Pointset Data] after clicking [Apply] button, and
+:numref:`image_pointset_removetri_apply` shows an example of
+[Pointset Data] after removing triangles, for each.
+
+.. _image_pointset_removetri_dialog:
+
+.. figure:: images/pointset_remove_tri_dialog.png
+   :width: 200pt
+
+   [Remove triangles with long edge] dialog
+
+.. _image_pointset_removetri_before:
+
+.. figure:: images/pointset_remove_tri_before.png
+   :width: 250pt
+
+   [Pointset Data] before removing triangles
+
+.. _image_pointset_removetri_apply:
+
+.. figure:: images/pointset_remove_tri_apply.png
+   :width: 250pt
+
+   [Pointset Data] display example after clicking [Apply] button
+   
+.. _image_pointset_removetri_after:
+
+.. figure:: images/pointset_remove_tri_after.png
+   :width: 250pt
+
+   [Pointset Data] after removing triangles
 
 [Display Setting] (S)
 ---------------------
