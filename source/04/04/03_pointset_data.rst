@@ -59,6 +59,8 @@ DEMデータ　(O) 以下のサブメニューの構成を
      - すべての分割線を削除します
    * - TINの再生成 (T)
      - TINを再生成します
+   * - 長い辺を持つ三角形を削除 (W)
+     - 長い辺を持つ三角形を削除します
    * - 表示設定 (S)
      - 地勢データの表示方法を設定します
    * - 削除 (D)
@@ -310,6 +312,54 @@ TINの再生成 (T)
    :width: 380pt
 
    TINの再生成 操作例
+
+長い辺を持つ三角形を削除 (W)
+------------------------------
+
+TINから、長い辺を持つ三角形を削除します。
+
+TIN を生成する時、点がない領域について、長い辺を持つ三角形が生成される
+ことがあります。この機能を使うことで、そのような三角形を削除できます。
+
+:numref:`image_pointset_removetri_dialog` に示すダイアログが表示されます。
+しきい値とする辺の長さを指定し、「適用」ボタンを押します。
+
+しきい値の長さ以上を持つ三角形が灰色で塗られて表示されるので、必要に応じて
+辺の長さを調整してから、「OK」ボタンを押します。
+
+本機能を用いて三角形を削除する前の地勢データの表示例を
+:numref:`image_pointset_removetri_before` に、「適用」ボタンを
+押した時の表示例を :numref:`image_pointset_removetri_apply`
+に、「OK」ボタンを押して三角形を削除した後の地勢データの表示例を
+:numref:`image_pointset_removetri_after` にそれぞれ示します。
+
+.. _image_pointset_removetri_dialog:
+
+.. figure:: images/pointset_remove_tri_dialog.png
+   :width: 200pt
+
+   長い辺を持つ三角形の削除 ダイアログ
+
+.. _image_pointset_removetri_before:
+
+.. figure:: images/pointset_remove_tri_before.png
+   :width: 250pt
+
+   三角形を削除する前の地勢データの例
+
+.. _image_pointset_removetri_apply:
+
+.. figure:: images/pointset_remove_tri_apply.png
+   :width: 250pt
+
+   「適用」ボタンを押した時の表示例
+
+.. _image_pointset_removetri_after:
+
+.. figure:: images/pointset_remove_tri_after.png
+   :width: 250pt
+
+   三角形を削除した後の地勢データの例
 
 表示設定 (S)
 -------------
