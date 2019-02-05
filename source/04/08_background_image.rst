@@ -58,56 +58,6 @@ iRIC では、以下の種類の画像を背景画像として取り込むこと
 
    背景画像読み込み後のiRIC 表示例
 
-位置合わせ
--------------------
-
-背景画像を位置あわせします。
-
-オブジェクトブラウザーで、位置合わせを行いたい背景画像を選択した状態で、描画領域で
-:numref:`bg_image_operations_table` に示した操作を行って位置合わせします。
-
-.. |cursor_rotate| image:: images/cursor_rotate.png
-.. |cursor_zoom| image:: images/cursor_zoom.png
-.. |cursor_translate| image:: images/cursor_translate.png
-
-.. list-table:: 背景画像の位置合わせ操作
-   :name: bg_image_operations_table
-   :header-rows: 1
-
-   * - 位置合わせ操作
-     - 操作内容
-     - 操作中のカーソル
-   * - 移動
-     - 左ドラッグ
-     - |cursor_translate|
-   * - 拡大・縮小
-     - 中央ボタン(ホイール)ドラッグ、またはホイールの前後回転
-     - |cursor_zoom|
-   * - 回転
-     - 右ドラッグ
-     - |cursor_rotate|
-
-.. |icon_pin_fix| image:: images/icon_pin_fix.png
-.. |icon_pin_free| image:: images/icon_pin_free.png
-
-また、操作ツールバーの |icon_pin_free|
-ボタンを押すことで、位置が固定され、アイコンが |icon_pin_fix|
-に変化します。位置が固定されている時は、
-オブジェクトブラウザーで背景画像を選択していても、位置合わせ操作が無効になります。
-
-もう一度ボタンをクリックすると、位置の固定が解除されます。
-
-また、右クリックメニューから「プロパティ」を選択することで、
-:numref:`image_bg_image_position_dialog`
-に示すダイアログを表示し、数字を指定して位置を合わせることもできます。
-
-.. _image_bg_image_position_dialog:
-
-.. figure:: images/bg_image_position_dialog.png
-   :width: 220pt
-
-   背景画像の位置合わせダイアログ
-
 ジオレファレンス
 -------------------
 
@@ -162,3 +112,53 @@ OKボタンを押下すると、位置合わせが確定し、ダイアログが
 マウス操作により編集を行う場合は、点を直接ドラッグするか、範囲を矩形選択した後にドラッグを行います。
 
 点を選択した状態で右クリックメニューの「削除」を実行すると、点を削除することができます。
+
+位置合わせ
+-------------------
+
+背景画像を位置あわせします。
+
+オブジェクトブラウザーで、位置合わせを行いたい背景画像を選択した状態で、描画領域で
+:numref:`bg_image_operations_table` に示した操作を行って位置合わせします。
+
+.. |cursor_rotate| image:: images/cursor_rotate.png
+.. |cursor_zoom| image:: images/cursor_zoom.png
+.. |cursor_translate| image:: images/cursor_translate.png
+
+.. list-table:: 背景画像の位置合わせ操作
+   :name: bg_image_operations_table
+   :header-rows: 1
+
+   * - 位置合わせ操作
+     - 操作内容
+     - 操作中のカーソル
+   * - 移動
+     - 左ドラッグ
+     - |cursor_translate|
+   * - 拡大・縮小
+     - 中央ボタン(ホイール)ドラッグ、またはホイールの前後回転
+     - |cursor_zoom|
+   * - 回転
+     - 右ドラッグ
+     - |cursor_rotate|
+
+.. |icon_pin_fix| image:: images/icon_pin_fix.png
+.. |icon_pin_free| image:: images/icon_pin_free.png
+
+また、操作ツールバーの |icon_pin_free|
+ボタンを押すことで、位置が固定され、アイコンが |icon_pin_fix|
+に変化します。位置が固定されている時は、
+オブジェクトブラウザーで背景画像を選択していても、位置合わせ操作が無効になります。
+
+もう一度ボタンをクリックすると、位置の固定が解除されます。
+
+また、右クリックメニューから「プロパティ」を選択することで、
+:numref:`image_bg_image_position_dialog`
+に示すダイアログを表示し、数字を指定して位置を合わせることもできます。
+
+.. _image_bg_image_position_dialog:
+
+.. figure:: images/bg_image_position_dialog.png
+   :width: 220pt
+
+   背景画像の位置合わせダイアログ
