@@ -70,6 +70,18 @@ When you select [Delete], a dialog to confirm whether you really want to
 delete the calculation results opens. Click on [Yes] to delete
 calculation result.
 
+.. _sec_manage_simple_operation_results:
+
+[Manage simple operation results] (M)
+-----------------------------------------------
+
+**Description**: Manage simple operation results.
+
+Simple operation results are values defined as results of
+simple numerical operations between calculation results.
+
+TODO: add detailed description here.
+
 [Import] (I)
 --------------
 
