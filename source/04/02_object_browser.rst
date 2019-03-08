@@ -67,6 +67,11 @@ images as background images, you need to create an account on Google, and
 input the API Key you've created. Please refer to 
 :ref:`pref_bgimg_internet_tab` about the detail.
 
+.. note:: Latitude and longtude coordinate systems
+
+   In iRIC 3.0.3 or later, you can use this function for Latitude and longitude
+   coordinate systems, e. g. EPSG:4326 WGS 84.
+
 .. _sec_pre_axes:
 
 [Axes]
