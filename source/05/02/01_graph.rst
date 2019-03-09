@@ -50,6 +50,49 @@ so modify the setting and click on [OK].
 
    [Graph Window]
 
+.. note:: Supporting calculation result defined at cell centers
+
+   iRIC 3.0.11 and later supports drawing charts for calculation result
+   defined at cell centers.
+   
+   If calculation result defind at cell centers exists, Combo box with
+   label "Grid Location" is displayed,
+   like in :numref:`image_chart_cell_center`, and you can draw charts for
+   calculation result defined at cell centers by selecting "CellCenter".
+  
+   .. _image_chart_cell_center:
+
+   .. figure:: images/chart_cell_center.png
+      :width: 300pt
+
+      "Grid Location" selecting function
+
+.. note:: Supporting drawing charts with calculation result interpolated to polylines
+
+   iRIC 3.0.14 and later supports drawing charts with calculation result interpolated
+   to polylines.
+
+   Using this new feature, user can use chart windows to draw chart like followings:
+
+   * Drawing chart for cross sections for solvers that uses unstructured grids
+   * Drawing chart for arbitrary cross sections (not I or J lines of grids) for
+     solvers that uses structured grids
+
+   To draw charts with calculation results interpolataed to polylines,
+   on "Data source Setting" dialog, please select "Polyline" in "X Axis"
+   combo box like in :numref:`image_chart_polyline`, and 
+   in combo box "Polyline", select the polyline on which you want to 
+   interpolate calculation result values and draw chart.
+
+   Please refer to :ref:`sec_polyline_data` for how to define polylines.
+   
+   .. _image_chart_polyline:
+
+   .. figure:: images/chart_polyline.png
+      :width: 300pt
+
+      Example of setting up drawing charts for a polyline
+
 Additional Menu items
 ----------------------
 
