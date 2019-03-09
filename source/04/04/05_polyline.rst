@@ -40,6 +40,11 @@ Editing the [Polyline]
 
       Example of the [Polyline] displayed on [River Cross-section Window]
 
+.. note:: Drawing charts with calculation result interpolated on polylines
+
+   iRIC 1.0.14 and later can draw charts with calculation result interpolated
+   on polylines. Please refer to :ref:`sec_graph_window` for detail.
+
 Menu items
 --------------
 
