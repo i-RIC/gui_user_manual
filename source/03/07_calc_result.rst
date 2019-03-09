@@ -80,7 +80,135 @@ calculation result.
 Simple operation results are values defined as results of
 simple numerical operations between calculation results.
 
-TODO: add detailed description here.
+"Simple Operation Result List" dialog (
+:numref:`image_simple_operation_result_list`) is shown, and you can manage
+simple operation result list on this dialog.
+
+.. _image_simple_operation_result_list:
+
+.. figure:: images/simple_operation_result_list.png
+   :width: 240pt
+
+   "Simple Operation Result List" dialog
+
+.. note: The order of simple operation results in the list
+
+   As described in the Note on the dialog, the order of simple operation results
+   in the list is important. The simple operation result listed lower in the list
+   can refer to the values of simple operation results upper in the list, just like
+   calculation result values.
+
+Adding and editing simple operation results
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On "Simple Operation Result List" dialog, you can open 
+"Edit Simple Operation Result" dialog
+(:numref:`image_simple_operation_result_edit`) by clicking
+on "Add" or "Edit" button.
+
+**Name**: Please input the name of the simple operation result
+
+**Calculation results for input**: You can add or delete calculation results
+for input by clicking on "Add" or "Delete" button below. Please refer to
+:numref:`table_results_for_input` for detail on the items in the table.
+
+**Definitioni of variable**: Please describe how to calculate the
+simple operation result value, by JavaScript language.
+Please refer to :ref:`sec_simple_operation_result_example` for 
+examples of how to describe the definition.
+You can use the variables defined in "Calculation results for input"
+as input of the definition.
+
+When you click on "Test" button, the value of simple operation result
+is calculated from the content of "Definition of variable" and the
+values of "Value for testing" in "Calculation results for input".
+If the definition contains problems, an error message is shown.
+
+.. _image_simple_operation_result_edit:
+
+.. figure:: images/simple_operation_result_edit.png
+   :width: 300pt
+
+   "Edit Simple Operation Result" dialog
+
+.. list-table:: Detail of "Calculation results for input"
+   :name: table_results_for_input
+   :header-rows: 1
+
+   * - Item name
+     - Description
+
+   * - Result name
+     - The name of calculation result for input. You can select from combobox
+     
+   * - Variable name
+     - The name of variable that you can use to refer the value
+       in "Definition of variable"
+
+   * - Value for testing
+     - The value that is input into the variable when the "Test" button is clicked
+     
+.. _sec_simple_operation_result_example:
+
+Examples of definition of simple operation result
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Examples of simple operation result definitions is shown here.
+
+You can define simple operation results by using functions like below:
+
+* Simple operators (:numref:`simple_operation_result_operator`)
+* JavaScript built-in functions (:numref:`simple_operation_result_js_func`)
+* Control syntaxes like if, while (:numref:`simple_operation_result_js_if_while`)
+* User defined functions (:numref:`simple_operation_result_my_func`)
+
+Please refer to web pages for detail of JavaScript language, like the link below:
+
+https://developer.mozilla.org/en/docs/Web/JavaScript
+
+.. code-block:: JavaScript
+   :name: simple_operation_result_operator
+   :caption: Examples of definition of simple operation result (Simple operators)
+
+   return D * D;
+
+.. code-block:: JavaScript
+   :name: simple_operation_result_js_func
+   :caption: Examples of definition of simple operation result (Built-in functions)
+
+   return Math.sqrt(D);
+
+.. code-block:: JavaScript
+   :name: simple_operation_result_js_if_while
+   :caption: Examples of definition of simple operation result (Control syntaxes)
+
+   var d2 = D;
+   while (d2 < 1000) {
+     d2 = d2 * 2;
+   }
+   if (d2 > 1500) {
+     d2 = 1500;
+   }
+
+   return d2;
+
+.. code-block:: JavaScript
+   :name: simple_operation_result_my_func
+   :caption: Examples of definition of simple operation result (User defined functions)
+
+   function f1(d) {
+     return d * d;
+   }
+
+   function f2(d, e) {
+     if (d < e) {
+       return e;
+     } else {
+       return d;
+     }
+   }
+
+   return f1(D) * f2(D, E);
 
 [Import] (I)
 --------------
