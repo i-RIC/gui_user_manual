@@ -64,6 +64,9 @@ The additional menus are shown between [Import] and
      - [Particles] (P)
      - Displays the [Particles] dialog.
    * -
+     - [Polygon] (O)
+     - Displays the [Polygons] dialog.
+   * -
      - [Cell Attributes]
      - Displays the [Cell Attributes] dialog.
    * -
@@ -409,6 +412,34 @@ shows an example of the [Particles] display.
    :width: 230pt
 
    Example of the [Particles] display
+
+[Polygons] (O)
+------------------
+
+**Description**: Sets the polygon settings
+
+You can open polygon settings dialog, when user select the folder under
+"Polygon" folder in the [Object Browser].
+
+When you select [Polygons], the [Polygon Setting] dialog
+(:numref:`image_post2d_polygons_dialog`)
+will open. Update setting and click on [OK].
+:numref:`image_post2d_polygons_example`
+shows an example of the [Polygons] display.
+
+.. _image_post2d_polygons_dialog:
+
+.. figure:: images/post2d_polygons_dialog.png
+   :width: 250pt
+
+   [Polygon Setting] dialog
+
+.. _image_post2d_polygons_example:
+
+.. figure:: images/post2d_polygons_example.png
+   :width: 230pt
+
+   Example of the [Polygons] display
 
 [Cell Attributes] (C)
 -----------------------
