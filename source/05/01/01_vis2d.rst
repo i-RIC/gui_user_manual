@@ -64,6 +64,9 @@
      - パーティクル (P)
      - パーティクルの設定をします
    * -
+     - ポリゴン (O)
+     - ポリゴンの設定をします
+   * -
      - セル属性 (C)
      - セル属性の設定をします
    * -
@@ -392,6 +395,33 @@
    :width: 230pt
 
    パーティクル 表示例
+
+ポリゴン(O)
+------------------
+
+ポリゴンの表示設定をします。
+
+オブジェクトブラウザで、「ポリゴン」の下のフォルダを選択した状態で
+起動すると、選択したデータに関する表示設定が行なえます。
+
+ポリゴンの表示設定ダイアログ (:numref:`image_post2d_polygons_dialog` 参照)
+が表示されますので、設定を行って「OK」ボタンを押します。
+
+ポリゴンの表示例を :numref:`image_post2d_polygons_example` に示します。
+
+.. _image_post2d_polygons_dialog:
+
+.. figure:: images/post2d_polygons_dialog.png
+   :width: 250pt
+
+   ポリゴン設定ダイアログ 表示例
+
+.. _image_post2d_polygons_example:
+
+.. figure:: images/post2d_polygons_example.png
+   :width: 230pt
+
+   ポリゴン 表示例
 
 セル属性 (C)
 -----------------------
