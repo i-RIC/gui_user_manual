@@ -22,28 +22,28 @@
 .. figure:: images/laplace_example_grid1.png
    :width: 300pt
 
-   ポアソン方程式を解いて生成する格子の形状例(1)
+   ラプラス方程式を解いて生成する格子の形状例(1)
 
 .. _image_laplace_example_grid2:
 
 .. figure:: images/laplace_example_grid2.png
    :width: 300pt
 
-   ポアソン方程式を解いて生成する格子の形状例(2)
+   ラプラス方程式を解いて生成する格子の形状例(2)
 
 .. _image_laplace_example_grid3:
 
 .. figure:: images/laplace_example_grid3.png
    :width: 300pt
 
-   ポアソン方程式を解いて生成する格子の形状例(3)
+   ラプラス方程式を解いて生成する格子の形状例(3)
 
 .. _image_laplace_example_grid4:
 
 .. figure:: images/laplace_example_grid4.png
    :width: 300pt
 
-   ポアソン方程式を解いて生成する格子の形状例(4)
+   ラプラス方程式を解いて生成する格子の形状例(4)
 
 このアルゴリズムを選択したら、もし河川測量データがインポートされていた場合は、
 コントロール断面数の指定ダイアログ
@@ -196,7 +196,7 @@
      - 形状編集モード・分割設定モードの間でモードを切り替えます
    * - 領域全体の分割設定 (W)
      - 領域全体の分割数を設定します
-   * - 分割設定 (S)
+   * - 分割設定 (D)
      - 現在選択されている線の分割数を設定します
    * - 点の配置設定 (P)
      - 現在選択されている線上での点の配置方法を設定します
@@ -251,7 +251,7 @@
 
 .. _subsec_laplace_editcoords:
 
-座標の編集 (T)
+座標の編集 (E)
 ----------------------
 
 中心線もしくは現在選択されている線の頂点座標を編集します。
