@@ -91,19 +91,12 @@
 .. attention::
 
    曲率の大きい河川の格子をこのアルゴリズムで生成した場合、
-   :numref:`image_poisson_bad_example` に示すように、内側でセルが
+   内側でセルが
    裏返ったような形状になることがあります。このような場合、 nI と nJ の比率を変更して
    再度格子を生成してみてください。
 
    一般的に、 dI と dJ が同じくらいの長さになるよう nI と nJ を指定すると、このような問題は
    起きにくくなります。
-
-   .. _image_poisson_bad_example:
-
-   .. figure:: images/poisson_bad_example.png
-      :width: 200pt
-
-      セルが裏返った形状の格子の例
 
 メニュー構成
 -------------

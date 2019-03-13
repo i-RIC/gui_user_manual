@@ -123,7 +123,7 @@
 ので、設定を行って「OK」ボタンを押します。
 
 表示する領域の範囲を調整するには、
-「領域設定(R)｣ボタンを押して領域設定ダイアログを表示し、設定を行って「OK」ボタンを
+「領域設定(R)」ボタンを押して領域設定ダイアログを表示し、設定を行って「OK」ボタンを
 押します（:numref:`image_post2dbirdeye_contour_dialog`,
 :numref:`image_post2dbirdeye_contour_region_unstructured_dialog` 参照）。
 
@@ -183,7 +183,7 @@
 ので、設定を行って「OK」ボタンを押します。
 
 表示する領域の範囲を調整するには、
-「領域設定 (R)｣ボタンを押して領域設定ダイアログを表示し、設定を行って
+「領域設定 (R)」ボタンを押して領域設定ダイアログを表示し、設定を行って
 「OK」ボタンを押します（:numref:`image_post2dbirdeye_cellcenter_contour_region_structured_dialog`、
 :numref:`image_post2dbirdeye_cellcenter_contour_region_unstructured_dialog` 参照）。
 

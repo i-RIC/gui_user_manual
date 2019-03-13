@@ -31,7 +31,6 @@
 メニュー構成
 ----------------------
 
-
 可視化ウィンドウ (2D) 固有のメニュー構成を、 :numref:`table_post2d_window_menu`
 に示します。 :numref:`table_post2d_window_menu`
 に示すメニューは、可視化ウィンドウ (2D)
@@ -172,7 +171,7 @@
 
 コンターの表示設定ダイアログが表示されます (:numref:`image_post2d_contour_dialog` 参照)
 ので、設定を行って「OK」ボタンを押します。表示する領域の範囲を調整するには、
-「領域設定 (R)｣ボタンを押して領域設定ダイアログを表示し、設定を行って
+「領域設定 (R)」ボタンを押して領域設定ダイアログを表示し、設定を行って
 「OK」ボタンを押します（:numref:`image_post2d_contour_region_structured_dialog`、
 :numref:`image_post2d_contour_region_unstructured_dialog` 参照）。
 凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
@@ -233,7 +232,7 @@
 ので、設定を行って「OK」ボタンを押します。
 
 表示する領域の範囲を調整するには、
-「領域設定 (R)｣ボタンを押して領域設定ダイアログを表示し、設定を行って
+「領域設定 (R)」ボタンを押して領域設定ダイアログを表示し、設定を行って
 「OK」ボタンを押します（:numref:`image_post2d_cellcenter_contour_region_structured_dialog`、
 :numref:`image_post2d_cellcenter_contour_region_unstructured_dialog` 参照）。
 
