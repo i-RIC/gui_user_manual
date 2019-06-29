@@ -1,6 +1,6 @@
 .. _sec_grid_creation_poisson:
 
-Create grid shape solving Poisson equation
+[Create grid shape solving Poisson equation]
 ================================================
 
 Create grids by solving poisson equation to region which is defined

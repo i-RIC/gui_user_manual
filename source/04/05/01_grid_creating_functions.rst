@@ -46,8 +46,9 @@ that can be used for iRIC.
      - [Create grid shape solving Poisson equation]
      - By solving Poisson equation, generate grid whose cell shape are similar to squares.
    * -
-     - [Create grid shape solving Laplace equation]
-     - By solving Laplace equation, generate grid whose cell shape are similar to squares.
+     - [General purpose grid generation tool]
+     - By solving convergence calculation, generate grid whose cell edge length
+       changes smoothly.
    * - Two-dimensional unstructured grid
      - [Create grid from polygon shape]
      - Creates an unstructured grid from polygon shape. Grid region, refinement regions, hole regions are defined as polygons.
