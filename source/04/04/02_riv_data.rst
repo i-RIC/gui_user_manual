@@ -497,6 +497,51 @@ Window. The additional menu items are shown between [Import] and
      - [Delete] (D)
      - Deletes the selected elevation point.
 
+
+
+Toolbar functions
+~~~~~~~~~~~~~~~~~~~~
+
+:numref:`geo_river_data_xsec_window_toolbaritems_table` shows the toolbar items for
+River Cross-section Window.
+
+.. _geo_river_data_xsec_window_toolbaritems_table:
+
+.. list-table:: Toolbar functions for the River Cross-section Window
+   :header-rows: 1
+
+   * - Item
+     - Description
+   * - Crosssection
+     - Switches the cross-section to show
+   * - Reference
+     - Shows reference cross-section. You can switch the cross-section to show with combobox.
+   * - Auto rescale
+     - If it is checked, when user switches the cross-section to show, automatic rescale is executed, so that new cross-section is shown in the center.
+   * - Aspect ratio
+     - Current aspect ratio is shown. You can also edit the value to change setting.
+   * - Fix aspect ratio
+     - If it is checked, Ctrl + Middle-drag changes to zoom-in/zoom out without changing aspect ratio.
+   * - Fix retion
+     - If it is checked, Ctrl + Middle-drag and Ctrl + Left-drag operations are disabled.
+   * - Grid
+     - You can switch on/off background grid
+   * - Scale
+     - You can switch on/off scales shown at left edge and top edge.
+   * - Left/right bank markers
+     - You can switch on/off "Left Bank Side", "Right Bank Side" markers shown at top edge.
+   * - Aspect ratio
+     - You can switch on/off Aspect ratio shown at right bottom.
+   * - Display Setting
+     - Shows Display Setting dialog (see :numref:`image_xsec_window_setting_dialog`).
+
+.. _image_xsec_window_setting_dialog:
+
+.. figure:: images/xsec_window_setting_dialog.png
+   :width: 300pt
+
+   Cross-section Window Display Setting dialog
+
 [Activate] (A)
 ~~~~~~~~~~~~~~~
 
