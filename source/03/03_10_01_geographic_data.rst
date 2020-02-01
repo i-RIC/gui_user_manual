@@ -11,6 +11,7 @@ Geographic data can be exported to the file formats below:
 * Topography File (\*.tpo, \*.anc)
 * STL file (\*.stl)
 * ESRI Shape file (\*.shp) (Polygon)
+* LandXML file (\*.xml)
 
 When you select [Geographic Data], a list of exportable geographic data
 is shown as submenus. Select the geographic data you want to export and
