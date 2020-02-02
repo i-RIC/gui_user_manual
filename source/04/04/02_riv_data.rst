@@ -1,10 +1,10 @@
 .. _sec_riv_data:
 
 河川測量データ編集機能
-===========================
+##########################
 
 河川測量データは、河川での横断測量データに基づいた地理情報です。
-通常、河川とその周辺での標高情報を取り扱うために利用します。
+河川とその周辺での標高情報を取り扱うために利用します。
 
 河川測量データの表示例を :numref:`image_riv_data` に示します。
 
@@ -14,6 +14,210 @@
    :width: 220pt
 
    河川測量データ
+
+河川測量データ編集機能には、 :numref:`geo_river_data_modes`
+に示す2つのモードがあります。
+
+.. _geo_river_data_modes:
+
+.. list-table:: 河川測量データ編集機能のモード
+   :header-rows: 1
+
+   * - モード
+     - 説明
+   * - 作成モード
+     - 新しく河川測量データを作成するモード
+   * - 編集モード
+     - 既にある河川測量データを編集するモード
+
+オブジェクトブラウザで、「追加」--> 「河川測量データ」を選択して
+すると、作成モードで河川測量データが作成されます。 :ref:`sec_file_export_geo_data`
+に示した機能で河川測量データをインポートした場合は、編集モードで
+河川測量データが作成されます。
+
+以下では、各モードの機能について説明します。
+
+作成モード
+============
+
+領域を中心線・左岸線・右岸線を用いて定義して、
+地勢データをマッピングすることによって河川測量データを生成します。
+
+作成モードを開始したら、まずは描画領域でのマウスクリックで、
+中心線が通る点を複数指定します。ダブルクリックもしくは改行キーを押すと、
+中心線の指定が完了します。中心線の指定が完了した時の画面の表示例を
+:numref:`image_geo_river_after_centerline_set`
+に示します。
+
+.. _image_geo_river_after_centerline_set:
+
+.. figure:: images/geo_river_after_centerline_set.png
+   :width: 360pt
+
+   中心線の定義例
+
+次に、左岸線と右岸線を生成します。メニューから「左岸線・右岸線の生成」を選択します。
+すると、:numref:`image_geo_river_banks_dialog` に示す岸線の生成ダイアログが
+表示されます。ここで、左岸線、右岸線を中心線からどれだけ距離を離したところに生成するか
+を指定して「OK」ボタンを押すと、 :numref:`image_geo_river_banks_example` に
+示すように左岸線、右岸線が生成されます。
+
+定義された左岸線、右岸線は、点をドラッグして形を変えたり、通過する点を追加・削除
+したりできます。
+
+
+.. _image_geo_river_banks_dialog:
+
+.. figure:: images/geo_river_banks_dialog.png
+   :width: 200pt
+
+   岸線の生成ダイアログ
+
+.. _image_geo_river_banks_example:
+
+.. figure:: images/geo_river_banks_example.png
+   :width: 340pt
+
+   左岸線・右岸線の生成例
+
+最後に、メニューから「河川測量データの生成」を選択します。すると、
+:numref:`image_geo_river_generation_dialog` に示す
+河川測量データの生成ダイアログが表示されます。
+横断線の数などを指定して「OK」ボタンを押すと、河川測量データが生成されます。
+生成される河川測量データの例を :numref:`image_geo_river_generation_example` に示します。
+
+河川測量データが生成されると、編集モードに切り替わります。
+
+.. _image_geo_river_generation_dialog:
+
+.. figure:: images/geo_river_generation_dialog.png
+   :width: 240pt
+
+   河川測量データ生成ダイアログ
+
+.. _image_geo_river_generation_example:
+
+.. figure:: images/geo_river_generation_example.png
+   :width: 320pt
+
+   生成される河川測量データの例
+
+メニュー構成
+-------------
+
+生成モードでのメニューの構成を
+:numref:`geo_river_create_menuitems_table` に示します。
+
+.. _geo_river_create_menuitems_table:
+
+.. list-table:: 生成モードでのメニューの構成
+   :header-rows: 1
+
+   * - メニュー
+     - 説明
+   * - 河川測量データの生成
+     - 河川測量データを生成します
+   * - 左岸線・右岸線の生成
+     - 左岸線・右岸線を生成します
+   * - 頂点の追加 (A)
+     - 中心線もしくは左右岸線に頂点を追加します
+   * - 頂点の削除 (R)
+     - 中心線もしくは左右岸線から頂点を削除します
+   * - 中心線のインポート (I)
+     - 中心線の頂点座標をインポートします
+   * - 中心線のエクスポート (E)
+     - 中心線の頂点座標をエクスポートします
+
+河川測量データの生成
+----------------------
+
+河川測量データを生成します。
+
+:numref:`image_geo_river_generation_dialog` に示すダイアログが表示されますので、
+横断線の数などを指定して「OK」ボタンを押します。
+
+生成される河川測量データの例を :numref:`image_geo_river_generation_example` に示します。
+
+左岸線・右岸線の生成
+---------------------------
+
+左岸線・右岸線を生成します。
+
+:numref:`image_geo_river_banks_dialog` に示すダイアログが表示されますので、
+中心線から左岸線・右岸線までの距離を入力して「OK」ボタンを押します。
+
+生成される左岸線と右岸線の例を :numref:`image_geo_river_banks_example` に示します。
+
+生成した左岸線と右岸線は、頂点をマウスカーソルでドラッグすることにより、変形することができます。
+
+頂点の追加 (A)
+----------------
+
+中心線もしくは左右岸線に頂点を追加します。
+
+このメニューを選択した後、中心線もしくは左右岸線の上に
+カーソルを移動すると、
+:numref:`image_geo_river_add_vertex_cursor`
+で示すカーソルに変化します。この状態でマウスの左ボタンを押してドラッグすると、
+新しい頂点が追加できます。マウスの左ボタンを離すと、頂点の位置が確定します。
+
+.. _image_geo_river_add_vertex_cursor:
+
+.. figure:: images/geo_river_add_vertex_cursor.png
+   :width: 20pt
+
+   頂点の追加が可能な時のマウスカーソル
+
+頂点の削除 (R)
+-------------------
+
+中心線もしくは左右岸線から頂点を削除します。
+
+このメニューを選択した後、中心線もしくは左右岸線の上に
+カーソルを移動すると、
+:numref:`image_geo_river_remove_vertex_cursor`
+で示すカーソルに変化します。この状態でマウスの左ボタンを押すと、
+頂点が削除されます。
+
+.. _image_geo_river_remove_vertex_cursor:
+
+.. figure:: images/geo_river_remove_vertex_cursor.png
+   :width: 20pt
+
+   頂点の削除が可能な時のマウスカーソル
+
+中心線のインポート (I)
+------------------------
+
+中心線を、ShapeファイルもしくはCSVファイルからインポートします
+
+:numref:`image_geo_river_center_import_dialog` に示すダイアログが
+表示されますので、インポートしたいファイルを選択して「開く」ボタンを押します。
+
+.. _image_geo_river_center_import_dialog:
+
+.. figure:: images/geo_river_center_import_dialog.png
+   :width: 380pt
+
+   中心線のインポートダイアログ
+
+中心線のエクスポート (E)
+------------------------
+
+中心線を、ShapeファイルもしくはCSVファイルにエクスポートします
+
+:numref:`image_geo_river_center_export_dialog` に示すダイアログが
+表示されますので、エクスポートするファイルの名前を指定して「保存」ボタンを押します。
+
+.. _image_geo_river_center_export_dialog:
+
+.. figure:: images/geo_river_center_export_dialog.png
+   :width: 380pt
+
+   中心線のエクスポートダイアログ
+
+編集モード
+===========
 
 メニュー構成
 --------------
@@ -63,10 +267,12 @@
      - 河川横断線から、右岸延長線を削除します
    * - 表示設定 (S)
      - 河川測量データの背景色、断面形状を設定します
-   * - 削除 (D)
-     - 河川測量データを削除します
    * - 補間モード
      - 横断線間の補間モードを切り替えます
+   * - 地勢データのマッピング
+     - 河川横断線に、地勢データをマッピングします
+   * - 削除 (D)
+     - 河川測量データを削除します
 
 河川横断線の選択操作
 ---------------------
@@ -429,6 +635,22 @@
    :width: 320pt
 
    補間モード (線形補間)
+
+地勢データのマッピング
+-------------------------
+
+選択した河川横断線に地勢データをマッピングします。
+
+地勢データのマッピングダイアログ (:numref:`image_geo_riv_mapping_dialog` 参照)
+が表示されます。
+横断方向の分割間隔などを指定して「OK」ボタンを押すと、マッピングが実行されます。
+
+.. _image_geo_riv_mapping_dialog:
+
+.. figure:: images/geo_riv_mapping_dialog.png
+   :width: 200pt
+
+   地勢データのマッピングダイアログ
 
 .. _sec_pre_riv_crosssection_window:
 
