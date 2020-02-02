@@ -50,7 +50,6 @@
 
 各ツールバーの機能などについて、:numref:`toolbar_functions` に示します。
 
-
 .. _toolbar_functions:
 
 .. list-table:: ツールバーの機能
