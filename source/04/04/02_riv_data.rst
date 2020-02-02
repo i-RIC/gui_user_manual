@@ -1,11 +1,11 @@
 .. _sec_riv_data:
 
 Editing [River Survey Data]
-===========================
+##############################
 
 [River Survey Data] is a type of Geographic Data] that is based on
-actual cross-sectional survey data of a river. Generally, [River Survey
-Data] is used as the elevation information for a river and its environs.
+actual cross-sectional survey data of a river. [River Survey Data]
+is used as the elevation information for a river and its environs.
 
 :numref:`image_riv_data` shows an example of [River Survey Data].
 
@@ -15,6 +15,220 @@ Data] is used as the elevation information for a river and its environs.
    :width: 220pt
 
    [River Survey Data]
+
+[River Survey Data] has two modes shown in :numref:`geo_river_data_modes`.
+
+.. _geo_river_data_modes:
+
+.. list-table:: Modes for [River Survey Data]
+   :header-rows: 1
+
+   * - Mode
+     - Description
+   * - [Create Mode]
+     - Mode to create a new [River Survey Data]
+   * - [Edit Mode]
+     - Mode to edit existing [River Survey Data]
+
+When you select [Add] --> [River Survey Data] in [Object Browser],
+new [River Survey Data] is created with [Create Mode].
+When you import [River Survey Data] using function explained
+in :ref:`sec_file_export_geo_data`, [River Survey Data] is imported
+and [Edit Mode] is activated.
+
+The sections below explains the functions for each mode.
+
+[Create Mode]
+===============
+
+Create [River Survey Data] to region which is defined by
+[Center line], [Left bank line], and [Right bank line].
+
+After [Create Mode] is started, click on the canvas to specify a few
+points on the centerline of the [River Survey Data].
+To finish, press the Enter key or double click.
+:numref:`image_geo_river_after_centerline_set` shows an example of
+the display when the centerline has been set.
+
+.. _image_geo_river_after_centerline_set:
+
+.. figure:: images/geo_river_after_centerline_set.png
+   :width: 360pt
+
+   Example of display after the centerline has been set
+
+Next, please generate left bank line and right bank line. Select
+[Build Left bank and Right bank lines] from menu.
+[Build Bank Lines] dialog (:numref:`image_geo_river_banks_dialog`) will
+be shown. When you input the distance on the dialog and click on
+[OK], Left bank line and Right bank line are generated, and shown
+like in :numref:`image_geo_river_banks_example`.
+
+You can edit left bank line and right bank line, by dragging the points
+or by adding or removing points.
+
+.. _image_geo_river_banks_dialog:
+
+.. figure:: images/geo_river_banks_dialog.png
+   :width: 200pt
+
+   [Build Bank Lines] dialog
+
+.. _image_geo_river_banks_example:
+
+.. figure:: images/geo_river_banks_example.png
+   :width: 340pt
+
+   Example of generated Left bank line and Right bank line
+
+At last, select [Create River Survey Data] from menu.
+[Generate River Survey Data] dialog (:numref:`image_geo_river_generation_dialog`)
+will be shown.
+
+When you input the number of cross sections etc. 
+and click on [OK], a new [River Survey Data] is generated.
+
+An example of generated [River Survey Data] is shown in
+:numref:`image_geo_river_generation_example`.
+
+When [River Survey Data] is generated, mode is switched to [Edit Mode].
+
+.. _image_geo_river_generation_dialog:
+
+.. figure:: images/geo_river_generation_dialog.png
+   :width: 240pt
+
+   [Generate River Survey Data] dialog
+
+.. _image_geo_river_generation_example:
+
+.. figure:: images/geo_river_generation_example.png
+   :width: 320pt
+
+   Example of generated [River Survey Data]
+
+Menu items
+-------------
+
+:numref:`geo_river_create_menuitems_table` shows the menu items for
+[Create Mode] for [River Survey Data].
+
+.. _geo_river_create_menuitems_table:
+
+.. list-table:: Menu items for [Create Mode] of [River Survey Data]
+   :header-rows: 1
+
+   * - Menu
+     - Description
+   * - [Generate River Survey Data]
+     - Generate [River Survey Data]
+   * - [Build Left bank and Right bank lines]
+     - Generate Left bank and Right bank lines
+   * - [Add Vertex] (A)
+     - Adds vertices to the lines
+   * - [Remove Vertex] (R)
+     - Removes vertices from lines
+   * - [Import Center Line] (I)
+     - Import [Center Line] from Shape files or CSV files.
+   * - [Export Center Line] (E)
+     - Export [Center Line] to Shape files or CSV files.
+
+[Generate River Survey Data]
+------------------------------
+
+**Description:** Generate [River Survey Data].
+
+[Generate River Survey Data] dialog (:numref:`image_geo_river_generation_dialog`)
+will be shown.
+
+When you input the number of cross sections etc. 
+and click on [OK], a new [River Survey Data] is generated.
+
+An example of generated [River Survey Data] is shown in
+:numref:`image_geo_river_generation_example`.
+
+[Build Left bank and Right bank lines]
+-----------------------------------------
+
+**Description:** Generate Left bank and Right bank lines.
+
+Dialog in :numref:`image_geo_river_banks_dialog` is shown, so 
+specify the distance values and click on [OK].
+
+:numref:`image_geo_river_banks_example` shows an example of 
+generated [Left Bank Line] and [Right Bank Line].
+
+You can modify the lines by dragging the vertices.
+
+[Add Vertex] (A)
+------------------
+
+**Description:** Add vertices to lines
+
+When you move the mouse cursor to hover on [Center line],
+[Left Bank Line], or [Right Bank Line] after selecting this menu,
+The mouse cursor changes to the shape in 
+:numref:`image_geo_river_add_vertex_cursor`.
+
+Left click on the line and drag it to add a new vertex.
+The vertex is placed wherever you release the left click button.
+
+.. _image_geo_river_add_vertex_cursor:
+
+.. figure:: images/geo_river_add_vertex_cursor.png
+   :width: 20pt
+
+   The mouse cursor display when adding a vertex is possible
+
+[Remove Vertex] (R)
+---------------------
+
+**Description:** Deletes the vertex of lines.
+
+When this is selected and you move the cursor onto the vertex of the
+lines, the cursor shape will change
+(:numref:`image_geo_river_remove_vertex_cursor`).
+Left clicking will remove the vertex.
+
+.. _image_geo_river_remove_vertex_cursor:
+
+.. figure:: images/geo_river_remove_vertex_cursor.png
+   :width: 20pt
+
+   The mouse cursor when removing the vertex is possible
+
+[Import Center Line] (I)
+---------------------------
+
+**Description**: Import [Center Line] from Shape files or CSV files.
+
+The dialog in :numref:`image_geo_river_center_import_dialog` is shown,
+so please select the file you want to import, and click on [Open] button.
+
+.. _image_geo_river_center_import_dialog:
+
+.. figure:: images/geo_river_center_import_dialog.png
+   :width: 380pt
+
+   [Select file to import] dialog
+
+[Export Center Line] (E)
+--------------------------
+
+**Description**: Export [Center Line] to Shape files or CSV files.
+
+The dialog in :numref:`image_geo_river_center_export_dialog` is shown,
+so please specify the name of file you want to export, and click on [Save] button.
+
+.. _image_geo_river_center_export_dialog:
+
+.. figure:: images/geo_river_center_export_dialog.png
+   :width: 380pt
+
+   [Select file to export] dialog
+
+[Edit Mode]
+=============
 
 Menu items
 ----------
@@ -65,10 +279,12 @@ operations on [River Survey Data] under the following:
      - Removes the right bank extension line from the river transverse line.
    * - [Display Setting] (S)
      - Displays elevation colormap based on River Survey Data.
-   * - [Delete] (D)
-     - Deletes River Survey Data.
    * - [Interpolation Mode]
      - Switch interpolation mode between river transverse lines.
+   * - [Map points data]
+     - Map points data to river transverse line.
+   * - [Delete] (D)
+     - Deletes River Survey Data.
 
 Selecting the river transverse line
 -----------------------------------
@@ -446,6 +662,22 @@ an example of Linear Curve Interpolation Mode.
 
    Example of the [Interpolation Mode (Linear Curve)]
 
+[Map points data]
+-------------------------
+
+**Description**: Map points data to the selected river transverse line.
+
+When you select this, the [Map points data] dialog
+(:numref:`image_geo_riv_mapping_dialog`) will open.
+Input distance between elevation points etc. and click on [OK].
+
+.. _image_geo_riv_mapping_dialog:
+
+.. figure:: images/geo_riv_mapping_dialog.png
+   :width: 200pt
+
+   [Map points data] dialog
+
 .. _sec_pre_riv_crosssection_window:
 
 Operation in the River Cross-section Window
@@ -496,8 +728,6 @@ Window. The additional menu items are shown between [Import] and
    * -
      - [Delete] (D)
      - Deletes the selected elevation point.
-
-
 
 Toolbar functions
 ~~~~~~~~~~~~~~~~~~~~
