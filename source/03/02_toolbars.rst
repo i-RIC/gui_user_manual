@@ -213,6 +213,7 @@ Toolbar].
      - [Delete]
      - Deletes the selected item.
 
+.. _sec_animation_toolbar:
 
 [Animation Toolbar]
 -------------------------

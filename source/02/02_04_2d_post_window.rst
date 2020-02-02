@@ -1,3 +1,5 @@
+.. _sec_vis2d_window_abst:
+
 [2D Post-processing Window]
 ===========================================
 

@@ -1,3 +1,5 @@
+.. _sec_vis3d_window_abst:
+
 [3D Post-processing Window]
 =================================
 
