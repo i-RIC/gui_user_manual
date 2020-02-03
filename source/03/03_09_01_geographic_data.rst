@@ -5,19 +5,40 @@
 
 地理情報をインポートします。
 
-地理情報は、以下のファイルフォーマットからインポートできます。
+地理情報は、:numref:`import_geodata_formats_table` に示す
+ファイルフォーマットからインポートできます。
 
-* 河川測量データ (\*.riv)
-* 日本 国土交通省 河川測量データ (\*.csv)
-* 地勢データ (\*.tpo, \*.anc)
-* RIC-Nays DEM データ (\*.dat, \*.txt)
-* USGS NED (\*.adf)
-* STLファイル (\*.stl)
-* ESRI シェープファイル (\*.shp) (ポリゴン)
-* NetCDF ファイル (\*.nc)
-* GeoTIFF ファイル (\*.tif)
-* LandXML ファイル (\*.xml)
-* XバンドMPレーダーデータ (\*.\*)
+.. _import_geodata_formats_table:
+
+.. list-table:: 地理情報をインポート可能なファイルフォーマット
+   :header-rows: 1
+
+   * - 種類
+     - フォーマット
+   * - 河川測量データ
+     - 河川測量データ (\*.riv)
+   * - 
+     - 日本 国土交通省 河川測量データ (\*.csv)
+   * - 地勢データ
+     - 地勢データ (\*.tpo, \*.anc)
+   * -
+     - RIC-Nays DEMデータ (\*.dat, \*.txt)
+   * -
+     - USGS NED (\*.adf)
+   * -
+     - STLファイル (\*.stl)
+   * -
+     - LandXML ファイル (\*.xml)
+   * - ポリゴン
+     - ESRI Shapefile (\*.shp)
+   * - 折れ線
+     - ESRI Shapefile (\*.shp)
+   * - ラスターデータ
+     - GeoTIFF ファイル (\*.tif)
+   * - 時系列ラスターデータ
+     - NetCDFファイル (\*.nc)
+   * -
+     - XバンドMPレーダーデータ (\*.\*)
 
 「地理情報」を選択すると、インポート可能な地理情報のリストが
 サブメニューとして表示されます。ここでインポートしたい地理情報を選択すると、

@@ -5,6 +5,33 @@
 
 格子をエクスポートします。
 
+格子は、:numref:`export_grid_formats_table` に示す
+ファイルフォーマットにエクスポートできます。
+
+.. _export_grid_formats_table:
+
+.. list-table:: 格子をエクスポート可能なファイルフォーマット
+   :header-rows: 1
+
+   * - 種類
+     - フォーマット
+   * - 構造格子
+     - CGNSファイル (\*.cgn)
+   * - 
+     - iRIC 格子 CSVファイル (\*.csv)
+   * - 
+     - RIC-Nays格子ファイル (\*.grid)
+   * -
+     - LandXML ファイル (\*.xml)
+   * -
+     - VTK ファイル (\*.vtk)
+   * - 非構造格子
+     - CGNSファイル (\*.cgn)
+   * -
+     - LandXML ファイル (\*.xml)
+   * -
+     - VTK ファイル (\*.vtk)
+
 格子は、以下のファイルフォーマットにエクスポートできます。
 
 * iRIC 格子CSVファイル (\*.csv)
