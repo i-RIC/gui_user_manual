@@ -5,13 +5,29 @@
 
 **Description**: Imports a grid.
 
-Grid can be imported from the file formats below:
+Grid can be imported from the file formats in :numref:`import_grid_formats_table`.
 
-* iRIC project file (\*.ipro)
-* CGNS file (\*.cgn)
-* iRIC Grid CSV file (\*.csv) (Structured grid only)
-* RIC-Nays grid file (\*.grid) (Structured grid only)
-* TRIANGLE node file (\*.node) (Unstructured grid only)
+.. _import_grid_formats_table:
+
+.. list-table:: Grid data importable file formats
+   :header-rows: 1
+
+   * - Type
+     - Format
+   * - Structured grid
+     - iRIC project file (\*.ipro)
+   * - 
+     - CGNS file (\*.cgn)
+   * - 
+     - iRIC Grid CSV file (\*.csv)
+   * - 
+     - RIC-Nays grid file (\*.grid)
+   * - Unstructured grid
+     - iRIC project file (\*.ipro)
+   * - 
+     - CGNS file (\*.cgn)
+   * -
+     - TRIANGLE node file (\*.node)
 
 When you select [Grid], the [Select file to import] dialog
 (:numref:`image_select_file_to_import_dialog_for_grid`)

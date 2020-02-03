@@ -5,12 +5,31 @@
 
 **Description**: Exports a grid.
 
-Grid can be exported to the file formats below:
+Grid can be exported to the file formats in :numref:`export_grid_formats_table`.
 
-* iRIC Grid CSV file (\*.csv)
-* RIC-Nays grid file (\*.grid)
-* CGNS file (\*.cgn)
-* VTK file (\*.vtk)
+.. _export_grid_formats_table:
+
+.. list-table:: Grid exportable file formats
+   :header-rows: 1
+
+   * - Type
+     - Format
+   * - Structured grid
+     - CGNS file (\*.cgn)
+   * - 
+     - iRIC grid CSV file (\*.csv)
+   * - 
+     - RIC-Nays grid file (\*.grid)
+   * -
+     - LandXML file (\*.xml)
+   * -
+     - VTK file (\*.vtk)
+   * - Unstructured grid
+     - CGNS file (\*.cgn)
+   * -
+     - LandXML file (\*.xml)
+   * -
+     - VTK file (\*.vtk)
 
 When you select [Grid], the [Select file to export] dialog
 (:numref:`image_select_file_to_export_dialog_for_grid`)

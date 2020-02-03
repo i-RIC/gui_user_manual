@@ -5,13 +5,33 @@
 
 **Description**: Exports geographic data.
 
-Geographic data can be exported to the file formats below:
+Geographic data can be exported to the file formats in :numref:`export_geodata_formats_table`.
 
-* River Survey data (\*.riv)
-* Topography File (\*.tpo, \*.anc)
-* STL file (\*.stl)
-* ESRI Shape file (\*.shp) (Polygon)
-* LandXML file (\*.xml)
+.. _export_geodata_formats_table:
+
+.. list-table:: Geographic data exportable file formats
+   :header-rows: 1
+
+   * - Type
+     - Format
+   * - River Survey data
+     - River Survey data (\*.riv)
+   * -
+     - LandXML file (\*.xml)
+   * - Points data
+     - Topography file (\*.tpo)
+   * -
+     - RIC-Nays DEM data (\*.dat)
+   * -
+     - STL file (\*.stl)
+   * -
+     - LandXML file (\*.xml)
+   * -
+     - VTK file (\*.vtk)
+   * - Polygon
+     - ESRI Shapefile (\*.shp)
+   * - Poly line
+     - ESRI Shapefile (\*.shp)
 
 When you select [Geographic Data], a list of exportable geographic data
 is shown as submenus. Select the geographic data you want to export and

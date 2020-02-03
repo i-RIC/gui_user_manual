@@ -5,19 +5,39 @@
 
 **Description**: Imports geographic data.
 
-Geographic data can be imported from the file formats below:
+Geographic data can be imported from file formats in :numref:`import_geodata_formats_table`.
 
-* River Survey data (\*.riv)
-* Japan MLIT river survey data (\*.csv)
-* Topography File (\*.tpo, \*.anc)
-* RIC-Nays DEM data (\*.dat, \*.txt)
-* USGS NED (\*.adf)
-* STL file (\*.stl)
-* ESRI Shape file (\*.shp) (Polygon)
-* NetCDF file (\*.nc)
-* GeoTIFF file (\*.tif)
-* LandXML file (\*.xml)
-* X band MP rader data (\*.\*)
+.. _import_geodata_formats_table:
+
+.. list-table:: Geographic data importable file formats
+   :header-rows: 1
+
+   * - Type
+     - Format
+   * - River Survey data
+     - River Survey data (\*.riv)
+   * - 
+     - Japan MLIT river survey data (\*.csv)
+   * - Points data
+     - Topography file (\*.tpo, \*.anc)
+   * -
+     - RIC-Nays DEM data (\*.dat, \*.txt)
+   * -
+     - USGS NED (\*.adf)
+   * -
+     - STL file (\*.stl)
+   * -
+     - LandXML file (\*.xml)
+   * - Polygon
+     - ESRI Shapefile (\*.shp)
+   * - Poly line
+     - ESRI Shapefile (\*.shp)
+   * - Raster data
+     - GeoTIFF file (\*.tif)
+   * - Time series raster data
+     - NetCDF file (\*.nc)
+   * -
+     - X band MP rader data (\*.\*)
 
 When you select [Geographic Data], a list of importable geographic data
 is shown as submenus. Select the geographic data you want to import and
