@@ -170,6 +170,8 @@ respectively.
 
    Examples of graphics displayed by the [Grid Shape] setting
 
+.. _sec_vis2d_contour_node:
+
 [Contour (nodes)] (C)
 -------------------------
 
@@ -232,7 +234,6 @@ please check on the check boxes for multiple items in the object browser.
    :width: 420pt
 
    Examples of the contour display by the [Display Setting] setting
-
 
 [Contour (Cell center)] (L)
 -------------------------------
@@ -300,6 +301,18 @@ please check on the check boxes for multiple items in the object browser.
    :width: 400pt
 
    Examples of the contour display by the [Display Setting] setting
+
+[Contour (edgeI)], [Contour (edgeJ)]
+----------------------------------------------
+
+**Description**: Sets the contour settings for calculation Results
+defined at i-direction edges and j-direction edges.
+
+From the values defined at grid edges, values at grid nodes are calculated
+by interpolation, and contour is drawn with values at grid nodes.
+
+The function to edit setting of contours is the same to the contour function
+for grid nodes. Refer to :ref:`sec_vis2d_contour_node` for detail.
 
 [Arrow] (A)
 -------------
