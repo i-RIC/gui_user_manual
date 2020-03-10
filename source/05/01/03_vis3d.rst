@@ -293,6 +293,25 @@
 
    パーティクル 表示例
 
+ラベル
+--------
+
+計算結果に基づき、ラベルを表示します。
+
+ラベルは、格子点、格子セル、格子エッジなどで定義された
+計算結果を、文字列として可視化ウィンドウに表示する機能です。
+
+ラベルの表示例を :numref:`image_post3d_label_example` に示します。
+
+詳細は :ref:`sec_label_func` を参照してください。
+
+.. _image_post3d_label_example:
+
+.. figure:: images/post3d_label_example.png
+   :width: 180pt
+
+   ラベル表示例
+
 タイトル (T)
 ------------
 
