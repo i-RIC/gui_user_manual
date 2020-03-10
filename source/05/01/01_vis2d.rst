@@ -363,10 +363,13 @@
 
    流線表示例
 
-パーティクル(P)
-------------------
+パーティクル (自動) (P)
+------------------------
 
-パーティクルの表示設定をします。
+パーティクル (自動) の表示設定をします。
+
+パーティクル (自動) は、GUI でパーティクルを発生させ、計算結果の流速によって
+パーティクルがどこに移動するかを計算して可視化する機能です。
 
 パーティクルの表示設定ダイアログ (:numref:`image_post2d_particles_structured_dialog`,
 :numref:`image_post2d_particles_unstructured_dialog` 参照)
@@ -389,6 +392,45 @@
    パーティクル設定ダイアログ 表示例 (非構造格子)
 
 .. _image_post2d_particles_example:
+
+.. figure:: images/post2d_particles_example.png
+   :width: 230pt
+
+   パーティクル 表示例
+
+パーティクル (R)
+------------------------
+
+パーティクルの表示設定をします。
+
+パーティクルは、ソルバが出力したパーティクルの情報を読み込んで可視化する機能です。
+
+パーティクルは、スカラー値の属性が出力されていれば、色を変えて表示することが、
+ベクトル値の属性が出力されていれば、矢印を表示することができます。
+
+オブジェクトブラウザの「スカラー」、「ベクトル」のフォルダで右クリックメニューから
+「プロパティ」メニューを選択すると、それぞれ
+:numref:`image_post2d_particles_solver_scalar_dialog`、
+:numref:`image_post2d_particles_solver_vector_dialog` が表示されますので、
+設定を行って「OK」ボタンを押します。
+
+パーティクルの表示例を :numref:`image_post2d_particles_solver_example` に示します。
+
+.. _image_post2d_particles_solver_scalar_dialog:
+
+.. figure:: images/post2d_particles_solver_scalar_dialog.png
+   :width: 280pt
+
+   パーティクル スカラー設定ダイアログ 表示例
+
+.. _image_post2d_particles_solver_vector_dialog:
+
+.. figure:: images/post2d_particles_solver_vector_dialog.png
+   :width: 200pt
+
+   パーティクル ベクトル設定ダイアログ 表示例
+
+.. _image_post2d_particles_solver_example:
 
 .. figure:: images/post2d_particles_example.png
    :width: 230pt
