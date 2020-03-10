@@ -50,15 +50,19 @@ so modify the setting and click on [OK].
 
    [Graph Window]
 
-.. note:: Supporting calculation result defined at cell centers
+.. note:: Supporting calculation result defined at cell centers and cell edges
 
    iRIC 3.0.11 and later supports drawing charts for calculation result
    defined at cell centers.
    
-   If calculation result defind at cell centers exists, Combo box with
-   label "Grid Location" is displayed,
+   iRIC 3.0.18 and later supports drawing charts for calculation result
+   defined at cell edges.
+   
+   If calculation result defind at cell centers (or edges) exists, Combo box
+   with label "Grid Location" is displayed,
    like in :numref:`image_chart_cell_center`, and you can draw charts for
-   calculation result defined at cell centers by selecting "CellCenter".
+   calculation result defined at cell centers or cell edges
+   by selecting "CellCenter", "EdgeI", "EdgeJ".
   
    .. _image_chart_cell_center:
 
