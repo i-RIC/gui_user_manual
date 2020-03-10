@@ -112,7 +112,7 @@ on "Add" or "Edit" button.
 for input by clicking on "Add" or "Delete" button below. Please refer to
 :numref:`table_results_for_input` for detail on the items in the table.
 
-**Definitioni of variable**: Please describe how to calculate the
+**Definition of variable**: Please describe how to calculate the
 simple operation result value, by JavaScript language.
 Please refer to :ref:`sec_simple_operation_result_example` for 
 examples of how to describe the definition.

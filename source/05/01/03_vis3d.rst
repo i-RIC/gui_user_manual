@@ -294,6 +294,25 @@ shows an example of the [Particles] display.
 
    Example of the [Particles] display
 
+[Label]
+--------
+
+**Description**: Show label based on calculation result values.
+
+Label is the function to show label string defined using calculation results
+at grid nodes, cells, edges, etc.
+
+:numref:`image_post3d_label_example` shows an example of label.
+
+Refer to :ref:`sec_label_func` for detail.
+
+.. _image_post3d_label_example:
+
+.. figure:: images/post3d_label_example.png
+   :width: 180pt
+
+   Example of [Label] display
+
 [Title] (T)
 ------------
 

@@ -504,6 +504,25 @@ Set it and click on [OK].
    [Cell Attributes] dialog
 
 
+[Label]
+--------
+
+**Description**: Show label based on calculation result values.
+
+Label is the function to show label string defined using calculation results
+at grid nodes, cells, edges, etc.
+
+:numref:`image_post2d_label_example` shows an example of label.
+
+Refer to :ref:`sec_label_func` for detail.
+
+.. _image_post2d_label_example:
+
+.. figure:: images/post2d_label_example.png
+   :width: 180pt
+
+   Example of [Label] display
+
 [Background Image]
 --------------------
 
