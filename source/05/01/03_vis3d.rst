@@ -224,10 +224,14 @@ of the streamline display.
 
    Example of the [Streamline] display
 
-[Particles] (P)
------------------
+[Particles (auto)] (P)
+--------------------------
 
 **Description**: Sets the particle settings.
+
+[Particles (auto)] is the function to generate particles
+in GUI, and simulate where where the particles will move to, 
+using velocity in calculation result, and visualize the particles.
 
 When you select [Particles], the [Particle Setting] dialog
 (:numref:`image_post3d_particle_dialog`)
@@ -246,6 +250,47 @@ of the [Particles] display.
 
 .. figure:: images/post3d_particles_example.png
    :width: 180pt
+
+   Example of the [Particles] display
+
+[Particles] (R)
+------------------
+
+**Description**: Sets the particle settings.
+
+[Particles] is the function to load particles output by solber,
+and visualize the particles.
+
+When scalar attributes are output, user can change particle colors.
+When vector attributes are output, user can show arrows.
+
+When you select [Property] menu in right-clicking menu of
+[Scalar] and [Vector] Folder under [Particles], the dialogs in 
+:numref:`image_post3d_particles_solver_scalar_dialog`, 
+:numref:`image_post3d_particles_solver_vector_dialog` will be shown.
+Please edit the setting, and click on [OK] button.
+
+:numref:`image_post3d_particles_solver_example`
+shows an example of the [Particles] display.
+
+.. _image_post3d_particles_solver_scalar_dialog:
+
+.. figure:: images/post3d_particles_solver_scalar_dialog.png
+   :width: 280pt
+
+   [Particle Scalar Setting] dialog
+
+.. _image_post3d_particles_solver_vector_dialog:
+
+.. figure:: images/post3d_particles_solver_vector_dialog.png
+   :width: 200pt
+
+   [Arrow Setting] dialog
+
+.. _image_post3d_particles_solver_example:
+
+.. figure:: images/post3d_particles_example.png
+   :width: 230pt
 
    Example of the [Particles] display
 
