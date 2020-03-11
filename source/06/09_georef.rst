@@ -1,5 +1,5 @@
-Georeferenced file (\*jgw, etc.)
-=================================
+Georeferenced file (\*.jgw, etc.)
+==================================
 
 A georeferenced file (world file) gives coordinate data to an
 image to overlap an image with a grid. The following is an
