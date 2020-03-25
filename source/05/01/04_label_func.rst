@@ -134,7 +134,7 @@
 toFixed の使用例と出力例を :numref:`label_example_tofixed`,
 :numref:`label_example_tofixed_result` に、
 
-toExponential の使用例と出力例を:numref:`label_example_toexponential`,
+toExponential の使用例と出力例を :numref:`label_example_toexponential`,
 :numref:`label_example_toexponential_result` にそれぞれ示します。
 ただし、いずれの例でも「入力として使う計算結果」
 で Discharge が定義されているものとします。
