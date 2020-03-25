@@ -170,7 +170,7 @@ Output with control syntaxes
 JavaScript language has control syntaxes, like if statement, for statement etc.
 You can use these syntaxes to define the [Definition of output].
 
-numref:`label_example_if` and :numref:`label_example_if_result` shows
+:numref:`label_example_if` and :numref:`label_example_if_result` shows
 the example of Definition that uses if statement and the output.
 
 .. code-block:: JavaScript
