@@ -20,4 +20,12 @@ the [Raster Data].
 
    Example of the [Raster Data]
 
-Currently, Function for edition [Raster Data] is not implemented yet.
+Currently, Function to edit [Raster Data] is not implemented yet.
+
+.. note:: Importing multiple raster data with time dimension
+
+   When you import multiple raster data with time dimension, for example rainfall data,
+   the list of time value have to coincide between those data.
+
+   It is not possible to import data for different time range, or with different time
+   interval, an error message is shown.
