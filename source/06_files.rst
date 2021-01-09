@@ -5,7 +5,6 @@
    :maxdepth: 1
 
    06/01_riversurvey
-   06/01_riversurvey_mlit
    06/02_elevation
    06/03_dem
    06/04_xrain
