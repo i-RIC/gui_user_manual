@@ -15,36 +15,44 @@
 
    * - 種類
      - フォーマット
-   * - 河川測量データ
-     - 河川測量データ (\*.riv)
+   * - 点群データ
+     - 地勢データ (\*.tpo)
    * - 
-     - 日本 国土交通省 河川測量データ (\*.csv)
-   * - 地勢データ
-     - 地勢データ (\*.tpo, \*.anc)
-   * -
-     - RIC-Nays DEMデータ (\*.dat, \*.txt)
-   * -
-     - USGS NED (\*.adf)
+     - テキストファイル (\*.csv, \*,txt, \*.xyz)
    * -
      - STLファイル (\*.stl)
    * -
      - LandXML ファイル (\*.xml)
-   * - ポリゴン
-     - ESRI シェープファイル (\*.shp)
-   * - 折れ線
-     - ESRI シェープファイル (\*.shp)
+   * - 横断測量データ
+     - 横断測量データ (\*.riv)
+   * - 
+     - 国土交通省 横断測量データ (\*.csv)
    * - ラスターデータ
      - GeoTIFF ファイル (\*.tif)
    * - 
      - Arc/Info ASCII ファイル (\*.asc)
+   * - 
+     - NetCDF ファイル (\*.nc)
    * - 時系列ラスターデータ
-     - NetCDFファイル (\*.nc)
-   * -
-     - XバンドMPレーダーデータ (\*.\*)
-   * -
      - GeoTIFF ファイル (\*.tif)
    * - 
      - Arc/Info ASCII ファイル (\*.asc)
+   * -
+     - NetCDFファイル (\*.nc)
+   * -
+     - XバンドMPレーダーデータ (\*.\*)
+   * - ポリゴンデータ
+     - ESRI シェープファイル (\*.shp)
+   * -
+     - CSV ファイル (\*.csv)
+   * - ラインデータ
+     - ESRI シェープファイル (\*.shp)
+   * -
+     - CSV ファイル (\*.csv)
+   * - 点データ
+     - ESRI シェープファイル (\*.shp)
+   * -
+     - CSV ファイル (\*.csv)
 
 「地理情報」を選択すると、インポート可能な地理情報のリストが
 サブメニューとして表示されます。ここでインポートしたい地理情報を選択すると、
@@ -71,7 +79,22 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 
 以下に、インポートするフォーマットごとの追加の操作について説明します。
 
-河川測量データ (\*.riv)
+地勢データ (\*.tpo)
+----------------------
+
+ファイルを選択すると、 :numref:`image_tpo_import_setting_dialog`
+に示すダイアログが表示されます。
+
+必要に応じて「間引き」の値を変更した上で「OK」ボタンを押します。
+
+.. _image_tpo_import_setting_dialog:
+
+.. figure:: images/tpo_import_setting_dialog.png
+   :width: 200pt
+
+   間引き設定ダイアログ
+
+横断測量データ (\*.riv)
 -----------------------
 
 河川測量データからインポートする場合、ファイル選択後に
@@ -96,7 +119,7 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 
    河川測量データインポート設定ダイアログ
 
-日本 国土交通省 河川測量データ (\*.csv)
+国土交通省 横断測量データ (\*.csv)
 ---------------------------------------------
 
 まずはじめに距離標データが格納された CSV ファイルを選択します。
@@ -118,58 +141,6 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 
    見つかった問題一覧ダイアログ
 
-地勢データ (\*.tpo)
-----------------------
-
-ファイルを選択すると、 :numref:`image_tpo_import_setting_dialog`
-に示すダイアログが表示されます。
-
-必要に応じて「間引き」の値を変更した上で「OK」ボタンを押します。
-
-.. _image_tpo_import_setting_dialog:
-
-.. figure:: images/tpo_import_setting_dialog.png
-   :width: 200pt
-
-   間引き設定ダイアログ
-
-ESRI シェープファイル (\*.shp)
---------------------------------
-
-ESRI シェープファイルからポリゴンもしくは折れ線をインポートする
-場合、ファイル選択後に :numref:`image_polygon_import_setting_dialog`
-に示すダイアログが表示されます。
-
-インポートの設定を行って「OK」ボタンを押します。
-
-.. _image_polygon_import_setting_dialog:
-
-.. figure:: images/polygon_import_setting_dialog.png
-   :width: 320pt
-
-   ポリゴンインポート設定ダイアログ
-
-NetCDF ファイル (\*.nc)
------------------------
-
-NetCDF ファイルを、時間など位置以外の次元を持つ地理情報にインポートする
-場合、ファイル選択後に
-:numref:`image_netcdf_import_setting_dialog` に示すダイアログが表示されます。
-次元のマッピングに関する設定を行い、「OK」ボタンを押します。
-
-.. _image_netcdf_import_setting_dialog:
-
-.. figure:: images/netcdf_import_setting_dialog.png
-   :width: 160pt
-
-   次元のマッピング設定ダイアログ
-
-XバンドMPレーダーデータ (\*.\*)
-----------------------------------
-
-XRAINの雨量データを地理情報にインポートする場合、一つのフォルダ内に XRAIN の
-雨量データファイルのみが含まれているように保存し、それらのファイルの1つを選択します。
-すると、そのフォルダ内に保存された全ての雨量データファイルが読み込まれ、インポートされます。
 
 GeoTIFF ファイル (\*.tif), Arc/Info ASCII ファイル (\*.asc) (ラスターデータ)
 -----------------------------------------------------------------------------
@@ -219,3 +190,41 @@ GeoTIFF ファイル (\*.tif), Arc/Info ASCII ファイル (\*.asc) から時系
    :width: 280pt
 
    ファイル名パターン設定ダイアログ 表示例
+
+NetCDF ファイル (\*.nc)
+-----------------------
+
+NetCDF ファイルを、時間など位置以外の次元を持つ地理情報にインポートする
+場合、ファイル選択後に
+:numref:`image_netcdf_import_setting_dialog` に示すダイアログが表示されます。
+次元のマッピングに関する設定を行い、「OK」ボタンを押します。
+
+.. _image_netcdf_import_setting_dialog:
+
+.. figure:: images/netcdf_import_setting_dialog.png
+   :width: 160pt
+
+   次元のマッピング設定ダイアログ
+
+XバンドMPレーダーデータ (\*.\*)
+----------------------------------
+
+XRAINの雨量データを地理情報にインポートする場合、一つのフォルダ内に XRAIN の
+雨量データファイルのみが含まれているように保存し、それらのファイルの1つを選択します。
+すると、そのフォルダ内に保存された全ての雨量データファイルが読み込まれ、インポートされます。
+
+ESRI シェープファイル (\*.shp)
+--------------------------------
+
+ESRI シェープファイルからポリゴンデータ、ラインデータ、点データをインポートする
+場合、ファイル選択後に :numref:`image_polygon_import_setting_dialog`
+に示すダイアログが表示されます。
+
+インポートの設定を行って「OK」ボタンを押します。
+
+.. _image_polygon_import_setting_dialog:
+
+.. figure:: images/polygon_import_setting_dialog.png
+   :width: 320pt
+
+   ポリゴンインポート設定ダイアログ
