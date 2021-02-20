@@ -14,36 +14,45 @@ Geographic data can be imported from file formats in :numref:`import_geodata_for
 
    * - Type
      - Format
-   * - River Survey data
-     - River Survey data (\*.riv)
-   * - 
-     - Japan MLIT river survey data (\*.csv)
-   * - Points data
-     - Topography file (\*.tpo, \*.anc)
+
+   * - Point Cloud data
+     - Topography file (\*.tpo)
    * -
-     - RIC-Nays DEM data (\*.dat, \*.txt)
-   * -
-     - USGS NED (\*.adf)
+     - Text file (\*.csv, \*.txt, \*.xyz)
    * -
      - STL file (\*.stl)
    * -
      - LandXML file (\*.xml)
-   * - Polygon
-     - ESRI Shapefile (\*.shp)
-   * - Poly line
-     - ESRI Shapefile (\*.shp)
+   * - Cross-section data
+     - Cross-section data (\*.riv)
+   * - 
+     - Japan MLIT Cross-secion data (\*.csv)
    * - Raster data
      - GeoTIFF file (\*.tif)
    * - 
      - Arc/Info ASCII file (\*.asc)
-   * - Time series raster data
-     - NetCDF file (\*.nc)
-   * -
-     - X band MP rader data (\*.\*)
    * - 
+     - NetCDF file (\*.nc)
+   * - Time series raster data
      - GeoTIFF file (\*.tif)
    * - 
      - Arc/Info ASCII file (\*.asc)
+   * - 
+     - NetCDF file (\*.nc)
+   * -
+     - X band MP rader data (\*.\*)
+   * - Polygons
+     - ESRI Shapefile (\*.shp)
+   * - 
+     - CSV file (\*.csv)
+   * - Lines
+     - ESRI Shapefile (\*.shp)
+   * - 
+     - CSV file (\*.csv)
+   * - Points
+     - ESRI Shapefile (\*.shp)
+   * - 
+     - CSV file (\*.csv)
 
 When you select [Geographic Data], a list of importable geographic data
 is shown as submenus. Select the geographic data you want to import and
@@ -71,54 +80,6 @@ of the iRIC window after importing a river survey data.
 
 Additional operations dependent on file formats are explained below.
 
-River Survey data (\*.riv)
------------------------------
-
-When you import river survey data, the selected file is checked for errors.
-If problems are found, [Problems Found in Data] dialog
-(:numref:`image_rivdata_import_warning_dialog`) is shown.
-
-After that, [River Survey Data Import Setting] dialog
-(:numref:`image_rivdata_import_setting_dialog`) will open.
-Specify the import setting and click on [OK].
-
-.. _image_rivdata_import_warning_dialog:
-
-.. figure:: images/rivdata_import_warning_dialog.png
-   :width: 240pt
-
-   [Problems Found in Data] dialog
-
-.. _image_rivdata_import_setting_dialog:
-
-.. figure:: images/rivdata_import_setting_dialog.png
-   :width: 180pt
-
-   The [River Survey Data Import Setting] dialog
-
-Japan MLIT river survey data (\*.csv)
------------------------------------------
-
-At first, please select the CSV file that contains distance marker data.
-Then [Select folder where cross section data exists] dialog is shown,
-so select the folder and click on [Select Folder] button.
-
-When importing from Japan MLIT river survey data, the file is checked for errors.
-If problems are found, [Prolems Found in Data] dialog
-() is shown.
-
-After that, just like River Survey data (\*.riv),
-[River Survey Data Import Setting] dialog
-(:numref:`image_rivdata_import_setting_dialog`) will open.
-Specify the import setting and click on [OK].
-
-.. _image_japan_csv_import_warning_dialog:
-
-.. figure:: images/japan_riv_import_warning_dialog.png
-   :width: 240pt
-
-   [Problems Found in Data] dialog
-
 Topography file (\*.tpo)
 ---------------------------
 
@@ -134,44 +95,53 @@ Please edit Filter value when needed, and click on [OK] button to proceed.
 
    [Filtering Setting] dialog
    
-ESRI Shapefile (\*.shp)
---------------------------------
+Cross-section data (\*.riv)
+-----------------------------
 
-When importing polygons or polylines from ESRI shape files,
-[Polygon (or Polyline) Import Setting] dialog 
-(:numref:`image_polygon_import_setting_dialog`) is shown.
-Specify the setting for importing name and value, and click on [OK] to proceed.
+When you import cross-section data, the selected file is checked for errors.
+If problems are found, [Problems Found in Data] dialog
+(:numref:`image_rivdata_import_warning_dialog`) is shown.
 
-.. _image_polygon_import_setting_dialog:
+After that, [Cross-Section Data Import Setting] dialog
+(:numref:`image_rivdata_import_setting_dialog`) will open.
+Specify the import setting and click on [OK].
 
-.. figure:: images/polygon_import_setting_dialog.png
-   :width: 320pt
+.. _image_rivdata_import_warning_dialog:
 
-   [Polygon Import Setting] dialog
+.. figure:: images/rivdata_import_warning_dialog.png
+   :width: 240pt
 
-NetCDF file (\*.nc)
------------------------
+   [Problems Found in Data] dialog
 
-When you import NetCDF file into geographic data that has
-dimensions other than position, the 
-[Dimension Mapping Setting] dialog
-(:numref:`image_netcdf_import_setting_dialog`) will open.
-Setup the mapping setting about the dimensions, and click on [OK].
+.. _image_rivdata_import_setting_dialog:
 
-.. _image_netcdf_import_setting_dialog:
+.. figure:: images/rivdata_import_setting_dialog.png
+   :width: 180pt
 
-.. figure:: images/netcdf_import_setting_dialog.png
-   :width: 160pt
+   The [Cross-Section Data Import Setting] dialog
 
-   The [Dimension Mapping Setting] dialog
+Japan MLIT Cross-section data (\*.csv)
+-----------------------------------------
 
-X band MP rader data (\*.\*)
---------------------------------
+At first, please select the CSV file that contains distance marker data.
+Then [Select folder where cross section data exists] dialog is shown,
+so select the folder and click on [Select Folder] button.
 
-When you import XRAIN rainfall data as geographic data, save XRAIN rainfall 
-data files into one foler, and select one of them in the dialog.
-The, all rainfall data in that folder are loaded and imported.
+When importing from Japan MLIT Cross-section data, the file is checked for errors.
+If problems are found, [Prolems Found in Data] dialog
+() is shown.
 
+After that, just like Cross-section data (\*.riv),
+[Cross-Section Data Import Setting] dialog
+(:numref:`image_rivdata_import_setting_dialog`) will open.
+Specify the import setting and click on [OK].
+
+.. _image_japan_csv_import_warning_dialog:
+
+.. figure:: images/japan_riv_import_warning_dialog.png
+   :width: 240pt
+
+   [Problems Found in Data] dialog
 
 GeoTIFF file (\*.tif), Arc/Info ASCII file (\*.asc) (Raster data)
 -----------------------------------------------------------------------------
@@ -224,3 +194,41 @@ to correctly recognize time values from file names.
    :width: 280pt
 
    [File name pattern setting] dialog
+
+NetCDF file (\*.nc)
+-----------------------
+
+When you import NetCDF file into geographic data that has
+dimensions other than position, the 
+[Dimension Mapping Setting] dialog
+(:numref:`image_netcdf_import_setting_dialog`) will open.
+Setup the mapping setting about the dimensions, and click on [OK].
+
+.. _image_netcdf_import_setting_dialog:
+
+.. figure:: images/netcdf_import_setting_dialog.png
+   :width: 160pt
+
+   The [Dimension Mapping Setting] dialog
+
+X band MP rader data (\*.\*)
+--------------------------------
+
+When you import XRAIN rainfall data as geographic data, save XRAIN rainfall 
+data files into one foler, and select one of them in the dialog.
+The, all rainfall data in that folder are loaded and imported.
+
+ESRI Shapefile (\*.shp)
+--------------------------------
+
+When importing polygons or polylines from ESRI shape files,
+[Polygon (or Polyline) Import Setting] dialog 
+(:numref:`image_polygon_import_setting_dialog`) is shown.
+Specify the setting for importing name and value, and click on [OK] to proceed.
+
+.. _image_polygon_import_setting_dialog:
+
+.. figure:: images/polygon_import_setting_dialog.png
+   :width: 320pt
+
+   [Polygon Import Setting] dialog
