@@ -94,7 +94,22 @@ Please edit Filter value when needed, and click on [OK] button to proceed.
    :width: 200pt
 
    [Filtering Setting] dialog
-   
+
+Text file (\*.csv, \*.txt, \*.xyz)
+----------------------------------------------
+
+When you select a file, [Import Setting] dialog
+(:numref:`image_import_pointcloud_setting_dialog`) is shown.
+
+Please specify appropriate setting, checking [Preview] region, and click on [OK] button to proceed.
+
+.. _image_import_pointcloud_setting_dialog:
+
+.. figure:: images/import_pointcloud_setting_dialog.png
+   :width: 300pt
+
+   [Import Setting] dialog
+
 Cross-section data (\*.riv)
 -----------------------------
 
