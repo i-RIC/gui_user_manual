@@ -56,6 +56,9 @@
      - 等値面 (I)
      - 等値面の設定をします
    * -
+     - コンター (セル中心)
+     - セル中心の計算結果に基づいたコンターの設定をします
+   * -
      - ベクトル (A)
      - ベクトルの設定をします
    * -
@@ -178,6 +181,34 @@
 
    等値面表示 表示例
 
+コンター (セル中心) (C)
+--------------------------
+
+コンターの表示設定をします。
+
+コンターの表示設定ダイアログ (:numref:`image_post3d_cell_contour_dialog` 参照)
+が表示されますので、設定を行って「OK」ボタンを押します。
+
+カラーマップで「手動」を選択し、「設定」ボタンを押した場合に表示されるダイアログ
+については、:ref:`sec_geo_common_color_setting` を参照して下さい。
+
+コンターの表示例を :numref:`image_post3d_cell_contour_example`
+に示します。
+
+.. _image_post3d_cell_contour_dialog:
+
+.. figure:: images/post3d_cell_contour_dialog.png
+   :width: 340pt
+
+   コンター表示設定ダイアログ 表示例
+
+.. _image_post3d_cell_contour_example:
+
+.. figure:: images/post3d_cell_contour_example.png
+   :width: 440pt
+
+   コンターの表示例
+
 ベクトル (A)
 ------------
 
@@ -191,7 +222,7 @@
 .. _image_post3d_arrow_setting_dialog:
 
 .. figure:: images/post3d_arrow_setting_dialog.png
-   :width: 300pt
+   :width: 380pt
 
    ベクトルの表示設定ダイアログ 表示例
 

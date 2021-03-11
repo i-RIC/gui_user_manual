@@ -15,6 +15,7 @@
 
    * - 種類
      - フォーマット
+
    * - 点群データ
      - 地勢データ (\*.tpo)
    * - 
@@ -23,16 +24,21 @@
      - STLファイル (\*.stl)
    * -
      - LandXML ファイル (\*.xml)
+
    * - 横断測量データ
      - 横断測量データ (\*.riv)
    * - 
      - 国土交通省 横断測量データ (\*.csv)
+
    * - ラスターデータ
      - GeoTIFF ファイル (\*.tif)
    * - 
      - Arc/Info ASCII ファイル (\*.asc)
    * - 
+     - 16bit グレースケール PNG ファイル (\*.png)
+   * - 
      - NetCDF ファイル (\*.nc)
+
    * - 時系列ラスターデータ
      - GeoTIFF ファイル (\*.tif)
    * - 
@@ -41,14 +47,17 @@
      - NetCDFファイル (\*.nc)
    * -
      - XバンドMPレーダーデータ (\*.\*)
+
    * - ポリゴンデータ
      - ESRI シェープファイル (\*.shp)
    * -
      - CSV ファイル (\*.csv)
+
    * - ラインデータ
      - ESRI シェープファイル (\*.shp)
    * -
      - CSV ファイル (\*.csv)
+
    * - 点データ
      - ESRI シェープファイル (\*.shp)
    * -
@@ -130,7 +139,7 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 .. _image_rivdata_import_setting_dialog:
 
 .. figure:: images/rivdata_import_setting_dialog.png
-   :width: 180pt
+   :width: 240pt
 
    河川測量データインポート設定ダイアログ
 
@@ -164,7 +173,9 @@ GeoTIFF ファイル (\*.tif), Arc/Info ASCII ファイル (\*.asc) からラス
 インポートする場合、ファイルに座標系の情報が含まれていない場合、
 :numref:`image_geotiff_cs_warning_dialog` に示すダイアログを表示した後、
 :numref:`image_geotiff_cs_select_dialog` に示すダイアログが表示されます。
-このダイアログで座標系を選択すると、その座標系でデータがインポートされます。
+
+GeoTIFFファイルではファイル内の座標系の情報が、 Arc/Info ASCII ファイルでは拡張子が \*.prj
+のファイルがあった場合そのファイル内の座標系の情報が、それぞれ読み込まれます。
 
 .. _image_geotiff_cs_warning_dialog:
 

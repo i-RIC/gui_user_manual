@@ -9,6 +9,8 @@
 
 * iRIC 格子生成条件ファイル (\*.igcc)
 
+iRIC 格子生成条件ファイル (\*.igcc) は、iRIC独自のバイナリ形式のファイルです。
+
 エクスポートするファイル名を指定するダイアログ
 (:numref:`image_select_file_to_export_dialog_for_gridcreatingcond` 参照)
 が表示されますので、エクスポートするファイルを指定して「保存」ボタンを押します。

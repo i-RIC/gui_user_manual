@@ -105,6 +105,25 @@
 この機能は、ファイルメニューの下のエクスポートメニューに含まれるものと
 同じです。:ref:`sec_file_export_geo_data` を参照してください。
 
+選択して削除 (S)
+----------------
+
+プリプロセッサーのオブジェクトブラウザーで、
+削除したい（複数の項目が含まれている）地理情報を選択した状態で
+以下の操作を行います。
+
+(選択している地理情報) --> マウス右クリック --> 選択して削除(S)
+
+:numref:`image_delete_selected_item_dialog`
+に示すダイアログが表示されますので、削除したいデータにチェックを付けて、「OK」ボタンを押します。
+
+.. _image_delete_selected_item_dialog:
+
+.. figure:: images/delete_selected_item_dialog.png
+   :width: 220pt
+
+   選択した地理情報の削除ダイアログ
+
 すべて削除 (A)
 ----------------
 
@@ -114,13 +133,13 @@
 
 (選択している地理情報) --> マウス右クリック --> すべて削除(A)
 
-すると、:numref:`image_delete_all_item_dialog`
+:numref:`image_delete_all_item_dialog`
 に示すダイアログが表示されますので、「はい」ボタンを押します。
 
 .. _image_delete_all_item_dialog:
 
 .. figure:: images/delete_all_item_dialog.png
-   :width: 240pt
+   :width: 280pt
 
    項目の全削除 確認ダイアログ
 
