@@ -23,16 +23,21 @@ Geographic data can be imported from file formats in :numref:`import_geodata_for
      - STL file (\*.stl)
    * -
      - LandXML file (\*.xml)
+
    * - Cross-section data
      - Cross-section data (\*.riv)
    * - 
      - Japan MLIT Cross-secion data (\*.csv)
+
    * - Raster data
      - GeoTIFF file (\*.tif)
    * - 
      - Arc/Info ASCII file (\*.asc)
    * - 
+     - 16bit grayscale PNG file (\*.png)
+   * - 
      - NetCDF file (\*.nc)
+
    * - Time series raster data
      - GeoTIFF file (\*.tif)
    * - 
@@ -41,14 +46,17 @@ Geographic data can be imported from file formats in :numref:`import_geodata_for
      - NetCDF file (\*.nc)
    * -
      - X band MP rader data (\*.\*)
+
    * - Polygons
      - ESRI Shapefile (\*.shp)
    * - 
      - CSV file (\*.csv)
+
    * - Lines
      - ESRI Shapefile (\*.shp)
    * - 
      - CSV file (\*.csv)
+
    * - Points
      - ESRI Shapefile (\*.shp)
    * - 
@@ -131,7 +139,7 @@ Specify the import setting and click on [OK].
 .. _image_rivdata_import_setting_dialog:
 
 .. figure:: images/rivdata_import_setting_dialog.png
-   :width: 180pt
+   :width: 240pt
 
    The [Cross-Section Data Import Setting] dialog
 
@@ -166,7 +174,10 @@ raster data, if information about coordinate system is not included in
 the file, [Warning] dialog (:numref:`image_geotiff_cs_warning_dialog`) is shown,
 and [Select Coordinate System] dialog
 (:numref:`image_geotiff_cs_select_dialog`) is shown.
-Please select the coordinate system for the data to proceed.
+
+When importing aGeoTIFF file, the coordinate system information included in the file
+is imported. When importing an Arc/Info ASCII file, the coordinate system information
+included in \*.prj file is imported, if it exists.
 
 .. _image_geotiff_cs_warning_dialog:
 

@@ -283,6 +283,8 @@ operations on [River Survey Data] under the following:
      - Switch interpolation mode between river transverse lines.
    * - [Map points data]
      - Map points data to river transverse line.
+   * - [Generate point cloud data]
+     - Generate [Point Cloud Data] using the background grid of the [Cross-Section Data]
    * - [Delete] (D)
      - Deletes River Survey Data.
 
@@ -679,6 +681,46 @@ Input distance between elevation points etc. and click on [OK].
    [Map points data] dialog
 
 .. _sec_pre_riv_crosssection_window:
+
+
+
+[Generate point cloud data]
+-----------------------------------
+
+**Description**: Generate [Point Cloud Data] using the background grid of the [Cross-Section Data].
+
+When you select this a new [Point Cloud Data] is generated, and the dialog in
+:numref:`image_geo_riv_generate_pointcloud_dialog` is shown.
+
+:numref:`image_geo_riv_generate_pointcloud_example` shows an example of [Point Cloud Data]
+generated using this function.
+
+.. _image_geo_riv_generate_pointcloud_dialog:
+
+.. figure:: images/riv_generate_pointcloud_dialog.png
+   :width: 200pt
+
+   [Information] dialog
+
+.. _image_geo_riv_generate_pointcloud_example:
+
+.. figure:: images/riv_generate_pointcloud_example.png
+   :width: 350pt
+
+   Example of [Point Cloud Data] generated from [Cross-Section Data]
+
+.. note::
+
+   The density of points generated with this function can be changed by editing 
+   the setting about [Background Grid]. Please refer to 
+   :ref:`sec_pref_background_grid` about how to edit setting about [Background Grid].
+
+.. note::
+
+   You can generate [Point Cloud Data] from [Cross-Section Data], by generating 
+   a grid from [Cross-Section Data], and then generating [Point Cloud Data] from
+   the attribute of generated grid. Please refer to 
+   :ref:`sec_gridgen_riv_data_2d` for detail.
 
 Operation in the River Cross-section Window
 -------------------------------------------

@@ -1,33 +1,33 @@
 .. _sec_pointset_data:
 
-Editing the [Pointset Data]
-===========================
+Editing [Point Cloud Data]
+====================================
 
-[Pointset Data] consist of coordinates and attribute at that point.
-:numref:`image_example_pointset_data` shows an example of the [Pointset Data].
+[Point Cloud Data] consist of coordinates and attribute at that point.
+:numref:`image_example_pointset_data` shows an example of the [Point Cloud Data].
 
 .. _image_example_pointset_data:
 
 .. figure:: images/example_pointset_data.png
    :width: 250pt
 
-   The [Pointset Data]
+   The [Point Cloud Data]
 
 Menu items
 -----------
 
-When the [Pre-processing Window] is active and [Pointset Data] is
+When the [Pre-processing Window] is active and [Point Cloud Data] is
 selected in [Object Browser], you use can access menu items related to
-operations on [Pointset Data] under the following:
+operations on [Point Cloud Data] under the following:
 
-**Menu bar**: [Geographic Data] (E) --> [Pointset Data] (O)
+**Menu bar**: [Geographic Data] (E) --> [Point Cloud Data] (O)
 
 :numref:`geo_pointset_menuitems_table` shows the menu items
-under [Pointset Data] (O).
+under [Point Cloud Data] (O).
 
 .. _geo_pointset_menuitems_table:
 
-.. list-table:: The menu items under [Pointset Data]
+.. list-table:: The menu items under [Point Cloud Data]
    :header-rows: 1
 
    * - Menu item
@@ -58,12 +58,14 @@ under [Pointset Data] (O).
      - Remove all break lines.
    * - [Remesh TINs] (T)
      - Remesh TINs.
+   * - [Merge]
+     - Merge other [Point Cloud Data] to this data
    * - [Remove triangles with long edge] (W)
      - Remove triangles with long edge.
    * - [Display Setting] (S)
      - Edit display setting.
    * - [Delete] (D)
-     - Delete the [Pointset Data].
+     - Delete the [Point Cloud Data].
 
 [Select Points With Polygon] (P)
 --------------------------------
@@ -323,7 +325,7 @@ remeshing TINs.
 
 **Description**: Remove triangles with long edge from TIN.
 
-When TIN is generated generated, triangles with long edge are 
+When TIN is generated, triangles with long edge are 
 sometimes generated in area in which there is not points.
 Using this function, you can remove such needless triangles.
 
@@ -337,11 +339,11 @@ length, and click on [Apply] again. If it seems OK, click on
 [OK] button to finish the operation.
 
 :numref:`image_pointset_removetri_before` shows an example of
-[Pointset Data] before removing triangles, 
+[Point Cloud Data] before removing triangles, 
 :numref:`image_pointset_removetri_apply` shows an example of
-[Pointset Data] after clicking [Apply] button, and
+[Point Cloud Data] after clicking [Apply] button, and
 :numref:`image_pointset_removetri_apply` shows an example of
-[Pointset Data] after removing triangles, for each.
+[Point Cloud Data] after removing triangles, for each.
 
 .. _image_pointset_removetri_dialog:
 
@@ -355,28 +357,52 @@ length, and click on [Apply] again. If it seems OK, click on
 .. figure:: images/pointset_remove_tri_before.png
    :width: 250pt
 
-   [Pointset Data] before removing triangles
+   [Point Cloud Data] before removing triangles
 
 .. _image_pointset_removetri_apply:
 
 .. figure:: images/pointset_remove_tri_apply.png
    :width: 250pt
 
-   [Pointset Data] display example after clicking [Apply] button
+   [Point Cloud Data] display example after clicking [Apply] button
    
 .. _image_pointset_removetri_after:
 
 .. figure:: images/pointset_remove_tri_after.png
    :width: 250pt
 
-   [Pointset Data] after removing triangles
+   [Point Cloud Data] after removing triangles
+
+
+[Merge]
+---------
+
+**Description**: Merge points in other [Point Cloud Data] to this data.
+
+When you select [Merge], the [Select data to merge] dialog
+(:numref:`image_pointset_merge_dialog`) will open.
+Select the data to merge, and click on [OK] button. Them, the [Point Cloud Data] is 
+merged, and the [Remesh TINs] is executed.
+
+When you've imported [Point Cloud Data] for neighbor regions as separate data, it happens
+that when the [Point Cloud Data] is mapped to grid attributes, values are not mapped correctly
+to nodes (or cells) in the boundary region of those data.
+In such cases, executing mapping after merging the data will solve the problem.
+
+
+.. _image_pointset_merge_dialog:
+
+.. figure:: images/pointset_merge_dialog.png
+   :width: 200pt
+
+   [Select data to merge] dialog
 
 [Display Setting] (S)
 ---------------------
 
-**Description**: Changes display setting of [Pointset Data].
+**Description**: Changes display setting of [Point Cloud Data].
 
-[Pointset Data] can be visualized in the three methods: [Points],
+[Point Cloud Data] can be visualized in the three methods: [Points],
 [Wireframe], and [Surface].
 :numref:`image_pointset_display_methods` shows the three methods.
 
@@ -385,7 +411,7 @@ length, and click on [Apply] again. If it seems OK, click on
 .. figure:: images/pointset_display_methods.png
    :width: 420pt
 
-   [Pointset Data] display methods
+   [Point Cloud Data] display methods
 
 When you select [Display Setting], the [Display Setting] dialog
 (:numref:`image_pointset_display_setting_dialog`) will open.

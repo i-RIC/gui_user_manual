@@ -9,6 +9,9 @@ Grid creating condition can be imported from the file formats below:
 
 * iRIC grid creating condition file (\*.igcc)
 
+iRIC grid creating condition file (\*.igcc) is a special binary format that is
+defined for iRIC.
+
 When you select [Grid Creating Condition], the [Select file to import]
 dialog (:numref:`image_select_file_to_import_dialog_for_gridcreatingcond`)
 will open. Select the file you want to import and click on [Open].

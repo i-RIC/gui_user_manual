@@ -14,24 +14,51 @@ Geographic data can be exported to the file formats in :numref:`export_geodata_f
 
    * - Type
      - Format
-   * - River Survey data
-     - River Survey data (\*.riv)
-   * -
-     - LandXML file (\*.xml)
-   * - Points data
+
+   * - Point cloud data
      - Topography file (\*.tpo)
    * -
-     - RIC-Nays DEM data (\*.dat)
+     - LandXML file (\*.xml)
    * -
      - STL file (\*.stl)
    * -
-     - LandXML file (\*.xml)
-   * -
      - VTK file (\*.vtk)
-   * - Polygon
+
+   * - Cross-section data
+     - River Survey data (\*.riv)
+   * - 
+     - Text file (\*.txt)
+   * - 
+     - CSV file (\*.csv)
+   * -
+     - LandXML file (\*.xml)
+
+   * - Raster data
+     - GeoTIFF file (\*.tif)
+   * - 
+     - Arc/Info ASCII file (\*.asc)
+   * - 
+     - 16bit grayscale PNG file (\*.png)
+   * - 
+     - NetCDF file (\*.nc)
+
+   * - Time series raster data
+     - NetCDF file (\*.nc)
+
+   * - Polygons
      - ESRI Shapefile (\*.shp)
-   * - Poly line
+   * - 
+     - CSV file (\*.csv)
+
+   * - Lines
      - ESRI Shapefile (\*.shp)
+   * - 
+     - CSV file (\*.csv)
+
+   * - Points
+     - ESRI Shapefile (\*.shp)
+   * - 
+     - CSV file (\*.csv)
 
 When you select [Geographic Data], a list of exportable geographic data
 is shown as submenus. Select the geographic data you want to export and

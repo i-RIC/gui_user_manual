@@ -68,8 +68,23 @@ About mapping geographic data
 In this section, the algorithm to map geographic data to grid attributes
 is described.
 
-[River Survey Data]
-~~~~~~~~~~~~~~~~~~~~~~~~
+[Point Cloud Data]
+~~~~~~~~~~~~~~~~~~~~~
+
+**[Node attribute]**
+
+[Pointset Data] is mapped using TIN, as default. When a triangle that
+contains the grid node is found, the weighted averaged value that
+is calculated from the values at triangle nodes are mapped.
+
+**[Cell attribute]**
+
+[Pointset Data] is mapped using TIN. When a triangle that contains the 
+cell center is found, the weighted averaged value that is calculated
+from the values at triangle nodes are mapped.
+
+[Cross-Section Data]
+~~~~~~~~~~~~~~~~~~~~~~
 
 **[Node attribute]**
 
@@ -87,24 +102,22 @@ upstream side cross section and downstream side cross section.
 
 **[Cell attribute]**
 
-[River Survey Data] does not support mapping to [Cell attribute].
+[Cross-Section Data] does not support mapping to [Cell attribute].
 
-[Pointset Data]
-~~~~~~~~~~~~~~~~~~~
+[Raster Data]
+~~~~~~~~~~~~~~~
 
 **[Node attribute]**
 
-[Pointset Data] is mapped using TIN, as default. When a triangle that
-contains the grid node is found, the weighted averaged value that
-is calculated from the values at triangle nodes are mapped.
+Find the pixel (quadrangle) that contains the grid node, and map the 
+value defined at the pixel.
 
 **[Cell attribute]**
 
-[Pointset Data] is mapped using TIN. When a triangle that contains the 
-cell center is found, the weighted averaged value that is calculated
-from the values at triangle nodes are mapped.
+Find the pixel (quadrangle) that contains the grid cell center, and map the 
+value defined at the pixel.
 
-[Polygon]
+[Polygons]
 ~~~~~~~~~~~
 
 **[Node attribute]**
@@ -120,15 +133,14 @@ When the cell center is included in the polygon, the value of polygon is mapped.
    Until iRIC 3.0.3, [Polygon] value was mapped to grid cells when all the 
    nodes of the grid cell are inside the polygon.
 
-[Raster Data]
+
+[Lines]
 ~~~~~~~~~~~~~~~
 
 **[Node attribute]**
 
-Find the pixel (quadrangle) that contains the grid node, and map the 
-value defined at the pixel.
+When line crosses an edge of grid, line data is mapped to the nodes of the edge.
 
 **[Cell attribute]**
 
-Find the pixel (quadrangle) that contains the grid cell center, and map the 
-value defined at the pixel.
+When line crosses a cell, line data is mapped to the cell.

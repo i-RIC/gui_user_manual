@@ -1,14 +1,14 @@
-River Survey File (\*.riv)
-===========================
+Cross-Section File (\*.riv)
+===============================
 
 Overview
 ---------
 
-The River Survey File (\*.riv) contains transverse data
+The Cross-Section Data (\*.riv) contains transverse data
 (x and y coordinates of left/right banks) and cross-section data
 (distance from left bank and riverbed elevation).
 
-River Survey Files should be ASCII files. :numref:`image_riv_structure`
+Cross-Section Data should be ASCII files. :numref:`image_riv_structure`
 and Figure 6‑1 show
 the structure and concept, respectively.
 
@@ -61,23 +61,23 @@ the structure and concept, respectively.
 .. figure:: images/riv_structure.png
    :width: 400pt
 
-   Structure of River Survey File
+   Structure of Cross-Section Data
 
 .. _image_riv_concept:
 
 .. figure:: images/riv_concept.png
    :width: 420pt
 
-   Concept of River Survey File data
+   Concept of Cross-Section Data
 
 :numref:`image_riv_concept` shows the concept of
-the River Survey File data. iRIC does
+the Cross-Section Data. iRIC does
 not display the four dots (data of Indexes 1 to 4).
 
 The coordinates in the cross-sectional direction displayed in the
 [Cross-section] window have been converted as follows; note that they
 are different from [Distance from left bank] in the cross-section data
-of the River Survey File.
+of the Cross-Section Data.
 
 * The coordinates of the Center Point of the river have been calculated
   from the longitudinal data and the cross-section data.
@@ -85,7 +85,14 @@ of the River Survey File.
 * The distance from the Center Point along the cross-sectional line has
   been calculated.
 
-Scheduled driver longitudinal/cross-section data creation guideline and cross-sectional River Survey Data
+
+CSV files for importing river center line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When importing Cross-Section Data, river center line can be imported from CSV files.
+Refer to :ref:`sec_file_point_csv` for the file format.
+
+Scheduled driver longitudinal/cross-section data creation guideline and cross-sectional Cross-Section Data
 ------------------------------------------------------------------------------------------------------------
 
 The Ministry of Land, Infrastructure, Transport and Tourism () publishes
@@ -100,11 +107,11 @@ Survey Data items.
 
 .. _table_riv_survey_data_guideline:
 
-.. list-table:: Relationship between the River Survey Data items and the Guideline data
+.. list-table:: Relationship between the Cross-Section Data items and the Guideline data
    :header-rows: 1
 
-   * - River Survey Data item
-     - How to convert the guideline data (surveyed cross-sectional numerical data) to River Survey Data items
+   * - Cross-Section Data item
+     - How to convert the guideline data (surveyed cross-sectional numerical data) to Cross-Section Data items
 
    * - Coordinates of left/right banks
      - Specify the coordinates of the left/right bank distance posts.

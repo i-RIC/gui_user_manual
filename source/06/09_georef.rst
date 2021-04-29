@@ -1,3 +1,5 @@
+.. _sec_file_georef:
+
 Georeferenced file (\*.jgw, etc.)
 ==================================
 

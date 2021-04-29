@@ -25,52 +25,43 @@ coordinates, such as elevation, vegetation type, vegetation density,
 land use. You can import and edit geographic data with iRIC.
 
 Geographic data are used to determine the attributes at each node or
-cell by interpolation. You can use river survey data also for creating a
+cell by interpolation. You can use cross-section data also for creating a
 grid.
 
 The attributes that you need to input differ by the solver you use.
 
 iRIC can import and edit four types of geographic data:
 
--  River Survey Data
--  Pointset Data
--  Polygon
--  Polyline
--  Raster data
+- Point cloud data
+- Cross-section data
+- Raster data
+- Time series raster data
+- Polygons
+- Lines
+- Points
 
-:numref:`image_geodata_riversurvey`, :numref:`image_geodata_pointset`,
-:numref:`image_geodata_polygon`, :numref:`image_geodata_polyline`
-and :numref:`image_geodata_raster`
+:numref:`image_geodata_pointset`,
+:numref:`image_geodata_riversurvey`,
+:numref:`image_geodata_raster`,
+:numref:`image_geodata_polygon`,
+:numref:`image_geodata_polyline` and
+:numref:`image_geodata_points`
 show example of
-[River Survey Data], [Pointset Data], [Polygon], [Raster Data] respectively.
-
-.. _image_geodata_riversurvey:
-
-.. figure:: images/geodata_riversurvey.png
-   :width: 200pt
-
-   Example of [River Survey Data]
+[Point Cloud Data], [Cross-Section Data], [Raster Data], [Polygons], [Lines] and [Points] respectively.
 
 .. _image_geodata_pointset:
 
 .. figure:: images/geodata_pointset.png
    :width: 200pt
 
-   Example of [Pointset Data]
+   Example of [Point Cloud Data]
 
-.. _image_geodata_polygon:
+.. _image_geodata_riversurvey:
 
-.. figure:: images/geodata_polygon.png
-   :width: 120pt
+.. figure:: images/geodata_riversurvey.png
+   :width: 200pt
 
-   Example of [Polygon]
-
-.. _image_geodata_polyline:
-
-.. figure:: images/geodata_polyline.png
-   :width: 100pt
-
-   Example of [Polyline]
+   Example of [Cross-Section Data]
 
 .. _image_geodata_raster:
 
@@ -78,6 +69,27 @@ show example of
    :width: 300pt
 
    Example of [Raster Data]
+
+.. _image_geodata_polygon:
+
+.. figure:: images/geodata_polygon.png
+   :width: 180pt
+
+   Example of [Polygons]
+
+.. _image_geodata_polyline:
+
+.. figure:: images/geodata_polyline.png
+   :width: 160pt
+
+   Example of [Lines]
+
+.. _image_geodata_points:
+
+.. figure:: images/geodata_points.png
+   :width: 160pt
+
+   Example of [Points]
 
 Refer to :ref:`sec_pre_geodata` for detail.
 

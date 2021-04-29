@@ -132,6 +132,8 @@ Please refer to :ref:`sec_file_import_geo_data_from_web` for detail.
 
    The [Preferences] dialog [Web Elevation Data] tab
 
+.. _sec_pref_background_grid:
+
 [Background Grid] tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

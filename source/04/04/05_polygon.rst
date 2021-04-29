@@ -1,6 +1,6 @@
 .. _sec_polygon_data:
 
-Editing the [Polygon]
+Editing [Polygons]
 =====================
 
 **Description**: Sets the values of geographic data within the area of the
@@ -12,7 +12,47 @@ the [Polygon].
 .. figure:: images/example_polygon_data.png
    :width: 140pt
 
-   Example of the [Polygon]
+   Example of [Polygons]
+
+[Polygons Attribute Browser]
+-------------------------------
+
+When [Polygons] data is selected in the [Object Browser], [Polygons Attribute Browser] is shown.
+:numref:`image_polygon_att_browser` shows an example of [Polygons Attribute Browser].
+The list of columns in [Polygons Attribute Browser] is shown in 
+:numref:`geo_polygon_att_browser_col_table` .
+
+.. _image_polygon_att_browser:
+
+.. figure:: images/polygon_att_browser.png
+   :width: 240pt
+
+   Example of [Polygons Attribute Browser]
+
+.. _geo_polygon_att_browser_col_table:
+
+.. list-table:: The list of columns in [Polygons Attribute Browser]
+   :header-rows: 1
+
+   * - Column name
+     - Description
+   * - Name
+     - The name of polygons. You can edit the values.
+   * - Value
+     - the valud of polygons. You can edit the values.
+   * - Show
+     - When clicked, the clicked polygon is shown in the center of the drawing area.
+
+Selecting operation
+-----------------------
+
+For [Polygons], user can select multiple polygons at the same time.
+the selected polygons can be deleted or sorted with one operation.
+
+User can select polygons with the two ways below:
+
+* **Mouse operation**: Draw boundary box by left-dragging, and all polygons sorrounded by the box are selected.
+* **Attribute browser operation**: Click on items in [Polygons Attribute Browser], and the clicked item is selected. You can select multiple items, by clicking with pressing Ctrl key.
 
 Menu items
 ----------
@@ -32,14 +72,14 @@ When the [Pre-processing Window] is active and [Polygon] is selected in
 
    * - Menu item
      - Description
-   * - [Add Polygon] (A)
-     - Adds a new Polygon.
+   * - [Add New Polygons]
+     - Adds a new [Polygons] data.
    * - [Edit Name] (N)
      - Edits the name shown in [Object Browser].
+   * - [Add New Polygon] (A)
+     - Adds a new Polygon to [Polygons] data.
    * - [Edit Value] (V)
-     - Edits geographic data within the Polygon.
-   * - [Copy]
-     - Copy the Polygon to another group.
+     - Edits data value within the Polygon.
    * - [Add Vertex] (A)
      - Adds a vertex.
    * - [Remove Vertex] (R)
@@ -50,99 +90,90 @@ When the [Pre-processing Window] is active and [Polygon] is selected in
      - Adds a hole region.
    * - [Remove Hole Region]
      - Removes a hole region.
+   * - [Sort]
+     - Sort polygons.
+   * - [Merge]
+     - Merge polygons in other [Polygons] to this data.
+   * - [Copy]
+     - Copy the data to other [Geographic Data] group.
    * - [Color Setting] (S)
      - Sets the color display.
    * - [Delete] (D)
      - Deletes the Polygon.
 
-[Add New Polygon]
------------------
 
-The procedure to add a new Polygon is as follows:
+.. _sec_polygon_add_new_polygondata:
 
-1. Select the type of [Geographic Data] in [Object Browser] to which you
-   want to add a Polygon (:numref:`image_polygon_object_browser_disp`).
-   Note that the list of types of [Geographic Data] varies
-   according to the solver used.
+[Add New Polygons]
+------------------------------------
 
-2. The operation below adds a new Polygon to [Object Browser], and that
-   Polygon is selected.
+The procedure to add a new [Polygons] is as follows:
 
-**Menu bar**: [Geographic Data] (E) --> [Polygon] (P) --> [Add New Polygon]
+1. In [Object Browser] ,select the group of [Geographic data] to which
+   you want to add [Polygons] data (:numref:`image_polygon_object_browser_disp`)
+   Please note that the list of groups of [Geographic Data] differs depending on 
+   the solver you are using.
 
-1. On the canvas, add vertexes to the Polygon by left clicking
-   (:numref:`image_prewindow_polygon_being_defined`).
+2. Do the following operation. Then, a new [Polygons] data is added and selected in 
+   the object browser.
 
-2. Double click or press the Enter key to complete defining the Polygon.
-   As soon as you have double clicked or pressed the Enter key, the
-   [Edit Elevation value] dialog will open(:numref:`image_edit_elevation_value_dialog`).
-   Set the geographic data of the Polygon and click on [OK].
-   The dialog varies depending on the type of [Geographic Data]
-   to which a Polygon is added.
+**Menu bar**: Geographic Data (E) --> Polygons (P) --> Add New Polygons
+
+1. In the drawing area, define the nodes of the polygon, by left-clicking.
+   (:numref:`image_prewindow_polygon_being_defined`)
+
+2. Finish defining the shape of polygon, by double-clicking or pressing Enter key.
+   Then the dialog to specify the value at the defined polygon is shown
+   (:numref:`image_edit_elevation_value_dialog`), so input the value and click on [OK].
+   Please note that the widget to edit value differs depending on the type of [Geographic Data].
 
 .. _image_polygon_object_browser_disp:
 
 .. figure:: images/polygon_object_browser_disp.png
-   :width: 150pt
+   :width: 200pt
 
-   Example of the [Object Browser] display
+   Example of [Object Browser]
 
 .. _image_prewindow_polygon_being_defined:
 
 .. figure:: images/prewindow_polygon_being_defined.png
    :width: 350pt
 
-   [Pre-processing Window] when the [Polygon] is being defined
+   Example of [Pre-processing Window] while defining a polygon
 
 .. _image_edit_elevation_value_dialog:
 
 .. figure:: images/edit_elevation_value_dialog.png
-   :width: 130pt
+   :width: 160pt
 
-   [Edit Elevation Value] dialog
+   Example of dialog to edit value of polygon
+
+[Add New Polygon]
+-----------------
+
+**Description**: Adds a new Polygon to [Polygons] data.
+
+:ref:`sec_polygon_add_new_polygondata` adds a new [Polygons] data.
+On the other hand, this function add an new Polygon to the [Polygons] data that
+already exists.
+
+The steps to define a polygon is the same to :ref:`sec_polygon_add_new_polygondata`.
 
 [Edit Value] (V)
-----------------
+-----------------
 
 **Description**: Edits data value within the Polygon.
 
 When you select [Edit Value], the [Edit Elevation value] dialog
 (:numref:`image_edit_elevation_value_dialog2`) will open.
-Set a new value and click on [OK].
+Input a new value and click on [OK].
 
 .. _image_edit_elevation_value_dialog2:
 
 .. figure:: images/edit_elevation_value_dialog.png
-   :width: 130pt
+   :width: 160pt
 
    The [Edit Elevation value] dialog
-
-[Copy]
---------
-
-**Description**: Copy the Polygon to another [Geographic Data] group.
-
-When you select [Copy], the [Select Geographic Data] dialog
-(:numref:`image_polygon_copy_selectgroup_dialog`) will open.
-Select the [Geographic Data] group to copy this polygon, and click on [OK].
-
-Then, the dialog to specify the value for the polygon is shown, like
-in :numref:`image_polygon_copy_editvalue_dialog`. Specify the value and
-click on [OK], to finish copying the polygon.
-
-.. _image_polygon_copy_selectgroup_dialog:
-
-.. figure:: images/polygon_copy_selectgroup_dialog.png
-   :width: 160pt
-
-   The [Select Geographic Data] dialog
-
-.. _image_polygon_copy_editvalue_dialog:
-
-.. figure:: images/polygon_copy_editvalue_dialog.png
-   :width: 160pt
-
-   The Edit value dialog
 
 [Add Vertex] (A)
 ----------------
@@ -248,6 +279,50 @@ Edit the coordinates and click on [OK].
    :width: 340pt
 
    Example of the [Delete Hole Region] Result
+
+
+[Merge]
+------------
+
+**Description**: Merge polygons in other [Polygons] to this data.
+
+[Select data to merge] dialog
+(:numref:`image_polygon_merge_dialog`) is shown. Select the data to merge, and click on [OK] button.
+
+.. _image_polygon_merge_dialog:
+
+.. figure:: images/polygon_merge_dialog.png
+   :width: 260pt
+
+   [Select data to merge] dialog
+
+[Copy]
+----------
+
+**Description**: Copy the data to other [Geographic Data] group.
+
+[Select Graographic Data] dialog 
+(:numref:`image_polygon_copy_selectgroup_dialog`) is shown.
+Select the [Geographic Data] group to which you want to copy the data.
+
+Then, [Copy Setting] dialog
+(:numref:`image_polygon_copy_editvalue_dialog`) is shown.
+Specify the values of the polygons, and click on [OK] button, to finish 
+copying the [Polygons] data.
+
+.. _image_polygon_copy_selectgroup_dialog:
+
+.. figure:: images/polygon_copy_selectgroup_dialog.png
+   :width: 200pt
+
+   [Select Geographic Data] dialog
+
+.. _image_polygon_copy_editvalue_dialog:
+
+.. figure:: images/polygon_copy_editvalue_dialog.png
+   :width: 260pt
+
+   [Copy Setting] dialog
 
 [Color Setting] (S)
 -------------------

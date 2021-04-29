@@ -31,11 +31,8 @@ that can be used for iRIC.
      - [Create grid from polygonal lines and width]
      - Creates a grid that smoothly follows a polygonal line.
    * -
-     - [Create grid from river survey data]
-     - Creates a grid from [River Survey Data]. In addition to transverse lines being set, division points are set on the transverse lines the river centerline and left / right bank lines.
-   * -
-     - [Create geometric shape grid]
-     - Creates a grid in a geometric shape such as sine curve by setting parameters.
+     - [Create grid from cross-section data]
+     - Creates a grid from [Cross-Section Data]. In addition to transverse lines being set, division points are set on the transverse lines the river centerline and left / right bank lines.
    * -
      - [Create grid by dividing rectangular region]
      - Creates a rectangular grid that is evenly divided in the x and y directions.
@@ -73,7 +70,6 @@ of the following:
    01_01_common_functions
    01_02_polygonal_line_and_width
    01_03_riv_data_2d
-   01_04_geometric_grid
    01_05_rectangular_region
    01_06_compound_channel
    01_07_poisson

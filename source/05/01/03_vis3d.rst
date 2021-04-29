@@ -46,28 +46,31 @@ Post-processing Window] is active.
      - Description
    * - [Display Setting] (D)
      - [Grid Shape] (G)
-     - Sets the [Grid Shape] dialog.
+     - Setup the [Grid Shape] setting.
    * -
-     - [Contour] (C)
-     - Sets the [Contour] dialog.
+     - [Contours] (C)
+     - Setup the [Contour] setting.
    * -
      - [Iso Surface] (I)
-     - Sets the [Isosurface] dialog.
+     - Setup the [Isosurface] setting.
    * -
-     - [Arrow] (A)
-     - Sets the [Arrow] (i.e., vector) dialog.
+     - [Contours (cell center)]
+     - Setup the [Contour] setting.
    * -
-     - [Streamline] (S)
-     - Sets the [Streamline] dialog.
+     - [Arrows] (A)
+     - Setup the [Arrow] (i.e., vector) setting.
+   * -
+     - [Streamlines] (S)
+     - Setup the [Streamline] setting.
    * -
      - [Particles] (P)
-     - Sets the [Particles] dialog.
+     - Setup the [Particles] setting.
    * -
      - [Title] (T)
-     - Sets the [Title] dialog.
+     - Setup the [Title] setting.
    * -
      - [Time] (M)
-     - Sets the [Time] dialog.
+     - Setup the [Time] setting.
 
 [Object Browser]
 -------------------
@@ -89,7 +92,7 @@ operations on [Axes], refer to :ref:`sec_pre_axes`.
 [Grid Shape] (G)
 ------------------
 
-**Description**: Sets the grid shape settings.
+**Description**: Setup the grid shape settings.
 
 When you select [Grid Shape], the [Grid Shape Setting] dialog
 (:numref:`image_post3d_grid_shape_dialog`) will open.
@@ -112,14 +115,14 @@ respectively.
 
    Examples of graphics displayed by the [Grid Shape] setting
 
-[Contour] (C)
+[Contours] (C)
 ---------------
 
-**Description**: Sets the contour settings.
+**Description**: Setup the contour settings.
 
 When you select [Contour], the [Contour Group Setting] dialog
 (:numref:`image_post3d_contour_dialog`) will open.
-Set it and click on [OK].
+Setup the setting, and click on [OK].
 :numref:`image_post3d_contours_by_displaysetting`
 shows examples of the contour display for the
 [Counter] setting.
@@ -152,7 +155,7 @@ about the dialog that is shown when you select
 [Iso Surface]
 --------------
 
-**Description**: Sets the iso-surface settings.
+**Description**: Setup the iso-surface settings.
 
 When you select [Iso Surface], the [Iso Surface Setting] dialog
 (:numref:`image_post3d_isosurface_setting_dialog`)
@@ -174,10 +177,39 @@ the iso surface display.
 
    The Isosurface example
 
-[Arrow] (A)
-------------
+[Contours (cell center)]
+---------------------------
 
-**Description**: Sets the arrow (or vector) group settings.
+**Description**: Setup the contour setting for values output at cell centers.
+
+When you select [Contours (cell center)], the [Contour Setting (cell center)] dialog
+(:numref:`image_post3d_cell_contour_dialog`) will open.
+Setup the setting, and click on [OK].
+
+Please refer to :ref:`sec_geo_common_color_setting`
+about the dialog that is shown when you select
+[Custom] as [Colormap] and click on [Setting…] button.
+
+:numref:`image_post3d_cell_contour_example` shows an exampl.
+
+.. _image_post3d_cell_contour_dialog:
+
+.. figure:: images/post3d_cell_contour_dialog.png
+   :width: 340pt
+
+   [Contour Setting (cell center)] dialog
+
+.. _image_post3d_cell_contour_example:
+
+.. figure:: images/post3d_cell_contour_example.png
+   :width: 440pt
+
+   Example of [Contours (cell center)]
+
+[Arrows] (A)
+-------------
+
+**Description**: Setup the arrow (or vector) group settings.
 
 When you select [Arrow], the [Arrow Group Setting] dialog
 (:numref:`image_post3d_arrow_setting_dialog`)
@@ -199,10 +231,10 @@ of the [Arrow] display.
 
    Example of the [Arrow] display
 
-[Streamline] (S)
------------------
+[Streamlines] (S)
+-------------------
 
-**Description**: Sets the streamline settings.
+**Description**: Setup the streamline settings.
 
 When you select [Streamline], the [Streamline Setting] dialog
 (:numref:`image_post3d_streamline_setting_dialog`)
@@ -227,7 +259,7 @@ of the streamline display.
 [Particles (auto)] (P)
 --------------------------
 
-**Description**: Sets the particle settings.
+**Description**: Setup the particle settings.
 
 [Particles (auto)] is the function to generate particles
 in GUI, and simulate where where the particles will move to, 
@@ -256,7 +288,7 @@ of the [Particles] display.
 [Particles] (R)
 ------------------
 
-**Description**: Sets the particle settings.
+**Description**: Setup the particle settings.
 
 [Particles] is the function to load particles output by solber,
 and visualize the particles.
@@ -316,7 +348,7 @@ Refer to :ref:`sec_label_func` for detail.
 [Title] (T)
 ------------
 
-**Description**: Sets the title settings.
+**Description**: Setup the title settings.
 
 When you select [Title], the [Title Setting] dialog
 (:numref:`image_post3d_title_setting_dialog`) will open.
@@ -332,7 +364,7 @@ Set it and click on [OK].
 [Time] (M)
 ------------
 
-**Description**: Sets the time settings.
+**Description**: Setup the time settings.
 
 When you select [Time], the [Time Setting] dialog
 (:numref:`image_post3d_time_setting_dialog`)

@@ -107,10 +107,31 @@ The function of this item is the same to [Geographic Data] under
 The function of this item is the same to [Geographic Data] under
 [Export] menu under [File] menu. Refer to :ref:`sec_file_export_geo_data`
 
+[Delete Selected] (S)
+-------------------------
+
+**Description**: Deletes multiple geographic data at once.
+
+In [Object Browser], select the geographic data group that contains the
+data you want to delete, and perform the following:
+
+(Selected geograhic data) --> Right-clicking menu --> [Delete Selected] (S)
+
+The [Delete selected geographic data] dialog
+(:numref:`image_delete_selected_item_dialog`) will open. Check on the 
+items that you want to delete, and click on [OK] button.
+
+.. _image_delete_selected_item_dialog:
+
+.. figure:: images/delete_selected_item_dialog.png
+   :width: 220pt
+
+   The [Delete Selected item] dialog
+
 [Delete All] (A)
 ----------------
 
-**Description**: Deletes geographic data (including more than 2 items).
+**Description**: Deletes all geographic data in the group.
 
 Select the geographic data (including more than 2 items) in [Object
 Browser] you want to delete, and perform the following:
@@ -123,7 +144,7 @@ will open. Select [Yes].
 .. _image_delete_all_item_dialog:
 
 .. figure:: images/delete_all_item_dialog.png
-   :width: 240pt
+   :width: 280pt
 
    The [Delete All item] dialog
 

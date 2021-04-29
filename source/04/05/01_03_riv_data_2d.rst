@@ -1,23 +1,24 @@
+.. _sec_gridgen_riv_data_2d:
 
-[Create grid from River Survey Data] (2-D structured grid)
+[Create grid from Cross-Section Data] (2-D structured grid)
 ==========================================================
 
-**Description**: Creates a grid from River Survey Data. In addition to
+**Description**: Creates a grid from Cross-Section Data. In addition to
 transverse lines being set, division points are set on the transverse
 lines, the river centerline and left/right bank lines.
 :numref:`image_riv_data_2d_grid_example` shows
 an example of a grid created by this algorithm.
 
-Before using this algorithm, you need to import River Survey Data.
+Before using this algorithm, you need to import Cross-Section Data.
 
 .. _image_riv_data_2d_grid_example:
 
 .. figure:: images/riv_data_2d_grid_example.png
    :width: 300pt
 
-   Example of a grid created from River Survey Data
+   Example of a grid created from Cross-Section Data
 
-The following lines of River Survey Data are used as grid lines. In
+The following lines of Cross-Section Data are used as grid lines. In
 addition, division points added by the user are used to create a grid.
 
 - River transverse line
@@ -56,11 +57,11 @@ Menu items
 
 :numref:`riv_data_2d_menuitems_table` shows the menu items of the submenu of
 [Grid] (G) -->  [Grid Creating Conditions] (C)
-when [Create grid from River Survey Data] is selected as the grid creating algorithm.
+when [Create grid from Cross-Section Data] is selected as the grid creating algorithm.
 
 .. _riv_data_2d_menuitems_table:
 
-.. list-table:: Menu items for algorithm [Create grid from River Survey Data]
+.. list-table:: Menu items for algorithm [Create grid from Cross-Section Data]
    :header-rows: 1
 
    * - Menu
