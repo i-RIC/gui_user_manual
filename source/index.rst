@@ -8,6 +8,7 @@ iRIC Software User\'s Manual
    :maxdepth: 3
 
    01_introduction
+   01_install
    02_overview
    03_common_functions
    04_pre
