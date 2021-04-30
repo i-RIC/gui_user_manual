@@ -1,37 +1,36 @@
-16bit グレースケール PNGファイル (\*.png)
-===============================================
+Grayscale 16bit PNG file (\*.png)
+====================================
 
-16bit グレースケール PNG ファイルは、地形のラスターデータを
-読み込むためのファイルです。
+iRIC can import raster elevation data from grayscale 16bit PNG files.
 
-ゲームエンジン Unreal Engine 4 用に作成した地形データをインポートすることを
-想定しています。
+It is expected that user use this function to import elevation data prepared for
+game engine Unreal Engine 4.
 
-16bit グレースケール PNG ファイルをインポートする際は、
-:numref:`16bit_png_file_table` に示すファイルを用意します。
+When you import grayscale 16bit PNG file, please prepare the files in 
+:numref:`16bit_png_file_table`.
 
 .. _16bit_png_file_table:
 
-.. list-table:: 16bit グレースケール PNG ファイル インポート用ファイル一覧
+.. list-table:: The list of file to import grayscale PNG file
    :header-rows: 1
 
-   * - ファイル
-     - 説明
+   * - File
+     - Description
 
    * - \*.png
-     - 標高のラスターデータを格納したファイル本体
+     - The data that stores raster elevation data
 
    * - \*.pgw
-     - ラスターデータの位置情報を格納したワールドファイル
+     - The world file that stores the horizontal position of raster data
 
    * - \*.png.meta
-     - オフセットとスケールの情報を格納したファイル
+     - The meta data file that stores the vertical offset and scale
 
 \*.png
 ----------
 
-標高のラスターデータを格納した、16bit グレースケールの PNG ファイルです。
-PNG ファイルのフォーマットの詳細については以下を参照してください。
+Grayscale 16bit PNG file that stores raster elevation data.
+Refer to the follwing URL about the detail of PNG file format.
 
 http://www.libpng.org/
 
@@ -39,34 +38,32 @@ http://www.libpng.org/
 \*.pgw
 ----------
 
-ラスターデータの位置情報を格納したワールドファイルです。
-ワールドファイルの詳細については :ref:`sec_file_georef` を参照してください。
+The world file that stores the horizontal position of raster data.
+Refet to :ref:`sec_file_georef` about the detail of world file.
 
 \*.png.meta
 ---------------
 
-\*.png ファイルに含まれる値の、オフセットとスケールの情報を格納したファイルです。
+The metadata file that contains vertical offset and scale about values stored in \*.png.
 
-16bit グレースケール PNG ファイルでは、各ピクセルにおいて、0 ～ 65535 の値を持ちます。
-0 が黒、65535 が白に相当します。
+In grayscale 16bit PNG files, Each pixel stores value between 0 and 65535. 0 corresponds to black,
+65535 corresponds to white.
 
-iRIC では、 \*.png.meta ファイルに格納されたオフセット :math:`o` と スケール :math:`s` の
-値を使用して、色の値 :math:`c` から、標高の値 :math:`h` を以下の式で計算して
-インポートします。
+iRIC reads offset (:math:`o`) and scale (:math:`s`) from \*.png.meta file, and calculate the 
+elevation value :math:`h` from color value :math:`c` with the following equation.
 
 .. math::
 
    h = c \times s + o
 
-\*.png.meta は、 YAML 形式のテキストファイルです。オフセットの値は base, スケールの値は resolution
-という項目名で指定します。
+\*.png.meta is a YAML format text file. Offset and scale values should be specified with
+name "base" and "resolution", respectively.
 
-\*.png.meta の例を :numref:`16bitpng_meta__example` に示します。
-
+:numref:`16bitpng_meta__example` shows an example of \*.png.meta.
 
 .. code-block:: text
    :name: 16bitpng_meta__example
-   :caption: \*.png.meta ファイル例
+   :caption: Example of \*.png.meta
 
    base: 312.5
    resolution: 0.1

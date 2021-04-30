@@ -1,17 +1,17 @@
 .. _sec_file_georef:
 
-Georeferenced file (\*.jgw, etc.)
+World file (\*.jgw, etc.)
 ==================================
 
-A georeferenced file (world file) gives coordinate data to an
+World file gives coordinate data to an
 image to overlap an image with a grid. The following is an
-example of a georeferenced file.
+example of a world file.
 Words in parentheses ( ) are remarks and are not included in the
 actual file.
 
 .. code-block:: text
    :name: georef_example
-   :caption: Example of georeferenced file
+   :caption: Example of world file
 
    2.5 (a: increment of x-coordinate per pixel)
    0.0 (b: rotation condition)
@@ -50,6 +50,5 @@ an image file and the extension of georeferenced file.
    * - \*.tif
      - \*.tfw
 
-When a georeferenced file of the same file name as an image file is
-located in the same directory, the georeferenced file is read for
-adjusting the alignment of the image data.
+When a world file that has the same base name with image file exists
+in the same directory, the world file is read for and used to adjust the alignment of the image data.
