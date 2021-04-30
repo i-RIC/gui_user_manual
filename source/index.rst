@@ -13,4 +13,5 @@ iRIC Software User\'s Manual
    04_pre
    05_post
    06_files
-   07_user_notice
+   07_tips
+   10_user_notice
