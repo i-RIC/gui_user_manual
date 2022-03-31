@@ -124,7 +124,7 @@
 
 表示する領域の範囲を調整するには、
 「領域設定(R)」ボタンを押して領域設定ダイアログを表示し、設定を行って「OK」ボタンを
-押します（:numref:`image_post2dbirdeye_contour_dialog`,
+押します（:numref:`image_post2dbirdeye_contour_region_structured_dialog`,
 :numref:`image_post2dbirdeye_contour_region_unstructured_dialog` 参照）。
 
 凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
@@ -134,9 +134,11 @@
 コンター設定ごとの表示例を
 :numref:`image_post2dbirdeye_contours_by_displaysetting` に示します。
 
-コンターは、iRIC 3.0 では複数の計算結果について同時に表示できるようになっています。
-複数のコンターを同時に表示するには、オブジェクトブラウザで、複数の項目の横の
-チェックボックスをチェックして下さい。
+コンターは、iRIC 4.0 では、複数の計算結果について同時に表示できるようになっています。
+例えば、河床標高と水面標高の2つを同時に描画することができます。
+
+複数のコンターを同時に表示するには、「スカラー(格子点)」を選択し、右クリックメニュー
+から「追加」ボタンを押してください。
 
 .. _image_post2dbirdeye_contour_dialog:
 
