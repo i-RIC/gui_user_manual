@@ -137,9 +137,9 @@ that is shown when you select
 :numref:`image_post2dbirdeye_contours_by_displaysetting` shows an example of
 displayed contours for each [Display Setting] setting.
 
-With iRIC 3.0, it is now possible to visualize contours for multiple
-calculation results at the same time. To visualize multiple contours,
-please check on the check boxes for multiple items in the object browser.
+With iRIC 4.0, it is now possible to visualize contours for multiple calculation results at the same time. For example, you can visualize bed elevation and water surface elevation at the same time.
+
+To show multiple contours, select "Scalar (node)" and select "Add" from right-clicking menu.
 
 .. _image_post2dbirdeye_contour_dialog:
 
