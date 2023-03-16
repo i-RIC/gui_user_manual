@@ -664,6 +664,8 @@ an example of Linear Curve Interpolation Mode.
 
    Example of the [Interpolation Mode (Linear Curve)]
 
+.. _sec_riversurvey_map_pointcloud:
+
 [Map points data]
 -------------------------
 
@@ -679,10 +681,6 @@ Input distance between elevation points etc. and click on [OK].
    :width: 200pt
 
    [Map points data] dialog
-
-.. _sec_pre_riv_crosssection_window:
-
-
 
 [Generate point cloud data]
 -----------------------------------
@@ -721,6 +719,8 @@ generated using this function.
    a grid from [Cross-Section Data], and then generating [Point Cloud Data] from
    the attribute of generated grid. Please refer to 
    :ref:`sec_gridgen_riv_data_2d` for detail.
+
+.. _sec_pre_riv_crosssection_window:
 
 Operation in the River Cross-section Window
 -------------------------------------------

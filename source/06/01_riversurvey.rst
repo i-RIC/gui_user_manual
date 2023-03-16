@@ -85,6 +85,12 @@ of the Cross-Section Data.
 * The distance from the Center Point along the cross-sectional line has
   been calculated.
 
+.. note::
+
+   "#x-section" line and thereafter may be omitted.
+   
+   If you omit the "x-section" line and after and read only the coordinates of the left and right banks, the data will be read as cross-section data with an elevation of 0.
+   This function is used, for example, when :ref:`sec_riversurvey_map_pointcloud` is used to calculate the cross-sectional profile by interpolation from point cloud data.
 
 CSV files for importing river center line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
