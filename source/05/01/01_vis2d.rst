@@ -173,119 +173,56 @@
 
 コンターの表示設定ダイアログが表示されます (:numref:`image_post2d_contour_dialog` 参照)
 ので、設定を行って「OK」ボタンを押します。表示する領域の範囲を調整するには、
-「領域設定 (R)」ボタンを押して領域設定ダイアログを表示し、設定を行って
-「OK」ボタンを押します（:numref:`image_post2d_contour_region_structured_dialog`、
-:numref:`image_post2d_contour_region_unstructured_dialog` 参照）。
-凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
-カラーバー設定ダイアログを表示し、設定を行って「OK」ボタンを押します
-（:numref:`image_post2d_contour_colorbar_setting_dialog` 参照）。
+「範囲」タブ (:numref:`image_post2d_contour_dialog_range_tab` 参照) から行います。
 
-カラーマップで「手動」を選択し、「設定」ボタンを押した場合に表示されるダイアログに
-ついては、:ref:`sec_geo_common_color_setting` を参照して下さい。
-
-コンター設定ごとの表示例を :numref:`image_post2d_contours_by_displaysetting`
-に示します。
-
-コンターは、iRIC 3.0 では複数の計算結果について同時に表示できるようになっています。
+コンターは、iRIC 3.0 以降では複数の計算結果について同時に表示できるようになっています。
 複数のコンターを同時に表示するには、オブジェクトブラウザで、複数の項目の横の
 チェックボックスをチェックして下さい。
+
+色の設定機能の詳細については :ref:`sec_geo_common_color_setting_real` を参照してください。
 
 .. _image_post2d_contour_dialog:
 
 .. figure:: images/post2d_contour_dialog.png
-   :width: 240pt
+   :width: 440pt
 
    コンター表示設定ダイアログ 表示例
 
-.. _image_post2d_contour_region_structured_dialog:
+.. _image_post2d_contour_dialog_range_tab:
 
-.. figure:: images/post2d_contour_region_structured_dialog.png
-   :width: 140pt
+.. figure:: images/post2d_contour_dialog_range_tab.png
+   :width: 440pt
 
-   コンター表示 領域設定ダイアログ 表示例 (構造格子)
-
-.. _image_post2d_contour_region_unstructured_dialog:
-
-.. figure:: images/post2d_contour_region_unstructured_dialog.png
-   :width: 120pt
-
-   コンター表示 領域設定ダイアログ 表示例 (非構造格子)
-
-.. _image_post2d_contour_colorbar_setting_dialog:
-
-.. figure:: images/post2d_contour_colorbar_setting_dialog.png
-   :width: 150pt
-
-   コンター表示 カラーバー設定ダイアログ 表示例
-
-.. _image_post2d_contours_by_displaysetting:
-
-.. figure:: images/post2d_contours_by_displaysetting.png
-   :width: 420pt
-
-   コンター設定の値ごとの表示例
+   コンター表示設定ダイアログ 表示例 (「範囲」タブ)
 
 コンター (セル中心) (L)
 -----------------------
 
 セル中心で定義された計算結果に関するコンターの表示設定をします。
 
-コンターの表示設定ダイアログが表示されます (:numref:`image_post2d_contour_dialog` 参照)
-ので、設定を行って「OK」ボタンを押します。
-
-表示する領域の範囲を調整するには、
-「領域設定 (R)」ボタンを押して領域設定ダイアログを表示し、設定を行って
-「OK」ボタンを押します（:numref:`image_post2d_cellcenter_contour_region_structured_dialog`、
-:numref:`image_post2d_cellcenter_contour_region_unstructured_dialog` 参照）。
-
-凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
-カラーバー設定ダイアログを表示し、設定を行って「OK」ボタンを押します
-（:numref:`image_post2d_cellcenter_contour_colorbar_setting_dialog` 参照）。
-
-カラーマップで「手動」を選択し、「設定」ボタンを押した場合に表示されるダイアログに
-ついては、:ref:`sec_geo_common_color_setting` を参照して下さい。
-
-コンター設定ごとの表示例を :numref:`image_post2d_cellcenter_contours_by_displaysetting`
-に示します。
+コンターの表示設定ダイアログが表示されます (:numref:`image_post2d_cellcenter_contour_dialog` 参照)
+ので、設定を行って「OK」ボタンを押します。表示する領域の範囲を調整するには、
+「範囲」タブ (:numref:`image_post2d_contour_dialog_range_tab` 参照) から行います。
 
 コンターは、複数の計算結果について同時に表示できます。
 複数のコンターを同時に表示するには、オブジェクトブラウザで、複数の項目の横の
 チェックボックスをチェックして下さい。
 
+色の設定機能の詳細については :ref:`sec_geo_common_color_setting_real` を参照してください。
+
 .. _image_post2d_cellcenter_contour_dialog:
 
 .. figure:: images/post2d_cellcenter_contour_dialog.png
-   :width: 250pt
+   :width: 440pt
 
    コンター表示設定ダイアログ 表示例
 
-.. _image_post2d_cellcenter_contour_region_structured_dialog:
+.. _image_post2d_cellcenter_contour_dialog_range_tab:
 
-.. figure:: images/post2d_contour_region_structured_dialog.png
-   :width: 150pt
+.. figure:: images/post2d_cellcenter_contour_dialog_range_tab.png
+   :width: 440pt
 
-   コンター表示 領域設定ダイアログ 表示例 (構造格子)
-
-.. _image_post2d_cellcenter_contour_region_unstructured_dialog:
-
-.. figure:: images/post2d_contour_region_unstructured_dialog.png
-   :width: 130pt
-
-   コンター表示 領域設定ダイアログ 表示例 (非構造格子)
-
-.. _image_post2d_cellcenter_contour_colorbar_setting_dialog:
-
-.. figure:: images/post2d_contour_colorbar_setting_dialog.png
-   :width: 160pt
-
-   コンター表示 カラーバー設定ダイアログ 表示例
-
-.. _image_post2d_cellcenter_contours_by_displaysetting:
-
-.. figure:: images/post2d_cellcenter_contours_by_displaysetting.png
-   :width: 400pt
-
-   コンター設定の値ごとの表示例
+   コンター表示設定ダイアログ 表示例 (「範囲」タブ)
 
 コンター (I方向エッジ), コンター (J方向エッジ)
 ----------------------------------------------
@@ -308,35 +245,31 @@ I方向エッジ、 J方向エッジ上で定義された計算結果に関す�
 、 :numref:`image_post2d_arrow_setting_dialog_unstructured` 参照)
 が表示されますので、設定を行って「OK」ボタンを押します。
 
+色の設定は「表示色」タブ (:numref:`image_post2d_arrow_setting_dialog_color`) から行います。
+色の設定機能の詳細については :ref:`sec_geo_common_color_setting_real` を参照してください。
+
 ベクトルの表示例を :numref:`image_post2d_arrow_example` に表示します。
 
 .. _image_post2d_arrow_setting_dialog_structured:
 
 .. figure:: images/post2d_arrow_setting_dialog_structured.png
-   :width: 200pt
+   :width: 440pt
 
    ベクトル表示設定ダイアログ 表示例 (構造格子)
 
 .. _image_post2d_arrow_setting_dialog_unstructured:
 
 .. figure:: images/post2d_arrow_setting_dialog_unstructured.png
-   :width: 200pt
+   :width: 440pt
 
    ベクトル表示設定ダイアログ 表示例 (非構造格子)
 
-.. _image_post2d_arrow_region_structured_dialog:
+.. _image_post2d_arrow_setting_dialog_color:
 
-.. figure:: images/post2d_arrow_region_structured_dialog.png
-   :width: 150pt
+.. figure:: images/post2d_arrow_setting_dialog_color.png
+   :width: 440pt
 
-   ベクトル表示 領域設定ダイアログ 表示例 (構造格子)
-
-.. _image_post2d_arrow_region_unstructured_dialog:
-
-.. figure:: images/post2d_arrow_region_unstructured_dialog.png
-   :width: 140pt
-
-   ベクトル表示 領域設定ダイアログ 表示例 (非構造格子)
+   ベクトル表示設定ダイアログ 表示例 (「表示色」タブ)
 
 .. _image_post2d_arrow_example:
 

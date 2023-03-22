@@ -13,12 +13,6 @@
 を読み込みます。実測値の読み込み後のオブジェクトブラウザでの表示例を
 :numref:`image_example_measured_values_ob` に示します。
 
-スカラー量の観測値の表示設定については
-:ref:`sec_pre_measured_data_scalar` を、
-ベクトル量の観測値の表示設定については
-:ref:`sec_pre_measured_data_arrows`
-を参照してください。
-
 観測値のインポートについては
 :ref:`sec_file_import_measured_data` を参照してください。
 
@@ -40,14 +34,12 @@
 (:numref:`image_example_scalar_setting_dialog`)
 が表示されますので設定し、「OK」ボタンを押します。
 
-カラーマップで「手動」を選択し、「設定」ボタンを押した場合に表示される
-ダイアログについては、4.4.1.1
-を参照して下さい。
+色の設定機能の詳細については :ref:`sec_geo_common_color_setting_real` を参照してください。
 
 .. _image_example_scalar_setting_dialog:
 
 .. figure:: images/example_scalar_setting_dialog.png
-   :width: 260pt
+   :width: 440pt
 
    スカラー量の実測値の表示設定ダイアログ
 
@@ -62,12 +54,20 @@
 (:numref:`image_example_arrow_setting_dialog`)
 が表示されますので設定し、「OK」ボタンを押します。
 
+
 .. _image_example_arrow_setting_dialog:
 
 .. figure:: images/example_arrow_setting_dialog.png
-   :width: 260pt
+   :width: 440pt
 
    ベクトル量の実測値の表示設定ダイアログ
+
+.. _image_example_arrow_setting_dialog_color:
+
+.. figure:: images/example_arrow_setting_dialog_color.png
+   :width: 440pt
+
+   ベクトル量の実測値の表示設定ダイアログ (「表示色」タブ)
 
 インポート(I)
 --------------
