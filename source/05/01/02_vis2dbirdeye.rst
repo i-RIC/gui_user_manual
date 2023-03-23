@@ -92,19 +92,29 @@
 格子形状の表示設定をします。
 
 格子形状の表示設定ダイアログ (:numref:`image_post2dbirdeye_grid_shape_dialog` 参照)
-が表示されますので、設定を行って「OK」ボタンを押します。表示を「外枠のみ」と設定した時と、
-「すべて」と設定した時の表示例を
-:numref:`image_post2dbirdeye_grid_shape_wireframe_lines`
-に示します。
+が表示されますので、設定を行って「OK」ボタンを押します。
 
-「格子インデックス」の設定は、「格子線」で「すべて」を選択した時にのみ操作できます。
+設定項目について以下で説明します。
+
+格子線
+   格子線の表示設定を行います。
+
+格子インデックス
+   「表示」をチェックすると、格子の縁にある格子点にインデックス (I, J) が表示されます。
+
+標高に使用するスカラー値
+   格子線の垂直方向の位置を決めるのに使うスカラー量を指定します。
 
 .. _image_post2dbirdeye_grid_shape_dialog:
 
 .. figure:: images/post2dbirdeye_grid_shape_dialog.png
-   :width: 100pt
+   :width: 200pt
 
    格子表示設定ダイアログ 表示例
+
+表示を「外枠のみ」と設定した時と、「すべて」と設定した時の表示例を
+:numref:`image_post2dbirdeye_grid_shape_wireframe_lines`
+に示します。
 
 .. _image_post2dbirdeye_grid_shape_wireframe_lines:
 
@@ -122,17 +132,17 @@
 (:numref:`image_post2dbirdeye_contour_dialog` 参照)
 ので、設定を行って「OK」ボタンを押します。
 
-表示する領域の範囲を調整するには、
-「領域設定(R)」ボタンを押して領域設定ダイアログを表示し、設定を行って「OK」ボタンを
-押します（:numref:`image_post2dbirdeye_contour_region_structured_dialog`,
-:numref:`image_post2dbirdeye_contour_region_unstructured_dialog` 参照）。
+設定項目について以下で説明します。
 
-凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
-カラーバー設定ダイアログを表示し、設定を行って「OK」ボタンを押します
-（:numref:`image_post2dbirdeye_contour_colorbar_setting_dialog` 参照）。
+色
+   「色を指定」をチェックすると、面全体を同じ色で表示します。
 
-コンター設定ごとの表示例を
-:numref:`image_post2dbirdeye_contours_by_displaysetting` に示します。
+   「スカラー値により設定」をチェックすると、指定したスカラー量の値で、カラーマップ機能で色を変えて表示します。
+
+   カラーマップ機能の詳細は :ref:`sec_colormap` を参照して下さい。
+
+半透明
+   チェックボックスをチェックすると、透明度を指定できます。
 
 コンターは、iRIC 4.0 では、複数の計算結果について同時に表示できるようになっています。
 例えば、河床標高と水面標高の2つを同時に描画することができます。
@@ -143,38 +153,9 @@
 .. _image_post2dbirdeye_contour_dialog:
 
 .. figure:: images/post2dbirdeye_contour_dialog.png
-   :width: 240pt
+   :width: 440pt
 
    コンター表示設定ダイアログ 表示例
-
-.. _image_post2dbirdeye_contour_region_structured_dialog:
-
-.. figure:: images/post2dbirdeye_contour_region_structured_dialog.png
-   :width: 150pt
-
-   コンター表示 領域設定ダイアログ 表示例 (構造格子)
-
-.. _image_post2dbirdeye_contour_region_unstructured_dialog:
-
-.. figure:: images/post2dbirdeye_contour_region_unstructured_dialog.png
-   :width: 130pt
-
-   コンター表示 領域設定ダイアログ 表示例 (非構造格子)
-
-.. _image_post2dbirdeye_contour_colorbar_setting_dialog:
-
-.. figure:: images/post2dbirdeye_contour_colorbar_setting_dialog.png
-   :width: 160pt
-
-   コンター表示 カラーバー設定ダイアログ 表示例
-
-.. _image_post2dbirdeye_contours_by_displaysetting:
-
-.. figure:: images/post2dbirdeye_contours_by_displaysetting.png
-   :width: 420pt
-
-   コンター設定の値ごとの表示例
-
 
 コンター (セル中心) (L)
 -----------------------
@@ -183,21 +164,6 @@
 
 コンターの表示設定ダイアログが表示されます (:numref:`image_post2dbirdeye_contour_dialog` 参照)
 ので、設定を行って「OK」ボタンを押します。
-
-表示する領域の範囲を調整するには、
-「領域設定 (R)」ボタンを押して領域設定ダイアログを表示し、設定を行って
-「OK」ボタンを押します（:numref:`image_post2dbirdeye_cellcenter_contour_region_structured_dialog`、
-:numref:`image_post2dbirdeye_cellcenter_contour_region_unstructured_dialog` 参照）。
-
-凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
-カラーバー設定ダイアログを表示し、設定を行って「OK」ボタンを押します
-（:numref:`image_post2dbirdeye_cellcenter_contour_colorbar_setting_dialog` 参照）。
-
-カラーマップで「手動」を選択し、「設定」ボタンを押した場合に表示されるダイアログに
-ついては、:ref:`sec_geo_common_color_setting` を参照して下さい。
-
-コンター設定ごとの表示例を :numref:`image_post2dbirdeye_cellcenter_contours_by_displaysetting`
-に示します。
 
 コンターは、複数の計算結果について同時に表示できます。
 複数のコンターを同時に表示するには、オブジェクトブラウザで、複数の項目の横の
@@ -209,27 +175,6 @@
    :width: 300pt
 
    コンター表示設定ダイアログ 表示例
-
-.. _image_post2dbirdeye_cellcenter_contour_region_structured_dialog:
-
-.. figure:: images/post2dbirdeye_contour_region_structured_dialog.png
-   :width: 150pt
-
-   コンター表示 領域設定ダイアログ 表示例 (構造格子)
-
-.. _image_post2dbirdeye_cellcenter_contour_region_unstructured_dialog:
-
-.. figure:: images/post2dbirdeye_contour_region_unstructured_dialog.png
-   :width: 120pt
-
-   コンター表示 領域設定ダイアログ 表示例 (非構造格子)
-
-.. _image_post2dbirdeye_cellcenter_contour_colorbar_setting_dialog:
-
-.. figure:: images/post2dbirdeye_contour_colorbar_setting_dialog.png
-   :width: 160pt
-
-   コンター表示 カラーバー設定ダイアログ 表示例
 
 .. _image_post2dbirdeye_cellcenter_contours_by_displaysetting:
 
@@ -265,7 +210,7 @@
 .. _image_post2dbirdeye_time_setting_dialog:
 
 .. figure:: images/post2dbirdeye_time_setting_dialog.png
-   :width: 100pt
+   :width: 180pt
 
    時刻の表示設定ダイアログ 表示例
 
@@ -294,7 +239,7 @@ Z方向の表示の倍率を設定します。
 .. _image_post2dbirdeye_zscale_dialog:
 
 .. figure:: images/post2dbirdeye_zscale_dialog.png
-   :width: 90pt
+   :width: 150pt
 
    Z方向の倍率ダイアログ 表示例
 

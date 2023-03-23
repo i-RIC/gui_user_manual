@@ -107,7 +107,7 @@
 .. _image_post3d_grid_shape_dialog:
 
 .. figure:: images/post3d_grid_shape_dialog.png
-   :width: 100pt
+   :width: 240pt
 
    格子表示設定ダイアログ 表示例
 
@@ -121,40 +121,35 @@
 コンター (C)
 ---------------
 
-格子の表示設定をします。
+コンターの表示設定をします。
 
 コンターの表示設定ダイアログ (:numref:`image_post3d_contour_dialog` 参照)
 が表示されますので、設定を行って「OK」ボタンを押します。
-凡例の表示方法を調整するには、「カラーバー設定(C)」ボタンを押して
-カラーバー設定ダイアログを表示し、設定を行って「OK」ボタンを押します
-(:numref:`image_post3d_contour_colorbar_setting_dialog` 参照)。
 
-カラーマップで「手動」を選択し、「設定」ボタンを押した場合に表示されるダイアログ
-については、:ref:`sec_geo_common_color_setting` を参照して下さい。
+描画面設定
+~~~~~~~~~~~~~~~~
 
-コンター設定ごとの表示例を :numref:`image_post3d_contours_by_displaysetting`
-に示します。
+設定項目について以下で説明します。
+
+方向
+   面がどの軸に垂直な向きかを指定します。
+
+範囲
+   面を定義する範囲を指定します。
+
+カラーマップ
+~~~~~~~~~~~~~~~~
+
+カラーマップの設定を行います。
+
+カラーマップ機能の詳細は :ref:`sec_colormap` を参照して下さい。
 
 .. _image_post3d_contour_dialog:
 
 .. figure:: images/post3d_contour_dialog.png
-   :width: 340pt
-
-   コンター表示設定ダイアログ 表示例
-
-.. _image_post3d_contour_colorbar_setting_dialog:
-
-.. figure:: images/post3d_contour_colorbar_setting_dialog.png
-   :width: 160pt
-
-   コンター表示 カラーバー設定ダイアログ 表示例
-
-.. _image_post3d_contours_by_displaysetting:
-
-.. figure:: images/post3d_contours_by_displaysetting.png
    :width: 440pt
 
-   コンター設定の値ごとの表示例
+   コンター表示設定ダイアログ 表示例
 
 等値面 (I)
 --------------
@@ -189,11 +184,20 @@
 コンターの表示設定ダイアログ (:numref:`image_post3d_cell_contour_dialog` 参照)
 が表示されますので、設定を行って「OK」ボタンを押します。
 
-カラーマップで「手動」を選択し、「設定」ボタンを押した場合に表示されるダイアログ
-については、:ref:`sec_geo_common_color_setting` を参照して下さい。
+範囲設定
+~~~~~~~~~~~~~~~~
 
-コンターの表示例を :numref:`image_post3d_cell_contour_example`
-に示します。
+設定項目について以下で説明します。
+
+範囲
+   セルの描画範囲を指定します。
+
+カラーマップ
+~~~~~~~~~~~~~~~~
+
+カラーマップの設定を行います。
+
+カラーマップ機能の詳細は :ref:`sec_colormap` を参照して下さい。
 
 .. _image_post3d_cell_contour_dialog:
 
@@ -214,17 +218,7 @@
 
 ベクトルの表示設定をします。
 
-ベクトルの表示設定ダイアログ (:numref:`image_post3d_arrow_setting_dialog` 参照)
-が表示されますので、設定を行って「OK」ボタンを押します。
-
 ベクトルの表示例を :numref:`image_post3d_arrow_example` に表示します。
-
-.. _image_post3d_arrow_setting_dialog:
-
-.. figure:: images/post3d_arrow_setting_dialog.png
-   :width: 380pt
-
-   ベクトルの表示設定ダイアログ 表示例
 
 .. _image_post3d_arrow_example:
 
@@ -232,6 +226,59 @@
    :width: 260pt
 
    ベクトル表示例
+
+基本
+~~~~~~~~~~~~~~~
+
+ベクトル表示機能の基本的な設定を行います。
+表示例を :numref:`image_post3d_arrow_setting_dialog_basic` に示します。
+
+設定項目については :ref:`sec_arrows` を参照して下さい。
+
+.. _image_post3d_arrow_setting_dialog_basic:
+
+.. figure:: images/post3d_arrow_setting_dialog_basic.png
+   :width: 440pt
+
+   ベクトルの表示設定ダイアログ (「基本」タブ) 表示例
+
+描画面設定
+~~~~~~~~~~~~~~~
+
+ベクトルを描画する面の設定を行います。
+表示例を :numref:`image_post3d_arrow_setting_dialog_face` に示します。
+
+.. _image_post3d_arrow_setting_dialog_face:
+
+.. figure:: images/post3d_arrow_setting_dialog_face.png
+   :width: 440pt
+
+   ベクトルの表示設定ダイアログ (「描画面設定」タブ) 表示例
+
+設定項目について以下で説明します。
+
+
+方向
+   面がどの軸に垂直な向きかを指定します。
+
+範囲
+   面を定義する範囲を指定します。
+
+サンプリング
+   矢印を全データに表示するのではなく、間引いて表示したい時に指定します。
+
+表示色
+   矢印の色を指定します。「スカラー値により設定」をチェックすると、「編集」ボタンからカラーマップの設定が行なえます。
+   カラーマップ機能については :ref:`sec_colormap` を参照して下さい。
+
+矢印の形状
+   矢印の形状を決めるパラメータを指定します。
+
+   矢印のサイズ
+      矢印の先端から三角形の付け根までの長さ (単位: ピクセル)
+   
+   線の幅
+      線の幅 (単位: ピクセル)
 
 流線 (S)
 -----------------
@@ -295,27 +342,7 @@
 パーティクルは、スカラー値の属性が出力されていれば、色を変えて表示することが、
 ベクトル値の属性が出力されていれば、矢印を表示することができます。
 
-オブジェクトブラウザの「スカラー」、「ベクトル」のフォルダで右クリックメニューから
-「プロパティ」メニューを選択すると、それぞれ
-:numref:`image_post3d_particles_solver_scalar_dialog`、
-:numref:`image_post3d_particles_solver_vector_dialog` が表示されますので、
-設定を行って「OK」ボタンを押します。
-
 パーティクルの表示例を :numref:`image_post3d_particles_solver_example` に示します。
-
-.. _image_post3d_particles_solver_scalar_dialog:
-
-.. figure:: images/post3d_particles_solver_scalar_dialog.png
-   :width: 280pt
-
-   パーティクル スカラー設定ダイアログ 表示例
-
-.. _image_post3d_particles_solver_vector_dialog:
-
-.. figure:: images/post3d_particles_solver_vector_dialog.png
-   :width: 200pt
-
-   パーティクル ベクトル設定ダイアログ 表示例
 
 .. _image_post3d_particles_solver_example:
 
@@ -323,6 +350,53 @@
    :width: 230pt
 
    パーティクル 表示例
+
+スカラー
+~~~~~~~~~~~~~~
+
+オブジェクトブラウザの「スカラー」のフォルダで右クリックメニューから
+「プロパティ」メニューを選択すると
+:numref:`image_post3d_particles_solver_scalar_dialog` が表示されます。
+
+.. _image_post3d_particles_solver_scalar_dialog:
+
+.. figure:: images/post3d_particles_solver_scalar_dialog.png
+   :width: 440pt
+
+   パーティクル スカラー設定ダイアログ 表示例
+
+設定項目について以下で説明します。
+
+色
+   粒子の色を指定します。
+
+   「色を指定」をチェックすると、全てのパーティクルを指定した色で表示します。
+
+   「スカラー値により設定」をチェックすると、指定したスカラー量の値で、カラーマップ機能で色を変えて表示します。
+
+   カラーマップ機能の詳細は :ref:`sec_colormap` を参照して下さい。
+
+点のサイズ
+   点のサイズを指定します (単位: ピクセル)。
+
+半透明
+   チェックボックスをチェックすると、透明度を指定できます。
+
+ベクトル
+~~~~~~~~~~~~
+
+オブジェクトブラウザの「ベクトル」のフォルダで右クリックメニューから
+「プロパティ」メニューを選択すると
+:numref:`image_post3d_particles_solver_vector_dialog` が表示されます。
+
+.. _image_post3d_particles_solver_vector_dialog:
+
+.. figure:: images/post3d_particles_solver_vector_dialog.png
+   :width: 440pt
+
+   パーティクル ベクトル設定ダイアログ 表示例
+
+ベクトル表示機能の詳細は :ref:`sec_arrows` を参照して下さい。
 
 ラベル
 --------
@@ -369,6 +443,6 @@
 .. _image_post3d_time_setting_dialog:
 
 .. figure:: images/post3d_time_setting_dialog.png
-   :width: 100pt
+   :width: 180pt
 
    時刻の表示設定ダイアログ 表示例

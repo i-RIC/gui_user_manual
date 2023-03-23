@@ -153,7 +153,7 @@
 .. _image_post2d_grid_shape_dialog:
 
 .. figure:: images/post2d_grid_shape_dialog.png
-   :width: 100pt
+   :width: 240pt
 
    格子表示設定ダイアログ 表示例
 
@@ -179,7 +179,7 @@
 複数のコンターを同時に表示するには、オブジェクトブラウザで、複数の項目の横の
 チェックボックスをチェックして下さい。
 
-色の設定機能の詳細については :ref:`sec_geo_common_color_setting_real` を参照してください。
+色の設定機能の詳細については :ref:`sec_colormap_basic_real` を参照してください。
 
 .. _image_post2d_contour_dialog:
 
@@ -208,7 +208,7 @@
 複数のコンターを同時に表示するには、オブジェクトブラウザで、複数の項目の横の
 チェックボックスをチェックして下さい。
 
-色の設定機能の詳細については :ref:`sec_geo_common_color_setting_real` を参照してください。
+色の設定機能の詳細については :ref:`sec_colormap_basic_real` を参照してください。
 
 .. _image_post2d_cellcenter_contour_dialog:
 
@@ -245,8 +245,7 @@ I方向エッジ、 J方向エッジ上で定義された計算結果に関す�
 、 :numref:`image_post2d_arrow_setting_dialog_unstructured` 参照)
 が表示されますので、設定を行って「OK」ボタンを押します。
 
-色の設定は「表示色」タブ (:numref:`image_post2d_arrow_setting_dialog_color`) から行います。
-色の設定機能の詳細については :ref:`sec_geo_common_color_setting_real` を参照してください。
+ベクトル表示機能の詳細については :ref:`sec_arrows` を参照して下さい。
 
 ベクトルの表示例を :numref:`image_post2d_arrow_example` に表示します。
 
@@ -355,27 +354,7 @@ I方向エッジ、 J方向エッジ上で定義された計算結果に関す�
 パーティクルは、スカラー値の属性が出力されていれば、色を変えて表示することが、
 ベクトル値の属性が出力されていれば、矢印を表示することができます。
 
-オブジェクトブラウザの「スカラー」、「ベクトル」のフォルダで右クリックメニューから
-「プロパティ」メニューを選択すると、それぞれ
-:numref:`image_post2d_particles_solver_scalar_dialog`、
-:numref:`image_post2d_particles_solver_vector_dialog` が表示されますので、
-設定を行って「OK」ボタンを押します。
-
 パーティクルの表示例を :numref:`image_post2d_particles_solver_example` に示します。
-
-.. _image_post2d_particles_solver_scalar_dialog:
-
-.. figure:: images/post2d_particles_solver_scalar_dialog.png
-   :width: 280pt
-
-   パーティクル スカラー設定ダイアログ 表示例
-
-.. _image_post2d_particles_solver_vector_dialog:
-
-.. figure:: images/post2d_particles_solver_vector_dialog.png
-   :width: 200pt
-
-   パーティクル ベクトル設定ダイアログ 表示例
 
 .. _image_post2d_particles_solver_example:
 
@@ -383,6 +362,53 @@ I方向エッジ、 J方向エッジ上で定義された計算結果に関す�
    :width: 230pt
 
    パーティクル 表示例
+
+スカラー
+~~~~~~~~~~~~~~
+
+オブジェクトブラウザの「スカラー」のフォルダで右クリックメニューから
+「プロパティ」メニューを選択すると
+:numref:`image_post2d_particles_solver_scalar_dialog` が表示されます。
+
+.. _image_post2d_particles_solver_scalar_dialog:
+
+.. figure:: images/post2d_particles_solver_scalar_dialog.png
+   :width: 440pt
+
+   パーティクル スカラー設定ダイアログ 表示例
+
+設定項目について以下で説明します。
+
+色
+   粒子の色を指定します。
+
+   「色を指定」をチェックすると、全てのパーティクルを指定した色で表示します。
+
+   「スカラー値により設定」をチェックすると、指定したスカラー量の値で、カラーマップ機能で色を変えて表示します。
+
+   カラーマップ機能の詳細は :ref:`sec_colormap` を参照して下さい。
+
+点のサイズ
+   点のサイズを指定します (単位: ピクセル)。
+
+半透明
+   チェックボックスをチェックすると、透明度を指定できます。
+
+ベクトル
+~~~~~~~~~~~~
+
+オブジェクトブラウザの「ベクトル」のフォルダで右クリックメニューから
+「プロパティ」メニューを選択すると
+:numref:`image_post2d_particles_solver_vector_dialog` が表示されます。
+
+.. _image_post2d_particles_solver_vector_dialog:
+
+.. figure:: images/post2d_particles_solver_vector_dialog.png
+   :width: 440pt
+
+   パーティクル ベクトル設定ダイアログ 表示例
+
+ベクトル表示機能の詳細は :ref:`sec_arrows` を参照して下さい。
 
 ポリゴン(O)
 ------------------
@@ -400,7 +426,7 @@ I方向エッジ、 J方向エッジ上で定義された計算結果に関す�
 .. _image_post2d_polygons_dialog:
 
 .. figure:: images/post2d_polygons_dialog.png
-   :width: 250pt
+   :width: 440pt
 
    ポリゴン設定ダイアログ 表示例
 
@@ -410,6 +436,23 @@ I方向エッジ、 J方向エッジ上で定義された計算結果に関す�
    :width: 230pt
 
    ポリゴン 表示例
+
+設定項目について以下で説明します。
+
+色
+   ポリゴンの色を指定します。
+
+   「色を指定」をチェックすると、全てのポリゴンを指定した色で表示します。
+
+   「スカラー値により設定」をチェックすると、指定したスカラー量の値で、カラーマップ機能で色を変えて表示します。
+
+   カラーマップ機能の詳細は :ref:`sec_colormap` を参照して下さい。
+
+線の太さ
+   線の太さを指定します (単位: ピクセル)。
+
+半透明
+   チェックボックスをチェックすると、透明度を指定できます。
 
 セル属性 (C)
 -----------------------
@@ -488,7 +531,7 @@ I方向エッジ、 J方向エッジ上で定義された計算結果に関す�
 .. _image_post2d_time_setting_dialog:
 
 .. figure:: images/post2d_time_setting_dialog.png
-   :width: 100pt
+   :width: 180pt
 
    時刻の表示設定ダイアログ 表示例
 
