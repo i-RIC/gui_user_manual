@@ -6,7 +6,10 @@
 点として定義された地理情報を設定します。
 
 点データの表示例を
-:numref:`image_example_point_data` に示します。
+:numref:`image_example_point_data` 、:numref:`image_example_point_icons` に示します。
+
+点データでは、点の位置にアイコンを表示することもできます。アイコンの表示機能は、
+避難所、ダム、ポンプなどの場所を表示する際に便利です。
 
 .. _image_example_point_data:
 
@@ -14,6 +17,13 @@
    :width: 280pt
 
    点データ 表示例
+
+.. _image_example_point_icons:
+
+.. figure:: images/example_point_icons.png
+   :width: 440pt
+
+   点データ 表示例 (アイコンを表示)
 
 .. note::
 
@@ -89,8 +99,8 @@
      - 他の点データを、このデータにマージします。
    * - コピー (C)
      - この点データを、他の地理情報にコピーします。
-   * - 表示色設定 (S)
-     - 表示色を設定します
+   * - 表示設定 (S)
+     - 表示方法を設定します
    * - 削除 (D)
      - 点データを削除します
 
@@ -167,18 +177,18 @@
 
    マージするデータの選択ダイアログ
 
-色の設定 (S)
+表示設定 (S)
 ----------------
 
 点データの表示色を編集します。
 
-点データの表示色を設定するダイアログ
+点データの表示設定ダイアログ
 ((:numref:`image_point_color_dialog`) 参照)
 が表示されますので、表示色を設定して「OK」ボタンを押します。
 
 .. _image_point_color_dialog:
 
 .. figure:: images/point_color_dialog.png
-   :width: 180pt
+   :width: 260pt
 
    点データの表示色設定ダイアログ
