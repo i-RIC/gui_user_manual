@@ -69,12 +69,12 @@
      - 可視化ウィンドウ、グラフウィンドウがアクティブ
 
 .. figure:: images/main_toolbar.png
-   :width: 400pt
+   :width: 500pt
 
    メインツールバー
 
 .. figure:: images/operation_toolbar.png
-   :width: 80pt
+   :width: 250pt
 
    操作ツールバー
 
