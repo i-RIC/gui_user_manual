@@ -38,10 +38,6 @@
 .. |icon_move_bottom| image:: images/icon_move_bottom.png
 .. |icon_zoom_in| image:: images/icon_zoom_in.png
 .. |icon_zoom_out| image:: images/icon_zoom_out.png
-.. |icon_extend_x| image:: images/icon_extend_x.png
-.. |icon_shorten_x| image:: images/icon_shorten_x.png
-.. |icon_extend_y| image:: images/icon_extend_y.png
-.. |icon_shorten_y| image:: images/icon_shorten_y.png
 .. |icon_run| image:: images/icon_run.png
 .. |icon_stop| image:: images/icon_stop.png
 .. |icon_pre_processor| image:: images/icon_pre_processor.png
@@ -120,18 +116,6 @@
    * - |icon_zoom_out|
      - 縮小
      - 縮小表示します
-   * - |icon_extend_x|
-     - X方向に拡大
-     - X軸方向についてのみ拡大します
-   * - |icon_shorten_x|
-     - X方向に縮小
-     - X軸方向についてのみ縮小します
-   * - |icon_extend_y|
-     - Y方向に拡大
-     - Y軸方向についてのみ拡大します
-   * - |icon_shorten_y|
-     - Y方向に縮小
-     - Y軸方向についてのみ縮小します
    * - |icon_run|
      - 実行
      - ソルバーの実行を開始します
@@ -181,15 +165,18 @@
 .. _image_operation_toolbar:
 
 .. figure:: images/operation_toolbar.png
-   :width: 50pt
+   :width: 350pt
 
    操作ツールバー
 
 操作ツールバーの各ボタンの機能を :numref:`operation_toolbar_items_table` に示します。
 
+上記以外のボタンは、オブジェクトブラウザで選択している項目によって表示される項目が変化します。
+
 .. |icon_move_up| image:: images/icon_move_up.png
 .. |icon_move_down| image:: images/icon_move_down.png
 .. |icon_delete| image:: images/icon_delete.png
+.. |icon_property| image:: images/icon_property.png
 
 .. _operation_toolbar_items_table:
 
@@ -201,13 +188,16 @@
      - 説明
    * - |icon_move_up|
      - 上へ移動
-     - 選択されている項目を、上の項目と順序を入れ替えます
+     - 選択されている項目を、上の項目と順序を入れ替えます。
    * - |icon_move_down|
      - 下へ移動
-     - 選択されている項目を、下の項目と順序を入れ替えます
+     - 選択されている項目を、下の項目と順序を入れ替えます。
    * - |icon_delete|
      - 削除
-     - 選択されている項目を、削除します
+     - 選択されている項目を、削除します。
+   * - |icon_property|
+     - プロパティ
+     - プロパティダイアログを表示します。
 
 .. _sec_animation_toolbar:
 
@@ -237,6 +227,7 @@
 .. |icon_movie_forward| image:: images/icon_movie_forward.png
 .. |icon_movie_last| image:: images/icon_movie_last.png
 .. |icon_move_toggle_follow| image:: images/icon_move_toggle_follow.png
+.. |icon_movie_loop| image:: images/icon_movie_loop.png
 .. |icon_movie_speed| image:: images/icon_movie_speed.png
 
 .. _animation_toolbar_items_table:
@@ -249,22 +240,25 @@
      - 説明
    * - |icon_movie_reset|
      - 先頭へ
-     - 先頭のタイムステップに移動します
+     - 先頭のタイムステップに移動します。
    * - |icon_movie_backword|
      - 一つ前へ
-     - 一つ前のタイムステップに移動します
+     - 一つ前のタイムステップに移動します。
    * - |icon_movie_start_stop|
      - 開始／停止
      - 現在表示しているタイムステップから順に次のタイムステップに進んでいきます。
    * - |icon_movie_forward|
      - 一つ次へ
-     - 一つ次のタイムステップに移動します
+     - 一つ次のタイムステップに移動します。
    * - |icon_movie_last|
      - 最後のステップへ
-     - 最後のタイムステップに移動します
+     - 最後のタイムステップに移動します。
    * - |icon_move_toggle_follow|
      - 常に最後のステップを表示
      - ソルバーの計算の実行中に新しい計算結果が出力されるたびに、自動的に最後のタイムステップに移動します。
+   * - |icon_movie_loop|
+     - ループ再生
+     - ループ再生の有効・無効を切り替えます。
    * - |icon_movie_speed|
      - 再生速度を設定
      - 再生する時の速度を設定します。

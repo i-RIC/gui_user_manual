@@ -157,7 +157,7 @@
 .. _image_point_coordinates_dialog:
 
 .. figure:: images/point_coordinates_dialog.png
-   :width: 160pt
+   :width: 200pt
 
    点データの頂点座標編集ダイアログ
 
