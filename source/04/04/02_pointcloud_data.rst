@@ -389,7 +389,7 @@ TIN を生成する時、点がない領域について、長い辺を持つ三�
 
 点群データの表示方法を切り替えます。
 
-表示方法には、点、ワイヤーフレーム、補間された面の3種類があります。表示例を
+TINの表示方法には、点、ワイヤーフレーム、補間された面の3種類があります。表示例を
 :numref:`image_pointset_display_methods`
 に示します。
 
@@ -403,12 +403,10 @@ TIN を生成する時、点がない領域について、長い辺を持つ三�
 表示設定ダイアログ
 (:numref:`image_pointset_display_setting_dialog` 参照)
 が表示されます。「表示方法」で選択した方法で点群データが表示されます。
-補間された面を選択した場合、「半透明」をチェックし、数値を調整することで、
-半透明に表示することができます。
 
 .. _image_pointset_display_setting_dialog:
 
-.. figure:: images/pointset_display_setting_dialogs.png
-   :width: 140pt
+.. figure:: images/pointset_display_setting_dialog.png
+   :width: 400pt
 
    点群データ 表示設定ダイアログ

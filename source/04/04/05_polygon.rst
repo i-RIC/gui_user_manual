@@ -322,20 +322,18 @@
 
    値の編集ダイアログ
 
-色の設定 (S)
+表示設定 (S)
 ----------------
 
-ポリゴンの表示色を編集します。
+ポリゴンの表示色を設定します。
 
 ポリゴンの表示色を設定するダイアログ
-((:numref:`image_polygon_color_dialog`) 参照)
-が表示されますので、表示色を設定して「OK」ボタンを押します。
-「半透明」をチェックし、数値を調整することで、
-表示を半透明にすることができます。
+(:numref:`image_polygon_color_dialog` 参照)
+が表示されます。
 
 .. _image_polygon_color_dialog:
 
 .. figure:: images/polygon_color_dialog.png
-   :width: 220pt
+   :width: 450pt
 
-   ポリゴンの表示色設定ダイアログ
+   ポリゴンデータ表示設定ダイアログ

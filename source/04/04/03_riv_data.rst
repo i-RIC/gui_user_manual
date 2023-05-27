@@ -583,15 +583,30 @@
 .. _image_example_del_extension_line:
 
 .. figure:: images/example_del_extension_line.png
-   :width: 420pt
+   :width: 450pt
 
    左岸延長線削除 操作例
 
 表示設定 (S)
 --------------
 
-背景色、断面形状の表示を設定します。例を
-:numref:`image_example_riv_disp_setting` に示します。
+背景色、断面形状の表示を設定します。
+
+表示設定ダイアログ (:numref:`image_riv_display_setting_dialog` 参照) が表示されます。
+
+.. _image_riv_display_setting_dialog:
+
+.. figure:: images/riv_display_setting_dialog.png
+   :width: 400pt
+
+   表示設定ダイアログ
+
+背景色で「表示」をチェックすると、標高に従って背景色が表示されます。「半透明」をチェックし、
+数値を調整することで、カラーマップ表示を半透明にすることができます。
+
+断面形状で「表示」をチェックすると、各河川横断線に断面形状のグラフが表示されます。
+
+例を :numref:`image_example_riv_disp_setting` に示します。
 
 .. _image_example_riv_disp_setting:
 
@@ -600,18 +615,6 @@
 
    背景色、断面形状の表示 操作例
 
-表示設定ダイアログ (:numref:`image_riv_display_setting_dialog` 参照)
-が表示されます。背景色で「表示」をチェックすると、
-標高に従って背景色が表示されます。「半透明」をチェックし、
-数値を調整することで、カラーマップ表示を半透明にすることができます。
-断面形状で「表示」をチェックすると、各河川横断線に断面形状のグラフが表示されます。
-
-.. _image_riv_display_setting_dialog:
-
-.. figure:: images/riv_display_setting_dialog.png
-   :width: 150pt
-
-   表示設定ダイアログ
 
 補間モード
 ------------

@@ -277,18 +277,18 @@
 
    値の編集ダイアログ
 
-色の設定 (S)
+表示設定 (S)
 ----------------
 
 ラインデータの表示色を編集します。
 
 ラインデータの表示色を設定するダイアログ
-((:numref:`image_polyline_color_dialog`) 参照)
-が表示されますので、表示色を設定して「OK」ボタンを押します。
+(:numref:`image_polyline_color_dialog` 参照)
+が表示されます。
 
 .. _image_polyline_color_dialog:
 
 .. figure:: images/polyline_color_dialog.png
-   :width: 180pt
+   :width: 450pt
 
-   ラインデータの表示色設定ダイアログ
+   ラインデータの表示設定ダイアログ

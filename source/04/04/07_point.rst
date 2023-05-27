@@ -183,12 +183,15 @@
 点データの表示色を編集します。
 
 点データの表示設定ダイアログ
-((:numref:`image_point_color_dialog`) 参照)
-が表示されますので、表示色を設定して「OK」ボタンを押します。
+(:numref:`image_point_color_dialog` 参照)
+が表示されます。
+
+点として表示する他に、アイコン画像をインポートすることで、点の位置にアイコンを表示することもできます。
+アイコン画像をインポートすると、画像の左下が点の位置となるよう、アイコンが表示されます。
 
 .. _image_point_color_dialog:
 
 .. figure:: images/point_color_dialog.png
    :width: 260pt
 
-   点データの表示色設定ダイアログ
+   点データの表示設定ダイアログ
