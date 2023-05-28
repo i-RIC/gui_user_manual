@@ -9,4 +9,5 @@
    02/03_basic_operations
    02/03_color_function
    02/03_arrow_function
+   02/03_contour_function
    02/04_iric_functions
