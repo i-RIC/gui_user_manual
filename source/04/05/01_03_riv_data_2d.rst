@@ -1,7 +1,7 @@
 .. _sec_gridgen_riv_data_2d:
 
 [Create grid from Cross-Section Data] (2-D structured grid)
-==========================================================
+===========================================================
 
 **Description**: Creates a grid from Cross-Section Data. In addition to
 transverse lines being set, division points are set on the transverse
