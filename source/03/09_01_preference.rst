@@ -79,8 +79,7 @@ from web.
 If you need to use proxy server to access Internet, please specify
 setting here.
 
-When [Use system proxy setting] is selected, the setting used for
-Internet Explorer is used.
+When [Use system proxy setting] is selected, The settings used by your PC's system is used.
 
 .. _image_pref_dialog_proxy:
 
