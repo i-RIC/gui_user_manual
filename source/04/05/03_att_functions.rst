@@ -26,7 +26,7 @@ When the points are generated, the coordinates of the points are as below:
 -------------
 
 **Description**: Generate [Point Cloud Data] from the values of the selected grid attributes, and save it to 
-Topography file \(*.tpo\).
+Topography file (\*.tpo\).
 
 Refer to :ref:`sec_file_tpo` for the file format of Topography file.
 
