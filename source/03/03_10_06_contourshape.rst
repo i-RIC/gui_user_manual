@@ -11,8 +11,8 @@ requirements first:
 
 * Open and activate a [2D Post-processing Window]
 * Draw [Scalar (node)] for a calculation result value
-* Setup property for [Scalar (node)] to make [Display Setting] to
-  [Contour Figure], not [Color Fringe] or [Isolines].
+* Setup property for [Scalar (node)] to make [Discrete Mode],
+  not [Gradation Mode].
 
 After satisfying the requirments, launch
 [Contour figure as ESRI Shape files] menu, and 
@@ -30,6 +30,11 @@ Select the calculation result value that you want to export,
 and click on [OK].
 Then, dialog in :numref:`image_export_contourshape_setting`
 is shown.
+
+.. note::
+   If there is one [Scalar (node)] drawn in [Discrete mode], a dialog 
+   like :numref:`image_export_contourshape_selectvalue` will not be displayed, 
+   and the drawn scalar (lattice point) will be selected for export.
 
 .. _image_export_contourshape_setting:
 
