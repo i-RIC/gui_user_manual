@@ -195,3 +195,14 @@
    :width: 260pt
 
    点データの表示設定ダイアログ
+
+Tips
+----------------
+
+.. note:: 
+   
+   | 編集モードのオブジェクトについて。
+   | プリプロセッサーウィンドウで編集モードになっている点は可視化ウィンドウ上で表示されません。
+
+   .. figure:: images/Point_edit_mode_specification.gif
+      :width: 600pt
