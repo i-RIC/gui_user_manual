@@ -1,13 +1,13 @@
 @import url('theme.css');
 
-div.figure {
+figure {
 	text-align: center;
 }
 
-div.figure p.caption {
+figcaption {
 	text-align: center;
 }
 
-div.code-block-caption {
+code-block-caption {
 	text-align: center;
 }
