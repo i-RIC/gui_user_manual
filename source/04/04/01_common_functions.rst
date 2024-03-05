@@ -13,41 +13,44 @@ explained in the following sections.
 
 **Description**: Edits the colormap for each type of geographic data.
 
-When you select [Color Setting], the [Color Setting] dialog
-(:numref:`image_color_setting_dialog1` or
-:numref:`image_color_setting_dialog2`) will open.
+When you select [Color Setting], the [Color Setting] dialog will open.
 Change the setting and click on [OK].
+The content of the dialog varies depending on whether the geographic information is a real or integer(selected from multiple candidate values).
 
-.. _image_color_setting_dialog1:
+.. _sec_geo_common_color_setting_real:
 
-.. figure:: images/color_setting_dialog1.png
-   :width: 140pt
+For Real Values
+~~~~~~~~~~~~~~~~~~~
+
+The dialog shown in :numref:`image_geo_color_setting_dialog_real` will appear.
+
+.. _image_geo_color_setting_dialog_real:
+
+.. figure:: images/color_setting_dialog_real.png
+   :width: 440pt
 
    The [Color Setting] dialog
 
-.. _image_color_setting_dialog2:
+.. _sec_geo_common_color_setting_int:
 
-.. figure:: images/color_setting_dialog2.png
-   :width: 160pt
+For Integer Values
+~~~~~~~~~~~~~~~~~~~
+
+The dialog shown in :numref:`image_color_setting_dialog_int` will appear.
+
+.. _image_color_setting_dialog_int:
+
+.. figure:: images/color_setting_dialog_int.png
+   :width: 460pt
 
    The [Color Setting] dialog
 
-When you select [Custom] as [Colormap] value in the dialog shown in
-:numref:`image_color_setting_dialog1`, and click on [Setting] button,
-the dialog in :numref:`image_custom_color_map_dialog` is shown.
-You can specify color maps of the three types below:
+.. note:: 
+   In iRIC ver4, geographic data added in the preprocessor window can also be viewed in the Post-processing window. The main specifications of the color settings are as follows.
 
-- Two Colors: Specify the colors at the minimum value and the maximum value
-- Three Colors: Specify the colors at the minimum value, maximum value,
-  and the medium value and the color at medium value.
-- Arbitrary: Specify arbitrary number of values and the colors at those values
-
-.. _image_custom_color_map_dialog:
-
-.. figure:: images/custom_color_map_dialog.png
-   :width: 180pt
-
-   The [Custom Color Map] dialog
+   - The color settings for geographic information in the Post-processing window are inherited from the settings in the preprocessor window at the time the Post-processing window is opened.
+   - If the Post-processing window is already opened, color settings for post-processing window will not be changed even if the color settings are changed in the preprocessor window.
+   - When changing the color settings in the post-processing window, the color settings for preprocessor window will not be changed.
 
 [Edit Name] (N)
 ---------------
