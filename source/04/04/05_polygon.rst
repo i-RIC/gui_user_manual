@@ -348,11 +348,12 @@
 
 Tips
 ----------------
+.. only:: html
 
-.. note:: 
+   .. note:: 
    
-   | 編集モードのオブジェクトについて。
-   | プリプロセッサーウィンドウで編集モードになっているポリゴンは可視化ウィンドウ上で表示されません。
+      | 編集モードのオブジェクトについて。
+      | プリプロセッサーウィンドウで編集モードになっているポリゴンは可視化ウィンドウ上で表示されません。
 
-   .. figure:: images/polygon_edit_mode_specification.gif
-      :width: 600pt
+      .. figure:: images/polygon_edit_mode_specification.gif
+         :width: 600pt

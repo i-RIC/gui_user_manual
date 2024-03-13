@@ -198,11 +198,12 @@
 
 Tips
 ----------------
+.. only:: html
 
-.. note:: 
-   
-   | 編集モードのオブジェクトについて。
-   | プリプロセッサーウィンドウで編集モードになっている点は可視化ウィンドウ上で表示されません。
+   .. note:: 
 
-   .. figure:: images/Point_edit_mode_specification.gif
-      :width: 600pt
+      | 編集モードのオブジェクトについて。
+      | プリプロセッサーウィンドウで編集モードになっている点は可視化ウィンドウ上で表示されません。
+
+      .. figure:: images/Point_edit_mode_specification.gif
+         :width: 600pt

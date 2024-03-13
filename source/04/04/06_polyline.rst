@@ -303,11 +303,12 @@
 
 Tips
 ----------------
+.. only:: html
 
-.. note:: 
+   .. note:: 
    
-   | 編集モードのオブジェクトについて。
-   | プリプロセッサーウィンドウで編集モードになっているラインは可視化ウィンドウ上で表示されません。
+      | 編集モードのオブジェクトについて。
+      | プリプロセッサーウィンドウで編集モードになっているラインは可視化ウィンドウ上で表示されません。
 
-   .. figure:: images/Line_edit_mode_specification.gif
-      :width: 600pt
+      .. figure:: images/Line_edit_mode_specification.gif
+         :width: 600pt
