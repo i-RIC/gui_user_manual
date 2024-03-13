@@ -1,39 +1,39 @@
 .. _sec_riv_data:
 
-Editing [River Survey Data]
+Editing [Cross-Section Data]
 ##############################
 
-[River Survey Data] is a type of Geographic Data] that is based on
-actual cross-sectional survey data of a river. [River Survey Data]
+[Cross-Section Data] is a type of Geographic Data] that is based on
+cross-sectional survey data of a river. [Cross-Section Data]
 is used as the elevation information for a river and its environs.
 
-:numref:`image_riv_data` shows an example of [River Survey Data].
+:numref:`image_riv_data` shows an example of [Cross-Section Data].
 
 .. _image_riv_data:
 
 .. figure:: images/riv_data.png
    :width: 220pt
 
-   [River Survey Data]
+   [Cross-Section Data]
 
-[River Survey Data] has two modes shown in :numref:`geo_river_data_modes`.
+[Cross-Section Data] has two modes shown in :numref:`geo_river_data_modes`.
 
 .. _geo_river_data_modes:
 
-.. list-table:: Modes for [River Survey Data]
+.. list-table:: Modes for [Cross-Section Data]
    :header-rows: 1
 
    * - Mode
      - Description
    * - [Create Mode]
-     - Mode to create a new [River Survey Data]
+     - Mode to create a new [Cross-Section Data]
    * - [Edit Mode]
-     - Mode to edit existing [River Survey Data]
+     - Mode to edit existing [Cross-Section Data]
 
-When you select [Add] --> [River Survey Data] in [Object Browser],
-new [River Survey Data] is created with [Create Mode].
-When you import [River Survey Data] using function explained
-in :ref:`sec_file_export_geo_data`, [River Survey Data] is imported
+When you select [Add] --> [Cross-Section Data] in [Object Browser],
+new [Cross-Section Data] is created with [Create Mode].
+When you import [Cross-Section Data] using function explained
+in :ref:`sec_file_export_geo_data`, [Cross-Section Data] is imported
 and [Edit Mode] is activated.
 
 The sections below explains the functions for each mode.
@@ -41,11 +41,11 @@ The sections below explains the functions for each mode.
 [Create Mode]
 ===============
 
-Create [River Survey Data] to region which is defined by
+Create [Cross-Section Data] to region which is defined by
 [Center line], [Left bank line], and [Right bank line].
 
 After [Create Mode] is started, click on the canvas to specify a few
-points on the centerline of the [River Survey Data].
+points on the centerline of the [Cross-Section Data].
 To finish, press the Enter key or double click.
 :numref:`image_geo_river_after_centerline_set` shows an example of
 the display when the centerline has been set.
@@ -81,47 +81,47 @@ or by adding or removing points.
 
    Example of generated Left bank line and Right bank line
 
-At last, select [Create River Survey Data] from menu.
-[Generate River Survey Data] dialog (:numref:`image_geo_river_generation_dialog`)
+At last, select [Create Cross-Section Data] from menu.
+[Generate Cross-Section Data] dialog (:numref:`image_geo_river_generation_dialog`)
 will be shown.
 
 When you input the number of cross sections etc. 
-and click on [OK], a new [River Survey Data] is generated.
+and click on [OK], a new [Cross-Section Data] is generated.
 
-An example of generated [River Survey Data] is shown in
+An example of generated [Cross-Section Data] is shown in
 :numref:`image_geo_river_generation_example`.
 
-When [River Survey Data] is generated, mode is switched to [Edit Mode].
+When [Cross-Section Data] is generated, mode is switched to [Edit Mode].
 
 .. _image_geo_river_generation_dialog:
 
 .. figure:: images/geo_river_generation_dialog.png
    :width: 240pt
 
-   [Generate River Survey Data] dialog
+   [Generate Cross-Section Data] dialog
 
 .. _image_geo_river_generation_example:
 
 .. figure:: images/geo_river_generation_example.png
    :width: 320pt
 
-   Example of generated [River Survey Data]
+   Example of generated [Cross-Section Data]
 
 Menu items
 -------------
 
 :numref:`geo_river_create_menuitems_table` shows the menu items for
-[Create Mode] for [River Survey Data].
+[Create Mode] for [Cross-Section Data].
 
 .. _geo_river_create_menuitems_table:
 
-.. list-table:: Menu items for [Create Mode] of [River Survey Data]
+.. list-table:: Menu items for [Create Mode] of [Cross-Section Data]
    :header-rows: 1
 
    * - Menu
      - Description
-   * - [Generate River Survey Data]
-     - Generate [River Survey Data]
+   * - [Generate Cross-Section Data]
+     - Generate [Cross-Section Data]
    * - [Build Left bank and Right bank lines]
      - Generate Left bank and Right bank lines
    * - [Add Vertex] (A)
@@ -133,18 +133,18 @@ Menu items
    * - [Export Center Line] (E)
      - Export [Center Line] to Shape files or CSV files.
 
-[Generate River Survey Data]
+[Generate Cross-Section Data]
 ------------------------------
 
-**Description:** Generate [River Survey Data].
+**Description:** Generate [Cross-Section Data].
 
-[Generate River Survey Data] dialog (:numref:`image_geo_river_generation_dialog`)
+[Generate Cross-Section Data] dialog (:numref:`image_geo_river_generation_dialog`)
 will be shown.
 
 When you input the number of cross sections etc. 
-and click on [OK], a new [River Survey Data] is generated.
+and click on [OK], a new [Cross-Section Data] is generated.
 
-An example of generated [River Survey Data] is shown in
+An example of generated [Cross-Section Data] is shown in
 :numref:`image_geo_river_generation_example`.
 
 [Build Left bank and Right bank lines]
@@ -233,18 +233,18 @@ so please specify the name of file you want to export, and click on [Save] butto
 Menu items
 ----------
 
-When the [Pre-processing Window] is active and [River Survey Data] is
+When the [Pre-processing Window] is active and [Cross-Section Data] is
 selected in [Object Browser], you can access menu items related to
-operations on [River Survey Data] under the following:
+operations on [Cross-Section Data] under the following:
 
-**Menu bar**: [Geographic Data] (E) --> [River Survey Data] (R)
+**Menu bar**: [Geographic Data] (E) --> [Cross-Section Data] (R)
 
 :numref:`geo_river_data_menuitems_table` shows the menu items under
-[River Survey Data] (R).
+[Cross-Section Data] (R).
 
 .. _geo_river_data_menuitems_table:
 
-.. list-table:: The menu items under [River Survey Data] (R)
+.. list-table:: The menu items under [Cross-Section Data] (R)
    :header-rows: 1
 
    * - Menu item
@@ -264,7 +264,7 @@ operations on [River Survey Data] under the following:
    * - [Shift Center] (H)
      - Shifts the center point of the transverse line.
    * - [Extend Horizontally] (X)
-     - Extends or shortens the river traverse line to the left/right.
+     - Extends or shortens the river transverse line to the left/right.
    * - [Delete Cross Section] (T)
      - Deletes the river transverse line.
    * - [Rename Cross Section] (E)
@@ -278,18 +278,18 @@ operations on [River Survey Data] under the following:
    * - [Remove Right Bank Extension Line] (O)
      - Removes the right bank extension line from the river transverse line.
    * - [Display Setting] (S)
-     - Displays elevation colormap based on River Survey Data.
+     - Displays elevation colormap based on Cross-Section Data.
    * - [Interpolation Mode]
      - Switch interpolation mode between river transverse lines.
-   * - [Map points data]
-     - Map points data to river transverse line.
+   * - [Map geographic data to cross sections]
+     - Map geographic data to river transverse line.
    * - [Generate point cloud data]
      - Generate [Point Cloud Data] using the background grid of the [Cross-Section Data]
    * - [Delete] (D)
-     - Deletes River Survey Data.
+     - Deletes Cross-Section Data.
 
 Selecting the river transverse line
------------------------------------
+------------------------------------
 
 The river transverse lines need to be selected prior to any operations
 explained in the following sections, except for displaying elevation
@@ -614,7 +614,7 @@ been added the Left Bank Extension Line or Right Bank Extension Line.
 [Display Setting]
 -----------------
 
-**Description**: Edits display setting of [River Survey Data].
+**Description**: Edits display setting of [Cross-Section Data].
 :numref:`image_example_riv_disp_setting` shows an example.
 
 .. _image_example_riv_disp_setting:
@@ -622,12 +622,12 @@ been added the Left Bank Extension Line or Right Bank Extension Line.
 .. figure:: images/example_riv_disp_setting.png
    :width: 400pt
 
-   Example of changing [River Survey Data] display setting
+   Example of changing [Cross-Section Data] display setting
 
 When you select [Display Setting], the [Display Setting] dialog
 (:numref:`image_riv_display_setting_dialog`) will open.
 When [Visible] check box inside [Background Color]
-group box is checked, [River Survey Data] region background is painted.
+group box is checked, [Cross-Section Data] region background is painted.
 When [Visible] check box inside [Crosssection Lines] group box is
 checked, the cross-section lines are drawn just below the transverse
 line, with the Z-scale and color in that group box.
@@ -666,21 +666,25 @@ an example of Linear Curve Interpolation Mode.
 
 .. _sec_riversurvey_map_pointcloud:
 
-[Map points data]
--------------------------
+[Map geographic data to cross sections]
+---------------------------------------------------
 
-**Description**: Map points data to the selected river transverse line.
+**Description**: Map geographic data to the selected [Cross-Section Data].
 
-When you select this, the [Map points data] dialog
+When you select this, the [Map geographic data to cross sections] dialog
 (:numref:`image_geo_riv_mapping_dialog`) will open.
 Input distance between elevation points etc. and click on [OK].
 
 .. _image_geo_riv_mapping_dialog:
 
 .. figure:: images/geo_riv_mapping_dialog.png
-   :width: 200pt
+   :width: 220pt
 
-   [Map points data] dialog
+   [Map geographic data to cross sections] dialog
+
+   .. note::
+
+      Until iRIC 4.0, only [Point Cloud Data] could be mapped. In 4.1 and later, [Raster Data] also can be mapped.
 
 [Generate point cloud data]
 -----------------------------------
