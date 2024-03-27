@@ -123,3 +123,29 @@
    :width: 220pt
 
    距離計測 プロパティダイアログ
+
+ロゴ
+------
+
+ロゴの表示位置を調整できます。
+
+ロゴの位置やサイズはプロパティダイアログから変更できます。
+また、オブジェクトブラウザでロゴを選択している時、マウスドラッグでも移動できます。
+
+ロゴの表示例を :numref:`image_logo_example` に、
+ロゴ設定ダイアログをの表示例を :numref:`image_logo_dialog` に示します。
+
+.. _image_logo_example:
+
+.. figure:: images/logo_example.png
+   :width: 100pt
+
+   ロゴ表示例
+
+.. _image_logo_dialog:
+
+.. figure:: images/logo_dialog.png
+   :width: 220pt
+
+   ロゴ設定ダイアログ
+
