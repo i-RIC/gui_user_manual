@@ -25,13 +25,13 @@
 **メニューバー:** 格子 (G) --> 編集 (E) --> 格子点属性 (N)
 
 すると、格子点属性を編集するダイアログ
-(:numref:`image_topo_aspect_edit_dialog` 参照)
+(:numref:`image_grid_attribute_node_edit_dialog` 参照)
 が表示されますので、属性の値を編集して「OK」ボタンを押します。
 なお、ダイアログは編集する属性によって異なります。
 
-.. _image_topo_aspect_edit_dialog:
+.. _image_grid_attribute_node_edit_dialog:
 
-.. figure:: images/topo_aspect_edit_dialog.png
+.. figure:: images/grid_attribute_node_edit_dialog.png
    :width: 240pt
 
    格子点属性の編集ダイアログ 表示例
