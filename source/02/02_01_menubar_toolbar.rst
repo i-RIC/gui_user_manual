@@ -1,9 +1,7 @@
-.. _sec_menubar_and_toolbar:
+.. _sec_menubar_and_toolbar_and_status_bar:
 
-メニューバーとツールバー
-========================
-
-メニューバーとツールバーについて以下の特徴があります。
+メニューバー・ツールバー・ステータスバー
+===========================================
 
 メニューバー
 ------------
@@ -26,9 +24,8 @@
 サブウィンドウごとに追加されるメニューについては :numref:`subwindow_list`
 を参照してください。
 
-.. _subwindow_list:
-
 .. list-table:: サブウィンドウ固有のメニューの参照先
+   :name: subwindow_list
    :header-rows: 1
 
    * - サブウィンドウ
@@ -82,3 +79,80 @@
    :width: 200pt
 
    アニメーションツールバー
+
+ステータスバー
+------------------------
+
+ツールバーの表示例を :numref:`image_statusbar` に示します。
+
+.. _image_statusbar:
+
+.. figure:: images/statusbar.png
+   :width: 500pt
+
+   ステータスバー
+
+ステータスバーで利用できる機能を以下に示します。
+
+縮尺
+~~~~~~
+
+現在アクティブなウィンドウでの表示の縮尺を表示します。
+
+クリックすると :numref:`image_scale_dialog` に示すダイアログが表示され、縮尺を値を指定して変更することができます。
+
+.. _image_scale_dialog:
+
+.. figure:: images/scale_dialog.png
+   :width: 140pt
+
+   縮尺編集ダイアログ
+
+角度
+~~~~~~
+
+現在アクティブなウィンドウでの表示の回転角を表示します。X軸が右向きのときが0で、そこから反時計回りが正の方向として定義されています。
+
+クリックすると :numref:`image_angle_dialog` に示すダイアログが表示され、角度を値を指定して変更することができます。
+
+.. _image_angle_dialog:
+
+.. figure:: images/angle_dialog.png
+   :width: 140pt
+
+   角度編集ダイアログ
+
+サイズ
+~~~~~~~~~
+
+現在アクティブなウィンドウでの、描画領域のサイズを表示します。
+
+クリックすると :numref:`image_windowsize_dialog` に示すダイアログが表示され、ウィンドウのサイズを値を指定して変更することができます。
+
+.. _image_windowsize_dialog:
+
+.. figure:: images/windowsize_dialog.png
+   :width: 300pt
+
+   ウィンドウサイズ編集ダイアログ
+
+.. note:: この機能で表示・編集されるサイズは、現在アクティブなウィンドウでの、スクリーンショットの保存対象となる領域のサイズです。オブジェクトブラウザ、ツールバーなどの表示領域のサイズは含まれません。
+
+X, Y
+~~~~~~
+
+現在アクティブなウィンドウでの、マウスカーソルのある位置を表示します。
+
+座標系
+~~~~~~~~~
+
+現在開いているプロジェクトで指定された座標系を表示します。
+
+クリックすると :numref:`image_coordinatesystem_dialog` に示すダイアログが表示され、ウィンドウのサイズを値を指定して変更することができます。
+
+.. _image_coordinatesystem_dialog:
+
+.. figure:: images/coordinatesystem_dialog.png
+   :width: 300pt
+
+   座標系設定ダイアログ

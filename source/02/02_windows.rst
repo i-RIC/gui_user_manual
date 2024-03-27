@@ -6,8 +6,8 @@
 iRICの画面構成を :numref:`image_iric_main_window` に示します。
 
 メニューバーとツールバーを利用する、標準的なインターフェースを採用しています。
-メニューバーとツールバーについては
-:ref:`sec_menubar_and_toolbar` で説明します。
+メニューバー、ツールバー、ステータスバーについては
+:ref:`sec_menubar_and_toolbar_and_status_bar` で説明します。
 
 iRIC では、利用したい機能によって、メインウィンドウに様々なサブウィンドウを
 表示して利用します。
