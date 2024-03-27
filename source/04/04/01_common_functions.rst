@@ -5,6 +5,49 @@
 
 地理情報で、データ型に関わらず共通で利用できる機能について説明します。
 
+グループの編集
+--------------------
+
+複合型の格子属性のグループの追加・編集・削除を行います。
+
+複合型の格子属性を選択した時のみ有効な機能です。
+
+グループ設定ダイアログの例を :numref:`image_complex_group_edit_dialog` に示します。ダイアログに表示される設定項目は、ソルバやグループごとに異なります。
+
+このダイアログで利用可能な機能を以下に示します。
+
+追加(A)
+    新しいグループを追加します。
+
+削除(D)
+    現在選択しているグループを削除します。
+
+インポート(I)
+    グループの定義を CSV ファイルからインポートします。
+
+    一度エクスポート機能で CSV ファイルをエクスポートした上で、値を編集したり、行を追加・削除したりしてインポートするのが便利です。
+
+エクスポート(E)
+    グループの定義を CSV ファイルにエクスポートします。
+
+表形式に切り替え
+    ダイアログでの表示形式を「表形式」に切り替え、すべてのグループの設定項目の値を一度に表示します。
+    表形式に切り替えた後の表示例を :numref:`image_complex_group_edit_dialog_table` に示します。
+
+.. _image_complex_group_edit_dialog:
+
+.. figure:: images/complex_group_edit_dialog.png
+   :width: 400pt
+
+   グループ設定ダイアログ
+
+.. _image_complex_group_edit_dialog_table:
+
+.. figure:: images/complex_group_edit_dialog_table.png
+   :width: 400pt
+
+   グループ設定ダイアログ (表形式)
+
 .. _sec_geo_common_color_setting:
 
 表示色設定
