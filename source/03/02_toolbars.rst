@@ -13,7 +13,7 @@
 .. _image_main_toolbar:
 
 .. figure:: images/main_toolbar.png
-   :width: 450pt
+   :width: 500pt
 
    メインツールバー
 
@@ -45,15 +45,15 @@
 .. |icon_post2d| image:: images/icon_post2d.png
 .. |icon_birdseye_post2d| image:: images/icon_birdseye_post2d.png
 .. |icon_post3d| image:: images/icon_post3d.png
+.. |icon_cross-section_window| image:: images/cross-section-window-icon.png
 .. |icon_chart_window| image:: images/icon_chart_window.png
 .. |icon_scatterd_chart| image:: images/icon_scatterd_chart.png
 .. |icon_compare_measured| image:: images/icon_compare_measured.png
 .. |icon_reload_result| image:: images/icon_reload_result.png
 .. |icon_mouse_hints| image:: images/icon_mouse_hints.png
 
-.. _main_toolbar_items_table:
-
 .. list-table:: メインツールバーのボタンの機能
+   :name: main_toolbar_items_table
    :header-rows: 1
 
    * - ボタン
@@ -137,6 +137,9 @@
    * - |icon_post3d|
      - 新しい可視化ウィンドウ (3D) を開く
      - 新しい可視化ウィンドウ(3D) を開きます
+   * - |icon_cross-section_window|
+     - 新しい断面ウィンドウを開く
+     - 新しい断面ウィンドウを開きます
    * - |icon_chart_window|
      - 新しいグラフウィンドウを開く
      - 新しいグラフウィンドウを開きます
