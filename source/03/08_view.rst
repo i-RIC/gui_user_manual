@@ -122,36 +122,71 @@ Z方向の表示の倍率を変更します。
 並行投影では、近くにあるものも遠くにあるものも同じ大きさで表示されます。
 透視投影では、近くにあるものは遠くにあるものより大きく表示されます。
 
-ウィンドウを並べて表示 (T)
+ウィンドウの整列 (A)
 -----------------------------
 
-現在表示されているウィンドウを、タイル状に並べて表示します。
+現在表示されているウィンドウを整列します。
 
-最近アクティブにしたウィンドウほど、左上に配置されます。
+ウィンドウの整列ダイアログの表示例を
+:numref:`image_align_windows_dialog` に、整列後の表示例を :numref:`image_align_windows_example` に示します。
 
-ウィンドウを並べて表示した後のiRIC の表示例を
-:numref:`image_tiled_windows` に示します。
+設定項目について以下に説明します。
 
-.. _image_tiled_windows:
+整列方法
+    ウィンドウの整列方法を指定します。
 
-.. figure:: images/tiled_windows.png
+条件
+    整列方法で「格子状」を選択した時のみ有効です。格子状に整列する時の列の数もしくは行の数を指定します。
+
+全体のサイズ
+    複数のウィンドウを整列した後の全体のサイズを指定します。
+
+    この機能でウィンドウを整列した後で :ref:`sec_continuous_snapshot` でスナップショットを保存すると、
+    ここで指定したサイズの画像・動画が出力されます。
+
+ウィンドウ間の余白
+    ウィンドウを整列する時に、各ウィンドウのスナップショット保存対象領域同士の余白を指定します。
+
+    デフォルト値は、ちょうどウィンドウの枠同士が重ならない程度の値に設定されています。
+
+オブジェクトブラウザを隠す
+    チェックすると、オブジェクトブラウザを非表示にします。
+
+    :ref:`sec_continuous_snapshot` でスナップショットを保存したい場合などはオブジェクトブラウザを隠して整列すると便利です。
+
+.. _image_align_windows_dialog:
+
+.. figure:: images/align_windows_dialog.png
    :width: 380pt
 
-   ウィンドウを並べて表示した後の iRIC 表示例
+   ウィンドウの整列ダイアログ
 
-ウィンドウを重ねて表示 (C)
-----------------------------
+.. _image_align_windows_example:
 
-現在表示されているウィンドウを、重ねて表示します。
+.. figure:: images/align_windows_example.png
+   :width: 500pt
 
-最近アクティブにしたウィンドウほど、左上に配置されます。
+   ウィンドウ整列後の表示例
 
-ウィンドウを重ねて表示した後のiRIC の表示例を
-:numref:`image_cascaded_windows` に示します。
+カメラ設定のコピー (C)
+-----------------------------
 
-.. _image_cascaded_windows:
+現在アクティブなウィンドウでのカメラ設定を他の画面にコピーします。
 
-.. figure:: images/cascaded_windows.png
-   :width: 380pt
+カメラ設定のコピーダイアログの表示例を
+:numref:`image_copy_camera_dialog` に、整列後の表示例を :numref:`image_copy_camera_example` に示します。
 
-   ウィンドウを重ねて表示した後の iRIC 表示例
+.. _image_copy_camera_dialog:
+
+.. figure:: images/copy_camera_dialog.png
+   :width: 300pt
+
+   カメラ設定のコピーダイアログ
+
+.. _image_copy_camera_example:
+
+.. figure:: images/copy_camera_example.png
+   :width: 500pt
+
+   カメラ設定のコピー後の表示例
+
