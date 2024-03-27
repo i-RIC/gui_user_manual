@@ -1,3 +1,5 @@
+.. _sec_pre_grid_display_setting:
+
 表示設定
 ==================
 
