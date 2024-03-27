@@ -118,6 +118,8 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 
    テキストデータインポート設定ダイアログ
 
+.. _sec_geo_data_import_crosssection:
+
 横断測量データ (\*.riv)
 -----------------------
 
@@ -132,14 +134,14 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 .. _image_rivdata_import_warning_dialog:
 
 .. figure:: images/rivdata_import_warning_dialog.png
-   :width: 240pt
+   :width: 300pt
 
    見つかった問題一覧ダイアログ
 
 .. _image_rivdata_import_setting_dialog:
 
 .. figure:: images/rivdata_import_setting_dialog.png
-   :width: 240pt
+   :width: 300pt
 
    河川測量データインポート設定ダイアログ
 
@@ -161,7 +163,7 @@ iRIC の表示例を :numref:`image_iric_after_importing_riv_data` に示しま�
 .. _image_japan_csv_import_warning_dialog:
 
 .. figure:: images/japan_riv_import_warning_dialog.png
-   :width: 240pt
+   :width: 300pt
 
    見つかった問題一覧ダイアログ
 
@@ -228,7 +230,7 @@ NetCDF ファイルを、時間など位置以外の次元を持つ地理情報�
 .. _image_netcdf_import_setting_dialog:
 
 .. figure:: images/netcdf_import_setting_dialog.png
-   :width: 160pt
+   :width: 200pt
 
    次元のマッピング設定ダイアログ
 
