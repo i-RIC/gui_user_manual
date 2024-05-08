@@ -81,14 +81,30 @@ iRIC では、以下の種類の画像を背景画像として取り込むこと
 これを繰り返すことで、対応点の組を順次追加します。追加された点の座標は、ジオレファレンスダイアログ上の表に表示されます。
 複数の点の組を指定した際の表示例を
 :numref:`image_bg_image_georeference_dialog_example`
+に、座標について
+:numref:`bg_image_operations_value_table`
 に示します。
 
 .. _image_bg_image_georeference_dialog_example:
 
 .. figure:: images/bg_image_georeference_dialog_example.png
-   :width: 220pt
+   :width: 390pt
 
    ジオレファレンスにおける点の選択例
+
+.. list-table:: 位置合わせに用いる点の座標について
+   :name: bg_image_operations_value_table
+   :header-rows: 1
+
+   * - 値
+     - 説明
+     - 座標系
+   * - srcX, srcY
+     - ジオリファレンスダイアログ上の点のX,Y座標
+     - 画像の左上を原点(0,0)とした水平、垂直方向の距離（ピクセル）
+   * - dstX, dstY
+     - メインウィンドウ上の点のX,Y座標
+     - iRICで選択している座標系
 
 点の指定後、適用ボタンを押下すると、ジオレファレンスダイアログを開いたまま位置合わせが実行されます。
 
@@ -103,7 +119,7 @@ OKボタンを押下すると、位置合わせが確定し、ダイアログが
 .. _image_bg_image_georeference_dialog_apply:
 
 .. figure:: images/bg_image_georeference_dialog_apply.png
-   :width: 220pt
+   :width: 390pt
 
    ジオレファレンス実行後の表示例
 
