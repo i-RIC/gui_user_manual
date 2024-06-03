@@ -84,12 +84,12 @@ For example, when you've installed Miniconda to D:\\Miniconda3,
 please copy the files below to D:\\Miniconda\\Envs\\iric\\Lib\\site-packages.
 
 * IRICROOT\\guis\\prepost\\sdk\\python\\iric.py
-* IRICROOT\\guis\\prepost\\sdk\\python\\_iric_python38.pyd --> rename to _iric.pyd after copying
+* IRICROOT\\guis\\prepost\\sdk\\c\\bin\\Lib\\site-packages\\_iric.cp38-win_amd64.pyd --> rename to _iric.pyd after copying
 * IRICROOT\\guis\\prepost\\iriclib.dll
-* IRICROOT\\guis\\prepost\\cgnsdll.dll
 * IRICROOT\\guis\\prepost\\hdf5.dll
 * IRICROOT\\guis\\prepost\\szip.dll
 * IRICROOT\\guis\\prepost\\zlib.dll
+* IRICROOT\\guis\\prepost\\PocoFoundation.dll
 
 In the list above, iRICROOT means the install target folder of iRIC (For example C:\\Users\\user1\\iRIC).
 
