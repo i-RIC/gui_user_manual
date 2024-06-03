@@ -6,9 +6,8 @@ Display Settings
 **Description**: Sets grid diplay settings. Sub items of this menu are shown
 in :numref:`table_grid_displaysettings_menu`.
 
-.. _table_grid_displaysettings_menu:
-
 .. list-table:: Menu items in [Display Settings]
+   :name: table_grid_displaysettings_menu
    :header-rows: 1
 
    * - Menu
@@ -39,7 +38,7 @@ only when [All] is selected in [Grid lines] group box.
 .. _image_grid_shape_display_dialog:
 
 .. figure:: images/grid_shape_display_dialog.png
-   :width: 100pt
+   :width: 300pt
 
    The [Grid Shape Display] dialog
 
@@ -61,25 +60,22 @@ When you select [Node Attribute], the [Grid Node Attribute Display
 Setting] dialog (:numref:`image_grid_node_attr_display_setting_dialog`)
 will open. Modify the setting and click on [OK].
 
-Please refer to :ref:`sec_geo_common_color_setting` about the dialog
-that is shown when you select
-[Custom] as [Colormap] and click on [Setting…] button.
+Please refer to :ref:`sec_colormap` about the dialog.
 
-:numref:`image_example_grid_node_attr_display` shows examples
-for [Contour setting] with [Color Fringe],
-[Contour Figure], and [Isolines] for each.
+:numref:`image_example_grid_node_attr_display` shows examples of 
+displays on each mode.
 
 .. _image_grid_node_attr_display_setting_dialog:
 
 .. figure:: images/grid_node_attr_display_setting_dialog.png
-   :width: 160pt
+   :width: 460pt
 
    The [Grid Node Attribute Display Setting] dialog
 
 .. _image_example_grid_node_attr_display:
 
 .. figure:: images/example_grid_node_attr_display.png
-   :width: 440pt
+   :width: 320pt
 
    Examples of grid node attribute displays
 
@@ -98,42 +94,6 @@ will open. Modify the setting and click on [OK].
 .. _image_grid_cell_attr_display_setting_dialog:
 
 .. figure:: images/grid_cell_attr_display_setting_dialog.png
-   :width: 180pt
+   :width: 460pt
 
    The [Grid Cell Attribute Display Setting] dialog
-
-Set Up Scalarbar (U)
-----------------------
-
-**Description**: Sets up color bar setting. :numref:`image_example_scalar_bar`
-shows an example of color bar.
-
-.. _image_example_scalar_bar:
-
-.. figure:: images/example_scalar_bar.png
-   :width: 300pt
-
-   Example of scalar bar
-
-When you select [Set Up Scalarbar], the [Scalarbar Setting] dialog
-(:numref:`image_scalar_bar_setting_dialog`) will open.
-When you want to show color bar, check on the
-[Visible] check box and select the attribute, and click on [OK].
-
-If you click on [Edit], the [Color legend Setting] dialog
-(:numref:`image_color_legend_setting_dialog`)
-will open.
-
-.. _image_scalar_bar_setting_dialog:
-
-.. figure:: images/scalar_bar_setting_dialog.png
-   :width: 160pt
-
-   The [Scalarbar Setting] dialog
-
-.. _image_color_legend_setting_dialog:
-
-.. figure:: images/color_legend_setting_dialog.png
-   :width: 180pt
-
-   The [Color Legend Setting] dialog
