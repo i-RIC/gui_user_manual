@@ -125,36 +125,69 @@ This function is available only when the active subwindow is either of
 [Bird's Eye Grid Window], [Bird's eye 2D Post-processing Window], or [3D
 Post-processing Window].
 
-[Tile Windows] (T)
------------------------
+Align Windows (A)
+-----------------------------
 
-**Description**: Tiles subwindows.
+Aligns the currently displayed windows.
 
-The most recently activated window is at the top left.
+An example of the window alignment dialog is shown in :numref:`image_align_windows_dialog` and an example of the aligned windows is shown in :numref:`image_align_windows_example`.
 
-:numref:`image_tiled_windows` shows an example of iRIC window
-after the subwindows are tiled.
+Setting items are described below.
 
-.. _image_tiled_windows:
+[Alignment]
+    Specify how to align, from Horizontal, Verical and Grid.
 
-.. figure:: images/tiled_windows.png
+[Condition]
+    Valid only when "Grid" is selected as [Alignment]. Specify the number of columns or rows in the grid.
+
+[Total Size]
+    Specifies the total size of the window after it has been aligned.
+
+    If you save a snapshot with :ref:`sec_continuous_snapshot` after aligning windows with this function,
+    the size of the image/video will be the same as the size specified here.
+
+[Margins between windows]
+    When windows are aligned, this parameter specifies the margin between the target areas of each window for saving snapshots.
+
+    The default value is set so that the window borders do not overlap each other.
+
+[Hide Object Browsers]
+    If checked, hides the object browser.
+
+    It is convenient to hide the object browser, if you want to save snapshots with :ref:`sec_continuous_snapshot`.
+
+.. _image_align_windows_dialog:
+
+.. figure:: images/align_windows_dialog.png
    :width: 380pt
 
-   iRIC window after the subwindows are tiled
+   Align Windows dialog
 
-[Cascade Windows] (C)
-------------------------
+.. _image_align_windows_example:
 
-**Description**: Cascades subwindows.
+.. figure:: images/align_windows_example.png
+   :width: 500pt
 
-The most recently activated window is at the top left.
+   Example of windows after aligning
 
-:numref:`image_cascaded_windows` shows an example of iRIC window
-after the windows are cascaded.
+Copy Camera Setting (C)
+-----------------------------
 
-.. _image_cascaded_windows:
+Copies the camera settings in the currently active window to other windows.
 
-.. figure:: images/cascaded_windows.png
-   :width: 380pt
+An example of [Copy Camera Setting] dialog is shown in :numref:`image_copy_camera_dialog`.
+An example of the display after copying the setting is shown in :numref:`image_copy_camera_example`.
 
-   iRIC window after the subwindows are cascaded
+.. _image_copy_camera_dialog:
+
+.. figure:: images/copy_camera_dialog.png
+   :width: 300pt
+
+   [Copy Camera Setting] dialog
+
+.. _image_copy_camera_example:
+
+.. figure:: images/copy_camera_example.png
+   :width: 500pt
+
+   Example after copying camera setting

@@ -1,3 +1,5 @@
+.. _sec_continuous_snapshot:
+
 [Continuous Snapshots / Movie / Google Earth Export]
 ===============================================================
 
