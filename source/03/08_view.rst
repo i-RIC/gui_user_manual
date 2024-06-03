@@ -174,7 +174,7 @@ Z方向の表示の倍率を変更します。
 現在アクティブなウィンドウでのカメラ設定を他の画面にコピーします。
 
 カメラ設定のコピーダイアログの表示例を
-:numref:`image_copy_camera_dialog` に、整列後の表示例を :numref:`image_copy_camera_example` に示します。
+:numref:`image_copy_camera_dialog` に、設定コピー後の表示例を :numref:`image_copy_camera_example` に示します。
 
 .. _image_copy_camera_dialog:
 
