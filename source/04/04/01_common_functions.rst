@@ -6,6 +6,49 @@ Common functions
 The functions available commonly for all types of [Geographic Data] are
 explained in the following sections.
 
+Edit Groups
+--------------------
+
+Add, edit, and delete groups of complex type grid attributes.
+
+This function is enabled only when user select complex type grid attribute.
+
+An example of the group settings dialog is shown in :numref:`image_complex_group_edit_dialog`. The settings displayed in the dialog are different for each solver and group.
+
+The functions available in this dialog are listed below.
+
+Add (A)
+    Adds a new group.
+
+Delete (D)
+    Deletes the currently selected group.
+
+Import
+    Imports group definitions from a CSV file.
+
+    It is convenient to export the CSV file once with the Export function and then import it after editing values or adding/deleting rows.
+
+Export (E)
+    Exports group definitions to a CSV file.
+
+Switch to Table view
+    Switches the view in the dialog to "Table view", displaying the values of all group settings at once.
+    An example of the display after switching to Table view is shown in :numref:`image_complex_group_edit_dialog_table`.
+
+.. _image_complex_group_edit_dialog:
+
+.. figure:: images/complex_group_edit_dialog.png
+   :width: 400pt
+
+   Group Setting dialog
+
+.. _image_complex_group_edit_dialog_table:
+
+.. figure:: images/complex_group_edit_dialog_table.png
+   :width: 400pt
+
+   Group Settin dialog (Table view)
+
 .. _sec_geo_common_color_setting:
 
 [Color Setting]
