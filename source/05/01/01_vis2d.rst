@@ -105,6 +105,12 @@ Post-processing Window] can be edited mainly from [Draw] menu and
 refer to :ref:`sec_pre_axes` and :ref:`sec_pre_distance_measures`
 respectively.
 
+
+.. note::
+
+   In iRIC 4.1 and later, the input grid can be displayed in the [2D Post-processing Window].
+   The input grid display settings are the same as in the preprocessor. See :ref:`sec_pre_grid_display_setting` for more details.
+
 [Attribute Browser]
 -----------------------------
 
