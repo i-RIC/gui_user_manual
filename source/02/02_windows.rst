@@ -5,8 +5,7 @@ Windows
 
 :numref:`image_iric_main_window` shows the iRIC main window.
 
-It uses a standard interface, with a menu bar and a toolbar. Menu bar
-and tool bar are explained in :ref:`sec_menubar_and_toolbar`.
+It uses a standard interface, with a menu bar and a toolbar. Menu bar, tool bar and status bar are explained in :ref:`sec_menubar_and_toolbar_status_bar`.
 
 When using iRIC, you can open various subwindows that meet your needs
 inside the main window. The [Pre-processing Window] opens as soon as you
