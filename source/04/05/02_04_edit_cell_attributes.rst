@@ -26,13 +26,13 @@ Edits the selected node (3) as follows:
 **Menu bar**: [Grid] (G) --> [Edit] (E) --> [Cell Attributes] (C)
 
 Then a dialog to edit the cell attributes
-(:numref:`image_topo_aspect_edit_dialog2`) will open.
+(:numref:`image_grid_attribute_cell_edit_dialog`) will open.
 Set it and click on [OK]. The dialog to edit the cell attributes varies
 depending on the attribute you want to edit.
 
-.. _image_topo_aspect_edit_dialog2:
+.. _image_grid_attribute_cell_edit_dialog:
 
-.. figure:: images/topo_aspect_edit_dialog.png
+.. figure:: images/grid_attribute_cell_edit_dialog.png
    :width: 240pt
 
-   [Topographic Aspect edit dialog]
+   [Grid attribute edit dialog]
