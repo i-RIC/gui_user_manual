@@ -66,11 +66,11 @@ Launch "Anaconda Prompt (miniconda3)" from start menu, and execute the command b
 .. code-block:: text
    :caption: Commands to create a virtual environment
 
-   conda create -n iric python=3.8
+   conda create -n iric python=3.12
    conda activate iric
    conda install numpy
 
-The commands creates virtual environment named "iric", and installs Python 3.8 and numpy to that.
+The commands creates virtual environment named "iric", and installs Python 3.12 and numpy to that.
 
 For example when you've installed Miniconda to D:\\Miniconda3, make sure that
 now you have Python.exe in D:\\Miniconda\\Envs\\iric.
@@ -84,7 +84,7 @@ For example, when you've installed Miniconda to D:\\Miniconda3,
 please copy the files below to D:\\Miniconda\\Envs\\iric\\Lib\\site-packages.
 
 * IRICROOT\\guis\\prepost\\sdk\\python\\iric.py
-* IRICROOT\\guis\\prepost\\sdk\\c\\bin\\Lib\\site-packages\\_iric.cp38-win_amd64.pyd --> rename to _iric.pyd after copying
+* IRICROOT\\guis\\prepost\\sdk\\c\\bin\\Lib\\site-packages\\_iric.cp312-win_amd64.pyd --> rename to _iric.pyd after copying
 * IRICROOT\\guis\\prepost\\iriclib.dll
 * IRICROOT\\guis\\prepost\\hdf5.dll
 * IRICROOT\\guis\\prepost\\szip.dll
