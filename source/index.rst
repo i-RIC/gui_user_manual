@@ -15,4 +15,5 @@ iRIC Software User\'s Manual
    05_post
    06_files
    07_tips
+   08_project
    10_user_notice
