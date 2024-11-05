@@ -21,8 +21,6 @@
      - CGNSファイル (\*.cgn)
    * - 
      - iRIC 格子 CSVファイル (\*.csv)
-   * - 
-     - RIC-Nays格子ファイル (\*.grid)
    * - 非構造格子
      - iRICプロジェクトファイル (\*.ipro)
    * - 

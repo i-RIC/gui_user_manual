@@ -19,8 +19,6 @@
      - CGNSファイル (\*.cgn)
    * - 
      - iRIC 格子 CSVファイル (\*.csv)
-   * - 
-     - RIC-Nays格子ファイル (\*.grid)
    * -
      - LandXML ファイル (\*.xml)
    * -
@@ -35,7 +33,6 @@
 格子は、以下のファイルフォーマットにエクスポートできます。
 
 * iRIC 格子CSVファイル (\*.csv)
-* RIC-Nays 格子ファイル (\*.grid)
 * CGNSファイル (\*.cgn)
 * VTKファイル (\*.vtk)
 
