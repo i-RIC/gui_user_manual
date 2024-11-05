@@ -148,7 +148,7 @@ X, Y
 
 現在開いているプロジェクトで指定された座標系を表示します。
 
-クリックすると :numref:`image_coordinatesystem_dialog` に示すダイアログが表示され、ウィンドウのサイズを値を指定して変更することができます。
+クリックすると :numref:`image_coordinatesystem_dialog` に示すダイアログが表示され、座標系を変更することができます。
 
 .. _image_coordinatesystem_dialog:
 

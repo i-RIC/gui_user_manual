@@ -64,11 +64,11 @@ iRIC 用仮想環境の作成
 .. code-block:: text
    :caption: 仮想環境の作成コマンド
 
-   conda create -n iric python=3.8
+   conda create -n iric python=3.12
    conda activate iric
    conda install numpy
 
-これで、「iric」という名前の仮想環境が作成され、Python 3.8, numpy がインストールされます。
+これで、「iric」という名前の仮想環境が作成され、Python 3.12, numpy がインストールされます。
 
 例えば、D:\\Miniconda3 に Miniconda をインストールしていた場合、D:\\Miniconda\\Envs\\iric というフォルダが作成されており、
 Python.exe があることを確認してください。
@@ -79,15 +79,15 @@ Python 用 iriclib のインストール
 上記で作成した仮想環境に、iriclib をインストールします。
 
 例えば、D:\\Miniconda3 に Miniconda をインストールしていた場合、D:\\Miniconda\\Envs\\iric\\Lib\\site-packages に以下のファイルをコピーしてください。
-以下では、iRIC のインストール先フォルダ (例: 「C:\\Users\\user1\\iRIC」)　を IRICROOT と記載しています。
+以下では、iRIC のインストール先フォルダ (例: 「C:\\Users\\user1\\iRIC」) を IRICROOT と記載しています。
 
 * IRICROOT\\guis\\prepost\\sdk\\python\\iric.py
-* IRICROOT\\guis\\prepost\\sdk\\python\\_iric_python38.pyd --> _iric.pyd に名前を変えてコピーしてください
+* IRICROOT\\guis\\prepost\\sdk\\c\\bin\\Lib\\site-packages\\_iric.cp312-win_amd64.pyd --> _iric.pyd に名前を変えてコピーしてください
 * IRICROOT\\guis\\prepost\\iriclib.dll
-* IRICROOT\\guis\\prepost\\cgnsdll.dll
 * IRICROOT\\guis\\prepost\\hdf5.dll
 * IRICROOT\\guis\\prepost\\szip.dll
 * IRICROOT\\guis\\prepost\\zlib.dll
+* IRICROOT\\guis\\prepost\\PocoFoundation.dll
 
 iriclib の動作確認
 ..................
