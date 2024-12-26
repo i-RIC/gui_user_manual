@@ -65,13 +65,42 @@ iRIC 用仮想環境の作成
    :caption: 仮想環境の作成コマンド
 
    conda create -n iric python=3.12
+
+| これで、「iric」という名前の仮想環境が作成されます。
+| つづけて、以下のコマンドを実行して、仮想環境を有効化してください。
+
+.. code-block:: text
+   :caption: 仮想環境の有効化
+
    conda activate iric
-   conda install numpy
 
-これで、「iric」という名前の仮想環境が作成され、Python 3.12, numpy がインストールされます。
+| (base)と表示されていたプロンプトが、(iric) に変われば有効化が成功いています。
+| このまま必要なライブラリのインストールを行います。
 
-例えば、D:\\Miniconda3 に Miniconda をインストールしていた場合、D:\\Miniconda\\Envs\\iric というフォルダが作成されており、
-Python.exe があることを確認してください。
+
+.. code-block:: text
+   :caption: 仮想環境でのライブラリのインストール
+
+   conda install numpy=1.26.4
+   conda install numba=0.59.1
+   conda install scipy=1.13.1
+   conda install gdal=3.6.2
+   conda install h5py=3.11.0
+   conda install pandas=2.2.2
+   conda install matplotlib=3.8.4
+   conda install requests=2.32.2
+   conda install beautifulsoup4=4.12.3
+   conda install pyproj=3.6.1
+
+| 最後に仮想環境が問題なく作成されたかを確認します。
+| 例えば、D:\\Miniconda3 に Miniconda をインストールしていた場合、D:\\Miniconda\\Envs\\iric というフォルダが作成されており、Python.exe があることを確認してください。
+
+.. caution:: 
+   必要なライブラリは追加、変更されることがあります。最新の必要な情報は以下のファイルに記載されています。
+
+   https://github.com/i-RIC/online_update_v4/blob/main/dev_v4_src/packages/miniconda.main/data/miniconda_install.bat
+
+   :code:`%2\condabin\conda.bat create -p %2\envs\iric` の部分の後ろに、必要なライブラリとバージョンが記載されています。
 
 Python 用 iriclib のインストール
 ................................
@@ -81,8 +110,8 @@ Python 用 iriclib のインストール
 例えば、D:\\Miniconda3 に Miniconda をインストールしていた場合、D:\\Miniconda\\Envs\\iric\\Lib\\site-packages に以下のファイルをコピーしてください。
 以下では、iRIC のインストール先フォルダ (例: 「C:\\Users\\user1\\iRIC」) を IRICROOT と記載しています。
 
-* IRICROOT\\guis\\prepost\\sdk\\python\\iric.py
-* IRICROOT\\guis\\prepost\\sdk\\c\\bin\\Lib\\site-packages\\_iric.cp312-win_amd64.pyd --> _iric.pyd に名前を変えてコピーしてください
+* IRICROOT\\sdk\\c\\bin\\Lib\\site-packages\\iric.py
+* IRICROOT\\sdk\\c\\bin\\Lib\\site-packages\\_iric.cp312-win_amd64.pyd --> _iric.pyd に名前を変えてコピーしてください
 * IRICROOT\\guis\\prepost\\iriclib.dll
 * IRICROOT\\guis\\prepost\\hdf5.dll
 * IRICROOT\\guis\\prepost\\szip.dll
