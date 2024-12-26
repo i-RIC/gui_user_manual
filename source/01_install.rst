@@ -68,12 +68,29 @@ Launch "Anaconda Prompt (miniconda3)" from start menu, and execute the command b
 
    conda create -n iric python=3.12
    conda activate iric
-   conda install numpy
+   conda install numpy=1.26.4
+   conda install numba=0.59.1
+   conda install scipy=1.13.1
+   conda install gdal=3.6.2
+   conda install h5py=3.11.0
+   conda install pandas=2.2.2
+   conda install matplotlib=3.8.4
+   conda install requests=2.32.2
+   conda install beautifulsoup4=4.12.3
+   conda install pyproj=3.6.1  
 
 The commands creates virtual environment named "iric", and installs Python 3.12 and numpy to that.
 
 For example when you've installed Miniconda to D:\\Miniconda3, make sure that
 now you have Python.exe in D:\\Miniconda\\Envs\\iric.
+
+.. caution::
+   
+   The required libraries may be added or modified. The latest information is listed in the following file:
+
+   https://github.com/i-RIC/online_update_v4/blob/main/dev_v4_src/packages/miniconda.main/data/miniconda_install.bat
+
+   The required libraries and their versions are specified after the part :code: `%2condabinconda.bat create -p %2envsiric` .
 
 Install iriclib for Python
 ................................
@@ -83,8 +100,8 @@ Install iriclib for Python to the virtual environment you've created.
 For example, when you've installed Miniconda to D:\\Miniconda3, 
 please copy the files below to D:\\Miniconda\\Envs\\iric\\Lib\\site-packages.
 
-* IRICROOT\\guis\\prepost\\sdk\\python\\iric.py
-* IRICROOT\\guis\\prepost\\sdk\\c\\bin\\Lib\\site-packages\\_iric.cp312-win_amd64.pyd --> rename to _iric.pyd after copying
+* IRICROOT\\sdk\\c\\bin\\Lib\\site-packages\\iric.py
+* IRICROOT\\sdk\\c\\bin\\Lib\\site-packages\\_iric.cp312-win_amd64.pyd --> rename to _iric.pyd after copying
 * IRICROOT\\guis\\prepost\\iriclib.dll
 * IRICROOT\\guis\\prepost\\hdf5.dll
 * IRICROOT\\guis\\prepost\\szip.dll
