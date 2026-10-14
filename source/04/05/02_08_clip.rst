@@ -16,7 +16,7 @@ Clip the grid in the following steps.
 
    **Menu bar:** [Grid] (G) --> [Clip...] (C)
 
-   **Right-clicking menu:** Right-click on [Grid] in [Object Browser], and
+   **Right-clicking menu:** Right-click on [Grid Shape] under [Grid] in [Object Browser], and
    select [Clip...] (C) (refer to :numref:`image_grid_clip_menu`)
 
 #. The [Clip Setting] dialog (:numref:`image_grid_clip_dialog`) opens.
