@@ -70,6 +70,9 @@ Left/right bank markers
 Aspect ratio
     Displays the aspect ratio in the main area.
 
+Reverse X direction
+    When checked, the direction of the horizontal axis is reversed.
+
 Display Setting
     Opens the [Display Setting] dialog (refer to :numref:`image_crosssection_display_setting_dialog`).
 

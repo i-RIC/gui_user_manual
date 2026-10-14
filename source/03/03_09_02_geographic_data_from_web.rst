@@ -6,7 +6,7 @@
 **Description**: Imports geographic data from web services
 
 When you select this, the dialog to select the type of data to import
-(refer to :numref:`image_geo_web_select_type_dialog`) is shown.
+(the [Select Data Type] dialog, refer to :numref:`image_geo_web_select_type_dialog`) is shown.
 
 .. _image_geo_web_select_type_dialog:
 
@@ -27,7 +27,7 @@ Point cloud data generated from elevation CSV tiles
 
 Please follow the steps below, to import the data.
 
-1. In the dialog to select the type of data, select the point cloud data generated from elevation CSV tiles.
+1. In the dialog to select the type of data, select [Point cloud data from Elevation CSV tile].
 
 2. If you've not specified the coordinate system for the project,
    the [Select Coordinate System] dialog
@@ -102,11 +102,11 @@ Cross-section data of Hokkaido Regional Development Bureau
 1. The [Cross-section Data Import Setting] dialog (refer to :numref:`image_geo_web_crosssection_dialog`) is shown.
    Specify the items and click on [OK]. The items are as follows.
 
-   River name
+   River
        Select the river to import.
 
    Range
-       Specify the KPs of the upstream end and the downstream end of the range to import.
+       Specify the KPs of the downstream end and the upstream end of the range to import in [Downstream] and [Upstream].
 
    Year
        When survey results of multiple years exist, specify the year of the data to import.
