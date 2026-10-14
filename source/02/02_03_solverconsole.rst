@@ -1,3 +1,5 @@
+.. _sec_solver_console:
+
 ソルバーコンソール
 =====================
 
@@ -32,5 +34,16 @@
    :width: 180pt
 
    ソルバーコンソール タイトル表示例
+
+ソルバーでの計算が終了すると、:numref:`image_solver_finished_save_dialog` に示すダイアログが表示され、
+プロジェクトを保存するかどうかを確認されます。「はい(Y)」を選択すると、
+計算結果を含めたプロジェクトが保存されます。「いいえ(N)」を選択した場合は、保存されません。
+
+.. _image_solver_finished_save_dialog:
+
+.. figure:: images/solver_finished_save_dialog.png
+   :width: 220pt
+
+   計算終了後の保存確認ダイアログ
 
 ソルバーコンソールに関連する操作については、:ref:`sec_simulation` を参照してください。

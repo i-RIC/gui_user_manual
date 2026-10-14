@@ -9,6 +9,7 @@
 行えます。格子については、以下の操作を行えます。
 
 -  編集
+-  切り出し
 -  削除
 
 編集には、以下の4つがあります。
@@ -30,6 +31,8 @@
 2. の格子点の選択については操作方法が共通ですので、
 :ref:`sec_grid_edit_select_node` で説明します。
 
+切り出しについては :ref:`sec_grid_clip` で説明します。
+
 格子のインポートとエクスポートについては、それぞれ
 :ref:`sec_file_import_grid` と
 :ref:`sec_file_export_grid` を参照してください。
@@ -44,3 +47,4 @@
    02_05_edit_boundary_conds
    02_06_delete
    02_07_display_settings
+   02_08_clip

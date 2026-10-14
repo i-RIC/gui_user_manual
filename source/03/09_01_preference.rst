@@ -157,3 +157,20 @@ Web 標高データ タブ
    :width: 320pt
 
    設定ダイアログ（背景格子）
+
+.. _sec_pref_telemetry:
+
+テレメトリ タブ
+~~~~~~~~~~~~~~~~~~~~
+
+iRIC の改善のために、iRIC の利用状況に関する情報を開発元に送信するかどうかを設定します。
+設定ダイアログ（テレメトリ）の表示例を :numref:`image_pref_dialog_telemetry` に示します。
+
+.. _image_pref_dialog_telemetry:
+
+.. figure:: images/pref_dialog_telemetry.png
+   :width: 320pt
+
+   設定ダイアログ（テレメトリ）
+
+テレメトリに関する詳しい設定については、 :ref:`sec_install_telemetry` を参照してください。
