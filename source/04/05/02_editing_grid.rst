@@ -8,6 +8,7 @@ The following is an explanation of the grid creating functions.
 When the Pre-processor is active, grids can be created by using the menu
 in [Grid] (G). The following manipulations are possible:
 -  [Edit]
+-  [Clip]
 -  [Delete]
 
 [Edit] has the following three functions:
@@ -26,6 +27,8 @@ Regarding 1. and 3., refer to :ref:`sec_grid_edit_node_coordinates`
 to :ref:`sec_grid_edit_cell_atts`. Regarding
 2., the operation is common, so refer to :ref:`sec_grid_edit_select_node`.
 
+Regarding clipping, refer to :ref:`sec_grid_clip`.
+
 Regarding the import and export of a grid, refer to :ref:`sec_file_import_grid`
 and :ref:`sec_file_export_grid` respectively.
 
@@ -39,3 +42,4 @@ and :ref:`sec_file_export_grid` respectively.
    02_05_edit_boundary_conds
    02_06_delete
    02_07_display_settings
+   02_08_clip

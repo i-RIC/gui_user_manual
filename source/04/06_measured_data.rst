@@ -72,3 +72,14 @@ open. Set the arrow display setting and click on [OK].
 
 The function of this item is the same to [Measure Data] under [Import]
 menu under [File] menu. Refer to :ref:`sec_file_import_measured_data`.
+
+Deleting measured data
+----------------------------
+
+Select the item of the measured data in [Object Browser], right-click on it and select Delete,
+and the measured data is deleted.
+
+When there are windows that refer to the measured data to be deleted
+(such as the [Compare with measured values] window and the [2D Post-processing Window]),
+the confirmation dialog shows that those windows will be closed at the same time.
+Check the contents, and select [Yes] when you want to delete the measured data.

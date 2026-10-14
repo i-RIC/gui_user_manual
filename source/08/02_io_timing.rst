@@ -101,7 +101,7 @@ The timing is as follows.
    * When the CGNS file is reloaded
 
 * **Save**:
-   * When the project is saved
+   * When the project is saved (including when you select [Yes] in the dialog to confirm saving that is displayed after the solver finished running)
    * Immediately before the solver starts running
 
 * **Discard**: Never

@@ -29,6 +29,9 @@ output" or to the "Standard error".
 
    The [Solver Console]
 
+When the solver finishes calculation, a dialog is displayed to ask whether you want to save the project.
+Refer to :ref:`sec_solver_console` for detail.
+
 [Stop] (S)
 -------------
 

@@ -148,3 +148,20 @@ with grid creating algorithm other than [Create grid from river survey data].
    :width: 320pt
 
    The [Preferences] dialog [Background Grid] tab
+
+.. _sec_pref_telemetry:
+
+[Telemetry] tab
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Sets whether to send information about how you use iRIC to the developers, in order to help improve iRIC.
+:numref:`image_pref_dialog_telemetry` shows an example of the [Telemetry] tab.
+
+.. _image_pref_dialog_telemetry:
+
+.. figure:: images/pref_dialog_telemetry.png
+   :width: 320pt
+
+   The [Preferences] dialog [Telemetry] tab
+
+For detailed settings about telemetry, refer to :ref:`sec_install_telemetry`.

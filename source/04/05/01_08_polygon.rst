@@ -296,3 +296,53 @@ grid creation area can be specified.
 
 **Description**: Discards the grid creating conditions and restores the
 default state.
+
+.. _sec_grid_creation_polygon_importexport:
+
+Import and Export
+----------------------------
+
+You can import the polygons and break lines of the grid region, refinement
+regions and hole regions from Shape files (\*.shp), and export them to Shape files.
+These functions are useful when you want to use data created with other software,
+or use the polygons you created with other software.
+
+These functions are available from the menu that is displayed when you right-click
+on the canvas.
+
+[Import]
+~~~~~~~~~~~~~~~~~~~~
+
+Select what to import from the following items under [Import] in the right-clicking menu.
+
+* [Grid Region Polygon...]
+* [Remesh Polygon...]
+* [Hole Polygon...]
+* [Division Line...]
+
+A dialog to select a file is displayed. Select the Shape file to import.
+When you import a polygon, the shape type contained in the file must be polygon.
+Polygons that contain holes cannot be imported.
+
+When you select a file that cannot be read, an error message is displayed.
+
+When you import a grid region polygon, the grid region polygon that has already
+been defined is replaced with the imported one.
+Refinement regions, hole regions and break lines are added.
+
+The imported polygons are checked under the same conditions as the polygons you create manually,
+for example, a polygon must have at least three vertices.
+A refinement region polygon must be inside the grid region polygon.
+
+.. note::
+
+   After importing, you cannot undo the operations that were performed before it.
+
+[Export]
+~~~~~~~~~~~~~~~~~~~~
+
+Select the polygon (grid region, refinement region or hole region) or the break line
+you want to export, and select [Export...] in the right-clicking menu.
+When no polygon or break line is selected, this menu is disabled.
+
+A dialog to specify the destination file is displayed. Specify the file name and save.

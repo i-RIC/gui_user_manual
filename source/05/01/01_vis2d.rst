@@ -111,6 +111,39 @@ respectively.
    In iRIC 4.1 and later, the input grid can be displayed in the [2D Post-processing Window].
    The input grid display settings are the same as in the preprocessor. See :ref:`sec_pre_grid_display_setting` for more details.
 
+.. _sec_post2d_input_grid_bc:
+
+Boundary conditions of the input grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The item [Boundary Condition] is displayed under [Input Grid] in [Object Browser].
+Under it, the boundary conditions that you set in the preprocessor are displayed as items for each name.
+You can switch the display of each boundary condition with the check box of the item.
+
+Boundary conditions are drawn as points, cells or lines, depending on whether they are defined at grid nodes,
+cells or edges.
+
+When you select an item of a boundary condition, right-click on it and select [Display Setting],
+the display setting dialog opens. You can set the following items in this dialog.
+
+.. list-table:: Display settings of boundary conditions
+   :header-rows: 1
+
+   * - Item
+     - Description
+   * - Type, Name
+     - The type and the name of the boundary condition are displayed (they cannot be changed).
+   * - Color
+     - Sets the color to draw the boundary condition.
+   * - Transparency
+     - Sets the transparency to draw the boundary condition.
+   * - Point Size
+     - Sets the size of the points for boundary conditions defined at grid nodes, or the width of the lines for boundary conditions defined at edges.
+   * - Show name
+     - When checked, the name of the boundary condition is displayed near the center of the range where the boundary condition is set.
+
+The display settings are saved in the project.
+
 [Attribute Browser]
 -----------------------------
 
@@ -149,6 +182,23 @@ using mouse:
    :width: 200pt
 
    Example of [Attribute Browser]
+
+.. _sec_post2d_open_graph_from_point:
+
+Showing values at the selected node, cell or edge in a graph
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When a grid node is selected in [Attribute Browser], right-click on [Scalar (node)] in [Object Browser]
+and select [Open Graph Window] (G). A graph window opens, in which the time variation of the calculation result
+at the selected grid node is drawn.
+The scalar values that are checked under [Scalar (node)] are drawn in the graph.
+When no grid node is selected, this menu is disabled.
+
+For calculation results defined at cell centers, I-direction edges and J-direction edges,
+you can do the same operation by right-clicking on [Scalar (cell center)], [Scalar (edgeI)] and [Scalar (edgeJ)] respectively,
+and selecting [Open Graph Window] (G). The time variation of the calculation result at the selected cell or edge is drawn in the graph.
+
+Refer to :ref:`sec_graph_window` for the operations of the graph window.
 
 [Grid Shape] (G)
 ------------------

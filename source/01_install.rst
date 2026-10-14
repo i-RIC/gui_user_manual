@@ -18,6 +18,68 @@ How to Install
    * Bad: C:\\Users\\ユーザ1\\iRIC
    * Bad: C:\\Users\\Firstname Lastname\\iRIC
 
+.. _sec_install_telemetry:
+
+Telemetry Setting at the First Launch
+------------------------------------------
+
+When you launch iRIC GUI for the first time after installing iRIC, the dialog shown in
+:numref:`image_telemetry_first_run_dialog` is displayed.
+In this dialog, you select whether to send information about how you use iRIC
+(telemetry) to the developers, in order to help improve iRIC.
+
+.. _image_telemetry_first_run_dialog:
+
+.. figure:: images/iricid_signin_dialog.png
+   :width: 280pt
+
+   The dialog displayed when iRIC is launched for the first time
+
+Select one of the following three options, and click on [OK].
+
+* Do not participate: No information is sent.
+* Participate anonymously: Information is sent without identifying you.
+* Participate signed in with iRIC ID: Information is sent linked to your iRIC ID.
+
+Your selection is saved, and this dialog will not be displayed from the next launch.
+You can change the selection at any time in the [Preferences] dialog (refer to :ref:`sec_pref_telemetry`).
+
+When you select "Participate signed in with iRIC ID", the [Sign in with iRIC ID...] button is displayed.
+When you click on this button, the sign-in page is opened in your web browser.
+Complete signing in on the browser, and return to iRIC.
+When signing in is completed, the iRIC ID you are signed in with is displayed, and the button
+changes to [Sign out], as shown in :numref:`image_pref_dialog_telemetry_login`.
+Click on this button to sign out.
+Note that if you select "Do not participate" or "Participate anonymously" and click on [OK]
+while you are signed in, you will be signed out automatically.
+
+.. _image_pref_dialog_telemetry_login:
+
+.. figure:: images/iricid_signin_dialog_afterlogin.png
+   :width: 280pt
+
+   Signed in with iRIC ID
+
+The following information is sent:
+
+* iRIC version
+* Name and version of the OS
+* Name of the CPU
+* Name of the GPU
+* Memory size
+* Timing of iRIC GUI launches
+* Solvers that were run
+
+When you select "Participate signed in with iRIC ID", this information is sent linked to your iRIC ID.
+
+The following information is not sent:
+
+* Host name
+* Windows user name
+* IP address
+* Serial numbers
+* File paths, etc.
+
 Warning about installing Miniconda
 ------------------------------------------
 

@@ -36,8 +36,14 @@ Please follow the steps below, to import geographic data from web.
      The default value of the [Zoom level] is the maximum value, so that user
      usually use the data with the highest resolution.
 
-   * You can select [Source]. Usually SRTM data distributed by USGS is used,
-     but for example in Japan, you can choose geographic data distributed by GSI.
+   * You can select [Source]. By default, you can select the elevation tiles distributed by
+     the Geospatial Information Authority of Japan (GSI) (DEM5A, DEM5B, DEM10B).
+     When you want to use other sources, add them in the [Web Elevation Data] tab of the [Preferences] dialog.
+
+     .. note::
+
+        SRTM data distributed by USGS, which was included in the default sources in previous versions,
+        has been removed from the default sources because it is no longer distributed.
 
 5. Click on [OK], iRIC starts downloading, dialog in
    :numref:`image_geo_web_pleasewait_dialog` is shown.

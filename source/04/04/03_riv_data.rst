@@ -730,12 +730,15 @@ Operation in the River Cross-section Window
 -------------------------------------------
 
 **Description**: Displays the cross-section of a river transverse line. The
-window is used to edit elevation information. :numref:`image_example_riv_xsec_window`
+window is used to edit elevation information. :numref:`image_riv_crosssection_center`
 shows an example of the River Cross-section Window.
 
-.. _image_example_riv_xsec_window:
+The position of the river center point is displayed in the River Cross-section Window
+with the label "Center Point" and a vertical dashed line.
 
-.. figure:: images/example_riv_xsec_window.png
+.. _image_riv_crosssection_center:
+
+.. figure:: images/riv_crosssection_center.png
    :width: 420pt
 
    Example of the River Cross-section Window display
@@ -756,7 +759,7 @@ Window. The additional menu items are shown between [Import] and
    * - Menu item
      -
      - Description
-   * - Elevation Point (A)
+   * - Elevation Point (E)
      - [Activate] (A)
      - Activates the selected elevation point.
    * -
@@ -769,11 +772,17 @@ Window. The additional menu items are shown between [Import] and
      - [Edit cross section from the selected point]
      - Edit cross section shape from the selected point.
    * -
+     - [Edit by specifying slope point]
+     - Edits the cross section shape by specifying the slope start point and the slope (refer to :ref:`sec_geodata_rivdata_edit_with_slope_point`).
+   * -
      - [Move] (M)
      - Moves the selected elevation point.
    * -
      - [Delete] (D)
      - Deletes the selected elevation point.
+   * -
+     - [Calculate difference areas]
+     - Compares the cross sections of two river survey data, and calculates the areas of the differences (refer to :ref:`sec_geodata_rivdata_calc_area`).
 
 Toolbar functions
 ~~~~~~~~~~~~~~~~~~~~
@@ -817,6 +826,14 @@ River Cross-section Window.
    :width: 300pt
 
    Cross-section Window Display Setting dialog
+
+In [Status bar coordinates] of this dialog, you select which distance is displayed in the status bar
+at the bottom of the River Cross-section Window as the horizontal position of the mouse cursor.
+
+* Distance from left bank: Displays the distance from the left bank end.
+* Distance from center: Displays the distance from the center point.
+
+The label in the status bar also changes according to the selection.
 
 [Activate] (A)
 ~~~~~~~~~~~~~~~
@@ -970,3 +987,120 @@ selected elevation point by left dragging.
    :width: 420pt
 
    Example of deleting an elevation point
+
+.. _sec_geodata_rivdata_edit_with_slope_point:
+
+[Edit by specifying slope point]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description**: Edits the shape of the cross section by specifying the position of the slope start point
+and the slope. Use this function when you want to replace a part of the cross section with a slope and a flat
+surface, for example, when excavating a sandbar. :numref:`image_riv_island_excavation` shows an example.
+
+This function creates a line consisting of a flat surface and a slope that passes through the specified point (slope start point),
+and replaces the cross section with the line.
+The side where the flat surface and the slope are created, and the effect on the cross section, differ depending on the mode.
+
+.. list-table:: Modes of [Edit by specifying slope point]
+   :header-rows: 1
+
+   * - Mode
+     - Flat surface
+     - Slope
+     - Effect
+   * - Left Add
+     - Left bank side
+     - Goes down toward the right bank
+     - Fills the lower parts
+   * - Left Sub
+     - Right bank side
+     - Goes up toward the left bank
+     - Cuts the higher parts
+   * - Right Add
+     - Right bank side
+     - Goes down toward the left bank
+     - Fills the lower parts
+   * - Right Sub
+     - Left bank side
+     - Goes up toward the right bank
+     - Cuts the higher parts
+
+Perform the operation in the following steps.
+
+#. Select one of the modes from the submenu of [Edit by specifying slope point] under the [Elevation Point] (E) menu
+   of the River Cross-section Window.
+#. The [Edit crosssection by spefifying slope point] dialog (refer to :numref:`image_riv_island_excavation`) opens.
+   Specify the [Slope]. The slope is specified as 1 / (the value you input).
+#. Specify the [Slope start point position]. When you select [Mouse Click], the position you click on the canvas
+   becomes the position of the slope start point. When you select [Position], input the distance and elevation numerically.
+   When the position of the slope start point is specified, the shape after the edit is displayed on the canvas.
+#. You can preview the shape after the edit by clicking on [Apply].
+   Click on [OK] to finish the edit.
+
+.. _image_riv_island_excavation:
+
+.. figure:: images/riv_island_excavation.png
+   :width: 420pt
+
+   Example of editing with slope point (Left Sub)
+
+When the line after the edit does not intersect the original cross section, the edit cannot be performed.
+In this case, change the position of the slope start point or the slope.
+
+.. _sec_geodata_rivdata_calc_area:
+
+[Calculate difference areas]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description**: Compares the cross sections of two river survey data of the same river, calculates the areas
+of the differences between the cross section shapes, and outputs them to a CSV file. For example, use this function to
+calculate the areas of excavation and embankment before and after the river channel is excavated.
+
+To use this function, you need to import two or more river survey data as geographic data.
+When only one river survey data exists, a warning is displayed.
+
+When you select [Calculate difference areas], the [Calculate Area Setting] dialog
+(refer to :numref:`image_xsec_area_dialog`) opens.
+Specify the following items and click on [OK].
+
+.. list-table:: Items in the [Calculate Area Setting] dialog
+   :header-rows: 1
+
+   * - Item
+     - Description
+   * - Base target
+     - Select the river survey data to be used as the base.
+   * - Compare target
+     - Select the river survey data to compare with the base target. Select data different from the base target.
+   * - Output Filename
+     - Specify the CSV file to output the calculation result.
+   * - Calculation Mode
+     - Select [Calculate for each area enclosed by intersection points] or [Statistics for each segment].
+
+.. _image_xsec_area_dialog:
+
+.. figure:: images/xsec_area_dialog.png
+   :width: 300pt
+
+   The [Calculate Area Setting] dialog
+
+When the calculation is completed, the path of the output file is displayed in a dialog.
+
+Cross sections with the same name in the base target and the compare target are compared.
+For cross sections that do not exist in the compare target, a message is output in the Notice column.
+
+The contents of the output CSV file differ depending on the calculation mode.
+
+Calculate for each area enclosed by intersection points
+    The area is calculated for each section divided by the points where the cross sections of the base target
+    and the compare target intersect.
+    The output columns are "Cross Section", "Start position", "End position", "Type", "Area" and "Notice".
+    The type is either embankment or cutting.
+    For cross sections with no difference, a message is output in the Notice column.
+
+Statistics for each segment
+    The cross section is divided into seven segments by the left start point, left middle point, left low point,
+    right low point, right middle point and right start point (the segment on the left bank side of the left start point,
+    the segment between the left start point and the left middle point, ..., and the segment on the right bank side of the right start point),
+    and the areas of embankment and cutting are summed up for each segment.
+    The output columns are "Cross Section", "Span name", "Start position", "End position", "Embankment", "Cutting", "Total" and "Notice".

@@ -50,6 +50,11 @@ so modify the setting and click on [OK].
 
    [Graph Window]
 
+You can also show the time variation of the calculation result at the grid node, cell or edge selected
+in the [2D Post-processing Window] in a graph window. In this case, the [Data Source Setting] dialog is not displayed,
+and a graph window that draws the calculation result at the selected position opens directly.
+Refer to :ref:`sec_post2d_open_graph_from_point` for details.
+
 .. note:: Supporting calculation result defined at cell centers and cell edges
 
    iRIC 3.0.11 and later supports drawing charts for calculation result
@@ -87,6 +92,10 @@ so modify the setting and click on [OK].
    combo box like in :numref:`image_chart_polyline`, and 
    in combo box "Polyline", select the polyline on which you want to 
    interpolate calculation result values and draw chart.
+
+   You can also draw charts with calculation result defined at cell centers or cell edges
+   interpolated to polylines. Perform the above operations with "CellCenter", "EdgeI" or "EdgeJ"
+   selected in "Grid Location".
 
    Please refer to :ref:`sec_polyline_data` for how to define polylines.
    

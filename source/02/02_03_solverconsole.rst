@@ -1,3 +1,5 @@
+.. _sec_solver_console:
+
 [Solver Console]
 =====================
 
@@ -34,5 +36,17 @@ of the [Solver Console] window title.
    :width: 180pt
 
    [Solver Console] window title
+
+When the solver finishes calculation, the dialog shown in :numref:`image_solver_finished_save_dialog`
+is displayed to ask whether you want to save the project.
+When you select [Yes] (Y), the project including the calculation result is saved.
+When you select [No] (N), the project is not saved.
+
+.. _image_solver_finished_save_dialog:
+
+.. figure:: images/solver_finished_save_dialog.png
+   :width: 220pt
+
+   The dialog to confirm saving after the solver finished
 
 Refer to :ref:`sec_simulation` for detail.
