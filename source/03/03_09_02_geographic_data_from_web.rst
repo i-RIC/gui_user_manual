@@ -5,12 +5,29 @@
 
 **Description**: Imports geographic data from web services
 
-When you select [Geographic Data], a list of importable geographic data
-is shown as submenus. Currently only Elevation data can be imported from web.
+When you select this, the dialog to select the type of data to import
+(refer to :numref:`image_geo_web_select_type_dialog`) is shown.
 
-Please follow the steps below, to import geographic data from web.
+.. _image_geo_web_select_type_dialog:
 
-1. Select the geographic data.
+.. figure:: images/geo_web_select_type_dialog.png
+   :width: 200pt
+
+   The dialog to select the type of data
+
+Currently the following two types of data can be imported:
+
+* Point cloud data generated from elevation CSV tiles
+* Cross-section data of Hokkaido Regional Development Bureau
+
+Each of them is explained below.
+
+Point cloud data generated from elevation CSV tiles
+-------------------------------------------------------
+
+Please follow the steps below, to import the data.
+
+1. In the dialog to select the type of data, select the point cloud data generated from elevation CSV tiles.
 
 2. If you've not specified the coordinate system for the project,
    the [Select Coordinate System] dialog
@@ -78,3 +95,27 @@ Please follow the steps below, to import geographic data from web.
    :width: 360pt
 
    Example of imported geographic data
+
+Cross-section data of Hokkaido Regional Development Bureau
+----------------------------------------------------------------
+
+1. The [Cross-section Data Import Setting] dialog (refer to :numref:`image_geo_web_crosssection_dialog`) is shown.
+   Specify the items and click on [OK]. The items are as follows.
+
+   River name
+       Select the river to import.
+
+   Range
+       Specify the KPs of the upstream end and the downstream end of the range to import.
+
+   Year
+       When survey results of multiple years exist, specify the year of the data to import.
+
+2. The following operations are the same as importing a cross-section data file. Refer to :ref:`sec_geo_data_import_crosssection` for details.
+
+.. _image_geo_web_crosssection_dialog:
+
+.. figure:: images/geo_web_crosssection_dialog.png
+   :width: 240pt
+
+   The [Cross-section Data Import Setting] dialog

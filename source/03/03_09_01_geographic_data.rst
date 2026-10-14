@@ -118,6 +118,8 @@ Please specify appropriate setting, checking [Preview] region, and click on [OK]
 
    [Import Setting] dialog
 
+.. _sec_geo_data_import_crosssection:
+
 Cross-section data (\*.riv)
 -----------------------------
 

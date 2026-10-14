@@ -13,7 +13,7 @@ shows the [Main Toolbar].
 .. _image_main_toolbar:
 
 .. figure:: images/main_toolbar.png
-   :width: 450pt
+   :width: 500pt
 
    The [Main Toolbar]
 
@@ -50,6 +50,7 @@ items on the [Main Toolbar].
 .. |icon_post2d| image:: images/icon_post2d.png
 .. |icon_birdseye_post2d| image:: images/icon_birdseye_post2d.png
 .. |icon_post3d| image:: images/icon_post3d.png
+.. |icon_cross-section_window| image:: images/cross-section-window-icon.png
 .. |icon_chart_window| image:: images/icon_chart_window.png
 .. |icon_scatterd_chart| image:: images/icon_scatterd_chart.png
 .. |icon_compare_measured| image:: images/icon_compare_measured.png
@@ -154,6 +155,9 @@ items on the [Main Toolbar].
    * - |icon_post3d|
      - [Open New 3D Post-processing Window]
      - Opens a new [3D Post-processing Window].
+   * - |icon_cross-section_window|
+     - [Open New Cross-section Window]
+     - Opens a new [Cross-section Window].
    * - |icon_chart_window|
      - [Open New Graph Window]
      - Opens a new [Graph Window].
