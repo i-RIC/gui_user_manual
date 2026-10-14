@@ -67,8 +67,13 @@ iRIC では、2次元構造格子を利用するソルバを使っている場�
 縦横比
     メイン領域内に縦横比を表示します。
 
+X軸反転
+    チェックをつけると、横軸の方向を反転します。
+
 表示設定
     表示設定ダイアログ (:numref:`image_crosssection_display_setting_dialog` 参照) を表示します。
+    ダイアログでは、X軸の原点 (「左岸からの距離」または「右岸からの距離」)、背景格子、目盛り、左右岸、縦横比の
+    表示設定を行えます。
 
 .. _image_crosssection_display_setting_dialog:
 
