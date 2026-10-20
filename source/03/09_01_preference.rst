@@ -160,17 +160,17 @@ Web 標高データ タブ
 
 .. _sec_pref_telemetry:
 
-テレメトリ タブ
+情報送信 タブ
 ~~~~~~~~~~~~~~~~~~~~
 
 iRIC の改善のために、iRIC の利用状況に関する情報を開発元に送信するかどうかを設定します。
-設定ダイアログ（テレメトリ）の表示例を :numref:`image_pref_dialog_telemetry` に示します。
+設定ダイアログ（情報送信）の表示例を :numref:`image_pref_dialog_telemetry` に示します。
 
 .. _image_pref_dialog_telemetry:
 
 .. figure:: images/pref_dialog_telemetry.png
    :width: 320pt
 
-   設定ダイアログ（テレメトリ）
+   設定ダイアログ（情報送信）
 
-テレメトリに関する詳しい設定については、 :ref:`sec_install_telemetry` を参照してください。
+情報送信に関する詳しい設定については、 :ref:`sec_install_telemetry` を参照してください。

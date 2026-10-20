@@ -20,13 +20,13 @@ iRIC のインストール方法について説明します。
 
 .. _sec_install_telemetry:
 
-初回起動時のテレメトリ設定
+初回起動時の情報送信設定
 ------------------------------
 
 iRIC をインストールした後、初めて iRIC GUI を起動すると、
 :numref:`image_telemetry_first_run_dialog` に示すダイアログが表示されます。
 このダイアログでは、iRIC の改善のために、iRIC の利用状況に関する情報
-(テレメトリ) を開発元に送信するかどうかを選択します。
+(情報送信) を開発元に送信するかどうかを選択します。
 
 .. _image_telemetry_first_run_dialog:
 
